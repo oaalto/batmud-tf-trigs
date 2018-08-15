@@ -22,3 +22,4 @@
 /def -p10 -F -aBCred -mregexp -t"Your concentration drifts away as you think you feel a malignant aura."
 /def -p10 -F -aBCred -mregexp -t"You stumble and lose your concentration."
 /def -p10 -F -aBCred -mregexp -t"Your concentration fails and so does your spell."
+/def -p10 -F -aBCred -mregexp -t"You lose touch with the magic and the spell fizzles."

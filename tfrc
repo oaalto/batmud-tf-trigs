@@ -1,0 +1,23 @@
+/load alias.tf
+/load batmud-tf-trigs/reaver.tf
+
+/def -p10000 -F -mregexp -t'^[\*]+ Round .* [\*]+$' battle_round =\
+	/send @scan all %;\
+	/send @sc
+
+
+
+;; General Hilites
+/def -p10 -F -aBCgreen -mregexp -t"is in excellent shape"
+/def -p10 -F -aCgreen -mregexp -t"is in good shape"
+/def -p10 -F -aBCcyan -mregexp -t"is slightly hurt"
+/def -p10 -F -aCcyan -mregexp -t"is noticeably hurt"
+/def -p10 -F -aBCyellow -mregexp -t"is not in good shape"
+/def -p10 -F -aCyellow -mregexp -t"is in bad shape"
+/def -p10 -F -aBCred -mregexp -t"is in very bad shape"
+/def -p10 -F -aCred -mregexp -t"is near death"
+
+;; Spell Related Hilites
+/def -p10 -F -aBCred -mregexp -t"You are disturbed by something, your spell misfires."
+/def -p10 -F -aBCred -mregexp -t"Your concentration drifts away as you think you feel a malignant aura."
+/def -p10 -F -aBCred -mregexp -t"You stumble and lose your concentration."

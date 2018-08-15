@@ -23,3 +23,8 @@
 /def -p10 -F -aBCred -mregexp -t"You stumble and lose your concentration."
 /def -p10 -F -aBCred -mregexp -t"Your concentration fails and so does your spell."
 /def -p10 -F -aBCred -mregexp -t"You lose touch with the magic and the spell fizzles."
+
+/def -p10 -F -P1BCwhite -mregexp -t"You clap your hands and whisper '(.+)'"
+
+/def -p10 -F -P1BCyellow -mregexp -t"^(.+): ([#]+)$"
+/def -p10 -F -P2BCwhite -mregexp -t"^(.+): ([#]+)$"

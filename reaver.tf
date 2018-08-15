@@ -82,4 +82,10 @@
 
 /alias csf /cast_shattered_feast %{*}
 
+;; Hilites
+/def -p10 -F -P1BCwhite -mregexp -t"You speak the ancient (.+) '(.+)'"
+/def -p10 -F -P2BCwhite -mregexp -t"You speak the ancient (.+) '(.+)'"
+
+
+
 

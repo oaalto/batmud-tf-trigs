@@ -42,7 +42,7 @@
 /def -p10 -F -aBCred -msimple -t"Your spell just sputters."
 
 ;; Fumble
-/def -p10 -F -aBCred -msimple -t"You falter and fumble the spell."
+/def -p10 -F -aBCred -mregexp -t"You falter and fumble the spell."
 
 ;; Cast
 /def -p10 -F -P1BCwhite -mregexp -t"You clap your hands and whisper '(.+)'"

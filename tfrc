@@ -5,9 +5,7 @@
 	/send @scan all %;\
 	/send @sc
 
-
-
-;; General Hilites
+;; Mob Shapes
 /def -p10 -F -aBCgreen -mregexp -t"is in excellent shape"
 /def -p10 -F -aCgreen -mregexp -t"is in good shape"
 /def -p10 -F -aBCcyan -mregexp -t"is slightly hurt"
@@ -17,7 +15,12 @@
 /def -p10 -F -aBCred -mregexp -t"is in very bad shape"
 /def -p10 -F -aCred -mregexp -t"is near death"
 
+;; Ambush
+/def -p10 -F -aBCred -msimple -t"You cannot leave, you have been AMBUSHED."
+
 ;; Spell Related Hilites
+
+;; Spell Failures
 /def -p10 -F -aBCred -msimple -t"You are disturbed by something, your spell misfires."
 /def -p10 -F -aBCred -msimple -t"Your concentration drifts away as you think you feel a malignant aura."
 /def -p10 -F -aBCred -msimple -t"You stumble and lose your concentration."
@@ -27,9 +30,13 @@
 /def -p10 -F -aBCred -msimple -t"Your mind plays a trick with you and you fail in your spell."
 /def -p10 -F -aBCred -msimple -t"You fail miserably in your spell."
 
+;; Fumble
 /def -p10 -F -aBCred -msimple -t"You falter and fumble the spell."
 
+;; Cast
 /def -p10 -F -P1BCwhite -mregexp -t"You clap your hands and whisper '(.+)'"
 
+;; Essence Eye
 /def -p10 -F -P1BCyellow -mregexp -t"^(.+): ([#]+)$"
 /def -p10 -F -P2BCwhite -mregexp -t"^(.+): ([#]+)$"
+

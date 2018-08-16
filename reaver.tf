@@ -92,5 +92,6 @@
 
 /def -p10 -F -P1BCred -mregexp -t"You score a (KILLING BLOW) on (.+)!"
 
+/def -p10 -F -aBCred -mregexp -t"Your frenzied attempts to destroy (.+) are easily deflected."
 
 

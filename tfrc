@@ -18,11 +18,16 @@
 /def -p10 -F -aCred -mregexp -t"is near death"
 
 ;; Spell Related Hilites
-/def -p10 -F -aBCred -mregexp -t"You are disturbed by something, your spell misfires."
-/def -p10 -F -aBCred -mregexp -t"Your concentration drifts away as you think you feel a malignant aura."
-/def -p10 -F -aBCred -mregexp -t"You stumble and lose your concentration."
-/def -p10 -F -aBCred -mregexp -t"Your concentration fails and so does your spell."
-/def -p10 -F -aBCred -mregexp -t"You lose touch with the magic and the spell fizzles."
+/def -p10 -F -aBCred -msimple -t"You are disturbed by something, your spell misfires."
+/def -p10 -F -aBCred -msimple -t"Your concentration drifts away as you think you feel a malignant aura."
+/def -p10 -F -aBCred -msimple -t"You stumble and lose your concentration."
+/def -p10 -F -aBCred -msimple -t"Your concentration fails and so does your spell."
+/def -p10 -F -aBCred -msimple -t"You lose touch with the magic and the spell fizzles."
+/def -p10 -F -aBCred -msimple -t"You stutter the magic words and fail the spell."
+/def -p10 -F -aBCred -msimple -t"Your mind plays a trick with you and you fail in your spell."
+/def -p10 -F -aBCred -msimple -t"You fail miserably in your spell."
+
+/def -p10 -F -aBCred -msimple -t"You falter and fumble the spell."
 
 /def -p10 -F -P1BCwhite -mregexp -t"You clap your hands and whisper '(.+)'"
 

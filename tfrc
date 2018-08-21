@@ -41,6 +41,7 @@
 /def -p10 -F -aBCred -msimple -t"You fail miserably in your spell."
 /def -p10 -F -aBCred -msimple -t"Your spell just sputters."
 /def -p10 -F -aBCred -msimple -t"Something touches you and spoils your concentration ruining the spell."
+/def -p10 -F -aBCred -msimple -t"You poke yourself in the eye and your spell misfires."
 
 ;; Fumble
 /def -p10 -F -aBCred -mregexp -t"You falter and fumble the spell."
@@ -49,6 +50,9 @@
 /def -p10 -F -P1BCwhite -mregexp -t"You clap your hands and whisper '(.+)'"
 /def -p10 -F -P1BCgreen -mregexp -t"You watch with self-pride as your (.+) hits (.+)."
 /def -p10 -F -P2BCwhite -mregexp -t"You watch with self-pride as your (.+) hits (.+)."
+
+;; Hit
+/def -p10 -F -aBCred -mregexp -t"[A|An] (.+) hits you."
 
 ;; Essence Eye
 /def -p10 -F -P1BCyellow -mregexp -t"^(.+): ([#]+)$"

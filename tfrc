@@ -40,6 +40,7 @@
 /def -p10 -F -aBCred -msimple -t"Your mind plays a trick with you and you fail in your spell."
 /def -p10 -F -aBCred -msimple -t"You fail miserably in your spell."
 /def -p10 -F -aBCred -msimple -t"Your spell just sputters."
+/def -p10 -F -aBCred -msimple -t"Something touches you and spoils your concentration ruining the spell."
 
 ;; Fumble
 /def -p10 -F -aBCred -mregexp -t"You falter and fumble the spell."

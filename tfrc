@@ -28,6 +28,9 @@
 /def -p10 -F -aBCyellow -msimple -t"You feel a bit tired."
 /def -p10 -F -aBCyellow -msimple -t"You stretch yourself and consider camping."
 
+;; Stunned
+/def -p10 -F -aBCgreen -msimple -t"You are no longer stunned."
+
 ;; Spell Related Hilites
 
 ;; Spell Failures
@@ -41,6 +44,7 @@
 /def -p10 -F -aBCred -msimple -t"You fail miserably in your spell."
 /def -p10 -F -aBCred -msimple -t"Your spell just sputters."
 /def -p10 -F -aBCred -msimple -t"You poke yourself in the eye and your spell misfires."
+/def -p10 -F -aBCred -msimple -t"Something touches you and spoils your concentration ruining the spell."
 
 ;; Fumble
 /def -p10 -F -aBCred -mregexp -t"You falter and fumble the spell."

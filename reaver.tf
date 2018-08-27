@@ -82,6 +82,18 @@
 
 /alias csf /cast_shattered_feast %{*}
 
+;; Reaping of bile
+/def cast_reaping_of_bile =\
+	/send @cast reaping of bile %;\
+
+/alias crb /cast_reaping_of_bile
+
+;; Call armour
+/def cast_call_armour =\
+	/send @cast call armour at amount %{*} %;\
+
+/alias cca /cast_call_armour %{*}
+
 ;; Hilites
 /def -p10 -F -P1BCwhite -mregexp -t"You speak the ancient (.+) '(.+)'"
 /def -p10 -F -P2BCwhite -mregexp -t"You speak the ancient (.+) '(.+)'"

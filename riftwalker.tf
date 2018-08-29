@@ -3,15 +3,11 @@
 /set air_skill=suffocating embrace
 
 /def set_entity_skill =\
-	/if ({1} == "fire") \
-		/set current_skill=%{fire_skill} %;\
-	/endif %;\
-	/if ({1} == "air") \
-		/set current_skill=%{air_skill} %;\
-	/endif
+	/set current_skill=%{*} %;\
+	/echo -aBCwhite Current entity skill is %{current_skill}
 
-/alias ufire /set_entity_skill fire
-/alias uair /set_entity_skill air
+/alias ufire /set_entity_skill %{fire_skill}
+/alias uair /set_entity_skill %{air_skill}
 
 /def use_current_skill =\
 	/if (strlen({1}) > 0)\
@@ -34,12 +30,19 @@
 
 /alias cte /transform_entity %{*}
 
-;; Start Battle
-/def start_battle =\
+;; Start Battle (Spark Birth)
+/def start_battle1 =\
 	/cast_spark_birth %{*} %;\
 	/use_current_skill %{*} %;\
 
-/alias css /start_battle %{*}
+/alias cs /start_battle1 %{*}
+
+;; Start Battle (Rift Pulse)
+/def start_battle2 =\
+	/cast_rift_pulse %{*} %;\
+	/use_current_skill %{*} %;\
+
+/alias css /start_battle2 %{*}
 
 ;; Spark Birth
 /def cast_spark_birth =\
@@ -49,7 +52,7 @@
 		/send @cast 'spark birth' %;\
 	/endif
 
-/alias cs /cast_spark_birth %{*}
+/alias csb /cast_spark_birth %{*}
 
 ;; Rift Pulse
 /def cast_rift_pulse =\
@@ -63,6 +66,12 @@
 
 /def -p10 -F -aBCred -msimple -t"Your fire entity does some strange combat maneuver but doesn\'t hit anything."
 /def -p10 -F -P1BCblue -mregexp -t"(Entity sense:) (.+)"
+
+/def -p10 -F -aBCgreen -mregexp -t"Air entity embraces (.+) with its wispy tendrils."
+/def -p10 -F -aBCred -msimple -t"Your air entity falters and its wispy tendrils fall to its sides." =\
+	/echo -aBCred SUFFOCATING EMBRACE IS DOWN!
+ 
+
 
 
 

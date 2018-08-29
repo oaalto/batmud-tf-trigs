@@ -2,10 +2,11 @@
 ;;/load batmud-tf-trigs/reaver.tf
 /load batmud-tf-trigs/tarmalen.tf
 ;;/load batmud-tf-trigs/monk.tf
+/load batmud-tf-trigs/riftwalker.tf
 
 /def -p10000 -F -mregexp -t'^[\*]+ Round .* [\*]+$' battle_round =\
 	/send @scan all %;\
-	/send @sc
+	/send @pss
 
 ;; Mob Shapes
 /def -p10 -F -aBCgreen -mregexp -t"is in excellent shape"
@@ -56,6 +57,7 @@
 /def -p10 -F -P1BCgreen -mregexp -t"You watch with self-pride as your (.+) hits (.+)."
 /def -p10 -F -P2BCwhite -mregexp -t"You watch with self-pride as your (.+) hits (.+)."
 /def -p10 -F -P1BCwhite -mregexp -t"You boom in sinister voice '(.+)'"
+/def -p10 -F -P1BCwhite -mregexp -t"You utter the magic words '(.+)'"
 
 ;; Hit
 /def -p10 -F -aBCred -mregexp -t"[A|An] (.+) hits you."

@@ -1,5 +1,5 @@
 /load alias.tf
-;;/load batmud-tf-trigs/reaver.tf
+/load batmud-tf-trigs/reaver.tf
 /load batmud-tf-trigs/tarmalen.tf
 ;;/load batmud-tf-trigs/monk.tf
 

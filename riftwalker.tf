@@ -3,11 +3,17 @@
 /set air_skill=suffocating embrace
 
 /def set_entity_skill =\
-	/set current_skill=%{*} %;\
+	/if ({*} =~ "fire")\
+		/set current_skill=%{fire_skill} %;\
+	/elseif ({*} =~ "air")\
+		/set current_skill=%{air_skill} %;\
+	/else \
+		/echo Unknown skill %{*}! %;\
+	/endif %;\
 	/echo -aBCwhite Current entity skill is %{current_skill}
 
-/alias ufire /set_entity_skill %{fire_skill}
-/alias uair /set_entity_skill %{air_skill}
+/alias ufire /set_entity_skill fire
+/alias uair /set_entity_skill air
 
 /def use_current_skill =\
 	/if (strlen({1}) > 0)\
@@ -19,14 +25,14 @@
 /alias ccs /use_current_skill %{*}
 
 /def summon_entity =\
-	/send @cast summon rift entity at %{1} %;\
-	/set_entity_skill %{1}
+	/send @cast summon rift entity at %{*} %;\
+	/set_entity_skill %{*}
 
 /alias csum /summon_entity %{*}
 
 /def transform_entity =\
 	/send @cast transform rift entity at %{1} %;\
-	/set_entity_skill %{1}
+	/set_entity_skill %{*}
 
 /alias cte /transform_entity %{*}
 
@@ -68,6 +74,17 @@
 /def -p10 -F -aCred -mregexp -t"[A|An] (.+) fire entity (.+) with power \[yours\]"
 /def -p10 -F -aCblue -mregexp -t"[A|An] (.+) water entity (.+) with power \[yours\]"
 /def -p10 -F -aCyellow -mregexp -t"[A|An] (.+) earth entity (.+) with power \[yours\]"
+
+/def -p10 -F -P2Cblue -mregexp -t"[A|An] (.+) entity (glowing) with power \[yours\]"
+/def -p10 -F -P2BCblue -mregexp -t"[A|An] (.+) entity (shimmering) with power \[yours\]"
+/def -p10 -F -P2Ccyan -mregexp -t"[A|An] (.+) entity (gleaming) with power \[yours\]"
+/def -p10 -F -P2BCcyan -mregexp -t"[A|An] (.+) entity (sizzling) with power \[yours\]"
+/def -p10 -F -P2Cyellow -mregexp -t"[A|An] (.+) entity (sparkling) with power \[yours\]"
+/def -p10 -F -P2BCyellow -mregexp -t"[A|An] (.+) entity (glittering) with power \[yours\]"
+/def -p10 -F -P2Cmagenta -mregexp -t"[A|An] (.+) entity (radiating) with power \[yours\]"
+/def -p10 -F -P2BCmagenta -mregexp -t"[A|An] (.+) entity (throbbing) with power \[yours\]"
+/def -p10 -F -P2Cred -mregexp -t"[A|An] (.+) entity (pulsating) with power \[yours\]"
+/def -p10 -F -P2BCred -mregexp -t"[A|An] (.+) entity (blazing) with power \[yours\]"
 
 /def -p10 -F -aBCred -msimple -t"Your fire entity does some strange combat maneuver but doesn\'t hit anything."
 /def -p10 -F -P1BCblue -mregexp -t"(Entity sense:) (.+)"

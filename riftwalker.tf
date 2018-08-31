@@ -94,8 +94,8 @@
 	/echo -aBCred SUFFOCATING EMBRACE IS DOWN!
  
 /def -p10 -F -aBCred -msimple -t"Your entity loses its concentration and cannot do the skill." =\
-	/if ({current_skill =~ {air_skill})\
-			/echo -aBCred SUFFOCATING EMBRACE IS DOWN! %;\
+	/if ({current_skill} =~ {air_skill})\
+		/echo -aBCred SUFFOCATING EMBRACE IS DOWN! %;\
 	/endif
 
 

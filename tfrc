@@ -1,8 +1,5 @@
 /load alias.tf
-/load batmud-tf-trigs/reaver.tf
 /load batmud-tf-trigs/tarmalen.tf
-;;/load batmud-tf-trigs/monk.tf
-/load batmud-tf-trigs/riftwalker.tf
 
 /def -p10000 -F -mregexp -t'^[\*]+ Round .* [\*]+$' battle_round =\
 	/send @scan all %;\

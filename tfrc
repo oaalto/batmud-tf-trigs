@@ -5,6 +5,9 @@
 	/send @scan all %;\
 	/send @sc
 
+/def -p10000 -F -mregexp -t'DEAD, R.I.P.' mob_dead =\
+        /send @scan
+
 ;; Mob Shapes
 /def -p10 -F -aBCgreen -mregexp -t"is in excellent shape"
 /def -p10 -F -aCgreen -mregexp -t"is in a good shape"

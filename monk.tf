@@ -45,13 +45,6 @@
 ;;Wave Crest Strike is default skill
 /set currentmonkskill=wave crest strike
 
-;; You will need 'battle rounds' for these two trigs to work
-;/def -p10000 -F -mregexp -t'^[\*]+ Round .* [\*]+$' battle_round1 =\
-;	/send @scan all
-
-/def -p10000 -F -mregexp -t'DEAD, R.I.P.' mob_dead =\
-        /send @scan
-
 /def monkskillinterrupt=\
 	/if ( ({currentmonkskill} =~ {armourskill2}) | ({currentmonkskill} =~ {armourskill3}) ) \
 		/set currentmonkskill=%{armourskill1} %;\

@@ -18,13 +18,20 @@
 ;; Clawed Strike
 /def use_clawed_strike =\
 	/if (strlen({1}) > 0)\
-		/send @target %{*};@use clawed strike at %{*} %;\
+		/send @target %{*};use clawed strike at %{*} %;\
 	/else \
 		/send @use clawed strike %;\
 	/endif
 
 /alias uc /use_clawed_strike %{*}
 
+;; Kiss of Death
+/def use_kiss_of_death =\
+	/if (strlen({1}) > 0)\
+		/send @use kiss of death at %{*} %;\
+	/endif
+
+/alias ukd /use_kiss_of_death %{*}
 
 
 

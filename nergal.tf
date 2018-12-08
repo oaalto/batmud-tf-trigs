@@ -1,7 +1,9 @@
 ;; TRIGS
 
-/def -p10 -F -P1Ccyan -mregexp -t"looks a lot less in pain as colonies start to disappear.."
+/def -p10 -F -aCcyan -mregexp -t"looks a lot less in pain as colonies start to disappear.."
 /def -p10 -F -P1Ccyan -mregexp -t"You feel you harvest (.+) amount of vitae.."
+/def -p10 -F -P1Ccyan -mregexp -t"You feel you harvest (.+) amount of potentia.."
+/def -p10 -F -aCcyan -mregexp -t"You feel your insight of evolution expanding.."
 
 /def -p10000 -F -mregexp -t'DEAD, R.I.P.' mob_dead_nergal =\
         /send @nergal sc
@@ -72,7 +74,7 @@
 
 ;; Nourish Enthralled
 /def cast_nourish_enthralled =\
-	/if (strlen({1}) > 0 && strlen({2}) > 0 && strlen({3}) > 0)\
+	/if (strlen({1}) > 0 & strlen({2}) > 0 & strlen({3}) > 0)\
 		/send @cast nourish enthralled at %{1} consume %{2} %{3} %;\
 	/endif
 

@@ -5,7 +5,7 @@
 /def -p10 -F -P1Ccyan -mregexp -t"You feel you harvest (.+) amount of potentia.."
 /def -p10 -F -aCcyan -mregexp -t"You feel your insight of evolution expanding.."
 /def -p10 -F -aCgreen -mregexp -t"You hear deep inside your head the parasite whispers more secrets of"
-
+/def -p10 -F -aCblue -mregexp -t"looks relieved as the aether line fades away!"
 
 /def -p10000 -F -mregexp -t'DEAD, R.I.P.' mob_dead_nergal =\
         /send @nergal sc

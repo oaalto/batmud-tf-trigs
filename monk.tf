@@ -22,7 +22,6 @@
 /def -p10000 -F -msimple -t'You perform the kata.' kata_success =\
 	/set kata_done=1 %;\
 	/if ({doing_meditation})\
-		/echo "kata done %{doing_meditation}" %;\
 		/use_meditation %;\
 	/endif
 

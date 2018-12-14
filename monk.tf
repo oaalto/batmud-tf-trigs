@@ -1,17 +1,62 @@
+/set kata_done=0
+/set doing_meditation=0
+
+;; NORMAL SKILLS
+
+;; Iron Palm
+/def use_iron_palm =\
+	/if (strlen({1}) > 0)\
+		/send @target %{*};use iron palm at %{*} %;\
+	/else \
+		/send @use iron palm %;\
+	/endif
+
+/alias ip /use_iron_palm %{*}
+
+;; Kata
+/def use_kata =\
+	/send @use kata %;\
+
+/alias kata /use_kata %{*}
+
+/def -p10000 -F -msimple -t'You perform the kata.' kata_success =\
+	/set kata_done=1 %;\
+	/if ({doing_meditation})\
+		/echo "kata done %{doing_meditation}" %;\
+		/use_meditation %;\
+	/endif
+
+;; Meditation
+/def use_meditation =\
+	/if ({kata_done})\
+		/send @use meditation %;\
+	/else \
+		/set doing_meditation=1 %;\
+		/use_kata %;\
+	/endif
+
+/alias med /use_meditation %{*}
+
+/def -p10000 -F -msimple -t'You start concentrating on the skill.' start_skill =\
+	/set kata_done=0
+
+/def -p10000 -F -msimple -t'You sit down and start meditating.' start_meditation =\
+	/set doing_meditation=0
+
+
 ;; Trigs for new monk skills, enables easy use of combos
 ;; Could be done with less def's but hey... quick and dirty rules :P
 ;; Usage 'dm' to do next monkskill in combo or
 ;; 'dm <target>' to do next monk skill in combo at a target
 ;; To set a combo use one skill in the combo first
 
-
 /alias dm /do_monk_skill %{*}  %;
 
 /def do_monk_skill=\
 /if (strlen({1}) > 0)\
-/send @target %{1};@use %{currentmonkskill} at %{1} %;\
+	/send @target %{1};@use %{currentmonkskill} at %{1} %;\
 /else \
-/send @use %{currentmonkskill} %;\
+	/send @use %{currentmonkskill} %;\
 /endif %;
 
 /def ms=\
@@ -73,7 +118,6 @@
 leaving (it|him|her) temporarily vulnerable!$' armourloose1
 /def -p1 -F -aCgreen -mregexp -t'^As (she|he|it) lands, some of (his|her|its) protection shifts out of\
 place, leaving (him|her|it) temporarily vulnerable!$' armourloose2
-
 
 /def -p1 -F -mregexp -t'but only score a glancing blow.$' missedarmour1=\
 /set currentmonkskill=%{armourskill1} %;

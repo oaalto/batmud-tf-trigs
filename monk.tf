@@ -49,6 +49,8 @@
 ;; 'dm <target>' to do next monk skill in combo at a target
 ;; To set a combo use one skill in the combo first
 
+/def -p10000 -F -aCblue -msimple -t'You feel like you have mastered the art of iron palm. It might be time to find another advanced technique.'
+
 /alias dm /do_monk_skill %{*}  %;
 
 /def do_monk_skill=\

@@ -5,6 +5,7 @@
 
 ;; Iron Palm
 /def use_iron_palm =\
+	/monkskillinterrupt %;\
 	/if (strlen({1}) > 0)\
 		/send @target %{*};use iron palm at %{*} %;\
 	/else \
@@ -15,6 +16,7 @@
 
 ;; Kata
 /def use_kata =\
+	/monkskillinterrupt %;\
 	/send @use kata %;\
 
 /alias kata /use_kata %{*}
@@ -27,6 +29,7 @@
 
 ;; Meditation
 /def use_meditation =\
+	/monkskillinterrupt %;\
 	/if ({kata_done})\
 		/send @use meditation %;\
 	/else \
@@ -120,6 +123,8 @@
 /def -p10000 -F -msimple -t'You break your skill attempt.' = /monkskillinterrupt
 
 /def -p10000 -F -msimple -t'You stop concentrating on the skill and begin searching for a proper place to rest.' = /monkskillinterrupt
+
+/def -p10000 -F -msimple -t'You start chanting.' = /monkskillinterrupt
 
 ;;ARMOUR SKILLS
 /def -p1 -F -aCgreen -mregexp -t'^The (blow|thrashing) knocks some of (its|her|his) defenses loose,\

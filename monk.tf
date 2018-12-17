@@ -109,20 +109,17 @@
 		/set currentmonkskill=%{avoidskill1} %;\
 	/endif %;
 
-/def -p10000 -F -mregexp -t'^You are not in combat right now.$' notincombat =\
-	/monkskillinterrupt
+/def -p10000 -F -msimple -t'You are not in combat right now.' = /monkskillinterrupt
 
-/def -p10000 -F -mregexp -t'^Your movement prevents you from doing the skill\.$' monkskillinterrupt1=\
-	/monkskillinterrupt
+/def -p10000 -F -msimple -t'Your movement prevents you from doing the skill.' = /monkskillinterrupt
 
-/def -p10000 -F -mregexp -t'^GgrTF:  ---- SKILL STOPPED ---- $' monkskillinterrupt2=\
-	/monkskillinterrupt
+/def -p10000 -F -msimple -t'GgrTF:  ---- SKILL STOPPED ----' = /monkskillinterrupt
 
-/def -p10000 -F -msimple -t'You lose your concentration and cannot do the skill.' monkskillinterrupt3=\
-	/monkskillinterrupt
+/def -p10000 -F -msimple -t'You lose your concentration and cannot do the skill.' = /monkskillinterrupt
 
-/def -p10000 -F -msimple -t'You break your skill attempt.' monkskillinterrupt4=\
-	/monkskillinterrupt
+/def -p10000 -F -msimple -t'You break your skill attempt.' = /monkskillinterrupt
+
+/def -p10000 -F -msimple -t'You stop concentrating on the skill and begin searching for a proper place to rest.' = /monkskillinterrupt
 
 ;;ARMOUR SKILLS
 /def -p1 -F -aCgreen -mregexp -t'^The (blow|thrashing) knocks some of (its|her|his) defenses loose,\

@@ -50,6 +50,8 @@
 ;; To set a combo use one skill in the combo first
 
 /def -p10000 -F -aCblue -msimple -t'You feel like you have mastered the art of iron palm. It might be time to find another advanced technique.'
+/def -p10000 -F -aCblue -msimple -t'Your training is starting to pay off!'
+/def -p10000 -F -aCblue -mregexp -t'You feel like you have mastered the art of (*.). It might be time to find another advanced technique.'
 
 /alias dm /do_monk_skill %{*}  %;
 
@@ -79,9 +81,9 @@
 /set armourskill2=earthquake kick
 /set armourskill3=avalanche slam
 /set disruptskill1=wave crest strike
-/set disruptskill2=wave crest strike
+;;/set disruptskill2=wave crest strike
 /set disruptskill3=wave crest strike
-;;/set disruptskill2=geyser force kick
+/set disruptskill2=geyser force kick
 ;;/set disruptskill3=tsunami push
 /set areaskill1=hydra fang strike
 /set areaskill2=winged horse kick
@@ -114,6 +116,12 @@
 	/monkskillinterrupt
 
 /def -p10000 -F -mregexp -t'^GgrTF:  ---- SKILL STOPPED ---- $' monkskillinterrupt2=\
+	/monkskillinterrupt
+
+/def -p10000 -F -msimple -t'You lose your concentration and cannot do the skill.' monkskillinterrupt3=\
+	/monkskillinterrupt
+
+/def -p10000 -F -msimple -t'You break your skill attempt.' monkskillinterrupt4=\
 	/monkskillinterrupt
 
 ;;ARMOUR SKILLS

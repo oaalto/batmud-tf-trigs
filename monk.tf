@@ -52,9 +52,8 @@
 ;; 'dm <target>' to do next monk skill in combo at a target
 ;; To set a combo use one skill in the combo first
 
-/def -p10000 -F -aCblue -msimple -t'You feel like you have mastered the art of iron palm. It might be time to find another advanced technique.'
 /def -p10000 -F -aCblue -msimple -t'Your training is starting to pay off!'
-/def -p10000 -F -aCblue -mregexp -t'You feel like you have mastered the art of (*.). It might be time to find another advanced technique.'
+/def -p10000 -F -aCblue -mregexp -t'You feel like you have mastered the art of (.+). It might be time to find another advanced technique.'
 
 /alias dm /do_monk_skill %{*}  %;
 
@@ -198,6 +197,8 @@ place, leaving (him|her|it) temporarily vulnerable!$' armourloose2
 
 /def -p1 -F -mregexp -t'hitting one of the arteries and disrupting (his|her|its) blood flow!$' hit4disrupt1=\
 /set currentmonkskill=%{disruptskill2} %;
+
+/def -p1 -F -mregexp -t'You jump up and kick (.+) in the ribcage, but don\'t get enough contact to backflip.' = /set currentmonkskill=%{disruptskill1}
 
 /def -p1 -F -mregexp -t'but slip and fall down.$' misseddisrupt2=\
 /set currentmonkskill=%{disruptskill1} %;

@@ -60,7 +60,7 @@
 	/if (strlen({1}) > 0)\
 		/send @target %{1};@use %{currentdisruptskill} at %{1} %;\
 	/else \
-		/send @use %{1} %;\
+		/send @use %{currentdisruptskill} %;\
 	/endif
 
 /alias uaa /do_area_skill %{*}
@@ -68,7 +68,7 @@
 	/if (strlen({1}) > 0)\
 		/send @target %{1};@use %{currentareaskill} at %{1} %;\
 	/else \
-		/send @use %{1} %;\
+		/send @use %{currentareaskill} %;\
 	/endif
 
 /alias uar /do_armor_skill %{*}
@@ -76,7 +76,7 @@
 	/if (strlen({1}) > 0)\
 		/send @target %{1};@use %{currentarmorskill} at %{1} %;\
 	/else \
-		/send @use %{1} %;\
+		/send @use %{currentarmorskill} %;\
 	/endif
 
 /alias uav /do_avoid_skill %{*}
@@ -84,7 +84,7 @@
 	/if (strlen({1}) > 0)\
 		/send @target %{1};@use %{currentavoidskill} at %{1} %;\
 	/else \
-		/send @use %{1} %;\
+		/send @use %{currentavoidskill} %;\
 	/endif
 
 /set armourskill1=falling boulder strike

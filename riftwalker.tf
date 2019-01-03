@@ -24,12 +24,32 @@
 	
 /alias ccs /use_current_skill %{*}
 
+;; Summon rift entity
 /def summon_entity =\
 	/send @cast summon rift entity at %{*} %;\
 	/set_entity_skill %{*}
 
 /alias csum /summon_entity %{*}
 
+;; Dismiss rift entity
+/def dismiss_entity =\
+	/send @cast dismiss rift entity
+
+/alias cdis /dismiss_entity
+
+;; Establish entity control
+/def cast_entity_control =\
+	/send @cast establish entity control
+
+/alias ctrl /cast_entity_control
+
+;; Regenerate rift entity
+/def cast_entity_regen =\
+	/send @cast regenerate rift entity
+
+/alias cer /cast_entity_regen
+
+;; Transform rift entity
 /def transform_entity =\
 	/send @cast transform rift entity at %{1} %;\
 	/set_entity_skill %{*}
@@ -70,6 +90,16 @@
 
 /alias crp /cast_rift_pulse %{*}
 
+;; Force absorption
+/def cast_force_absorption =\
+	/if (strlen({1}) > 0)\
+		/send @cast force absorption %{*} %;\
+	/else \
+		/send @cast force absorption at entity %;\
+	/endif
+
+/alias cfa /cast_force_absorption %{*}
+
 /def -p10 -F -aCcyan -mregexp -t"[A|An] (.+) air entity (.+) with power \[yours\]"
 /def -p10 -F -aCred -mregexp -t"[A|An] (.+) fire entity (.+) with power \[yours\]"
 /def -p10 -F -aCblue -mregexp -t"[A|An] (.+) water entity (.+) with power \[yours\]"
@@ -86,7 +116,7 @@
 /def -p10 -F -P2Cred -mregexp -t"[A|An] (.+) entity (pulsating) with power \[yours\]"
 /def -p10 -F -P2BCred -mregexp -t"[A|An] (.+) entity (blazing) with power \[yours\]"
 
-/def -p10 -F -aBCred -msimple -t"Your fire entity does some strange combat maneuver but doesn\'t hit anything."
+/def -p10 -F -aBCred -msimple -t"Your fire entity does some strange combat maneuver but doesn't hit anything."
 /def -p10 -F -P1BCblue -mregexp -t"(Entity sense:) (.+)"
 
 /def -p10 -F -aBCgreen -mregexp -t"Air entity embraces (.+) with its wispy tendrils."
@@ -98,6 +128,8 @@
 		/echo -aBCred SUFFOCATING EMBRACE IS DOWN! %;\
 	/endif
 
+/def -p10 -F -aBCwhite -mregexp -t"(.+) entity starts concentrating on a new offensive skill."
+/def -p10 -F -aCblue -msimple -t"Your entity is prepared to do the skill."
 
 
 

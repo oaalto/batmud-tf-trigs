@@ -24,6 +24,16 @@
 	
 /alias ccs /use_current_skill %{*}
 
+;; Show Entity stats
+/def gem_entity =\
+	/if ({current_skill} =~ {fire_skill})\
+		/send @gem entities fire %;\
+	/elseif ({current_skill} =~ {air_skill})\
+		/send @gem entities air %;\
+	/endif
+
+/alias estat /gem_entity
+
 ;; Summon rift entity
 /def summon_entity =\
 	/send @cast summon rift entity at %{*} %;\
@@ -93,7 +103,7 @@
 ;; Force absorption
 /def cast_force_absorption =\
 	/if (strlen({1}) > 0)\
-		/send @cast force absorption %{*} %;\
+		/send @cast 'force absorption' %{*} %;\
 	/else \
 		/send @cast force absorption at entity %;\
 	/endif

@@ -58,7 +58,7 @@
 /alias uds /do_disrupt_skill %{*}
 /def do_disrupt_skill=\
 	/if (strlen({1}) > 0)\
-		/send @target %{1};@use %{currentdisruptskill} at %{1} %;\
+		/send @target %{*};@use %{currentdisruptskill} at %{*} %;\
 	/else \
 		/send @use %{currentdisruptskill} %;\
 	/endif
@@ -66,7 +66,7 @@
 /alias uaa /do_area_skill %{*}
 /def do_area_skill=\
 	/if (strlen({1}) > 0)\
-		/send @target %{1};@use %{currentareaskill} at %{1} %;\
+		/send @target %{*};@use %{currentareaskill} at %{*} %;\
 	/else \
 		/send @use %{currentareaskill} %;\
 	/endif
@@ -74,7 +74,7 @@
 /alias uar /do_armor_skill %{*}
 /def do_armor_skill=\
 	/if (strlen({1}) > 0)\
-		/send @target %{1};@use %{currentarmorskill} at %{1} %;\
+		/send @target %{*};@use %{currentarmorskill} at %{*} %;\
 	/else \
 		/send @use %{currentarmorskill} %;\
 	/endif
@@ -82,7 +82,7 @@
 /alias uav /do_avoid_skill %{*}
 /def do_avoid_skill=\
 	/if (strlen({1}) > 0)\
-		/send @target %{1};@use %{currentavoidskill} at %{1} %;\
+		/send @target %{*};@use %{currentavoidskill} at %{*} %;\
 	/else \
 		/send @use %{currentavoidskill} %;\
 	/endif

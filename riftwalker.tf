@@ -110,6 +110,16 @@
 
 /alias cfa /cast_force_absorption %{*}
 
+;; Mirror Image
+/def cast_mirror_image =\
+	/if (strlen({1}) > 0)\
+		/send @cast 'mirror image' %{*} %;\
+	/else \
+		/send @cast mirror image at entity %;\
+	/endif
+
+/alias cmi /cast_mirror_image %{*}
+
 /def -p10 -F -aCcyan -mregexp -t"[A|An] (.+) air entity (.+) with power \[yours\]"
 /def -p10 -F -aCred -mregexp -t"[A|An] (.+) fire entity (.+) with power \[yours\]"
 /def -p10 -F -aCblue -mregexp -t"[A|An] (.+) water entity (.+) with power \[yours\]"

@@ -9,7 +9,7 @@
 	/if (strlen({1}) > 0)\
 		/send @target %{*};use iron palm at %{*} %;\
 	/else \
-		/send @use iron palm %;\
+		/send @use 'iron palm' %;\
 	/endif
 
 /alias ip /use_iron_palm %{*}

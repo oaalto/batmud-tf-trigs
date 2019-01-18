@@ -28,7 +28,7 @@
 ;; Kiss of Death
 /def use_kiss_of_death =\
 	/if (strlen({1}) > 0)\
-		/send @use kiss of death at %{*} %;\
+		/send @target %{*};use kiss of death at %{*} %;\
 	/endif
 
 /alias ukd /use_kiss_of_death %{*}

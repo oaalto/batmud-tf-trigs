@@ -181,7 +181,7 @@ place, leaving (him|her|it) temporarily vulnerable!$'
 
 /def -p1 -F -mregexp -t'hitting one of the arteries and disrupting (his|her|its) blood flow!$' = /set currentdisruptskill=%{disruptskill2} %;
 
-/def -p1 -F -mregexp -t'You jump up and kick (.+) in the ribcage, but don\'t get enough contact to backflip.' = /set currentdisruptskill=%{disruptskill1}
+/def -p1 -F -mregexp -t'You jump up and kick (.+) in the ribcage, but don\'t get enough contact to backflip.' = /set currentdisruptskill=%{disruptskill3}
 
 /def -p1 -F -mregexp -t'but slip and fall down.$' = /set currentdisruptskill=%{disruptskill1} %;
 

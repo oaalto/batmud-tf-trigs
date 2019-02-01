@@ -96,9 +96,9 @@
 /set disruptskill2=geyser force kick
 /set disruptskill3=tsunami push
 /set areaskill1=hydra fang strike
-/set areaskill2=hydra fang strike
+;;/set areaskill2=hydra fang strike
 /set areaskill3=hydra fang strike
-;;/set areaskill2=winged horse kick
+/set areaskill2=winged horse kick
 ;;/set areaskill3=dragon tail sweep
 /set avoidskill1=falcon talon strike
 /set avoidskill2=elder cobra kick

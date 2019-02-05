@@ -21,7 +21,7 @@
 /def use_meditation =\
 	/send @use meditation %;\
 
-/alias med /use_meditation %{*}
+/alias med /use_meditation
 
 ;; Tiger Claw
 /def cast_tiger_claw =\

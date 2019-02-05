@@ -74,13 +74,9 @@
 
 ;; Shattered Feast
 /def cast_shattered_feast =\
-	/if (strlen({1}) > 0)\
-		/send @cast shattered feast at amount %{1} %;\
-	/else \
-		/echo No target! %;\
-	/endif
+	/send @cast shattered feast at amount 100 %;\
 
-/alias csf /cast_shattered_feast %{*}
+/alias csf /cast_shattered_feast
 
 ;; Reaping of bile
 /def cast_reaping_of_bile =\

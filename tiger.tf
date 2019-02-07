@@ -31,4 +31,11 @@
 		/send @cast 'tiger claw' %;\
 	/endif
 
-/alias tc /use_tiger_claw %{*}
+/alias tc /cast_tiger_claw %{*}
+
+;; Flame Fists
+/def cast_flame_fists =\
+        /send @cast flame fists %;\
+ 
+/alias cff /cast_flame_fists
+

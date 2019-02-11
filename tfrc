@@ -78,3 +78,8 @@
 ;; Banes
 /def -p10 -F -aCred -msimple -t"The desire to choose between good and evil overwhelms you, causing you to"
 /def -p10 -F -aCred -msimple -t"inflict damage upon yourself."
+
+;; Essence collection
+/def -p10 -F -aCblue -mregexp -t"(.+) spills some of (.+) essence." =\
+	/send @get all essence;keep all essence;put all essence in frame
+

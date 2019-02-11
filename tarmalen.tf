@@ -14,3 +14,13 @@
 
 /alias cere /use_ceremony %{*}
 
+;; Cure light wounds
+/def cast_clw =\
+	/if (strlen({1}) > 0)\
+                /send @cast cure light wounds at %{*} %;\
+        /else \
+                /send @cast cure light wounds at me %;\
+        /endif
+
+/alias clw /cast_clw %{*}
+

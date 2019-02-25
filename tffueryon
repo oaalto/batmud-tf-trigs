@@ -1,4 +1,4 @@
 cd
 cp .tffueryon .tfrc
-LANG=fi_FI-ISO-8859-1 tf bat.org 23
+LANG=fi_FI.ISO-8859-1 tf bat.org 23
 

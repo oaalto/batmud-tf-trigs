@@ -41,6 +41,8 @@
 /def -p10 -F -aBCred -msimple -t"You are knocked off your mount!" =\
 	/echo -aBCred *************** DISMOUNTED!! *************** %;\
 
+/def -p10 -F -aBCgreen -msimple -t"...BUT you break it off with intense concentration."
+
 ;; Spell Related Hilites
 
 ;; Spell Failures

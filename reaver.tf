@@ -1,9 +1,15 @@
+;; Reaver Threaten
+/def reaver_threaten =\
+	/send @reaver threaten %{*}
+
+/alias rt /reaver_threaten %{*}
+
 ;; SKILLS
 
 ;; Scythe Swipe
 /def use_scythe_swipe =\
 	/if (strlen({1}) > 0)\
-		/send @target %{*};reaver threaten %{*};use scythe swipe at %{*} %;\
+		/send @target %{*};use scythe swipe at %{*} %;\
 	/else \
 		/send @use scythe swipe %;\
 	/endif
@@ -13,7 +19,7 @@
 ;; Rampant Cutting
 /def use_rampant_cutting =\
 	/if (strlen({1}) > 0)\
-		/send @target %{*};reaver threaten %{*};use rampant cutting at %{*} %;\
+		/send @target %{*};use rampant cutting at %{*} %;\
 	/else \
 		/send @use rampant cutting %;\
 	/endif
@@ -23,7 +29,7 @@
 ;; True Reaving
 /def use_true_reaving =\
 	/if (strlen({1}) > 0)\
-		/send @target %{*};reaver threaten %{*};use true reaving at %{*} %;\
+		/send @target %{*};use true reaving at %{*} %;\
 	/else \
 		/send @use true reaving %;\
 	/endif
@@ -45,7 +51,7 @@
 ;; World of Spite
 /def cast_word_of_spite =\
 	/if (strlen({1}) > 0)\
-		/send @target %{*};reaver threaten %{*};cast word of spite at %{*} %;\
+		/send @target %{*};cast word of spite at %{*} %;\
 	/else \
 		/send @cast word of spite %;\
 	/endif
@@ -55,7 +61,7 @@
 ;; World of Blasing
 /def cast_word_of_blasting =\
 	/if (strlen({1}) > 0)\
-		/send @target %{*};reaver threaten %{*};cast word of blasting at %{*} %;\
+		/send @target %{*};cast word of blasting at %{*} %;\
 	/else \
 		/send @cast word of blasting %;\
 	/endif

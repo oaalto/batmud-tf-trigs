@@ -32,6 +32,12 @@
 
 /alias clink /cast_ghost_link
 
+;; Restful sleep
+/def cast_restful_sleep =\
+	/send @liberator select weakest non armoursmith,guardian,weaponsmith,soldier;cast restful sleep %;\
+
+/alias crs /cast_restful_sleep
+
 ;; SKILLS
 
 ;; Ghost slash

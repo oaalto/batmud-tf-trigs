@@ -1,6 +1,6 @@
 ;; Trigs
 
-/def -p10000 -F -aCmagenta -msimple -t'You swing and miss your mark!'
+/def -p10000 -F -aBCmagenta -msimple -t'You swing and miss your mark!'
 
 ;; SPELLS
 

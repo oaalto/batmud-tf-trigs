@@ -28,6 +28,17 @@
 
 /alias ur /use_rampant_cutting %{*}
 
+;; Reaver strike
+/def use_reaver_strike =\
+	/if (strlen({1}) > 0)\
+		/reaver_threaten %{*} %;\
+		/send @target %{*};use reaver strike at %{*} %;\
+	/else \
+		/send @use reaver strike %;\
+	/endif
+
+/alias urs /use_reaver_strike %{*}
+
 ;; True Reaving
 /def use_true_reaving =\
 	/if (strlen({1}) > 0)\
@@ -62,7 +73,7 @@
 
 /alias cs /cast_word_of_spite %{*}
 
-;; World of Blasing
+;; World of Blasting
 /def cast_word_of_blasting =\
 	/if (strlen({1}) > 0)\
 		/reaver_threaten %{*} %;\
@@ -72,6 +83,17 @@
 	/endif
 
 /alias cb /cast_word_of_blasting %{*}
+
+;; World of Destruction
+/def cast_word_of_destruction =\
+	/if (strlen({1}) > 0)\
+		/reaver_threaten %{*} %;\
+		/send @target %{*};cast word of destruction at %{*} %;\
+	/else \
+		/send @cast word of destruction %;\
+	/endif
+
+/alias cwd /cast_word_of_destruction %{*}
 
 ;; Word of Attrition
 /def cast_word_of_attrition =\
@@ -89,6 +111,12 @@
 
 /alias csf /cast_shattered_feast
 
+;; Blood Seeker
+/def cast_blood_seeker =\
+	/send @cast blood seeker at amount 100 %;\
+
+/alias cbs /cast_blood_seeker
+
 ;; Reaping of bile
 /def cast_reaping_of_bile =\
 	/send @cast reaping of bile %;\
@@ -105,12 +133,16 @@
 /def -p10 -F -P1BCwhite -mregexp -t"You speak the ancient (.+) '(.+)'"
 /def -p10 -F -P2BCwhite -mregexp -t"You speak the ancient (.+) '(.+)'"
 
-/def -p10 -F -P1Ccyan -mregexp -t"You feel you have released a (tiny) amount of destructive energy."
-/def -p10 -F -P1BCcyan -mregexp -t"You feel you have released a (small) amount of destructive energy."
-/def -p10 -F -P1Cblue -mregexp -t"You feel you have released (moderate) amounts of destructive energy."
-
+/def -p10 -F -P1Ccyan -mregexp -t"You feel you have released (.+) amount of destructive energy."
+                                  
 /def -p10 -F -P1BCred -mregexp -t"You score a (KILLING BLOW) on (.+)!"
 
 /def -p10 -F -aBCred -mregexp -t"Your frenzied attempts to destroy (.+) are easily deflected."
+
+/def -p10 -F -aCblue -mregexp -t"You attack and swing again"
+/def -p10 -F -aCblue -mregexp -t"You attack and swing a THIRD time"
+
+/def -p10 -F -aBCred -mregexp -t"(.+) shifts position and you cannot hit the (.+) time."
+
 
 

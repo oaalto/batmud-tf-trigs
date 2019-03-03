@@ -1,3 +1,6 @@
+/set prayer_done=0
+/set cast_feast=0
+
 ;; Reaver Threaten
 /def reaver_threaten =\
 	/send @reaver threaten %{*}
@@ -60,6 +63,12 @@
 
 /alias upd /use_prayer_to_destruction %{*}
 
+/def -p10000 -F -msimple -t'You bow your head and concentrate on the destructive energies you have collected.' =\
+	/set prayer_done=1 %;\
+	/if ({cast_feast})\
+		/cast_shattered_feast %;\
+	/endif
+
 ;; SPELLS
 
 ;; World of Spite
@@ -107,9 +116,20 @@
 
 ;; Shattered Feast
 /def cast_shattered_feast =\
-	/send @cast shattered feast at amount 100 %;\
-
+	/if ({prayer_done})\
+		/send @cast shattered feast at amount 100 %;\
+	/else \
+		/set cast_feast=1 %;\
+		/use_prayer_to_destruction spell %;\
+	/endif
+	
 /alias csf /cast_shattered_feast
+
+/def -p10000 -F -msimple -t'You start chanting.' =\
+	/set prayer_done=0
+
+/def -p10000 -F -mregexp -t'That I have set free, return to me' start_meditation =\
+	/set cast_feast=0
 
 ;; Blood Seeker
 /def cast_blood_seeker =\

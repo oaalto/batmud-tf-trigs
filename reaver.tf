@@ -154,6 +154,7 @@
 /def -p10 -F -P2BCwhite -mregexp -t"You speak the ancient (.+) '(.+)'"
 
 /def -p10 -F -P1Ccyan -mregexp -t"You feel you have released (.+) amount of destructive energy."
+/def -p10 -F -P1Ccyan -mregexp -t"You feel you have released (.+) amounts of destructive energy."
                                   
 /def -p10 -F -P1BCred -mregexp -t"You score a (KILLING BLOW) on (.+)!"
 

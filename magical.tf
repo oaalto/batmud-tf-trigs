@@ -43,3 +43,23 @@
 
 /alias cww /cast_water_walking %{*}
 
+;; Magic Missile
+/def cast_magic_missile =\
+        /if (strlen({1}) > 0)\
+                /send @target %{*};cast magic missile at %{*} %;\
+        /else \
+                /send @cast 'magic missile' %;\
+        /endif
+
+/alias cmm /cast_magic_missile %{*}
+
+;; Shocking grasp
+/def cast_shocking_grasp =\
+        /if (strlen({1}) > 0)\
+                /send @target %{*};cast shocking grasp at %{*} %;\
+        /else \
+                /send @cast 'shocking grasp' %;\
+        /endif
+
+/alias csg /cast_shocking_grasp %{*}
+

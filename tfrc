@@ -21,7 +21,8 @@
 /def -p10 -F -aBCred -msimple -t"You cannot leave, you have been AMBUSHED."
 
 ;; Crits
-/def -p10 -F -P1BCwhite -mregexp -t"You score a (CRITICAL) hit!"
+/def -p10 -F -P1Cwhite -mregexp -t"You score a (CRITICAL) hit!"
+/def -p10 -F -P1BCwhite -mrepexp -t"You score a (*CRITICAL*) hit!"
 
 ;; Camping
 /def -p10 -F -aBCgreen -msimple -t"You awaken from your short rest, and feel slightly better."
@@ -33,6 +34,7 @@
 /def -p10 -F -aBCgreen -msimple -t"You are no longer stunned."
 /def -p10 -F -aBCred -msimple -t"You get hit, and your eyes lose focus slightly." =\
 	/echo -aBCred STUNNED!
+/def -p10 -F -aCred -msimple -t"You are stunned and unable to do anything."
 
 /def -p10 -F -aBCred -msimple -t"You try to concentrate but your head spins like a whirligig!" =\
 	/echo -aBCred STUNNED!

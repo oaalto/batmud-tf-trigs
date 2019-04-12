@@ -50,3 +50,10 @@
 
 /alias med /use_meditation
 
+/def -p10 -F -aCgreen -msimple -t"You seize the mind of the monster as it dies."
+/def -p10 -F -aCgreen -msimple -t"You gain some knowledge of how the mind works."
+
+
+
+
+

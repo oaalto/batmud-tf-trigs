@@ -17,7 +17,7 @@
 
 /def use_current_skill =\
 	/if (strlen({1}) > 0)\
-		/send @gem cmd use %{current_skill} at %{*} %;\
+		/send @target %{*};gem cmd target %{*};gem cmd use %{current_skill} at %{*} %;\
 	/else \
 		/send @gem cmd use %{current_skill} %;\
 	/endif
@@ -83,7 +83,7 @@
 ;; Spark Birth
 /def cast_spark_birth =\
 	/if (strlen({1}) > 0)\
-		/send @target %{*};@gem cmd target %{*};cast 'spark birth' %{*} %;\
+		/send @target %{*};gem cmd target %{*};cast 'spark birth' %{*} %;\
 	/else \
 		/send @cast 'spark birth' %;\
 	/endif
@@ -93,7 +93,7 @@
 ;; Rift Pulse
 /def cast_rift_pulse =\
 	/if (strlen({1}) > 0)\
-		/send @target %{*};@gem cmd target %{*};cast 'rift pulse' %{*} %;\
+		/send @target %{*};gem cmd target %{*};cast 'rift pulse' %{*} %;\
 	/else \
 		/send @cast 'rift pulse' %;\
 	/endif

@@ -120,6 +120,16 @@
 
 /alias cmi /cast_mirror_image %{*}
 
+;; Iron Will
+/def cast_iron_will =\
+	/if (strlen({1}) > 0)\
+		/send @cast 'iron will' %{*} %;\
+	/else \
+		/send @cast iron will at entity %;\
+	/endif
+
+/alias ciw /cast_iron_will %{*}
+
 /def -p10 -F -aCcyan -mregexp -t"[A|An] (.+) air entity (.+) with power \[yours\]"
 /def -p10 -F -aCred -mregexp -t"[A|An] (.+) fire entity (.+) with power \[yours\]"
 /def -p10 -F -aCblue -mregexp -t"[A|An] (.+) water entity (.+) with power \[yours\]"

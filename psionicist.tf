@@ -1,10 +1,6 @@
 ;; Mindseize
 /def cast_mindseize =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};cast 'Mindseize' %{*} %;\
-	/else \
-		/send @cast 'Mindseize' %;\
-	/endif
+	/send @target %{*};cast 'Mindseize' %{*}
 
 /alias cms /cast_mindseize %{*}
 
@@ -20,13 +16,21 @@
 
 ;; Psibolt
 /def cast_psibolt =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};cast 'psibolt' %{*} %;\
-	/else \
-		/send @cast 'psibolt' %;\
-	/endif
+	/send @target %{*};cast 'psibolt' %{*}
 
-/alias cpb /cast_psibolt %{*}
+/alias cp /cast_psibolt %{*}
+
+;; Psi blast
+/def cast_psi_blast =\
+	/send @target %{*};cast 'psi blast' %{*}
+
+/alias cpb /cast_psi_blast %{*}
+
+;; Mind disruption
+/def cast_mind_disruption =\
+	/send @target %{*};cast 'mind disruption' %{*}
+
+/alias cmd /cast_mind_disruption %{*}
 
 ;; Force shield
 /def cast_force_shield =\
@@ -40,13 +44,13 @@
 
 ;; Mind development
 /def cast_mind_development =\
-	/send @cast mind development
+	/send @cast 'mind development' %{*}
 
-/alias cmd /cast_mind_development
+/alias cmdev /cast_mind_development %{*}
 
 ;; Meditation
 /def use_meditation =\
-	/send @use meditation %;\
+	/send @use meditation
 
 /alias med /use_meditation
 

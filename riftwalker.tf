@@ -1,6 +1,8 @@
 ;; Entity Skills
 /set fire_skill=blazing sunder
 /set air_skill=suffocating embrace
+;; Init
+/set current_skill=%{air_skill}
 
 /def set_entity_skill =\
 	/if ({*} =~ "fire")\
@@ -82,21 +84,13 @@
 
 ;; Spark Birth
 /def cast_spark_birth =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};gem cmd target %{*};cast 'spark birth' %{*} %;\
-	/else \
-		/send @cast 'spark birth' %;\
-	/endif
+	/send @target %{*};gem cmd target %{*};cast 'spark birth' %{*}
 
 /alias csb /cast_spark_birth %{*}
 
 ;; Rift Pulse
 /def cast_rift_pulse =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};gem cmd target %{*};cast 'rift pulse' %{*} %;\
-	/else \
-		/send @cast 'rift pulse' %;\
-	/endif
+	/send @target %{*};gem cmd target %{*};cast 'rift pulse' %{*}
 
 /alias crp /cast_rift_pulse %{*}
 
@@ -129,6 +123,12 @@
 	/endif
 
 /alias ciw /cast_iron_will %{*}
+
+;; Force shield (Psionicist)
+/def cast_force_shield_at_entity =\
+	/send @cast force shield at entity
+
+/alias cfse /cast_force_shield_at_entity
 
 /def -p10 -F -aCcyan -mregexp -t"[A|An] (.+) air entity (.+) with power \[yours\]"
 /def -p10 -F -aCred -mregexp -t"[A|An] (.+) fire entity (.+) with power \[yours\]"

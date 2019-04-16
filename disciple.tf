@@ -7,21 +7,13 @@
 
 ;; Chaotic Spawn
 /def use_chaotic_spawn =\
-	/if (strlen({1}) > 0)\
-		/send @use chaotic spawn at %{*} %;\
-	/else \
-		/send @use chaotic spawn %;\
-	/endif
+	/send @use 'chaotic spawn' %{*}
 
 /alias ucs /use_chaotic_spawn %{*}
 
 ;; Clawed Strike
 /def use_clawed_strike =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};use clawed strike at %{*} %;\
-	/else \
-		/send @use clawed strike %;\
-	/endif
+	/send @target %{*};use 'clawed strike' %{*}
 
 /alias uc /use_clawed_strike %{*}
 

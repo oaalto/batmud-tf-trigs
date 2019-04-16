@@ -14,21 +14,13 @@
 
 ;; Enthralling parasite
 /def cast_enthralling_parasite =\
-	/if (strlen({1}) > 0)\
-		/send @cast Enthralling parasite at %{*} %;\
-	/else \
-		/send @cast Enthralling parasite %;\
-	/endif
+	/send @cast 'enthralling parasite' %{*}
 
 /alias cep /cast_enthralling_parasite %{*}
 
 ;; Harvest vitae
 /def cast_harvest_vitae =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};cast Harvest vitae at %{*} %;\
-	/else \
-		/send @cast Harvest vitae %;\
-	/endif
+	/send @target %{*};cast 'harvest vitae' %{*}
 
 /alias chv /cast_harvest_vitae %{*}
 
@@ -48,21 +40,13 @@
 
 ;; Reap potentia
 /def cast_reap_potentia =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};cast reap potentia at %{*} %;\
-	/else \
-		/send @cast reap potentia %;\
-	/endif
+	/send @target %{*};cast 'reap potentia' %{*}
 
 /alias crp /cast_reap_potentia %{*}
 
 ;; Parasitic Swarm
 /def cast_parasitic_swarm =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};cast parasitic swarm at %{*} %;\
-	/else \
-		/send @cast parasitic swarm %;\
-	/endif
+	/send @target %{*};cast 'parasitic swarm' %{*}
 
 /alias cps /cast_parasitic_swarm %{*}
 
@@ -96,5 +80,5 @@
 /def use_dreary_hibernation =\
 	/send @use dreary hibernation %;\
 	
-/alias udh /use_dreary_hibernation %{*}
+/alias udh /use_dreary_hibernation
 

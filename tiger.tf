@@ -1,10 +1,6 @@
 ;; Iron Palm
 /def use_iron_palm =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};use iron palm at %{*} %;\
-	/else \
-		/send @use 'iron palm' %;\
-	/endif
+	/send @target %{*};use 'iron palm' %{*}
 
 /alias ip /use_iron_palm %{*}
 
@@ -25,11 +21,7 @@
 
 ;; Tiger Claw
 /def cast_tiger_claw =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};cast tiger claw at %{*} %;\
-	/else \
-		/send @cast 'tiger claw' %;\
-	/endif
+	/send @target %{*};cast 'tiger claw' %{*}
 
 /alias tc /cast_tiger_claw %{*}
 

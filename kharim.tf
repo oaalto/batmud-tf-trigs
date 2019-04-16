@@ -1,40 +1,24 @@
 ;; Foul Play
 /def use_foul_play =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};use foul play at %{*} %;\
-	/else \
-		/send @use 'foul play' %;\
-	/endif
+	/send @target %{*};use 'foul play' %{*}
 
 /alias ufp /use_foul_play %{*}
 
 ;; Deceitful act of mercy
 /def use_act_of_mercy =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};use Deceitful act of mercy at %{*} %;\
-	/else \
-		/send @use 'Deceitful act of mercy' %;\
-	/endif
+	/send @target %{*};use 'deceitful act of mercy' %{*}
 
 /alias uam /use_act_of_mercy %{*}
 
 ;; Scourge of dark steel
 /def use_scourge =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};use Scourge of dark steel at %{*} %;\
-	/else \
-		/send @use 'Scourge of dark steel' %;\
-	/endif
+	/send @target %{*};use 'scourge of dark steel' %{*}
 
 /alias usd /use_scourge %{*}
 
 ;; Vampiric blow
 /def use_vampiric_blow =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};use Vampiric blow at %{*} %;\
-	/else \
-		/send @use 'Vampiric blow' %;\
-	/endif
+	/send @target %{*};use 'vampiric blow' %{*}
 
 /alias uvb /use_vampiric_blow %{*}
 

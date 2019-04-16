@@ -45,21 +45,13 @@
 
 ;; Magic Missile
 /def cast_magic_missile =\
-        /if (strlen({1}) > 0)\
-                /send @target %{*};cast magic missile at %{*} %;\
-        /else \
-                /send @cast 'magic missile' %;\
-        /endif
+        /send @target %{*};cast 'magic missile' %{*}
 
 /alias cmm /cast_magic_missile %{*}
 
 ;; Shocking grasp
 /def cast_shocking_grasp =\
-        /if (strlen({1}) > 0)\
-                /send @target %{*};cast shocking grasp at %{*} %;\
-        /else \
-                /send @cast 'shocking grasp' %;\
-        /endif
+        /send @target %{*};cast 'shocking grasp' %{*}
 
 /alias csg /cast_shocking_grasp %{*}
 

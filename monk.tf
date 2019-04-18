@@ -41,13 +41,6 @@
 /def -p10000 -F -msimple -t'You sit down and start meditating.' start_meditation =\
 	/set doing_meditation=0
 
-
-;; Trigs for new monk skills, enables easy use of combos
-;; Could be done with less def's but hey... quick and dirty rules :P
-;; Usage 'dm' to do next monkskill in combo or
-;; 'dm <target>' to do next monk skill in combo at a target
-;; To set a combo use one skill in the combo first
-
 /def -p10000 -F -aCblue -msimple -t'Your training is starting to pay off!'
 /def -p10000 -F -aCblue -mregexp -t'You feel like you have mastered the art of (.+). It might be time to find another advanced technique.'
 

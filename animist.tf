@@ -7,10 +7,10 @@
 /set dismissing_mount=0
 
 ;; Status line
-/status_add -r1 soul_var
+/status_add -r1 'Soul: ' soul_var:3 '%'::Cwhite
 
 /def -p1000 -F -mregexp -ag -t'^Your soul companion: (.+) \((.+)%\)' = \
-        /set soul_var=Soul: $[decode_attr({P2}, colorer({P2}, 100))]
+        /set soul_var=$[decode_attr({P2}, colorer({P2}, 100))]
 
 /def -p10000 -F -msimple -t'You start chanting.' start_spell =\
 	/set cere_done=0

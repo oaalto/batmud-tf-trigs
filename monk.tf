@@ -6,11 +6,7 @@
 ;; Iron Palm
 /def use_iron_palm =\
 	/monkskillinterrupt %;\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};use iron palm at %{*} %;\
-	/else \
-		/send @use 'iron palm' %;\
-	/endif
+	/send @target %{*};use 'iron palm' %{*}
 
 /alias ip /use_iron_palm %{*}
 
@@ -57,44 +53,28 @@
 
 /alias uds /do_disrupt_skill %{*}
 /def do_disrupt_skill=\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};@use %{currentdisruptskill} at %{*} %;\
-	/else \
-		/send @use %{currentdisruptskill} %;\
-	/endif
+	/send @target %{*};@use '%{currentdisruptskill}' %{*}
 
 /alias uaa /do_area_skill %{*}
 /def do_area_skill=\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};@use %{currentareaskill} at %{*} %;\
-	/else \
-		/send @use %{currentareaskill} %;\
-	/endif
+	/send @target %{*};@use '%{currentareaskill}' %{*}
 
 /alias uar /do_armor_skill %{*}
 /def do_armor_skill=\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};@use %{currentarmorskill} at %{*} %;\
-	/else \
-		/send @use %{currentarmorskill} %;\
-	/endif
+	/send @target %{*};@use '%{currentarmorskill}' %{*}
 
 /alias uav /do_avoid_skill %{*}
 /def do_avoid_skill=\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};@use %{currentavoidskill} at %{*} %;\
-	/else \
-		/send @use %{currentavoidskill} %;\
-	/endif
+	/send @target %{*};@use '%{currentavoidskill}' %{*}
 
 /set armourskill1=falling boulder strike
 /set armourskill2=earthquake kick
 /set armourskill3=avalanche slam
 /set disruptskill1=wave crest strike
-;;/set disruptskill2=wave crest strike
-;;/set disruptskill3=wave crest strike
-/set disruptskill2=geyser force kick
-/set disruptskill3=tsunami push
+/set disruptskill2=wave crest strike
+/set disruptskill3=wave crest strike
+;;/set disruptskill2=geyser force kick
+;;/set disruptskill3=tsunami push
 /set areaskill1=hydra fang strike
 ;;/set areaskill2=hydra fang strike
 /set areaskill3=hydra fang strike

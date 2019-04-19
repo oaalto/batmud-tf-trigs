@@ -7,10 +7,12 @@
 /set dismissing_mount=0
 
 ;; Status line
-/status_add -r1 'Soul: ' soul_var:3 '%'::Cwhite
+/status_add -r1 status_line_2
 
 /def -p1000 -F -mregexp -ag -t'^Your soul companion: (.+) \((.+)%\)' = \
-        /set soul_var=$[decode_attr({P2}, colorer({P2}, 100))]
+        /let soul=$[decode_attr({P2}, colorer({P2}, 100))] %;\
+	/let percent=$[set_white('%')] %;\
+	/set status_line_2=Soul: %{soul}%{percent}
 
 /def -p10000 -F -msimple -t'You start chanting.' start_spell =\
 	/set cere_done=0
@@ -25,7 +27,7 @@
 	/set cere_done=1 %;\
 	/if ({separating_soul})\
 		/cast_separate_soul %;\
-	/if ({joining_soul})\
+	/elseif ({joining_soul})\
 		/cast_join_soul %;\
 	/elseif ({conjuring_mount})\
 		/cast_conjure_mount %;\

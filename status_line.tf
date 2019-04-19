@@ -9,13 +9,15 @@
 /set visual_mode=0
 
 /def set_status_line = \
-	/set hp_var=$[decode_attr({1}, colorer({1}, {2}))]/%{2} %;\
-        /set sp_var=$[decode_attr({3}, colorer({3}, {4}))]/%{4} %;\
-        /set ep_var=$[decode_attr({5}, colorer({5}, {6}))]/%{6} %;\
-        /set exp_var=%{7} %;\
+	/let hp=$[color_str({1}, {2})]/$[set_white({2})] %;\
+        /let sp=$[color_str({3}, {4})]/$[set_white({4})] %;\
+        /let ep=$[color_str({5}, {6})]/$[set_white({6})] %;\
+        /let exp=$[set_white({7})] %;\
 	/if (strlen({8}) > 0)\
-		/set money_var=%{8} %;\
+;; Set because otherwise it will display an empty value 
+		/set money=$[set_white({8})] %;\
 	/endif %;\
+	/set status_line=Hp: %{hp} Sp: %{sp} Ep: %{ep} \$: %{money} Exp: %{exp} %;\
 	/prompt >
 
 /def -p1000 -F -ag -mregexp -t'^H:(.+)/(.+) \[[+-]?[0-9]*\] S:(.+)/(.+) \[[+-]?[0-9]*\] E:(.+)/(.+) \[[+-]?[0-9]*\] \$:(.+) \[[+-]?[0-9]*\] exp:(.+) \[[+-]?[0-9]*\]$' = \
@@ -24,5 +26,5 @@
 /def -i -p9999 -mregexp -h"PROMPT Hp:(.+)/(.+) Sp:(.+)/(.+) Ep:(.+)/(.+) Exp:(.+) >$" = \
 	/set_status_line %{P1} %{P2} %{P3} %{P4} %{P5} %{P6} %{P7}
 
-/status_add -c 'Hp: ' hp_var:9:Cwhite ' Sp: ' sp_var:9:Cwhite ' Ep: ' ep_var:9:Cwhite ' $: ' money_var:10:Cyellow ' Exp: ' exp_var::Cwhite
+/status_add -c status_line
 

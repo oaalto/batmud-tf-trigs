@@ -12,3 +12,8 @@
         /let ratio=$[{1} * 100 / {2}] %;\
         /return colorhelper(ratio)
 
+/def set_white = /return decode_attr({1}, 'BCwhite')
+
+/def color_str = /return decode_attr({1}, colorer({1}, {2}))
+
+

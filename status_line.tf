@@ -17,7 +17,7 @@
 ;; Set because otherwise it will display an empty value 
 		/set money=$[set_white({8})] %;\
 	/endif %;\
-	/set status_line=Hp: %{hp} Sp: %{sp} Ep: %{ep} \$: %{money} Exp: %{exp} %;\
+	/set status_line_1=Hp: %{hp} Sp: %{sp} Ep: %{ep} \$: %{money} Exp: %{exp} %;\
 	/prompt >
 
 /def -p1000 -F -ag -mregexp -t'^H:(.+)/(.+) \[[+-]?[0-9]*\] S:(.+)/(.+) \[[+-]?[0-9]*\] E:(.+)/(.+) \[[+-]?[0-9]*\] \$:(.+) \[[+-]?[0-9]*\] exp:(.+) \[[+-]?[0-9]*\]$' = \
@@ -26,5 +26,6 @@
 /def -i -p9999 -mregexp -h"PROMPT Hp:(.+)/(.+) Sp:(.+)/(.+) Ep:(.+)/(.+) Exp:(.+) >$" = \
 	/set_status_line %{P1} %{P2} %{P3} %{P4} %{P5} %{P6} %{P7}
 
-/status_add -c status_line
+/status_add -c -r0 status_line_1
+/status_add -c -r1 status_line_2
 

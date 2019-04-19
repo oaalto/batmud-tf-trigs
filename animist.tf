@@ -7,8 +7,6 @@
 /set dismissing_mount=0
 
 ;; Status line
-/status_add -r1 status_line_2
-
 /def -p1000 -F -mregexp -ag -t'^Your soul companion: (.+) \((.+)%\)' = \
         /let soul=$[decode_attr({P2}, colorer({P2}, 100))] %;\
 	/let percent=$[set_white('%')] %;\

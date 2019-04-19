@@ -1,7 +1,7 @@
 /def colorhelper = \
         /if ({1} > 90) /return "xBCgreen" %;\
 	/elseif ({1} > 80) /return "xCgreen" %;\
-        /elseif ({1} > 66) /return "xBCcyan" %;\
+        /elseif ({1} > 65) /return "xBCcyan" %;\
         /elseif ({1} > 50) /return "xCcyan" %;\
 	/elseif ({1} > 35) /return "xBCyellow" %;\
         /elseif ({1} > 20) /return "xCyellow" %;\

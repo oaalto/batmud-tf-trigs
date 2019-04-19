@@ -1,4 +1,6 @@
 /load alias.tf
+/load batmud-tf-trigs/color_helpers.tf
+/load batmud-tf-trigs/status_line.tf
 /load batmud-tf-trigs/tarmalen.tf
 
 /def -p10000 -F -mregexp -t'^[\*]+ Round .* [\*]+$' battle_round =\

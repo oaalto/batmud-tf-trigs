@@ -23,11 +23,11 @@
         /endif %;\
 	/if (strlen({P8}) > 0) \
                 /set moneyDiff=(%{P8}) %;\
-                /repeat -5 1 /eval /set moneyDiff= %;\
+                /repeat -5 1 /eval /set moneyDiff=%;\
         /endif %;\
         /if (strlen({P10}) > 0) \
                 /set expDiff=(%{P10}) %;\
-                /repeat -5 1 /eval /set expDiff= %;\
+                /repeat -5 1 /eval /set expDiff=%;\
         /endif %;\
 	/set_status_line %{P1} %{P2} %{P3} %{P4} %{P5} %{P6} %{P9}
 

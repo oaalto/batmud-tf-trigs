@@ -10,7 +10,7 @@
         /endif
 
 /def colorer = \
-        /let ratio=$[{1} * 100 / {2}] %;\
+        /let ratio=$[{1} * 100 / {2}]%;\
         /return colorhelper(ratio)
 
 /def set_white = /return decode_attr({1}, 'xBCwhite')

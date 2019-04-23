@@ -70,9 +70,9 @@
 /set armourskill3=avalanche slam
 /set disruptskill1=wave crest strike
 ;;/set disruptskill2=wave crest strike
-/set disruptskill3=wave crest strike
+;;/set disruptskill3=wave crest strike
 /set disruptskill2=geyser force kick
-;;/set disruptskill3=tsunami push
+/set disruptskill3=tsunami push
 /set areaskill1=hydra fang strike
 ;;/set areaskill2=hydra fang strike
 /set areaskill3=hydra fang strike
@@ -84,7 +84,7 @@
 
 /def monkskillinterrupt=\
 	/set currentarmorskill=%{armourskill1} %;\
-	/set currentdisruptskill=%{disruptskill2} %;\
+	/set currentdisruptskill=%{disruptskill3} %;\
 	/set currentareaskill=%{areaskill1} %;\
 	/set currentavoidskill=%{avoidskill1}
 

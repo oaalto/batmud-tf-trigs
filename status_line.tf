@@ -13,15 +13,23 @@
         /let sp=$[color_str({3}, {4})]/$[set_white({4})] %;\
         /let ep=$[color_str({5}, {6})]/$[set_white({6})] %;\
         /let exp=$[set_white({7})] %;\
-	/if (strlen({8}) > 0)\
-;; Set because otherwise it will display an empty value 
-		/set money=$[set_white({8})] %;\
-	/endif %;\
-	/set status_line_1=Hp: %{hp} Sp: %{sp} Ep: %{ep} \$: %{money} Exp: %{exp} %;\
+	/set status_line_1=Hp: %{hp} Sp: %{sp} Ep: %{ep} \$: %{money} %{moneyDiff} Exp: %{exp} %{expDiff} %;\
 	/prompt >
 
-/def -p1000 -F -ag -mregexp -t'^H:(.+)/(.+) \[[+-]?[0-9]*\] S:(.+)/(.+) \[[+-]?[0-9]*\] E:(.+)/(.+) \[[+-]?[0-9]*\] \$:(.+) \[[+-]?[0-9]*\] exp:(.+) \[[+-]?[0-9]*\]$' = \
-	/set_status_line %{P1} %{P2} %{P3} %{P4} %{P5} %{P6} %{P8} %{P7}
+/def -p1000 -F -ag -mregexp -t'^H:(.+)/(.+) \[[+-]?[0-9]*\] S:(.+)/(.+) \[[+-]?[0-9]*\] E:(.+)/(.+) \[[+-]?[0-9]*\] \$:(.+) \[(.*)\] exp:(.+) \[(.*)\]$' = \
+	/if (strlen({P7}) > 0)\
+;; Set because otherwise it will display an empty value
+                /set money=$[set_white({P7})] %;\
+        /endif %;\
+	/if (strlen({P8}) > 0) \
+                /set moneyDiff=(%{P8}) %;\
+                /repeat -5 1 /eval /set moneyDiff= %;\
+        /endif %;\
+        /if (strlen({P10}) > 0) \
+                /set expDiff=(%{P10}) %;\
+                /repeat -5 1 /eval /set expDiff= %;\
+        /endif %;\
+	/set_status_line %{P1} %{P2} %{P3} %{P4} %{P5} %{P6} %{P9}
 
 /def -i -p9999 -mregexp -h"PROMPT Hp:(.+)/(.+) Sp:(.+)/(.+) Ep:(.+)/(.+) Exp:(.+) >$" = \
 	/set_status_line %{P1} %{P2} %{P3} %{P4} %{P5} %{P6} %{P7}

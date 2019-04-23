@@ -60,6 +60,11 @@
 /def do_avoid_skill=\
 	/send @target %{*};@use '%{currentavoidskill}' %{*}
 
+/alias uws /use_wave_crest_strike %{*}
+/def use_wave_crest_strike = \
+	/set currentdisruptskill=%{disruptskill1} %;\
+	/do_disrupt_skill %{*}
+
 /set armourskill1=falling boulder strike
 /set armourskill2=earthquake kick
 /set armourskill3=avalanche slam
@@ -77,17 +82,13 @@
 /set avoidskill2=elder cobra kick
 /set avoidskill3=lions teeth throw
 
-;;Starting skills
-/set currentdisruptskill=wave crest strike
-/set currentarmorskill=falling boulder strike
-/set currentareaskill=hydra fang strike
-/set currentavoidskill=falcon talon strike
-
 /def monkskillinterrupt=\
 	/set currentarmorskill=%{armourskill1} %;\
-	/set currentdisruptskill=%{disruptskill1} %;\
+	/set currentdisruptskill=%{disruptskill2} %;\
 	/set currentareaskill=%{areaskill1} %;\
 	/set currentavoidskill=%{avoidskill1}
+
+/monkskillinterrupt
 
 /def -p10000 -F -msimple -t'You are not in combat right now.' = /monkskillinterrupt
 

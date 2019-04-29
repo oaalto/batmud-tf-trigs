@@ -84,7 +84,7 @@
 
 /def monkskillinterrupt=\
 	/set currentarmorskill=%{armourskill1} %;\
-	/set currentdisruptskill=%{disruptskill3} %;\
+	/set currentdisruptskill=%{disruptskill1} %;\
 	/set currentareaskill=%{areaskill1} %;\
 	/set currentavoidskill=%{avoidskill1}
 

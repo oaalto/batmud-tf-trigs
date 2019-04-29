@@ -11,6 +11,46 @@
 /def -p10000 -F -mregexp -t'DEAD, R.I.P.' mob_dead_nergal =\
         /send @nergal sc
 
+;; Status line
+/def -p1000 -F -ag -mregexp -t'^::\.\.:\. (.+) \[Hp: ([0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*, Sp: ([0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*, Ep: ([0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*\]$' = \
+	$[save_minion_stats({P1}, {P2}, {P4})] %;\
+	/update_status_line_2
+
+/def update_status_line_2 = \
+	/if (strlen({minion_3_name}) > 0) \
+		/set status_line_2=%{minion_1_name}: Hp: %{minion_1_hp} Sp: %{minion_1_sp} %{minion_2_name}: Hp: %{minion_2_hp} Sp: %{minion_2_sp} %{minion_3_name}: Hp: %{minion_3_hp} Sp: %{minion_3_sp} %;\
+	/elseif (strlen({minion_2_name}) > 0) \
+		/set status_line_2=%{minion_1_name}: Hp: %{minion_1_hp} Sp: %{minion_1_sp} %{minion_2_name}: Hp: %{minion_2_hp} Sp: %{minion_2_sp} %;\
+	/elseif (strlen({minion_1_name}) > 0) \
+		/set status_line_2=%{minion_1_name}: Hp: %{minion_1_hp} Sp: %{minion_1_sp} %;\
+	/else \
+		/set status_line_2= %;\
+	/endif
+
+/def save_minion_stats = \
+	/if (strlen({minion_1_name}) == 0 | {1} == {minion_1_name}) \
+		$[save_minion_1_stats({1}, {2}, {3})] %;\
+	/elseif (strlen({minion_2_name}) == 0 | {1} == {minion_2_name}) \
+                $[save_minion_2_stats({1}, {2}, {3})] %;\
+	/elseif (strlen({minion_3_name}) == 0 | {1} == {minion_3_name}) \
+                $[save_minion_3_stats({1}, {2}, {3})] %;\
+	/endif
+
+/def save_minion_1_stats = \
+	/set minion_1_name=%{1} %;\
+        /set minion_1_hp=%{2} %;\
+        /set minion_1_sp=%{3} %;\
+
+/def save_minion_2_stats = \
+        /set minion_2_name=%{1} %;\
+        /set minion_2_hp=%{2} %;\
+        /set minion_2_sp=%{3} %;\
+
+/def save_minion_3_stats = \
+        /set minion_3_name=%{1} %;\
+        /set minion_3_hp=%{2} %;\
+        /set minion_3_sp=%{3} %;\
+
 ;; SPELLS
 
 ;; Enthralling parasite

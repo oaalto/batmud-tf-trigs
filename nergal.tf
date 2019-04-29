@@ -13,7 +13,7 @@
 
 ;; Status line
 /def -p1000 -F -ag -mregexp -t'^::\.\.:\. (.+) \[Hp: ([0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*, Sp: ([0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*, Ep: ([0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*\]$' = \
-	$[save_minion_stats({P1}, {P2}, {P4})] %;\
+	/test $[save_minion_stats({P1}, {P2}, {P4})] %;\
 	/update_status_line_2
 
 /def update_status_line_2 = \

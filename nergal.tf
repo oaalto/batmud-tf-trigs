@@ -51,6 +51,23 @@
         /set minion_3_hp=%{2} %;\
         /set minion_3_sp=%{3} %;\
 
+;; Remove from status line when unsummoning
+/def -p1000 -F -mregexp -t'^Your connection to your parasite is severed completely. (.+) jerks violently couple of times and collapses.$' = \
+	/remove_minion_stats %{P1} %;\
+	/update_status_line_2
+
+/def remove_minion_stats = \
+	/if ({minion_3_name} == {1}) \
+		/save_minion_3_stats %;\
+	/elseif ({minion_2_name} == {1}) \
+		/save_minion_2_stats %{minion_3_name} %{minion_3_hp} %{minion_3_sp} %;\
+		/save_minion_3_stats %;\
+        /elseif ({minion_1_name} == {1}) \
+		/save_minion_1_stats %{minion_2_name} %{minion_2_hp} %{minion_2_sp} %;\
+		/save_minion_2_stats %{minion_3_name} %{minion_3_hp} %{minion_3_sp} %;\
+		/save_minion_3_stats %;\
+        /endif %;\
+
 ;; SPELLS
 
 ;; Enthralling parasite

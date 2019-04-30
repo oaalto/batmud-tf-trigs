@@ -37,17 +37,17 @@
 	/endif
 
 /def save_minion_1_stats = \
-	/set minion_1_name=%{1} %;\
+	/set minion_1_name=$[set_white({1})] %;\
         /set minion_1_hp=%{2} %;\
         /set minion_1_sp=%{3} %;\
 
 /def save_minion_2_stats = \
-        /set minion_2_name=%{1} %;\
+        /set minion_2_name=$[set_white({1})] %;\
         /set minion_2_hp=%{2} %;\
         /set minion_2_sp=%{3} %;\
 
 /def save_minion_3_stats = \
-        /set minion_3_name=%{1} %;\
+        /set minion_3_name=$[set_white({1})] %;\
         /set minion_3_hp=%{2} %;\
         /set minion_3_sp=%{3} %;\
 

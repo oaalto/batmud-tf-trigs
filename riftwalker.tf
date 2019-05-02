@@ -1,14 +1,14 @@
 ;; Status line
 
 /def -p1000 -F -ag -mregexp -t'^--=  (.+)  HP:(.+)\((.+)\) \[(.*)\] \[(.*)\] \[(.*)\]  =--$' = \
-        /set status_line_2=%{P1}: Hp: %{P2}/$[set_white({P3})] %{P5} %{P6} %;\
+	/set status_line_2=%{P1}: %{P2}($[set_white({P3})]) [%{P4}] %{P5} %{P6}
 
 ;; Entity Skills
 /set fire_skill=blazing sunder
 /set air_skill=suffocating embrace
 
 ;; Init
-/set current_skill=%{air_skill}
+/set current_skill=suffocating embrace
 
 /def set_entity_skill = \
 	/if ({*} =~ "fire") \

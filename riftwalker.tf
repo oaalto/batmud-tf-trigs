@@ -76,15 +76,13 @@
 
 ;; Start Battle (Spark Birth)
 /def start_battle1 = \
-	/cast_spark_birth %{*} %;\
-	/use_current_skill %{*} %;\
+	/send @target %{*};gem cmd target %{*};cast 'spark birth' %{*};gem cmd use %{current_skill} at %{*} 
 
 /alias cs /start_battle1 %{*}
 
 ;; Start Battle (Rift Pulse)
 /def start_battle2 = \
-	/cast_rift_pulse %{*} %;\
-	/use_current_skill %{*} %;\
+	/send @target %{*};gem cmd target %{*};cast 'rift pulse' %{*};gem cmd use %{current_skill} at %{*}
 
 /alias css /start_battle2 %{*}
 

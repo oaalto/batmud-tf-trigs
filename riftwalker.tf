@@ -8,7 +8,7 @@
 /set air_skill=suffocating embrace
 
 ;; Init
-/set_entity_skill air
+/set current_skill=%{air_skill}
 
 /def set_entity_skill = \
 	/if ({*} =~ "fire") \
@@ -24,11 +24,7 @@
 /alias uair /set_entity_skill air
 
 /def use_current_skill = \
-	/if (strlen({1}) > 0) \
-		/send @target %{*};gem cmd target %{*};gem cmd use %{current_skill} at %{*} %;\
-	/else \
-		/send @gem cmd use %{current_skill} %;\
-	/endif
+	/send @target %{*};gem cmd target %{*};gem cmd use '%{current_skill}' %{*}
 	
 /alias ccs /use_current_skill %{*}
 
@@ -76,13 +72,13 @@
 
 ;; Start Battle (Spark Birth)
 /def start_battle1 = \
-	/send @target %{*};gem cmd target %{*};cast 'spark birth' %{*};gem cmd use %{current_skill} at %{*} 
+	/send @target %{*};gem cmd target %{*};cast 'spark birth' %{*};gem cmd use '%{current_skill}' %{*} 
 
 /alias cs /start_battle1 %{*}
 
 ;; Start Battle (Rift Pulse)
 /def start_battle2 = \
-	/send @target %{*};gem cmd target %{*};cast 'rift pulse' %{*};gem cmd use %{current_skill} at %{*}
+	/send @target %{*};gem cmd target %{*};cast 'rift pulse' %{*};gem cmd use '%{current_skill}' %{*}
 
 /alias css /start_battle2 %{*}
 

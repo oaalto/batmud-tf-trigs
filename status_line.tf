@@ -16,7 +16,7 @@
 	/set status_line_1=Hp: %{hp} Sp: %{sp} Ep: %{ep} \$: %{money} %{moneyDiff} Exp: %{exp} %{expDiff} %;\
 	/prompt >
 
-/def -p1000 -F  -mregexp -t'^H:(.+)/(.+) (\[.*\]) S:(.+)/(.+) (\[.*\]) E:(.+)/(.+) (\[.*\]) \$:(.+) (\[.*\]) exp:(.+) (\[.*\])$' = \
+/def -p1000 -F -ag -mregexp -t'^H:(.+)/(.+) (\[.*\]) S:(.+)/(.+) (\[.*\]) E:(.+)/(.+) (\[.*\]) \$:(.+) (\[.*\]) exp:(.+) (\[.*\])$' = \
 	/set hpDiff=%{P3} %;\
 	/set spDiff=%{P6} %;\
 	/set epDiff=%{P9} %;\

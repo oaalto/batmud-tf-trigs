@@ -1,3 +1,5 @@
+/load batmud-tf-trigs/mage_lightning.tf
+
 ;; Floating Disc
 /def cast_floating_disc =\
 	/send @cast floating disc
@@ -48,10 +50,4 @@
         /send @target %{*};cast 'magic missile' %{*}
 
 /alias cmm /cast_magic_missile %{*}
-
-;; Shocking grasp
-/def cast_shocking_grasp =\
-        /send @target %{*};cast 'shocking grasp' %{*}
-
-/alias csg /cast_shocking_grasp %{*}
 

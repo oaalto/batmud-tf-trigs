@@ -3,6 +3,9 @@
 /def -p1000 -F -ag -mregexp -t'^--=  (.+)  HP:(.+)\((.+)\) \[(.*)\] \[(.*)\] \[(.*)\]  =--$' = \
 	/set status_line_2=%{P1}: %{P2}($[set_white({P3})]) [%{P4}] %{P5} %{P6}
 
+/def -p1000 -F -msimple -t'Your entity begins to warp, seeming to become unstable. It folds in on itself and vanishes!' = \
+	/set status_line_2=
+
 ;; Entity Skills
 /set fire_skill=blazing sunder
 /set air_skill=suffocating embrace

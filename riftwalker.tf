@@ -97,6 +97,12 @@
 
 /alias crp /cast_rift_pulse %{*}
 
+;; Dimensional leech
+/def cast_dimensional_leech = \
+	/send @target %{*};gem cmd target %{*};cast 'dimensional leech' %{*}
+
+/alias cdl /cast_dimensional_leech %{*}
+
 ;; Force absorption
 /def cast_force_absorption = \
 	/if (strlen({1}) > 0) \

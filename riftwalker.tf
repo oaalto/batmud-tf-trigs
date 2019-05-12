@@ -123,6 +123,12 @@
 
 /alias cmi /cast_mirror_image %{*}
 
+;; Absorbing meld
+/def cast_absorbing_meld = \
+        /send @cast 'Absorbing meld' %;\
+
+/alias cam /cast_absorbing_meld
+
 ;; Iron Will
 /def cast_iron_will = \
 	/if (strlen({1}) > 0) \

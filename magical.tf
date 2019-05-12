@@ -9,6 +9,12 @@
 /def ga_from_disc = /send @get all from my disc
 /alias gad /ga_from_disc
 
+/def ga_armour_from_disc = /send @get all armour from my disc
+/alias gaad /ga_armour_from_disc
+
+/def ga_weapon_from_disc = /send @get all weapon from my disc
+/alias gawd /ga_weapon_from_disc
+
 /def put_noeq_disc = /send @put noeq in my disc
 /alias pd /put_noeq_disc
 

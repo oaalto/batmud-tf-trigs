@@ -78,6 +78,13 @@
 
 /alias cwd /cast_word_of_destruction %{*}
 
+;; World of Slaughter
+/def cast_word_of_slaughter =\
+        /reaver_threaten %{*} %;\
+        /send @target %{*};cast 'word of slaughter' %{*}
+
+/alias cws /cast_word_of_slaughter %{*}
+
 ;; Word of Attrition
 /def cast_word_of_attrition =\
 	/if (strlen({1}) > 0)\

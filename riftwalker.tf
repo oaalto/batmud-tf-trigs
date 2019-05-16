@@ -9,15 +9,18 @@
 ;; Entity Skills
 /set fire_skill=blazing sunder
 /set air_skill=suffocating embrace
+/set earth_skill=earthen cover
 
 ;; Init
-/set current_skill=suffocating embrace
+/set current_skill=earthen cover
 
 /def set_entity_skill = \
 	/if ({*} =~ "fire") \
 		/set current_skill=%{fire_skill} %;\
 	/elseif ({*} =~ "air") \
 		/set current_skill=%{air_skill} %;\
+	/elseif ({*} =~ "earth") \
+		/set current_skill=%{earth_skill} %;\
 	/else \
 		/echo Unknown skill %{*}! %;\
 	/endif %;\
@@ -25,6 +28,7 @@
 
 /alias ufire /set_entity_skill fire
 /alias uair /set_entity_skill air
+/alias uearth /set_entity_skill earth
 
 /def use_current_skill = \
 	/send @target %{*};gem cmd target %{*};gem cmd use '%{current_skill}' %{*}
@@ -37,6 +41,8 @@
 		/send @gem entities fire %;\
 	/elseif ({current_skill} =~ {air_skill}) \
 		/send @gem entities air %;\
+	/elseif ({current_skill} =~ {earth_skill}) \
+		/send @gem entities earth %;\
 	/endif
 
 /alias estat /gem_entity
@@ -168,9 +174,14 @@
 /def -p10 -F -aBCred -msimple -t"Your air entity falters and its wispy tendrils fall to its sides." = \
 	/echo -aBCred SUFFOCATING EMBRACE IS DOWN!
  
-/def -p10 -F -aBCred -msimple -t"Your entity loses its concentration and cannot do the skill." =\
+/def -p10 -F -aBCred -msimple -t"Your entity loses its concentration and cannot do the skill." = \
 	/if ({current_skill} =~ {air_skill}) \
 		/echo -aBCred SUFFOCATING EMBRACE IS DOWN! %;\
+	/endif
+
+/def -p10 -F -aBCred -msimple -t"Your earth entity hunches down looking much less solid than a second ago." = \
+	/if ({current_skill} =~ {earth_skill}) \
+		/echo -aBCred EARTHEN COVER IS DOWN! %;\
 	/endif
 
 /def -p10 -F -aBCwhite -mregexp -t"(.+) entity starts concentrating on a new offensive skill."

@@ -74,6 +74,7 @@
 /def -p10 -F -P1BCwhite -mregexp -t"You boom in sinister voice '(.+)'"
 /def -p10 -F -P1BCwhite -mregexp -t"You utter the magic words '(.+)'"
 /def -p10 -F -P1BCwhite -mregexp -t"You fill up your cheeks with air and exhale '(.+)'"
+/def -p10 -F -P1BCwhite -mregexp -t"You slowly cut your arm with your finger-nail and darkly whisper '(.+)'"
 
 ;; Hit
 /def -p10 -F -aBCred -mregexp -t"[A|An] (.+) hits you."

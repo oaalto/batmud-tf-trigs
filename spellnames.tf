@@ -188,3 +188,10 @@
 /def -F -i -P1Cgreen -t"'(Khizanth Arachnidus Iracundus)'"       translator_182=/substitute %{*} (Spider wrath)
 /def -F -i -P1BCcyan -t"'(morri nam pantoloosa)'"                translator_183=/substitute %{*} (Toxic dilution)
 /def -F -i -P1Ccyan  -t"'(May this become the blood of the Spider queen)'" translator_184=/substitute %{*} (Venom blade)
+
+
+/def -F -i -P1BCcyan -t"'(cah zur sanc)'" =/substitute %{*} (Flaming ice)
+
+
+
+

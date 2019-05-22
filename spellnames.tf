@@ -195,6 +195,7 @@
 /def -F -i -P1 -t"'(cah zur fehh)'" =/substitute %{*} (Chill touch)
 /def -F -i -P1 -t"'(nitin uurthg)'" =/substitute %{*} (Feeblemind)
 /def -F -i -P1 -t"'(fzz zur fehh)'" =/substitute %{*} (Disruption)
+/def -F -i -P1 -t"'(ner'gah in'f el neet)'" =/substitute %{*} (Harvest vitae)
 
 
 

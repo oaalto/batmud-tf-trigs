@@ -191,6 +191,6 @@
 
 /def -F -i -P1 -t"'(cah zur sanc)'" =/substitute %{*} (Flaming ice)
 /def -F -i -P1 -t"'(ner'gah arac's am')'" =/substitute %{*} (Parasitic swarm)
-
+/def -F -i -P1 -t"'(cah mar nak semen)'" =/substitute %{*} (Icebolt)
 
 

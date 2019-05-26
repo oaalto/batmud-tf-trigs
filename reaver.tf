@@ -57,28 +57,28 @@
 
 ;; SPELLS
 
-;; World of Spite
+;; Word of Spite
 /def cast_word_of_spite =\
 	/reaver_threaten %{*} %;\
 	/send @target %{*};cast 'word of spite' %{*}
 
 /alias cs /cast_word_of_spite %{*}
 
-;; World of Blasting
+;; Word of Blasting
 /def cast_word_of_blasting =\
 	/reaver_threaten %{*} %;\
 	/send @target %{*};cast 'word of blasting' %{*}
 
 /alias cb /cast_word_of_blasting %{*}
 
-;; World of Destruction
+;; Word of Destruction
 /def cast_word_of_destruction =\
 	/reaver_threaten %{*} %;\
 	/send @target %{*};cast 'word of destruction' %{*}
 
 /alias cwd /cast_word_of_destruction %{*}
 
-;; World of Slaughter
+;; Word of Slaughter
 /def cast_word_of_slaughter =\
         /reaver_threaten %{*} %;\
         /send @target %{*};cast 'word of slaughter' %{*}

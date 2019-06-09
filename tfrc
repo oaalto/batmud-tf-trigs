@@ -49,6 +49,9 @@
 
 ;; Stunned
 /def -p10 -F -aBCgreen -msimple -t"You are no longer stunned."
+/def -p10 -F -aBCgreen -msimple -t"Your inner strength keeps your head clear!"
+/def -p10 -F -aBCgreen -msimple -t"...BUT you break it off with intense concentration."
+
 /def -p10 -F -aBCred -msimple -t"You get hit, and your eyes lose focus slightly." =\
 	/echo -aBCred STUNNED!
 /def -p10 -F -aCred -msimple -t"You are stunned and unable to do anything."
@@ -59,8 +62,6 @@
 
 /def -p10 -F -aBCred -msimple -t"You are knocked off your mount!" =\
 	/echo -aBCred *************** DISMOUNTED!! *************** %;\
-
-/def -p10 -F -aBCgreen -msimple -t"...BUT you break it off with intense concentration."
 
 ;; Spell Related Hilites
 

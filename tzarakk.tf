@@ -16,6 +16,11 @@
 
 /alias heal_mode /set_heal_mode
 
+/def set_hunt_mode = \
+        /send @rip_action set get all from corpse;tzarakk chaosfeed corpse;drop zinc;drop mowgles
+
+/alias hunt_mode /set_hunt_mode
+
 /def cast_steed_of_tzarakk = \
 	/send @cast steed of tzarakk
 

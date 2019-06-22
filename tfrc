@@ -59,10 +59,6 @@
 /def -p10 -F -aBCred -msimple -t"You try to concentrate but your head spins like a whirligig!" =\
 	/echo -aBCred STUNNED!
 
-
-/def -p10 -F -aBCred -msimple -t"You are knocked off your mount!" =\
-	/echo -aBCred *************** DISMOUNTED!! *************** %;\
-
 ;; Spell Related Hilites
 
 ;; Spell Failures

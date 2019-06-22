@@ -1,15 +1,33 @@
+/set dismounted=0
+
 /def -p10000 -F -mregexp -t'^[\*]+ Round .* [\*]+$' = \
 	/send @x vedir
 
-/def -p10000 -F -mregexp -t'^A faint fog-like substance flows from corpse of (.*) to Vedir's lifeless eyes replenishing it (.*)' = \
-	/send @feed %;\
-	/send @x vedir
+/def -p10000 -F -mregexp -t'^A faint fog-like substance flows from corpse of (.+) to Vedir\'s lifeless eyes replenishing it (.+)\.$' = \
+	/send @tzarakk chaosfeed corpse;x vedir
+
+/def -p1000 -F-aBCred -msimple -t'The ice makes a sound below your mount, scaring it!' = \
+	/echo -aBCred *************** DISMOUNTED!! *************** %;\
+    /set dismounted=1
+
+/def -p10 -F -aBCred -msimple -t"You are knocked off your mount!" = \
+	/echo -aBCred *************** DISMOUNTED!! *************** %;\
+    /set dismounted=1
+
+/def -p1000 -F -msimple -t'Vedir appears in a violent burst of chaos.' = \
+    /send @mount vedir
+
+/def -p10000 -F -aBCred -mregexp -t'(.+) is DEAD, R.I.P.' = \
+    /if ({dismounted}) \
+        /send @mount vedir %;\
+    /endif
+
+/def -p10000 -F -msimple -t'You get up on Vedir and begin to ride.' = /set dismounted=0
 
 /def set_feed_mode = \
 	/send @rip_action set get all from corpse;tzarakk chaosfeed corpse;tzarakk chaosfeed corpse;drop zinc;drop mowgles
 
 /alias feed_mode /set_feed_mode
-/set_feed_mode
 
 /def set_heal_mode = \
 	/send @rip_action set get all from corpse;use harvest soul at corpse;drop zinc;drop mowgles
@@ -21,12 +39,27 @@
 
 /alias hunt_mode /set_hunt_mode
 
+/def do_sleep = \
+    /send @dismount;sleep
+
+/alias sleep /do_sleep
+
+/def -p10000 -F -msimple -t'You awaken from your short rest, and feel slightly better.' = \
+    /send @mount vedir
+
 /def cast_steed_of_tzarakk = \
 	/send @cast steed of tzarakk
 
 /alias cst /cast_steed_of_tzarakk
 
-/def -p10000 -F -msimple -t'A bizarre mist starts to form itself rapidly, and within moments a dark morbid' = /send @mount vedir
+/def -p10000 -F -msimple -t'A bizarre mist starts to form itself rapidly, and within moments a dark morbid' = \
+    /send @mount vedir %;\
+    /set_feed_mode
+
+/def cast_banish_mount = \
+    /send @cast banish mount
+
+/alias cdis /cast_banish_mount
 
 /def use_create_hunting_trophy = \
 	/send @use create hunting trophy at corpse

@@ -14,6 +14,10 @@
 	/echo -aBCred *************** DISMOUNTED!! *************** %;\
     /set dismounted=1
 
+/def -p10 -F -aBCred -msimple -t"Your mount throws you!" = \
+        /echo -aBCred *************** DISMOUNTED!! *************** %;\
+    /set dismounted=1
+
 /def -p1000 -F -msimple -t'Vedir appears in a violent burst of chaos.' = \
     /send @mount vedir
 
@@ -66,3 +70,7 @@
 
 /alias uht /use_create_hunting_trophy
 
+/def use_harvest_soul = \
+    /send @use harvest soul at corpse
+
+/alias uhs /use_harvest_soul

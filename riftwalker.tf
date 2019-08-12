@@ -12,7 +12,7 @@
 /set earth_skill=earthen cover
 
 ;; Init
-/set current_skill=earthen cover
+/set current_skill=blazing sunder
 
 /def set_entity_skill = \
 	/if ({*} =~ "fire") \

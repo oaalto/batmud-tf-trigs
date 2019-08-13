@@ -9,6 +9,9 @@
 /def -p1000 -F -aCgreen -msimple -t'A crumpled piece of paper flies through the air and you grab it!' = \
 	/send get paper;keep paper
 
+;; This requires battle listen all 1
+/def -p1000 -F -aCgreen -mregexp -t'Fire entity hits (.*) (once|twice|thrice) (.*).'
+
 ;; Entity Skills
 /set fire_skill=blazing sunder
 /set air_skill=suffocating embrace

@@ -6,6 +6,9 @@
 /def -p1000 -F -msimple -t'Your entity begins to warp, seeming to become unstable. It folds in on itself and vanishes!' = \
 	/set status_line_2=
 
+/def -p1000 -F -msimple -t'Your soul cries out in anguish as your faithful companion is slain!' = \
+	/set status_line_2=
+
 /def -p1000 -F -aCgreen -msimple -t'A crumpled piece of paper flies through the air and you grab it!' = \
 	/send get paper;keep paper
 

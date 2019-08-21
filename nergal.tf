@@ -56,6 +56,10 @@
 	/remove_minion_stats %{P1} %;\
 	/update_status_line_2
 
+/def -p1000 -F -mregexp -t'You end the connection to your parasite, making the host jerk couple of times violently. After couple of seconds (.+) collapses and stops moving at all.' = \
+	/remove_minion_stats %{P1} %;\
+	/update_status_line_2
+
 /def remove_minion_stats = \
 	/if ({minion_3_name} == {1}) \
 		/save_minion_3_stats %;\

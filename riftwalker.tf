@@ -10,10 +10,15 @@
 	/set status_line_2=
 
 /def -p1000 -F -aCgreen -msimple -t'A crumpled piece of paper flies through the air and you grab it!' = \
-	/send get paper;keep paper
+	/send keep paper
 
 ;; This requires battle listen all 1
 /def -p1000 -F -aCgreen -mregexp -t'Fire entity hits (.*) (once|twice|thrice) (.*).'
+
+/def -F -P1Cred -mregexp -t'(Fire entity)'
+/def -F -P1Ccyan -mregexp -t'(Air entity)'
+/def -F -P1Cblue -mregexp -t'(Water entity)'
+/def -F -P1Cyellow -mregexp -t'(Earth entity)'
 
 ;; Entity Skills
 /set fire_skill=blazing sunder

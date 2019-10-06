@@ -93,6 +93,9 @@
 ;; Crits
 /def -p10 -F -aCgreen -msimple -t"You feel like you managed to channel additional POWER to your spell."
 
+;; Death
+/def -p10 -F -P1BCred -mregexp -t"You are about to (DIE)!"
+
 ;; Essence Eye
 /def -p10 -F -P1BCyellow -mregexp -t"^(.+): ([#]+)$"
 /def -p10 -F -P2BCwhite -mregexp -t"^(.+): ([#]+)$"

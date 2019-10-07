@@ -36,7 +36,7 @@
 	/if (strlen({1}) > 0) \
 		/send cast invisibility at %{*} %;\
 	/else \
-		/send cast invisiblity at me %;\
+		/send cast invisibility at me %;\
 	/endif
 
 /alias cinv /cast_invisibility %{*}

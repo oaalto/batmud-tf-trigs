@@ -88,7 +88,6 @@
 /def -F -i -P1 -t"'(lecaps meeb nonnock)'"              translator_76=/substitute %{*} (Channelray)
 /def -F -i -P1 -t"'(grinurb sdan imflagrum)'"             translator_77=/substitute %{*} (Channelspray)
 /def -F -i -P1 -t"'(greeeenie fiiingerie)'"                 translator_78=/substitute %{*} (Create herb)
-/def -F -i -P1 -t"'(na ful)'"                               translator_79=/substitute %{*} (Darkness)
 /def -F -i -P1 -t"'(enfuego delmigo)'"                     translator_80=/substitute %{*} (Drain ally)
 /def -F -i -P1 -t"'(enfuego delvivendo)'"                  translator_81=/substitute %{*} (Drain enemy)
 /def -F -i -P1 -t"'(enfuego delcosa)'"                     translator_82=/substitute %{*} (Drain item)

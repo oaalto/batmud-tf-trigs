@@ -38,3 +38,6 @@
 	/else \
 		/send cast invisiblity at me %;\
 	/endif
+
+/alias cinv /cast_invisibility %{*}
+

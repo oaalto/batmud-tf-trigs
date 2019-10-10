@@ -17,3 +17,16 @@
 
 /alias cccw /cast_cause_critical_wounds %{*}
 
+;; Mellon Collie
+/def cast_mellon_collie = \
+        /send @target %{*};cast 'mellon collie' %{*} %;\
+
+/alias cmc /cast_mellon_colllie %{*}
+
+;; Aura of Hate
+/def cast_aura_of_hate = \
+	/send cast aura of hate
+
+/alias caoh /cast_aura_of_hate
+
+

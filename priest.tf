@@ -15,7 +15,7 @@
 /def cast_cause_critical_wounds =\
         /send @target %{*};cast 'cause critical wounds' %{*} %;\
 
-/alias cccw /cast_cause_critical_wounds %{*}
+/alias ccw /cast_cause_critical_wounds %{*}
 
 ;; Mellon Collie
 /def cast_mellon_collie = \

@@ -1,29 +1,35 @@
 ;; Foul Play
-/def use_foul_play =\
+/def use_foul_play = \
 	/send @target %{*};use 'foul play' %{*}
 
 /alias ufp /use_foul_play %{*}
 
 ;; Deceitful act of mercy
-/def use_act_of_mercy =\
+/def use_act_of_mercy = \
 	/send @target %{*};use 'deceitful act of mercy' %{*}
 
 /alias uam /use_act_of_mercy %{*}
 
+;; Feigned remorse
+/def use_feigned_remorse = \
+	/send @target %{*};use 'feigned remorse' %{*}
+
+/alias ufr /use_feigned_remorse
+
 ;; Scourge of dark steel
-/def use_scourge =\
+/def use_scourge = \
 	/send @target %{*};use 'scourge of dark steel' %{*}
 
 /alias usd /use_scourge %{*}
 
 ;; Vampiric blow
-/def use_vampiric_blow =\
+/def use_vampiric_blow = \
 	/send @target %{*};use 'vampiric blow' %{*}
 
 /alias uvb /use_vampiric_blow %{*}
 
 ;; Chaotic circulation
-/def use_chaotic_circulation =\
+/def use_chaotic_circulation = \
 	/send @use Chaotic circulation %;\
 
 /alias ucc /use_chaotic_circulation %{*}

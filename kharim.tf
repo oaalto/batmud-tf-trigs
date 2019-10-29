@@ -18,7 +18,7 @@
 
 ;; Scourge of dark steel
 /def use_scourge = \
-	/send @target %{*};use 'scourge of dark steel' %{*}
+	/send @kharim observe;target %{*};use 'scourge of dark steel' %{*}
 
 /alias usd /use_scourge %{*}
 

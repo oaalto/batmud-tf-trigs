@@ -1,6 +1,6 @@
 ;; Foul Play
 /def use_foul_play = \
-	/send @target %{*};use 'foul play' %{*}
+	/send @kharim observe;target %{*};use 'foul play' %{*}
 
 /alias ufp /use_foul_play %{*}
 

@@ -75,7 +75,7 @@
 
 /alias uhs /use_harvest_soul
 
-/def cast preserve_corpse = \
+/def cast_preserve_corpse = \
 	/send @cast preserve corpse at corpse
 
 /alias cpc /cast_preserve_corpse 

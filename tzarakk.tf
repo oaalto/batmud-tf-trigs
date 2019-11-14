@@ -51,6 +51,13 @@
 /def -p10000 -F -msimple -t'You awaken from your short rest, and feel slightly better.' = \
     /send @mount vedir
 
+/def -p10000 -F -msimple -t"You don't quite feel like camping at the moment."
+	/send @mount vedir
+
+;; Status line
+/def -p1000 -F -ag -mregexp -t'^Vedir is (.+) \((.+)%\)' = \
+	/set status_line_2=%{P0}
+
 /def cast_steed_of_tzarakk = \
 	/send @cast steed of tzarakk
 

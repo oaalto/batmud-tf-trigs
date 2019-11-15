@@ -51,7 +51,7 @@
 /def -p10000 -F -msimple -t'You awaken from your short rest, and feel slightly better.' = \
     /send @mount vedir
 
-/def -p10000 -F -msimple -t"You don't quite feel like camping at the moment."
+/def -p10000 -F -msimple -t"You don't quite feel like camping at the moment." = \
 	/send @mount vedir
 
 ;; Status line

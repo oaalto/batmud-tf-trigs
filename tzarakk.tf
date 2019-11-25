@@ -54,6 +54,9 @@
 /def -p10000 -F -msimple -t"You don't quite feel like camping at the moment." = \
 	/send @mount vedir
 
+/def -p10000 -F -msimple -t"You wake up!" = \
+        /send @mount vedir
+
 ;; Status line
 /def -p1000 -F -ag -mregexp -t'^Vedir is (.+) \((.+)%\)' = \
 	/set status_line_2=%{P0}

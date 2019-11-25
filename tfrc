@@ -112,3 +112,7 @@
 /def -p10 -F -aCblue -mregexp -t"(.+) spills some of (.+) essence." =\
 	/send @get all essence;keep all essence;put all essence in frame
 
+;; Poison
+/def -p1000 -F -P1BCred -mregexp -t"You shiver and suffer from (POISON)!!"
+/def -p1000 -F -aCred -msimple -t"You shiver and suffer from POISON!!"
+

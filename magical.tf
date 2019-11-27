@@ -57,3 +57,9 @@
 
 /alias cmm /cast_magic_missile %{*}
 
+;; Shocking Grasp
+/def cast_shocking_grasp = \
+	/send @target %{*};cast 'shocking grasp' %{*}
+
+/alias csg /cast_shocking_grasp %{*}
+

@@ -15,6 +15,8 @@
 ;; This requires battle listen all 1
 /def -p1000 -F -aCgreen -mregexp -t'(Fire|Air|Water|Earth) entity hits (.*) (once|twice|thrice) (.*).'
 
+/def -p1000 -F -aCred -mregexp -t"(Fire|Air|Water|Earth) entity is stunned."
+
 /def -F -P1Cred -mregexp -t'(Fire entity)'
 /def -F -P1Ccyan -mregexp -t'(Air entity)'
 /def -F -P1Cblue -mregexp -t'(Water entity)'

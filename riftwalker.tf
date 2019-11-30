@@ -42,12 +42,23 @@
 	/else \
 		/echo Unknown skill %{*}! %;\
 	/endif %;\
-	/echo -aBCwhite Current entity skill is %{current_skill} %;\
 	/set has_entity=1
 
 /alias ufire /set_entity_skill fire
 /alias uair /set_entity_skill air
 /alias uearth /set_entity_skill earth
+
+/def -p1000 -F -mregexp -t"(.*) fire entity (.*) with power \[yours\]" = \
+	/set_entity_skill fire
+
+/def -p1000 -F -mregexp -t"(.*) air entity (.*) with power \[yours\]" = \
+        /set_entity_skill air
+
+/def -p1000 -F -mregexp -t"(.*) water entity (.*) with power \[yours\]" = \
+        /set_entity_skill water
+
+/def -p1000 -F -mregexp -t"(.*) earth entity (.*) with power \[yours\]" = \
+        /set_entity_skill earth
 
 /def use_current_skill = \
 	/send @target %{*};gem cmd target %{*};gem cmd use '%{current_skill}' %{*}

@@ -34,7 +34,6 @@
 
 ;; Force shield
 /def cast_force_shield = \
-	/echo has entity: %{has_entity} %;\
 	/if (strlen({1}) > 0) \
 		/send @cast 'force shield' %{*} %;\
 	/elseif ({has_entity}) \

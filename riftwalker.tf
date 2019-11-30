@@ -1,3 +1,5 @@
+/set has_entity=0
+
 ;; Status line
 
 /def -p1000 -F -ag -mregexp -t'^--=  (.+)  HP:(.+)\((.+)\) \[(.*)\] \[(.*)\] \[(.*)\]  =--$' = \
@@ -40,7 +42,8 @@
 	/else \
 		/echo Unknown skill %{*}! %;\
 	/endif %;\
-	/echo -aBCwhite Current entity skill is %{current_skill}
+	/echo -aBCwhite Current entity skill is %{current_skill} %;\
+	/set has_entity=1
 
 /alias ufire /set_entity_skill fire
 /alias uair /set_entity_skill air
@@ -67,12 +70,14 @@
 /def summon_entity = \
 	/send @cast summon rift entity at %{*} %;\
 	/set_entity_skill %{*}
+	/set has_entity=1
 
 /alias csum /summon_entity %{*}
 
 ;; Dismiss rift entity
 /def dismiss_entity = \
 	/send @cast dismiss rift entity
+	/set has_entity=0
 
 /alias cdis /dismiss_entity
 
@@ -160,12 +165,6 @@
 	/endif
 
 /alias ciw /cast_iron_will %{*}
-
-;; Force shield (Psionicist)
-/def cast_force_shield_at_entity = \
-	/send @cast force shield at entity
-
-/alias cfse /cast_force_shield_at_entity
 
 /def -p10 -F -aCcyan -mregexp -t"[A|An] (.+) air entity (.+) with power \[yours\]"
 /def -p10 -F -aCred -mregexp -t"[A|An] (.+) fire entity (.+) with power \[yours\]"

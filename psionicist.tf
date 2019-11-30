@@ -33,9 +33,12 @@
 /alias cmd /cast_mind_disruption %{*}
 
 ;; Force shield
-/def cast_force_shield =\
-	/if (strlen({1}) > 0)\
+/def cast_force_shield = \
+	/echo has entity: %{has_entity} %;\
+	/if (strlen({1}) > 0) \
 		/send @cast 'force shield' %{*} %;\
+	/elseif ({has_entity}) \
+		/send @cast force shield at entity %;\
 	/else \
 		/send @cast force shield at me %;\
 	/endif

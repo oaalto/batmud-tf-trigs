@@ -1,3 +1,6 @@
+;; Battle cadence
+/def -p1000 -F -aCblue -msimple -t"Your battle cadence grants you another attack!"
+
 ;; Lounging
 /def use_lounging = \
 	/send use lounging

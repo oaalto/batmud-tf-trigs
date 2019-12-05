@@ -1,0 +1,26 @@
+Attacks:
+
+Sabre lunge: simpliest and most common attack technique
+	* Stick them with the pointy end
+Sabre remise: complicated attack technique
+	* Get a new hit if missed or parried
+Sabre trompement: difficult attack technique
+	* After avoiding opponent's parry
+Sabre riposte: extremely challenging attack technique
+	* Counter-attack after opponents blow
+
+Defence:
+
+Sabre parry: simpliest and most common defense technique
+	* Parry opponent's blow
+Sabre feint: complicated defense technique
+	* Feint: an attack into one line with the intention of switching to another line before the attack is completed. Used to draw your adversary away from the true attack.
+Sabre derobement: difficult defence technique
+	* Dodge type deception
+Sabre invito: extremely challenging defence technique
+	* Invite opponent to attack then attack yourself
+
+Other:
+
+Sabre tension parry: most difficult fencing technique
+	* Parry?

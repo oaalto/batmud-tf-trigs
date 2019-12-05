@@ -11,3 +11,6 @@
 ;; Sprite
 /def -p10 -F -aBCyellow -msimple -t"Your wings glow as they absorb more magic!"
 
+;; Catfolk
+/def -p10 -F -aCgreen -msimple -t"Whee, your neat fur is dry again!"
+

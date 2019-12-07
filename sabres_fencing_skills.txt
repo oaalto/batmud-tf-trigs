@@ -24,3 +24,8 @@ Other:
 
 Sabre tension parry: most difficult fencing technique
 	* Parry?
+
+Combinations:
+
+Feint before lunge makes the lunge do more damage.
+

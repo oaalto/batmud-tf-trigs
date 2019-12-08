@@ -21,7 +21,7 @@
 	/if (strlen({*}) > 0) \
 		/send @target %{*};cast poison blast at %{*} %;\
 	/else \
-		/send cast 'poison blast'
+		/send cast 'poison blast' %;\
 	/endif
 
 /alias cpb /cast_poison_blast %{*}

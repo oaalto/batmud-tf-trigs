@@ -16,3 +16,13 @@
 
 /alias upl /use_plant_lore %{*}
 
+;; Poison blast
+/def cast_poison_blast = \
+	/if (strlen({*}) > 0) \
+		/send @target %{*};cast poison blast at %{*} %;\
+	/else \
+		/send cast 'poison blast'
+	/endif
+
+/alias cpb /cast_poison_blast %{*}
+

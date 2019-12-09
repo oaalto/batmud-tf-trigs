@@ -26,3 +26,13 @@
 
 /alias cpb /cast_poison_blast %{*}
 
+;; Herbal healing
+/def cast_herbal_healing = \
+	/if (strlen({*}) > 0) \
+		/send @cast 'herbal healing' %{*} use herb %;\
+	/else \
+		/send @cast 'herbal healing' me use herb %;\
+	/endif
+
+/alias chh /cast_herbal_healing %{*}
+

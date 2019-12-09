@@ -36,3 +36,13 @@
 
 /alias chh /cast_herbal_healing %{*}
 
+;; Minor protection
+/def cast_minor_protection = \
+	/if (strlen({*}) \
+		/send @cast 'minor protection' %{*} %;\
+	/else \
+		/send @cast 'minor protection' me %;\
+	/endif
+
+/alias cmp /cast_minor_protection
+

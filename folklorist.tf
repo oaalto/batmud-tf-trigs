@@ -38,7 +38,7 @@
 
 ;; Minor protection
 /def cast_minor_protection = \
-	/if (strlen({*}) \
+	/if (strlen({*})) \
 		/send @cast 'minor protection' %{*} %;\
 	/else \
 		/send @cast 'minor protection' me %;\

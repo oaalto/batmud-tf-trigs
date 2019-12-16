@@ -26,6 +26,16 @@
 
 /alias cpb /cast_poison_blast %{*}
 
+;; Venom strike
+/def cast_venom_strike = \
+	/if (strlen({*}) > 0) \
+		/send @target %{*};cast venom strike at %{*} %;\
+	/else \
+		/send @cast 'venom strike' %;\
+	/endif
+
+/alias cvs /cast_venom_strike %{*}
+
 ;; Herbal healing
 /def cast_herbal_healing = \
 	/if (strlen({*}) > 0) \

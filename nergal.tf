@@ -149,7 +149,7 @@
 ;; Foul Drought
 /def -aCgreen -mregexp -t"(.*) manages to scratch (.*) skin infecting the tissue under the skin with nasty disease"
 
-/def -aCgreen -mregexp -t"(.*) plunges towards (.*) and manages to sink its disease infecting nails into his flesh!"
+/def -aCgreen -mregexp -t"(.*) plunges towards (.*) and manages to sink its disease infecting nails into (.*) flesh!"
 
 /def -aCgreen -mregexp -t"(.*) is suffering from dehydration"
 

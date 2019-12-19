@@ -8,6 +8,8 @@
 /def -p10 -F -aCgreen -mregexp -t"You hear deep inside your head the parasite whispering to you secrets of"
 /def -p10 -F -aCblue -mregexp -t"looks relieved as the aether line fades away!"
 
+/def -p10 -F -aCred -msimple -t"Your body can't handle any more of vitae!"
+
 /def -p10000 -F -mregexp -t'DEAD, R.I.P.' mob_dead_nergal =\
         /send @nergal sc
 

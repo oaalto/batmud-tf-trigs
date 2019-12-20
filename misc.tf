@@ -14,3 +14,5 @@
 ;; Catfolk
 /def -p10 -F -aCgreen -msimple -t"Whee, your neat fur is dry again!"
 
+;; Centaur
+/def -p10 -F -aBCyellow -msimple -t"You gain insight to warhorse philosophy!"

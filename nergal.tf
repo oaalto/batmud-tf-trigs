@@ -131,6 +131,12 @@
 
 /alias cne /cast_nourish_enthralled %{*}
 
+;; Call forth enthralled
+/def cast_call_forth_enthralled = \
+	/send cast call forth enthralled at %{*}
+
+/alias cce /cast_call_forth_enthralled %{*}
+
 ;; SKILLS
 
 ;; Embrace the Gifts

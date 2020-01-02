@@ -9,6 +9,7 @@
 /def -p10 -F -aCblue -mregexp -t"looks relieved as the aether line fades away!"
 
 /def -p10 -F -aCred -msimple -t"Your body can't handle any more of vitae!"
+/def -p10 -F -aCred -msimple -t"Your body can't handle any more of potentia!"
 
 /def -p10000 -F -mregexp -t'DEAD, R.I.P.' mob_dead_nergal =\
         /send @nergal sc
@@ -30,28 +31,28 @@
 	/endif
 
 /def save_minion_stats = \
-	/if (strlen({minion_1_name}) == 0 | {1} == {minion_1_name}) \
+	/if (strlen({minion_1_name}) == 0 | {1} =~ {minion_1_name}) \
 		$[save_minion_1_stats({1}, {2}, {3})] %;\
-	/elseif (strlen({minion_2_name}) == 0 | {1} == {minion_2_name}) \
+	/elseif (strlen({minion_2_name}) == 0 | {1} =~ {minion_2_name}) \
                 $[save_minion_2_stats({1}, {2}, {3})] %;\
-	/elseif (strlen({minion_3_name}) == 0 | {1} == {minion_3_name}) \
+	/elseif (strlen({minion_3_name}) == 0 | {1} =~ {minion_3_name}) \
                 $[save_minion_3_stats({1}, {2}, {3})] %;\
 	/endif
 
 /def save_minion_1_stats = \
 	/set minion_1_name=$[set_white({1})] %;\
         /set minion_1_hp=%{2} %;\
-        /set minion_1_sp=%{3} %;\
+        /set minion_1_sp=%{3}
 
 /def save_minion_2_stats = \
         /set minion_2_name=$[set_white({1})] %;\
         /set minion_2_hp=%{2} %;\
-        /set minion_2_sp=%{3} %;\
+        /set minion_2_sp=%{3}
 
 /def save_minion_3_stats = \
         /set minion_3_name=$[set_white({1})] %;\
         /set minion_3_hp=%{2} %;\
-        /set minion_3_sp=%{3} %;\
+        /set minion_3_sp=%{3}
 
 ;; Remove from status line when unsummoning
 /def -p1000 -F -mregexp -t'^Your connection to your parasite is severed completely. (.+) jerks violently couple of times and collapses.$' = \

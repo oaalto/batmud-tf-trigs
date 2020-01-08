@@ -1,7 +1,10 @@
 /set dismounted=0
+/set mount_summoned=0
 
 /def -p10000 -F -mregexp -t'^[\*]+ Round .* [\*]+$' = \
-	/send @x vedir
+	/if ({mount_summoned}) \
+		/send @x vedir %;\
+	/endif
 
 /def -p10000 -F -mregexp -t'^A faint fog-like substance flows from corpse of (.+) to Vedir\'s lifeless eyes replenishing it (.+)\.$' = \
 	/send @tzarakk chaosfeed corpse;x vedir
@@ -38,11 +41,6 @@
 
 /alias heal_mode /set_heal_mode
 
-/def set_hunt_mode = \
-        /send @rip_action set get all from corpse;tzarakk chaosfeed corpse;drop zinc;drop mowgles
-
-/alias hunt_mode /set_hunt_mode
-
 /def do_sleep = \
     /send @dismount;sleep
 
@@ -68,12 +66,17 @@
 
 /def -p10000 -F -msimple -t'A bizarre mist starts to form itself rapidly, and within moments a dark morbid' = \
     /send @mount vedir %;\
+    /set mount_summoned=1 %;\
     /set_feed_mode
 
 /def cast_banish_mount = \
     /send @cast banish mount
 
 /alias cdis /cast_banish_mount
+
+/def -p1000 -F -regexp -t"You pray for Tzarakk to receive his mount." = \
+	/set mount_summoned=0 %;\
+	/send @rip_action set get all from corpse;dig grave;drop zinc;drop mowgles	
 
 /def use_create_hunting_trophy = \
 	/send @use create hunting trophy at corpse

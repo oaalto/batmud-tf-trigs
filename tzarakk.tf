@@ -29,7 +29,7 @@
 /def -p10000 -F -msimple -t'You get up on Vedir and begin to ride.' = /set dismounted=0
 
 /def set_feed_mode = \
-	/send @rip_action set get all from corpse;tzarakk chaosfeed corpse;tzarakk chaosfeed corpse;drop zinc;drop mowgles
+	/send @rip_action set get all from corpse;tzarakk chaosfeed corpse;drop zinc;drop mowgles
 
 /alias feed_mode /set_feed_mode
 

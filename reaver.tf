@@ -62,6 +62,8 @@
 	/endif %;\
 	/send use 'corrosive cut' %{*}
 
+/alias ucc /use_corrosive_cut %{*}
+
 ;; Prayer to Destruction
 /def use_prayer_to_destruction = \
 	/if (strlen({1}) > 0) \

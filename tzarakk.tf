@@ -60,7 +60,7 @@
 /def -p10000 -F -msimple -t"You wake up!" = \
         /send @mount vedir
 
-/def -p1000 -F -msimple"It'll be inconvenient to camp here with all this water." = \
+/def -p1000 -F -msimple -t"It'll be inconvenient to camp here with all this water." = \
 	/send @mount vedir
 
 ;; Status line

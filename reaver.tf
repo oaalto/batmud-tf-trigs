@@ -17,30 +17,50 @@
 ;; Scythe Swipe
 /def use_scythe_swipe = \
 	/reaver_threaten %{*} %;\
-	/send @target %{*};use 'scythe swipe' %{*}
+	/if (strlen({1}) > 0) \
+                /send @target %{*} %;\
+        /endif %;\
+	/send use 'scythe swipe' %{*}
 
 /alias us /use_scythe_swipe %{*}
 
 ;; Rampant Cutting
 /def use_rampant_cutting = \
 	/reaver_threaten %{*} %;\
-	/send @target %{*};use 'rampant cutting' %{*}
+	/if (strlen({1}) > 0) \
+                /send @target %{*} %;\
+        /endif %;\
+	/send use 'rampant cutting' %{*}
 
 /alias ur /use_rampant_cutting %{*}
 
 ;; Reaver strike
 /def use_reaver_strike = \
 	/reaver_threaten %{*} %;\
-	/send @target %{*};use 'reaver strike' %{*}
+	/if (strlen({1}) > 0) \
+                /send @target %{*} %;\
+        /endif %;\
+	/send use 'reaver strike' %{*}
 
 /alias urs /use_reaver_strike %{*}
 
 ;; True Reaving
 /def use_true_reaving = \
 	/reaver_threaten %{*} %;\
-	/send @target %{*};use 'true reaving' %{*}
+	/if (strlen({1}) > 0) \
+                /send @target %{*} %;\
+        /endif %;\
+	/send use 'true reaving' %{*}
 
 /alias utr /use_true_reaving %{*}
+
+;; Corrosive cut
+/def use_corrosive_cut = \
+	/reaver_threaten %{*} %;\
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif %;\
+	/send use 'corrosive cut' %{*}
 
 ;; Prayer to Destruction
 /def use_prayer_to_destruction = \
@@ -69,28 +89,40 @@
 ;; Word of Spite
 /def cast_word_of_spite = \
 	/reaver_threaten %{*} %;\
-	/send @target %{*};cast 'word of spite' %{*}
+	/if (strlen({1}) > 0) \
+                /send @target %{*} %;\
+        /endif %;\
+	/send cast 'word of spite' %{*}
 
 /alias cs /cast_word_of_spite %{*}
 
 ;; Word of Blasting
 /def cast_word_of_blasting = \
 	/reaver_threaten %{*} %;\
-	/send @target %{*};cast 'word of blasting' %{*}
+	/if (strlen({1}) > 0) \
+                /send @target %{*} %;\
+        /endif %;\
+	/send cast 'word of blasting' %{*}
 
 /alias cb /cast_word_of_blasting %{*}
 
 ;; Word of Destruction
 /def cast_word_of_destruction = \
 	/reaver_threaten %{*} %;\
-	/send @target %{*};cast 'word of destruction' %{*}
+	/if (strlen({1}) > 0) \
+                /send @target %{*} %;\
+        /endif %;\
+	/send cast 'word of destruction' %{*}
 
 /alias cwd /cast_word_of_destruction %{*}
 
 ;; Word of Slaughter
 /def cast_word_of_slaughter = \
         /reaver_threaten %{*} %;\
-        /send @target %{*};cast 'word of slaughter' %{*}
+	/if (strlen({1}) > 0) \
+                /send @target %{*} %;\
+        /endif %;\ 
+        /send cast 'word of slaughter' %{*}
 
 /alias cws /cast_word_of_slaughter %{*}
 

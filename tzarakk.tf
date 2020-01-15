@@ -84,7 +84,8 @@
 
 /def -p1000 -F -regexp -t"You pray for Tzarakk to receive his mount." = \
 	/set mount_summoned=0 %;\
-	/send @rip_action set get all from corpse;dig grave;drop zinc;drop mowgles	
+	/send @rip_action set get all from corpse;dig grave;drop zinc;drop mowgles %;\
+	/set status_line_2=
 
 /def use_create_hunting_trophy = \
 	/send @use create hunting trophy at corpse

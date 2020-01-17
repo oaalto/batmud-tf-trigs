@@ -44,6 +44,16 @@
 
 /alias urs /use_reaver_strike %{*}
 
+;; Blood harvest
+/def use_blood_harvest = \
+	/reaver_threaten %{*} %;\
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif %;\
+	/send use 'blood harvest' %{*}
+
+/alias ubh /use_blood_harvest %{*}
+
 ;; True Reaving
 /def use_true_reaving = \
 	/reaver_threaten %{*} %;\

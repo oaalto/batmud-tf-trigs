@@ -82,7 +82,7 @@
 
 /alias cdis /cast_banish_mount
 
-/def -p1000 -F -regexp -t"You pray for Tzarakk to receive his mount." = \
+/def -p1000 -F -rsimple -t"You pray for Tzarakk to receive his mount." = \
 	/set mount_summoned=0 %;\
 	/send @rip_action set get all from corpse;dig grave;drop zinc;drop mowgles %;\
 	/set status_line_2=

@@ -229,6 +229,7 @@
 
 /def -p10 -F -aBCred -mregexp -t"Your frenzied attempts to destroy (.+) are easily deflected."
 
+/def -p10 -F -aCblue -mregexp -t"You score a nasty cut on (.+) shoulder."
 /def -p10 -F -aCblue -mregexp -t"You cut (.+) arm open with a powerful strike."
 /def -p10 -F -aCblue -mregexp -t"You attack and swing again"
 /def -p10 -F -aCblue -mregexp -t"You attack and swing a THIRD time"

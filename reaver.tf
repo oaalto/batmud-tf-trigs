@@ -16,8 +16,8 @@
 
 ;; Scythe Swipe
 /def use_scythe_swipe = \
-	/reaver_threaten %{*} %;\
 	/if (strlen({1}) > 0) \
+		/reaver_threaten %{*} %;\
                 /send @target %{*} %;\
         /endif %;\
 	/send use 'scythe swipe' %{*}
@@ -26,8 +26,8 @@
 
 ;; Rampant Cutting
 /def use_rampant_cutting = \
-	/reaver_threaten %{*} %;\
 	/if (strlen({1}) > 0) \
+		/reaver_threaten %{*} %;\
                 /send @target %{*} %;\
         /endif %;\
 	/send use 'rampant cutting' %{*}
@@ -36,8 +36,8 @@
 
 ;; Reaver strike
 /def use_reaver_strike = \
-	/reaver_threaten %{*} %;\
 	/if (strlen({1}) > 0) \
+		/reaver_threaten %{*} %;\
                 /send @target %{*} %;\
         /endif %;\
 	/send use 'reaver strike' %{*}
@@ -46,8 +46,8 @@
 
 ;; Blood harvest
 /def use_blood_harvest = \
-	/reaver_threaten %{*} %;\
 	/if (strlen({1}) > 0) \
+		/reaver_threaten %{*} %;\
 		/send @target %{*} %;\
 	/endif %;\
 	/send use 'blood harvest' %{*}
@@ -56,8 +56,8 @@
 
 ;; True Reaving
 /def use_true_reaving = \
-	/reaver_threaten %{*} %;\
 	/if (strlen({1}) > 0) \
+		/reaver_threaten %{*} %;\
                 /send @target %{*} %;\
         /endif %;\
 	/send use 'true reaving' %{*}
@@ -66,13 +66,22 @@
 
 ;; Corrosive cut
 /def use_corrosive_cut = \
-	/reaver_threaten %{*} %;\
 	/if (strlen({1}) > 0) \
+		/reaver_threaten %{*} %;\
 		/send @target %{*} %;\
 	/endif %;\
 	/send use 'corrosive cut' %{*}
 
 /alias ucc /use_corrosive_cut %{*}
+
+/def use_breath_of_doom = \
+	/if (strlen({1}) > 0) \
+		/reaver_threaten %{*} %;\
+		/send @target %{*} %;\
+	/endif %;\
+	/send @use 'breath of doom' %{*}
+
+/alias ubd /use_breath_of_doom %{*}
 
 ;; Prayer to Destruction
 /def use_prayer_to_destruction = \

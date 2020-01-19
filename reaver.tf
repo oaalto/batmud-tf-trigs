@@ -229,9 +229,12 @@
 
 /def -p10 -F -aBCred -mregexp -t"Your frenzied attempts to destroy (.+) are easily deflected."
 
+/def -p10 -F -aCblue -mregexp -t"You cut (.+) arm open with a powerful strike."
 /def -p10 -F -aCblue -mregexp -t"You attack and swing again"
 /def -p10 -F -aCblue -mregexp -t"You attack and swing a THIRD time"
-
+/def -p10 -F -aCblue -mregexp -t"You follow with a third strike to the cheek, coating (.+) face with blood!"
+/def -p10 -F -aCblue -mregexp -t"You attack and immediately hit (.+) stomach, throwing a crimson spray!"
+/def -p10 -F -aCblue -mregexp -t"You FINALLY shove your weapon right through (.+) chest!"
 /def -p10 -F -aBCred -mregexp -t"(.+) shifts position and you cannot hit the (.+) time."
 
 

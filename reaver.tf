@@ -52,7 +52,7 @@
 	/endif %;\
 	/send use 'blood harvest' %{*}
 
-/alias ubh /use_blood_harvest %{*}
+/alias dm /use_blood_harvest %{*}
 
 ;; True Reaving
 /def use_true_reaving = \

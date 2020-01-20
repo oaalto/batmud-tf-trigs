@@ -25,6 +25,16 @@
 
 /def -p10000 -F -aBCred -mregexp -t'(.+) is DEAD, R.I.P.' = /send @scan
 
+/def -p1000 -F -aCgreen -mregexp -t"Fueryon hits (.+) (once|twice|thrice) (.+)."
+/def -p1000 -F -P2Cblue -mregexp -t"Fueryon hits (.+) (once) (.+)."
+/def -p1000 -F -P2Cmagenta -mregexp -t"Fueryon hits (.+) (twice) (.+)."
+/def -p1000 -F -P2Cred -mregexp -t"Fueryon hits (.+) (thrice) (.+)."
+
+/def -p1000 -F -aCmagenta -mregexp -t"(.+) hits Fueryon (once|twice|thrice) (.+)."
+/def -p1000 -F -P2Cblue -mregexp -t"(.+) hits Fueryon (once) (.+)."
+/def -p1000 -F -P2Cmagenta -mregexp -t"(.+) hits Fueryon (twice) (.+)."
+/def -p1000 -F -P2Cred -mregexp -t"(.+) hits Fueryon (thrice) (.+)."
+
 ;; Mob Shapes
 /def -p10 -F -aBCgreen -mregexp -t"is in excellent shape"
 /def -p10 -F -aCgreen -mregexp -t"is in a good shape"
@@ -49,8 +59,10 @@
 /def -p10 -F -aBCyellow -msimple -t"You feel like camping a little."
 
 ;; Stunned
+/def -p10 -F -aBCred -msimple -t"You are stunned."
 /def -p10 -F -aBCgreen -msimple -t"You are no longer stunned."
 /def -p10 -F -aBCgreen -msimple -t"Your inner strength keeps your head clear!"
+/def -p10 -F -aBCgreen -msimple -t"...BUT you break it off."
 /def -p10 -F -aBCgreen -msimple -t"...BUT you break it off with intense concentration."
 
 /def -p10 -F -aBCred -msimple -t"You get hit, and your eyes lose focus slightly." =\

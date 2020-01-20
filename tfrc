@@ -32,7 +32,7 @@
 
 /def -p1000 -F -aCmagenta -mregexp -t"(.+) hits Fueryon (once|twice|thrice) (.+)."
 /def -p1000 -F -P2Cblue -mregexp -t"(.+) hits Fueryon (once) (.+)."
-/def -p1000 -F -P2Cmagenta -mregexp -t"(.+) hits Fueryon (twice) (.+)."
+/def -p1000 -F -P2BCmagenta -mregexp -t"(.+) hits Fueryon (twice) (.+)."
 /def -p1000 -F -P2Cred -mregexp -t"(.+) hits Fueryon (thrice) (.+)."
 
 ;; Mob Shapes

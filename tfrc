@@ -4,20 +4,20 @@
 /load batmud-tf-trigs/spellnames.tf
 /load batmud-tf-trigs/misc.tf
 /load batmud-tf-trigs/tarmalen.tf
-/load batmud-tf-trigs/magical.tf
-/load batmud-tf-trigs/riftwalker.tf
-/load batmud-tf-trigs/mage_lightning.tf
+;;/load batmud-tf-trigs/magical.tf
+;;/load batmud-tf-trigs/riftwalker.tf
+;;/load batmud-tf-trigs/mage_lightning.tf
 /load batmud-tf-trigs/disciple.tf
 /load batmud-tf-trigs/kharim.tf
-/load batmud-tf-trigs/nergal.tf
+;;/load batmud-tf-trigs/nergal.tf
 /load batmud-tf-trigs/priest.tf
-/load batmud-tf-trigs/tiger.tf
+;;/load batmud-tf-trigs/tiger.tf
 /load batmud-tf-trigs/reaver.tf
-/load batmud-tf-trigs/tzarakk.tf
-/load batmud-tf-trigs/psionicist.tf
-/load batmud-tf-trigs/monk.tf
-/load batmud-tf-trigs/liberator.tf
-/load batmud-tf-trigs/animist.tf
+;;/load batmud-tf-trigs/tzarakk.tf
+;;/load batmud-tf-trigs/psionicist.tf
+;;/load batmud-tf-trigs/monk.tf
+;;/load batmud-tf-trigs/liberator.tf
+;;/load batmud-tf-trigs/animist.tf
 
 /def -p10000 -F -mregexp -t'^[\*]+ Round .* [\*]+$' battle_round =\
 	/send @scan all %;\

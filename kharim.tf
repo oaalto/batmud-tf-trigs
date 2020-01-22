@@ -41,5 +41,5 @@
 ;; Rip action
 /def kharim_rip_action = /send @rip_action set get all from corpse;kharim drain corpse;drop zinc;drop mowgles
 
-/alias kahrim_rip /kharim_rip_action
+/alias kharim_rip /kharim_rip_action
 

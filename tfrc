@@ -18,26 +18,14 @@
 ;;/load batmud-tf-trigs/monk.tf
 ;;/load batmud-tf-trigs/liberator.tf
 ;;/load batmud-tf-trigs/animist.tf
-
-/set player_name=
+;;/load batmud-tf-trigs/odefu.tf
+;;/load batmud-tf-trigs/fueryon.tf
 
 /def -p10000 -F -mregexp -t'^[\*]+ Round .* [\*]+$' battle_round =\
 	/send @scan all %;\
 	/send @sc
 
 /def -p10000 -F -aBCred -mregexp -t'(.+) is DEAD, R.I.P.' = /send @scan
-
-/def -p1000 -F -aCgreen -mregexp -t"${player_name} hits (.+) (once|twice|thrice) (.+)."
-/def -p1000 -F -P2Cblue -mregexp -t"${player_name} hits (.+) (once) (.+)."
-/def -p1000 -F -P2Cmagenta -mregexp -t"${player_name} hits (.+) (twice) (.+)."
-/def -p1000 -F -P2Cred -mregexp -t"${player_name} hits (.+) (thrice) (.+)."
-/def -p1000 -F -P2BCred -mregexp -t"${player_name} hits (.+) (\d+ times) (.+)."
-
-/def -p1000 -F -aCmagenta -mregexp -t"(.+) hits ${player_name} (once|twice|thrice) (.+)."
-/def -p1000 -F -P2Cblue -mregexp -t"(.+) hits ${player_name} (once) (.+)."
-/def -p1000 -F -P2BCmagenta -mregexp -t"(.+) hits ${player_name} (twice) (.+)."
-/def -p1000 -F -P2Cred -mregexp -t"(.+) hits ${player_name} (thrice) (.+)."
-/def -p1000 -F -P2BCred -mregexp -t"(.+) hits ${player_name} (\d+ times) (.+)."
 
 ;; Mob Shapes
 /def -p10 -F -aBCgreen -mregexp -t"is in excellent shape"

@@ -8,6 +8,7 @@
 /def -p1000 -F -P2Cblue -mregexp -t"(.+) hits Odefu (once) (.+)."
 /def -p1000 -F -P2BCmagenta -mregexp -t"(.+) hits Odefu (twice) (.+)."
 /def -p1000 -F -P2Cred -mregexp -t"(.+) hits Odefu (thrice) (.+)."
+/def -p1000 -F -P2BCmagenta -mregexp -t"(.+) hits Odefu (\d+ times) (.+)."
 /def -p1000 -F -P2BCred -mregexp -t"(.+) hits Odefu (\d+ times) (.+)."
 
 

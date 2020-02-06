@@ -17,11 +17,17 @@
 
 /alias kata /use_kata %{*}
 
-/def -p10000 -F -msimple -t'You perform the kata.' kata_success =\
+/def -p10000 -F -msimple -t'You perform the kata.' = \
 	/set kata_done=1 %;\
 	/if ({doing_meditation})\
 		/use_meditation %;\
 	/endif
+
+/def -p10000 -F -msimple -t'You perform the peaceful Heian Nidan kata.' =
+        /set kata_done=1 %;\
+        /if ({doing_meditation})\
+                /use_meditation %;\
+        /endif
 
 ;; Meditation
 /def use_meditation =\

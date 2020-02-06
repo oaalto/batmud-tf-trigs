@@ -3,6 +3,29 @@
 
 ;; NORMAL SKILLS
 
+;; Kiai-cry
+/def use_kiai_cry = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*};use kiai-cry at %{*} %;\
+	/endif
+
+/alias cs /use_kiai_cry %{*}
+
+;; Joint lock
+/def use_join_lock = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif \
+	/send @use 'join lock' %{*}
+
+/alias ujl /use_joint_lock %{*}
+
+;; Skulking
+/def use_skulking = \
+	/send @use skulking
+
+/alias usk /use_skulking
+
 ;; Iron Palm
 /def use_iron_palm =\
 	/monkskillinterrupt %;\

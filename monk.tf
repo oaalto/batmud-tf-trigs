@@ -5,6 +5,7 @@
 
 ;; Kiai-cry
 /def use_kiai_cry = \
+	/monkskillinterrupt %;\
 	/if (strlen({1}) > 0) \
 		/send @target %{*};use kiai-cry at %{*} %;\
 	/endif
@@ -12,16 +13,28 @@
 /alias cs /use_kiai_cry %{*}
 
 ;; Joint lock
-/def use_join_lock = \
+/def use_joint_lock = \
+	/monkskillinterrupt %;\
 	/if (strlen({1}) > 0) \
 		/send @target %{*} %;\
-	/endif \
-	/send @use 'join lock' %{*}
+	/endif %;\
+	/send @use 'joint lock' %{*}
 
 /alias ujl /use_joint_lock %{*}
 
+;; Pattern weave
+/def use_pattern_weave = \
+	/monkskillinterrupt %;\
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif %;\
+	/send @use 'pattern weave' %{*}
+
+/alias upw /use_pattern_weave %{*}
+
 ;; Skulking
 /def use_skulking = \
+	/monkskillinterrupt %;\
 	/send @use skulking
 
 /alias usk /use_skulking

@@ -67,15 +67,21 @@
 
 ;; Show Entity stats
 /def gem_entity = \
-	/if ({current_skill} =~ {fire_skill}) \
-		/send @gem entities fire %;\
-	/elseif ({current_skill} =~ {air_skill}) \
-		/send @gem entities air %;\
-	/elseif ({current_skill} =~ {earth_skill}) \
-		/send @gem entities earth %;\
+	/if (strlen({1}) > 0) \
+		/send @gem entities %{*} %;\
+	/else \
+		/if ({current_skill} =~ {fire_skill}) \
+			/send @gem entities fire %;\
+		/elseif ({current_skill} =~ {air_skill}) \
+			/send @gem entities air %;\
+		/elseif ({current_skill} =~ {water_skill}) \
+        	        /send @gem entities water %;\
+		/elseif ({current_skill} =~ {earth_skill}) \
+			/send @gem entities earth %;\
+		/endif %;\
 	/endif
 
-/alias estat /gem_entity
+/alias estat /gem_entity %{*}
 
 ;; Summon rift entity
 /def summon_entity = \

@@ -63,3 +63,11 @@
 
 /alias csg /cast_shocking_grasp %{*}
 
+;; Analysis of Magic Lore
+/def -p10 -F -P2Cgreen -mregexp -t"(.+) (screams in pain.)"
+/def -p10 -F -P2Cblue -mregexp -t"(.+) (writhes in agony.)"
+/def -p10 -F -P2Ccyan -mregexp -t"(.+) (shudders from the force of the attack.)"
+/def -p10 -F -P2Cyellow -mregexp -t"(.+) (grunts from the pain.)"
+/def -p10 -F -P2Cmagenta -mregexp -t"(.+) (winces a little from the pain.)"
+/def -p10 -F -P2Cred -mregexp -t"(.+) (shrugs off the attack.)"
+

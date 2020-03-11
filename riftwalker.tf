@@ -202,7 +202,7 @@
 /def -p10 -F -aBCred -msimple -t"Your fire entity does some strange combat maneuver but doesn't hit anything."
 /def -p10 -F -P1BCblue -mregexp -t"(Entity sense:) (.+)"
 
-/def -p10 -F -aBCgreen -mregexp -t"Air entity embraces (.+) with its wispy tendrils."
+/def -p10 -F -aBCblue -mregexp -t"Air entity embraces (.+) with its wispy tendrils."
 /def -p10 -F -aBCred -msimple -t"Your air entity falters and its wispy tendrils fall to its sides." = \
 	/echo -aBCred SUFFOCATING EMBRACE IS DOWN!
  

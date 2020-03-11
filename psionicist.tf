@@ -1,34 +1,45 @@
 ;; Mindseize
-/def cast_mindseize =\
-	/send @target %{*};cast 'Mindseize' %{*}
+/def cast_mindseize = \
+	/if (strlen({1}) > 0) \
+                /send @target %{*} %;\
+        /endif %;\
+	/send cast 'Mindseize' %{*}
 
 /alias cms /cast_mindseize %{*}
 
 ;; Mind blast
-/def cast_mind_blast =\
-	/if (strlen({1}) > 0)\
-		/send @target %{*};cast 'Mind blast' %{*} %;\
-	/else \
-		/send @cast 'Mind blast' %;\
-	/endif
+/def cast_mind_blast = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif %;\
+	/send @cast 'Mind blast' %{*}
 
 /alias cmb /cast_mind_blast %{*}
 
 ;; Psibolt
-/def cast_psibolt =\
-	/send @target %{*};cast 'psibolt' %{*}
+/def cast_psibolt = \
+	/if (strlen({1}) > 0) \
+                /send @target %{*} %;\
+        /endif %;\
+	/send cast 'psibolt' %{*}
 
 /alias cp /cast_psibolt %{*}
 
 ;; Psi blast
-/def cast_psi_blast =\
-	/send @target %{*};cast 'psi blast' %{*}
+/def cast_psi_blast = \
+	/if (strlen({1}) > 0) \
+                /send @target %{*} %;\
+        /endif %;\
+	/send cast 'psi blast' %{*}
 
 /alias cpb /cast_psi_blast %{*}
 
 ;; Mind disruption
-/def cast_mind_disruption =\
-	/send @target %{*};cast 'mind disruption' %{*}
+/def cast_mind_disruption = \
+	/if (strlen({1}) > 0) \
+                /send @target %{*} %;\
+        /endif %;\
+	/send cast 'mind disruption' %{*}
 
 /alias cmd /cast_mind_disruption %{*}
 

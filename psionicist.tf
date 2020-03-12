@@ -61,6 +61,12 @@
 
 /alias cmdev /cast_mind_development %{*}
 
+;; Phaze Shift
+/def cast_phaze_shift = \
+	/send @cast 'phaze shift' %{*}
+
+/alias cps /cast_phaze_shift %{*}
+
 ;; Meditation
 /def use_meditation =\
 	/send @use meditation

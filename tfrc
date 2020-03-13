@@ -22,7 +22,6 @@
 ;;/load batmud-tf-trigs/fueryon.tf
 
 /def -p10000 -F -mregexp -t'^[\*]+ Round .* [\*]+$' battle_round =\
-	/send @scan all %;\
 	/send @sc
 
 /def -p10000 -F -aBCred -mregexp -t'(.+) is DEAD, R.I.P.' = /send @scan

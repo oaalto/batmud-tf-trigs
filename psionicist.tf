@@ -55,6 +55,11 @@
 
 /alias cfs /cast_force_shield %{*}
 
+/def cast_psionic_shield = \
+	/send @cast psionic shield
+
+/alias cpshield /cast_psionic_shield
+
 ;; Mind development
 /def cast_mind_development =\
 	/send @cast 'mind development' %{*}

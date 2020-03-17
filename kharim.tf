@@ -1,7 +1,6 @@
 /def -p10 -F -aBCgreen -msimple -t"Chaotic force closes the bleeding wound in your body."
 /def -p10 -F -aBCyellow -msimple -t"Your blood circulation normalizes."
 
-
 ;; Foul Play
 /def use_foul_play = \
 	/send @kharim observe;target %{*};use 'foul play' %{*}

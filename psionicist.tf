@@ -52,6 +52,15 @@
 
 /alias cpc /cast_psychic_crush %{*}
 
+;; Psychich storm
+/def cast_psychic_storm = \
+	/if (strlen({1}) > 0) \
+        /send @target %{*} %;\
+    /endif %;\
+	/send cast 'psychic storm' %{*}
+
+/alias cps /cast_psychic_storm %{*}
+
 ;; Force shield
 /def cast_force_shield = \
 	/if (strlen({1}) > 0) \
@@ -79,7 +88,7 @@
 /def cast_phaze_shift = \
 	/send @cast 'phaze shift' %{*}
 
-/alias cps /cast_phaze_shift %{*}
+/alias cgo /cast_phaze_shift %{*}
 
 ;; Meditation
 /def use_meditation =\

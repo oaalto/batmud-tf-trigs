@@ -44,13 +44,13 @@
 /alias cmd /cast_mind_disruption %{*}
 
 ;; Psychich crush
-/def cast_psychich_crush = \
+/def cast_psychic_crush = \
 	/if (strlen({1}) > 0) \
         /send @target %{*} %;\
     /endif %;\
-	/send cast 'psychich crush' %{*}
+	/send cast 'psychic crush' %{*}
 
-/alias cpc /cast_psychich_crush %{*}
+/alias cpc /cast_psychic_crush %{*}
 
 ;; Force shield
 /def cast_force_shield = \

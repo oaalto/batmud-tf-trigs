@@ -1,8 +1,8 @@
 ;; Mindseize
 /def cast_mindseize = \
 	/if (strlen({1}) > 0) \
-                /send @target %{*} %;\
-        /endif %;\
+        /send @target %{*} %;\
+    /endif %;\
 	/send cast 'Mindseize' %{*}
 
 /alias cms /cast_mindseize %{*}
@@ -19,8 +19,8 @@
 ;; Psibolt
 /def cast_psibolt = \
 	/if (strlen({1}) > 0) \
-                /send @target %{*} %;\
-        /endif %;\
+        /send @target %{*} %;\
+	/endif %;\
 	/send cast 'psibolt' %{*}
 
 /alias cp /cast_psibolt %{*}
@@ -28,8 +28,8 @@
 ;; Psi blast
 /def cast_psi_blast = \
 	/if (strlen({1}) > 0) \
-                /send @target %{*} %;\
-        /endif %;\
+        /send @target %{*} %;\
+    /endif %;\
 	/send cast 'psi blast' %{*}
 
 /alias cpb /cast_psi_blast %{*}
@@ -37,11 +37,20 @@
 ;; Mind disruption
 /def cast_mind_disruption = \
 	/if (strlen({1}) > 0) \
-                /send @target %{*} %;\
-        /endif %;\
+        /send @target %{*} %;\
+    /endif %;\
 	/send cast 'mind disruption' %{*}
 
 /alias cmd /cast_mind_disruption %{*}
+
+;; Psychich crush
+/def cast_psychich_crush = \
+	/if (strlen({1}) > 0) \
+        /send @target %{*} %;\
+    /endif %;\
+	/send cast 'psychich crush' %{*}
+
+/alias cmd /cast_psychich_crush %{*}
 
 ;; Force shield
 /def cast_force_shield = \

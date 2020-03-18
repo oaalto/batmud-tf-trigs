@@ -50,7 +50,7 @@
     /endif %;\
 	/send cast 'psychich crush' %{*}
 
-/alias cmd /cast_psychich_crush %{*}
+/alias cpc /cast_psychich_crush %{*}
 
 ;; Force shield
 /def cast_force_shield = \

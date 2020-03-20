@@ -3,6 +3,7 @@
 /load batmud-tf-trigs/status_line.tf
 /load batmud-tf-trigs/spellnames.tf
 /load batmud-tf-trigs/misc.tf
+/load batmud-tf-trigs/cure_spells.tf
 /load batmud-tf-trigs/tarmalen.tf
 ;;/load batmud-tf-trigs/magical.tf
 ;;/load batmud-tf-trigs/riftwalker.tf

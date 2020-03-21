@@ -18,8 +18,8 @@
 /def use_scythe_swipe = \
 	/if (strlen({1}) > 0) \
 		/reaver_threaten %{*} %;\
-                /send @target %{*} %;\
-        /endif %;\
+        /send @target %{*} %;\
+    /endif %;\
 	/send use 'scythe swipe' %{*}
 
 /alias us /use_scythe_swipe %{*}
@@ -28,8 +28,8 @@
 /def use_rampant_cutting = \
 	/if (strlen({1}) > 0) \
 		/reaver_threaten %{*} %;\
-                /send @target %{*} %;\
-        /endif %;\
+        /send @target %{*} %;\
+    /endif %;\
 	/send use 'rampant cutting' %{*}
 
 /alias ur /use_rampant_cutting %{*}
@@ -38,8 +38,8 @@
 /def use_reaver_strike = \
 	/if (strlen({1}) > 0) \
 		/reaver_threaten %{*} %;\
-                /send @target %{*} %;\
-        /endif %;\
+    	/send @target %{*} %;\
+    /endif %;\
 	/send use 'reaver strike' %{*}
 
 /alias urs /use_reaver_strike %{*}
@@ -58,8 +58,8 @@
 /def use_true_reaving = \
 	/if (strlen({1}) > 0) \
 		/reaver_threaten %{*} %;\
-                /send @target %{*} %;\
-        /endif %;\
+        /send @target %{*} %;\
+    /endif %;\
 	/send use 'true reaving' %{*}
 
 /alias utr /use_true_reaving %{*}
@@ -111,8 +111,8 @@
 /def cast_word_of_spite = \
 	/reaver_threaten %{*} %;\
 	/if (strlen({1}) > 0) \
-                /send @target %{*} %;\
-        /endif %;\
+        /send @target %{*} %;\
+    /endif %;\
 	/send cast 'word of spite' %{*}
 
 /alias cs /cast_word_of_spite %{*}
@@ -121,8 +121,8 @@
 /def cast_word_of_blasting = \
 	/reaver_threaten %{*} %;\
 	/if (strlen({1}) > 0) \
-                /send @target %{*} %;\
-        /endif %;\
+        /send @target %{*} %;\
+    /endif %;\
 	/send cast 'word of blasting' %{*}
 
 /alias cb /cast_word_of_blasting %{*}
@@ -131,19 +131,19 @@
 /def cast_word_of_destruction = \
 	/reaver_threaten %{*} %;\
 	/if (strlen({1}) > 0) \
-                /send @target %{*} %;\
-        /endif %;\
+        /send @target %{*} %;\
+    /endif %;\
 	/send cast 'word of destruction' %{*}
 
 /alias cwd /cast_word_of_destruction %{*}
 
 ;; Word of Slaughter
 /def cast_word_of_slaughter = \
-        /reaver_threaten %{*} %;\
+    /reaver_threaten %{*} %;\
 	/if (strlen({1}) > 0) \
-                /send @target %{*} %;\
-        /endif %;\ 
-        /send cast 'word of slaughter' %{*}
+        /send @target %{*} %;\
+    /endif %;\
+    /send cast 'word of slaughter' %{*}
 
 /alias cws /cast_word_of_slaughter %{*}
 
@@ -155,7 +155,7 @@
 		/echo No target! %;\
 	/endif
 
-/alias ca /cast_word_of_attrition %{*}
+/alias cwa /cast_word_of_attrition %{*}
 
 ;; Shattered Feast
 /def cast_shattered_feast = \
@@ -165,7 +165,7 @@
 		/set cast_feast=1 %; \
 		/use_prayer_to_destruction spell %;\
 	/endif
-	
+
 /alias csf /cast_shattered_feast
 
 /def -p10000 -F -msimple -t'You start chanting.' = \
@@ -182,9 +182,9 @@
 	/if ({prayer_done}) \
 		/send @cast blood seeker at amount 100 %;\
 	/else \
-                /set cast_blood_seeker=1 %;\
-                /use_prayer_to_destruction spell %;\
-        /endif
+        /set cast_blood_seeker=1 %;\
+        /use_prayer_to_destruction spell %;\
+    /endif
 
 /alias cbs /cast_blood_seeker
 
@@ -199,21 +199,21 @@
 	/if ({prayer_done}) \
 		/send @cast call armour at amount %{*} %;\
 	/else \
-                /set cast_call_armour=1 %;\
-                /use_prayer_to_destruction spell %;\
-        /endif
+        /set cast_call_armour=1 %;\
+        /use_prayer_to_destruction spell %;\
+    /endif
 
 /alias cca /cast_call_armour %{*}
 
 ;; Spirit drain
 /def cast_spirit_drain = \
-        /if ({prayer_done}) \
-                /send @cast spirit drain at %{*} amount 100 %;\
-        /else \
-                /set cast_spirit_drain=1 %;\
-		/set spirit_drain_target=%{*} %;\
-                /use_prayer_to_destruction spell %;\
-        /endif
+	/if ({prayer_done}) \
+		/send @cast spirit drain at %{*} amount 100 %;\
+	/else \
+		/set cast_spirit_drain=1 %;\
+	/set spirit_drain_target=%{*} %;\
+		/use_prayer_to_destruction spell %;\
+	/endif
 
 /alias csd /cast_spirit_drain %{*}
 
@@ -233,7 +233,7 @@
 
 /def -p10 -F -P1Ccyan -mregexp -t"You feel you have released (.+) amount of destructive energy."
 /def -p10 -F -P1Ccyan -mregexp -t"You feel you have released (.+) amounts of destructive energy."
-                                  
+
 /def -p10 -F -P1BCred -mregexp -t"You score a (KILLING BLOW) on (.+)!"
 
 /def -p10 -F -aBCred -mregexp -t"Your frenzied attempts to destroy (.+) are easily deflected."

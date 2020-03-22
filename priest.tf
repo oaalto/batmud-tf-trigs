@@ -66,3 +66,6 @@
         /endif
 
 /alias med /use_dark_meditation
+
+/def -p10 -F -aCred -mregexp -t"You fail to reach (.+)."
+/def -p10 -F -aCgreen -mregexp -t"You harm (.+) (a little|some|a good bit|a lot)."

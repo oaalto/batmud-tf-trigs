@@ -61,7 +61,7 @@
                 /send @use dark meditation at sacrifice health %;\
         /elseif ({1} == "sp") \
                 /send @use dark meditation at sacrifice power %;\
-        /else \ ;; Default to endurance
+        /else \
                 /send @use dark meditation at sacrifice endurance %;\
         /endif
 

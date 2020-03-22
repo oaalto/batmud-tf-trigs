@@ -55,4 +55,14 @@
 
 /alias caoh /cast_aura_of_hate
 
+;; Dark meditation
+/def use_dark_meditation = \
+        /if ({1} == "hp") \
+                /send @use dark meditation at sacrifice health %;\
+        /elseif ({1} == "sp") \
+                /send @use dark meditation at sacrifice power %;\
+        /else \ ;; Default to endurance
+                /send @use dark meditation at sacrifice endurance %;\
+        /endif
 
+/alias med /use_dark_meditation

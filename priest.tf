@@ -57,9 +57,9 @@
 
 ;; Dark meditation
 /def use_dark_meditation = \
-        /if ({1} == "hp") \
+        /if ({1} =~ "hp") \
                 /send @use dark meditation at sacrifice health %;\
-        /elseif ({1} == "sp") \
+        /elseif ({1} =~ "sp") \
                 /send @use dark meditation at sacrifice power %;\
         /else \
                 /send @use dark meditation at sacrifice endurance %;\

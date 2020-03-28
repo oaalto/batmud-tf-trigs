@@ -35,6 +35,15 @@
 
 /alias ca /cast_aneurysm %{*}
 
+;; Harm body
+/def cast_harm_body = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif %;\
+	/send cast 'harm body' %{*}
+
+/alias chb /cast_harm_body %{*}
+
 ;; Damn Armament
 /def cast_damn_armament = \
         /send @cast 'damn armament' deathreaver
@@ -47,7 +56,7 @@
 /def cast_mellon_collie = \
         /send @target %{*};cast 'mellon collie' %{*} %;\
 
-/alias cmc /cast_mellon_colllie %{*}
+/alias cmc /cast_mellon_collie %{*}
 
 ;; Aura of Hate
 /def cast_aura_of_hate = \

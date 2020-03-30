@@ -28,6 +28,7 @@
 /set fire_skill=blazing sunder
 /set air_skill=suffocating embrace
 /set earth_skill=earthen cover
+/set water_skill=subjugating backwash
 
 ;; Init
 /set current_skill=blazing sunder
@@ -39,6 +40,8 @@
 		/set current_skill=%{air_skill} %;\
 	/elseif ({*} =~ "earth") \
 		/set current_skill=%{earth_skill} %;\
+	/elseif ({*} =~ "water") \
+		/set current_skill=%{water_skill} %;\
 	/else \
 		/echo Unknown skill %{*}! %;\
 	/endif %;\
@@ -47,6 +50,7 @@
 /alias ufire /set_entity_skill fire
 /alias uair /set_entity_skill air
 /alias uearth /set_entity_skill earth
+/alias uwater /set_entity_skill water
 
 /def -p1000 -F -mregexp -t"(.*) fire entity (.*) with power \[yours\]" = \
 	/set_entity_skill fire

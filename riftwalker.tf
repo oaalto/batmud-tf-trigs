@@ -213,11 +213,20 @@
 /def -p10 -F -aBCred -msimple -t"Your entity loses its concentration and cannot do the skill." = \
 	/if ({current_skill} =~ {air_skill}) \
 		/echo -aBCred SUFFOCATING EMBRACE IS DOWN! %;\
+	/elseif ({current_skill} =~ {earth_skill}) \
+		/echo -aBCred EARTHEN COVER IS DOWN! %;\
+	/elseif ({current_skill =~ {water_skill}) \
+		/echo -aBCred SUBJUGATING BACKWASH IS DOWN! %;\
 	/endif
 
 /def -p10 -F -aBCred -msimple -t"Your earth entity hunches down looking much less solid than a second ago." = \
 	/if ({current_skill} =~ {earth_skill}) \
 		/echo -aBCred EARTHEN COVER IS DOWN! %;\
+	/endif
+
+/def -p10 -F -aBCred -msimple -t"Your water entity stops glowing and its skin becomes still." = \
+        /if ({current_skill} =~ {water_skill}) \
+                /echo -aBCred SUBJUGATING BACKWASH IS DOWN! %;\
 	/endif
 
 /def -p10 -F -aBCwhite -mregexp -t"(.+) entity starts concentrating on a new offensive skill."

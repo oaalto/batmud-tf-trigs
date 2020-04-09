@@ -172,7 +172,7 @@
 /alias csf /cast_shattered_feast
 
 ;; Black hole
-/def cast_block_hole = \
+/def cast_black_hole = \
 	/if ({prayer_done}) \
 		/send @cast black hole %;\
 	/else \

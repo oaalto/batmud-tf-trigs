@@ -3,6 +3,7 @@
 /set cast_blood_seeker=0
 /set cast_call_armour=0
 /set cast_spirit_drain=0
+/set cast_black_hole=0
 
 ;; Reaver Threaten
 /def reaver_threaten =\
@@ -103,6 +104,8 @@
 		/cast_call_armour %;\
 	/elseif ({cast_spirit_drain}) \
 		/cast_spirit_drain %{spirit_drain_target} %;\
+	/elseif ({cast_black_hole}) \
+		/cast_black_hole %;\
 	/endif
 
 ;; SPELLS
@@ -168,6 +171,17 @@
 
 /alias csf /cast_shattered_feast
 
+;; Black hole
+/def cast_block_hole = \
+	/if ({prayer_done}) \
+		/send @cast black hole %;\
+	/else \
+		/set cast_black_hole=1 %;\
+		/use_prayer_to_destruction spell %;\
+	/endif
+
+/alias cbh /cast_black_hole
+
 /def -p10000 -F -msimple -t'You start chanting.' = \
 	/set prayer_done=0
 
@@ -175,7 +189,8 @@
 	/set cast_feast=0 %;\
 	/set cast_blood_seeker=0 %;\
 	/set cast_call_armour=0 %;\
-	/set cast_spirit_drain=0
+	/set cast_spirit_drain=0 %;\
+	/set cast_black_hole=0
 
 ;; Blood Seeker
 /def cast_blood_seeker = \

@@ -16,43 +16,55 @@
 
 ;; Status line
 /def -p1000 -F -ag -mregexp -t'^::\.\.:\. (.+) \[Hp: ([\-0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*, Sp: ([\-0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*, Ep: ([\-0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*\]$' = \
-	/test $[save_minion_stats({P1}, {P2}, {P4})] %;\
+	/test $[save_minion_stats({P1}, {P2}, {P3}, {P4}, {P5}, {P6}, {P7})] %;\
 	/update_status_line_2
 
 /def update_status_line_2 = \
 	/if (strlen({minion_3_name}) > 0) \
-		/set status_line_2=%{minion_1_name}: Hp: %{minion_1_hp} Sp: %{minion_1_sp} %{minion_2_name}: Hp: %{minion_2_hp} Sp: %{minion_2_sp} %{minion_3_name}: Hp: %{minion_3_hp} Sp: %{minion_3_sp} %;\
+		/set status_line_2=%{minion_1_name}: Hp: %{minion_1_hp}(%{minion_1_max_hp}) Sp: %{minion_1_sp}(%{minion_1_max_sp}) Ep: %{minion_1_ep}(%{minion_1_max_ep}) %{minion_2_name}: Hp: %{minion_2_hp}(%{minion_2_max_hp}) Sp: %{minion_2_sp}(%{minion_2_max_sp}) Ep: %{minion_2_ep}(%{minion_2_max_ep} %{minion_3_name}: Hp: %{minion_3_hp}(%{minion_3_max_hp}) Sp: %{minion_3_sp}(%{minion_3_max_sp}) Ep: %{minion_3_ep}(%{minion_3_max_ep}) %;\
 	/elseif (strlen({minion_2_name}) > 0) \
-		/set status_line_2=%{minion_1_name}: Hp: %{minion_1_hp} Sp: %{minion_1_sp} %{minion_2_name}: Hp: %{minion_2_hp} Sp: %{minion_2_sp} %;\
+		/set status_line_2=%{minion_1_name}: Hp: %{minion_1_hp}(%{minion_1_max_hp}) Sp: %{minion_1_sp}(%{minion_1_max_sp}) Ep: %{minion_1_ep}(%{minion_1_max_ep}) %{minion_2_name}: Hp: %{minion_2_hp}(%{minion_2_max_hp}) Sp: %{minion_2_sp}(%{minion_2_max_sp}) Ep: %{minion_2_ep}(%{minion_2_max_ep}) %;\
 	/elseif (strlen({minion_1_name}) > 0) \
-		/set status_line_2=%{minion_1_name}: Hp: %{minion_1_hp} Sp: %{minion_1_sp} %;\
+		/set status_line_2=%{minion_1_name}: Hp: %{minion_1_hp}(%{minion_1_max_hp}) Sp: %{minion_1_sp}(%{minion_1_max_sp}) Ep: %{minion_1_ep}(%{minion_1_max_ep}) %;\
 	/else \
 		/set status_line_2= %;\
 	/endif
 
 /def save_minion_stats = \
 	/if (strlen({minion_1_name}) == 0 | {1} =~ {minion_1_name}) \
-		$[save_minion_1_stats({1}, {2}, {3})] %;\
+		$[save_minion_1_stats({1}, {2}, {3}, {4}, {5}, {6}, {7})] %;\
 	/elseif (strlen({minion_2_name}) == 0 | {1} =~ {minion_2_name}) \
-                $[save_minion_2_stats({1}, {2}, {3})] %;\
+                $[save_minion_2_stats({1}, {2}, {3}, {4}, {5}, {6}, {7})] %;\
 	/elseif (strlen({minion_3_name}) == 0 | {1} =~ {minion_3_name}) \
-                $[save_minion_3_stats({1}, {2}, {3})] %;\
+                $[save_minion_3_stats({1}, {2}, {3}, {4}, {5}, {6}, {7})] %;\
 	/endif
 
 /def save_minion_1_stats = \
 	/set minion_1_name=$[set_white({1})] %;\
         /set minion_1_hp=%{2} %;\
-        /set minion_1_sp=%{3}
+	/set minion_1_max_hp=$[set_white({3})] %;\
+        /set minion_1_sp=%{4} %;\
+	/set minion_1_max_sp=$[set_white({5})] %;\
+	/set minion_1_ep=%{6} %;\
+	/set minion_1_max_ep=$[set_white({7})]
 
 /def save_minion_2_stats = \
         /set minion_2_name=$[set_white({1})] %;\
         /set minion_2_hp=%{2} %;\
-        /set minion_2_sp=%{3}
+	/set minion_2_max_hp=$[set_white({3})] %;\
+        /set minion_2_sp=%{4} %;\
+        /set minion_2_max_sp=$[set_white({5})] %;\
+        /set minion_2_ep=%{6} %;\
+        /set minion_2_max_ep=$[set_white({7})]
 
 /def save_minion_3_stats = \
         /set minion_3_name=$[set_white({1})] %;\
         /set minion_3_hp=%{2} %;\
-        /set minion_3_sp=%{3}
+	/set minion_3_max_hp=$[set_white({3})] %;\
+        /set minion_3_sp=%{4} %;\
+        /set minion_3_max_sp=$[set_white({5})] %;\
+        /set minion_3_ep=%{6} %;\
+        /set minion_3_max_ep=$[set_white({7})]
 
 ;; Remove from status line when unsummoning
 /def -p1000 -F -mregexp -t'^Your connection to your parasite is severed completely. (.+) jerks violently couple of times and collapses.$' = \
@@ -64,14 +76,14 @@
 	/update_status_line_2
 
 /def remove_minion_stats = \
-	/if ({minion_3_name} == {1}) \
+	/if ({minion_3_name} == {*}) \
 		/save_minion_3_stats %;\
-	/elseif ({minion_2_name} == {1}) \
-		/save_minion_2_stats %{minion_3_name} %{minion_3_hp} %{minion_3_sp} %;\
+	/elseif ({minion_2_name} == {*}) \
+		/save_minion_2_stats %{minion_3_name} %{minion_3_hp} %{minion_3_max_hp} %{minion_3_sp} %{minion_3_max_sp} %{minion_3_ep} %{minion_3_max_ep} %;\
 		/save_minion_3_stats %;\
-        /elseif ({minion_1_name} == {1}) \
-		/save_minion_1_stats %{minion_2_name} %{minion_2_hp} %{minion_2_sp} %;\
-		/save_minion_2_stats %{minion_3_name} %{minion_3_hp} %{minion_3_sp} %;\
+        /elseif ({minion_1_name} == {*}) \
+		/save_minion_1_stats %{minion_2_name} %{minion_2_hp} %{minion_2_max_hp} %{minion_2_sp} %{minion_2_max_sp} %{minion_2_ep} %{minion_2_max_ep} %;\
+		/save_minion_2_stats %{minion_3_name} %{minion_3_hp} %{minion_3_max_hp} %{minion_3_sp} %{minion_3_max_sp} %{minion_3_ep} %{minion_3_max_ep} %;\
 		/save_minion_3_stats %;\
         /endif %;\
 

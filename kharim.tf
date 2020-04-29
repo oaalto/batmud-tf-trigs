@@ -91,3 +91,16 @@
 /def todevice = /send w;out;3 w;nw;ne;2 nw;4 w;S;E;se;e
 /def fromdevice = /send w;nw;7 w;7 n;E;s;se;sw;se;E;e;enter
 
+/def kharim_help = \
+	/echo /tositwar goes from the device to the shield trainer %;\
+	/echo /tomelee goes from the device to the general fighting trainer %;\	
+	/echo /tosw goes from the device to the spell trainer %;\
+	/echo /tose goes from the device to the <insert name here> %;\
+	/echo /tonw goes from the device to the scout trainer %;\
+	/echo /tone goes from the device to the attack skills trainer %;\
+	/echo /tokitan goes from the device to Kitan %;\
+	/echo /tosouls goes from the device to the souls room %;\
+	/echo /tocloud goes from the device to the cloud %;\
+	/echo /toswords goes from the device to the sword hotel %;\
+	/echo /todevice goes from the elevator to the device %;\
+

@@ -73,7 +73,7 @@
 	/endif %;\
 	/send use 'corrosive cut' %{*}
 
-/alias ucc /use_corrosive_cut %{*}
+/alias uccut /use_corrosive_cut %{*}
 
 /def use_breath_of_doom = \
 	/if (strlen({1}) > 0) \

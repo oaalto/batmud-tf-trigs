@@ -3,6 +3,9 @@
 /def -p10000 -F -aBCred -msimple -t'You swing and miss your mark!'
 /def -p10000 -F -aBCred -msimple -t"Your greater light spell flickers briefly and disappears."
 
+/def set_autoselect = \
+	/send @liberator autoselect weakest non armoursmith,guardian,weaponsmith,soldier
+
 ;; SPELLS
 
 ;; Ghost light

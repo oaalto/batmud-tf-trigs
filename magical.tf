@@ -1,5 +1,3 @@
-/load batmud-tf-trigs/mage_lightning.tf
-
 ;; Floating Disc
 /def cast_floating_disc =\
 	/send @cast floating disc
@@ -51,17 +49,21 @@
 
 /alias cww /cast_water_walking %{*}
 
-;; Magic Missile
-/def cast_magic_missile =\
-        /send @target %{*};cast 'magic missile' %{*}
+/def cast_lift_of_load = \
+	/if (strlen({1}) < 0) \
+		/send @cast lift of load at %{*} %;\
+	/else \
+		/send @cast lift of load at me %;\
+	/endif
 
-/alias cmm /cast_magic_missile %{*}
+/alias cld /cast_lift_of_load %{*}
 
-;; Shocking Grasp
-/def cast_shocking_grasp = \
-	/send @target %{*};cast 'shocking grasp' %{*}
+/def -p1000 -F -aBCred -msimple -t"You feel odd. Not weaker, but..."
 
-/alias csg /cast_shocking_grasp %{*}
+/def cast_heal_self_full = \
+	/send @repeat inf cast heal self %;\
+
+/alias chf /cast_heal_self_full %{*}
 
 ;; Analysis of Magic Lore
 /def -p10 -F -P2Cgreen -mregexp -t"(.+) (screams in pain.)"

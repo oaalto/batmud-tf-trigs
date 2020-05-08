@@ -49,6 +49,7 @@
 
 /alias cww /cast_water_walking %{*}
 
+;; Lift of Load
 /def cast_lift_of_load = \
 	/if (strlen({1}) < 0) \
 		/send @cast lift of load at %{*} %;\
@@ -60,10 +61,21 @@
 
 /def -p1000 -F -aBCred -msimple -t"You feel odd. Not weaker, but..."
 
+;; Repeat Heal Self
 /def cast_heal_self_full = \
 	/send @repeat inf cast heal self %;\
 
 /alias chf /cast_heal_self_full %{*}
+
+;; Mirror Image
+/def cast_mirror_image = \
+	/if (strlen({1}) > 0) \
+		/send @cast mirror image at %{*} %;\
+	/else \
+		/send @cast mirror image at me %;\
+	/endif
+
+/alias cmi /cast_mirror_image %{*}
 
 ;; Analysis of Magic Lore
 /def -p10 -F -P2Cgreen -mregexp -t"(.+) (screams in pain.)"

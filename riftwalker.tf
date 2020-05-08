@@ -162,14 +162,10 @@
 /alias cfa /cast_force_absorption %{*}
 
 ;; Mirror Image
-/def cast_mirror_image = \
-	/if (strlen({1}) > 0) \
-		/send @cast 'mirror image' %{*} %;\
-	/else \
-		/send @cast mirror image at entity %;\
-	/endif
+/def cast_mirror_image_entity = \
+	/send @cast mirror image at entity
 
-/alias cmi /cast_mirror_image %{*}
+/alias cmie /cast_mirror_image_entity
 
 ;; Absorbing meld
 /def cast_absorbing_meld = \

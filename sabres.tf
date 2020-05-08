@@ -24,6 +24,7 @@
 
 /def use_gloveknock = \
 	/send @remove %{saber_weapon} from right hand;target %{*};use gloveknock at %{*} 
+
 /alias ug /use_gloveknock %{*}
 
 /def -p1000 -F -mregexp -t"You swing your arm and hit (.*) straight on the nose, bloodying it bad!" = \

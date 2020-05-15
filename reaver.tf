@@ -265,3 +265,6 @@
 /def -p10 -F -aCblue -mregexp -t"You FINALLY shove your weapon right through (.+) chest!"
 /def -p10 -F -aBCred -mregexp -t"(.+) shifts position and you cannot hit the (.+) time."
 
+/def -p10 -F -aBCmagenta -mregexp -t"You feel the power slip from (.+)."
+/def -p10 -F -aBCmagenta -mregexp -t"You see (.+) revert to its normal shape."
+

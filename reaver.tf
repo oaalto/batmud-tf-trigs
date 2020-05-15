@@ -12,6 +12,7 @@
 	/endif
 
 /alias rt /reaver_threaten %{*}
+/gag "Can only be used once per 10 minutes."
 
 ;; SKILLS
 

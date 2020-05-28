@@ -211,7 +211,7 @@
 		/echo -aBCred SUFFOCATING EMBRACE IS DOWN! %;\
 	/elseif ({current_skill} =~ {earth_skill}) \
 		/echo -aBCred EARTHEN COVER IS DOWN! %;\
-	/elseif ({current_skill =~ {water_skill}) \
+	/elseif ({current_skill} =~ {water_skill}) \
 		/echo -aBCred SUBJUGATING BACKWASH IS DOWN! %;\
 	/endif
 

@@ -220,6 +220,7 @@
 		/echo -aBCred EARTHEN COVER IS DOWN! %;\
 	/endif
 
+/def -p10 -F -aBCblue -mregexp -t"Water entity starts to glow, and its skin starts to foam like waves crashing against a rocky shore."
 /def -p10 -F -aBCred -msimple -t"Your water entity stops glowing and its skin becomes still." = \
         /if ({current_skill} =~ {water_skill}) \
                 /echo -aBCred SUBJUGATING BACKWASH IS DOWN! %;\

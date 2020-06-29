@@ -34,7 +34,7 @@
     /endif %;\
 	/send use 'rampant cutting' %{*}
 
-/alias ur /use_rampant_cutting %{*}
+/alias urc /use_rampant_cutting %{*}
 
 ;; Reaver strike
 /def use_reaver_strike = \

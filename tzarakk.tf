@@ -102,3 +102,30 @@
 
 /alias cpc /cast_preserve_corpse 
 
+/def use_trample = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif %;\		
+	/send @use 'trample' %{*}
+
+/alias ut /use_trample %{*}
+
+/def use_rampage = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif %;\
+	/send @use 'rampage' %{*}
+
+/alias ur /use_rampage %{*}
+
+/def use_charge = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif %;\
+	/send @use 'charge' %{*}
+
+/alias uc /use_charge %{*}
+
+
+
+	

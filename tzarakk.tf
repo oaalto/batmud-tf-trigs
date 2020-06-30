@@ -29,7 +29,9 @@
         /send @mount vedir %;\
     /endif
 
-/def -p10000 -F -msimple -t'You get up on Vedir and begin to ride.' = /set dismounted=0
+/def -p10000 -F -msimple -t'You get up on Vedir and begin to ride.' = \
+	/set dismounted=0 %;\
+	/set mount_summoned=1
 
 /def set_feed_mode = \
 	/send @rip_action set get all from corpse;tzarakk chaosfeed corpse;tzarakk chaosfeed corpse;drop zinc;drop mowgles
@@ -126,6 +128,9 @@
 
 /alias uc /use_charge %{*}
 
+/def cast_summon_dire_boar = \
+	/send @cast summon dire boar
 
+/alias csdb /cast_summon_dire_boar
 
 	

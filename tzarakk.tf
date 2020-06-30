@@ -107,7 +107,7 @@
 /def use_trample = \
 	/if (strlen({1}) > 0) \
 		/send @target %{*} %;\
-	/endif %;\		
+	/endif %;\
 	/send @use 'trample' %{*}
 
 /alias ut /use_trample %{*}

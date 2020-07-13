@@ -88,22 +88,22 @@
 /alias estat /gem_entity %{*}
 
 ;; Summon rift entity
-/def summon_entity = \
+/def cast_summon_entity = \
 	/send @cast summon rift entity at %{*} %;\
 	/set_entity_skill %{*}
 	/set has_entity=1
 
-/alias csum /summon_entity %{*}
+/alias csum /cast_summon_entity %{*}
 
 ;; Dismiss rift entity
-/def dismiss_entity = \
+/def cast_dismiss_entity = \
 	/send @cast dismiss rift entity
 	/set has_entity=0
 
-/alias cdis /dismiss_entity
+/alias cdis /cast_dismiss_entity
 
 ;; Beckon rift entity
-/def beckon_entity = \
+/def cast_beckon_entity = \
 	/send @cast beckon rift entity
 
 /alias cb /cast_beckon_entity

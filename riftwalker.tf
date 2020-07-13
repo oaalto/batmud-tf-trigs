@@ -133,6 +133,12 @@
 
 /alias css /start_battle2 %{*}
 
+;; Start Battle (Dimensional leech)
+/def start_battle3 = \
+	/send @target %{*};gem cmd target %{*};cast 'dimensional leech' %{*};gem cmd use '%{current_skill}' %{*}
+
+/alias csd /start_battle3 %{*}
+
 ;; Spark Birth
 /def cast_spark_birth = \
 	/send @target %{*};gem cmd target %{*};cast 'spark birth' %{*}

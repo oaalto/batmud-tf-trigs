@@ -102,6 +102,12 @@
 
 /alias cdis /dismiss_entity
 
+;; Beckon rift entity
+/def beckon_entity = \
+	/send @cast beckon rift entity
+
+/alias cb /cast_beckon_entity
+
 ;; Establish entity control
 /def cast_entity_control = \
 	/send @cast establish entity control

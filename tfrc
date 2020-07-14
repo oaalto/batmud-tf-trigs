@@ -4,7 +4,7 @@
 /load batmud-tf-trigs/spellnames.tf
 /load batmud-tf-trigs/misc.tf
 ;;/load batmud-tf-trigs/cure_spells.tf
-;;/load batmud-tf-trigs/tarmalen.tf
+;;/load batmud-tf-trigs/ceremony.tf
 ;;/load batmud-tf-trigs/magical.tf
 ;;/load batmud-tf-trigs/riftwalker.tf
 ;;/load batmud-tf-trigs/mage_magical.tf

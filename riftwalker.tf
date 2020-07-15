@@ -13,7 +13,6 @@
 	/elseif ({percent} < 10) /echo -aCBmagenta ____________ENTITY UNDER 10% HP______________ %;\
 	/elseif ({percent} < 15) /echo -ACmagenta ENTITY UNDER 15% HP!! %;\
 	/elseif ({percent} < 25) /echo -aCByellow Entity under 25% hp!! %;\
-	/elseif ({percent} < 50) /echo -aCyellow Entity under 50% hp!! %;\
 	/endif
 
 

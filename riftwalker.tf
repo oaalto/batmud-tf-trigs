@@ -4,15 +4,13 @@
 
 /def -p1000 -F -ag -mregexp -t'^--=  (.+)  HP:(.+)\((.+)\) \[(.*)\] \[(.*)\] \[(.*)\]  =--$' = \
 	/set status_line_2=%{P1}: %{P2}($[set_white({P3})]) [%{P4}] %{P5} %{P6} %;\
-	/notify_player %{P2} %{P3}
+	/notify_player %{P2}
 
 /def notify_player = \
-	/let percent=$[({1} + 0.0) / {2} * 100] %;\
-;;/echo p = %{percent} %;\
-	/if ({percent} < 5) /echo -aBCred *********** !!! ENTITY UNDER 5% HP !!! *********** %;\
-	/elseif ({percent} < 10) /echo -aBCmagenta ____________ENTITY UNDER 10% HP______________ %;\
-	/elseif ({percent} < 15) /echo -aCmagenta ENTITY UNDER 15% HP!! %;\
-	/elseif ({percent} < 25) /echo -aBCyellow Entity under 25% hp!! %;\
+	/if ({1} < 100) /echo -aBCred *********** !!! ENTITY UNDER 100 HP !!! *********** %;\
+	/elseif ({1} < 150) /echo -aBCmagenta ____________ENTITY UNDER 150hp______________ %;\
+	/elseif ({1} < 200) /echo -aCmagenta ENTITY UNDER 200hp!! %;\
+	/elseif ({1} < 250) /echo -aBCyellow Entity under 250hp!! %;\
 	/endif
 
 

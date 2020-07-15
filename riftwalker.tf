@@ -3,7 +3,19 @@
 ;; Status line
 
 /def -p1000 -F -ag -mregexp -t'^--=  (.+)  HP:(.+)\((.+)\) \[(.*)\] \[(.*)\] \[(.*)\]  =--$' = \
-	/set status_line_2=%{P1}: %{P2}($[set_white({P3})]) [%{P4}] %{P5} %{P6}
+	/set status_line_2=%{P1}: %{P2}($[set_white({P3})]) [%{P4}] %{P5} %{P6} %;\
+	/notify_player %{P2} %{P3}
+
+/def notify_player = \
+	/let percent=$[({1} + 0.0) / {2} * 100] %;\
+;;/echo p = %{percent} %;\
+	/if ({percent} < 5) /echo -aCBred *********** !!! ENTITY UNDER 5% HP !!! *********** %;\
+	/elseif ({percent} < 10) /echo -aCBmagenta ____________ENTITY UNDER 10% HP______________ %;\
+	/elseif ({percent} < 15) /echo -ACmagenta ENTITY UNDER 15% HP!! %;\
+	/elseif ({percent} < 25) /echo -aCByellow Entity under 25% hp!! %;\
+	/elseif ({percent} < 50) /echo -aCyellow Entity under 50% hp!! %;\
+	/endif
+
 
 /def -p1000 -F -msimple -t'Your entity begins to warp, seeming to become unstable. It folds in on itself and vanishes!' = \
 	/set status_line_2=

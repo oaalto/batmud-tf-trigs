@@ -9,10 +9,10 @@
 /def notify_player = \
 	/let percent=$[({1} + 0.0) / {2} * 100] %;\
 ;;/echo p = %{percent} %;\
-	/if ({percent} < 5) /echo -aCBred *********** !!! ENTITY UNDER 5% HP !!! *********** %;\
-	/elseif ({percent} < 10) /echo -aCBmagenta ____________ENTITY UNDER 10% HP______________ %;\
-	/elseif ({percent} < 15) /echo -ACmagenta ENTITY UNDER 15% HP!! %;\
-	/elseif ({percent} < 25) /echo -aCByellow Entity under 25% hp!! %;\
+	/if ({percent} < 5) /echo -aBCred *********** !!! ENTITY UNDER 5% HP !!! *********** %;\
+	/elseif ({percent} < 10) /echo -aBCmagenta ____________ENTITY UNDER 10% HP______________ %;\
+	/elseif ({percent} < 15) /echo -aCmagenta ENTITY UNDER 15% HP!! %;\
+	/elseif ({percent} < 25) /echo -aBCyellow Entity under 25% hp!! %;\
 	/endif
 
 

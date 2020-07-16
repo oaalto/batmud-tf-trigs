@@ -9,6 +9,7 @@
 ;;/load batmud-tf-trigs/riftwalker.tf
 ;;/load batmud-tf-trigs/mage_magical.tf
 ;;/load batmud-tf-trigs/mage_lightning.tf
+;;/load batmud-tf-trigs/mage_acid.tf
 ;;/load batmud-tf-trigs/channellers.tf
 ;;/load batmud-tf-trigs/disciple.tf
 ;;/load batmud-tf-trigs/kharim.tf

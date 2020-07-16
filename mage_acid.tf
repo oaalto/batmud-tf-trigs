@@ -1,5 +1,5 @@
 /def cast_disruption = \
-	/if (strlen({1}) \
+	/if (strlen({1})) \
 		/send @target %{*} %;\
 	/endif %;\
 	/send @cast 'disruption' %{*}

@@ -25,5 +25,3 @@
 
 /alias ukd /use_kiss_of_death %{*}
 
-
-

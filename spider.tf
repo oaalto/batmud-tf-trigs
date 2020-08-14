@@ -56,6 +56,9 @@
 
 /alias chw /cast_heavy_weight %{*}
 
+/def -aCmagenta -msimple -t"You feel lighter, but it doesn't seem to affect your weight!" = \
+	/echo -aCmagenta HEAVY WEIGHT OFF!
+
 /def cast_spider_mass_sacrifice = \
 	/send @cast spider demon mass sacrifice
 

@@ -43,6 +43,21 @@
 
 /alias cvb /cast_venom_blade %{*}
 
+/def cast_heavy_weight = \
+	/send @cast 'heavy weight' %{*}
+
+/alias chw /cast_heavy_weight %{*}
+
+/def cast_spider_mass_sacrifice = \
+	/send @cast spider demon mass sacrifice
+
+/alias cmsac /cast_spider_mass_sacrifice
+
+/def cast_prayer_to_spider_queen = \
+	/cast prayer to the spider queen
+
+/alias cpsq /cast_prayer_to_spider_queen
+
 /def use_stab = \
 	/send @use 'stab' %{*}
 

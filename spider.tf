@@ -34,7 +34,11 @@
 /alias cchan /cast_spider_channeling
 
 /def cast_toxic_dilution = \
-	/send @cast 'toxic dilution' %{*}
+	/if (strlen({1}) > 0) \
+		/send @cast 'toxic dilution' %{*} %;\
+	/else \
+		/send @cast toxic dilution at me %;\
+	/endif
 
 /alias ctd /cast_toxic_dilution %{*}
 
@@ -44,7 +48,11 @@
 /alias cvb /cast_venom_blade %{*}
 
 /def cast_heavy_weight = \
-	/send @cast 'heavy weight' %{*}
+	/if (strlen({1}) > 0) \
+		/send @cast 'heavy weight' %{*} %;\
+	/else \
+		/send @cast heavy weight at me %;\
+	/endif
 
 /alias chw /cast_heavy_weight %{*}
 

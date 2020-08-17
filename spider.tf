@@ -4,12 +4,12 @@
 /alias ch /cast_hunger %{*}
 
 /def cast_spider_conjuration = \
-	/send @cast spider demon conjuration at %{*}
+	/send @cast spider demon conjuration at me with %{*}
 
 /alias csum /cast_spider_conjuration %{*}
 
 /def cast_spider_control = \
-	/send @cast spider demon control
+	/send @cast spider demon control at me
 
 /alias ctrl /cast_spider_control
 
@@ -21,7 +21,7 @@
 /def cast_spider_banishment = \
 	/send @cast spider demon banishment
 
-/alias cdis /cast_spider_banisment
+/alias cdis /cast_spider_banishment
 
 /def cast_spider_inquiry = \
 	/send @cast spider demon inquiry
@@ -46,6 +46,15 @@
 	/send @cast 'venom blade' %{*}
 
 /alias cvb /cast_venom_blade %{*}
+
+/def cast_spider_walk = \
+	/if (strlen({1}) > 0) \
+		/send @cast 'spider walk' %{*} %;\
+	/else \
+		/send @cast spider walk at me %;\
+	/endif
+
+/alias cswalk /cast_spider_walk %{*}
 
 /def cast_heavy_weight = \
 	/if (strlen({1}) > 0) \

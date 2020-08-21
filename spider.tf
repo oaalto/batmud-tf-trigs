@@ -19,7 +19,7 @@
 /alias csac /cast_spider_sacrifice %{*}
 
 /def cast_spider_banishment = \
-	/send @cast spider demon banishment
+	/send @cast spider demon banishment at me
 
 /alias cdis /cast_spider_banishment
 

@@ -1,0 +1,12 @@
+Name:         Demon 1
+Might:        mediocre
+Hit Points:   mediocre          HP regen:     superb
+Spell Points: mediocre          SP regen:     none
+Endurance:    mediocre          EP regen:     superb
+Hit Bonus:    superb            Def Bonus:    none              Dmg Bonus:    fair
+Strength:     none              Dexterity:    none              Constitution: good
+Intelligence: superb            Wisdom:       great
+Metabolism:   none
+
+Skills and Spells: None
+

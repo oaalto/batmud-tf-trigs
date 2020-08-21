@@ -29,7 +29,7 @@
 /alias cinq /cast_spider_inquiry
 
 /def cast_spider_channeling = \
-	/send @cast spider demon channeling
+	/send @cast spider demon channeling at me
 
 /alias cchan /cast_spider_channeling
 

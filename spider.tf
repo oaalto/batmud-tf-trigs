@@ -24,7 +24,7 @@
 /alias cdis /cast_spider_banishment
 
 /def cast_spider_inquiry = \
-	/send @cast spider demon inquiry
+	/send @cast spider demon inquiry at me
 
 /alias cinq /cast_spider_inquiry
 

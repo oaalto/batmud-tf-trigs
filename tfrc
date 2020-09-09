@@ -6,6 +6,7 @@
 ;;/load batmud-tf-trigs/cure_spells.tf
 ;;/load batmud-tf-trigs/ceremony.tf
 ;;/load batmud-tf-trigs/magical.tf
+;;/load batmud-tf-trigs/water_walking.tf
 ;;/load batmud-tf-trigs/riftwalker.tf
 ;;/load batmud-tf-trigs/mage_magical.tf
 ;;/load batmud-tf-trigs/mage_lightning.tf

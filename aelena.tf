@@ -20,6 +20,11 @@
 
 /alias uw /use_wound %{*}
 
+/def use_thrust = \
+	/send @target %{*};use 'thrust' %{*}
+
+/alias ut /use_thrust %{*}
+
 /def use_dissection = \
     /send @use dissection at corpse try %{1} %{2}
 

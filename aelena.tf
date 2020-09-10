@@ -1,3 +1,11 @@
+/def rip_familiar_consume = /send @rip_action get all from corpse;familiar consume corpse;drop zinc;drop mowgles
+
+/alias rip_consume /rip_familiar_consume
+
+/def rip_dissect_corpse = /send @rip_action get all from corpse;drop zinc;drop mowgles
+
+/alias rip_dissect /rip_dissect_corpse
+
 ;; Sting of Aelena
 /def cast_sting_of_aelena = \
     /send @target %{*};cast 'sting of aelena' %{*}

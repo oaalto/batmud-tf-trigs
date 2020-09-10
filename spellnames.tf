@@ -43,7 +43,6 @@
 /def -F -i -P1 -t"'(judicandus eurto mangenic)'"          translator_33=/substitute %{*} (True party heal)
 /def -F -i -P1 -t"'(harnaxan temnahecne)'"                 translator_34=/substitute %{*} (Unpain)
 /def -F -i -P1 -t"'(Paxus)'"                               translator_35=/substitute %{*} (Unstun)
-/def -F -i -P1  -t"'(Jeeeeeeeeeeeesuuuuuuuus)'"             translator_36=/substitute %{*} (Water walking)
 
 #echo ### PSIONICIST SPELLS ###
 /def -F -i -P1  -t"'(fooohh haaahhh booooloooooh)'"         translator_37=/substitute %{*} (Aura detection)

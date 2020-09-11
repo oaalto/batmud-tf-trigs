@@ -1,3 +1,6 @@
+/def -p10 -F -aBCred -msimple -t"The connection between you and your blade fades away."
+
+
 /def rip_familiar_consume = /send @rip_action get all from corpse;familiar consume corpse;drop zinc;drop mowgles
 
 /alias rip_consume /rip_familiar_consume

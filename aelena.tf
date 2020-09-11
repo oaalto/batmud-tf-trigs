@@ -41,3 +41,17 @@
 
 /alias ud /use_dissection %{*}
 
+;; Familiar Stuff
+
+/def familiar_consume = /send @familiar consume %{*}
+/alias fc /familiar_consume %{*}
+
+/def familiar_store_slow_death = /send @familiar store slow death
+/alias fssd /familiar_store_slow_death
+
+/def familiar_store_rusted_blade = /send @familiar store rusted blade
+/alias fsrb /familiar_store_rusted_blade
+
+/def familiar_store_black_trance = /send @familiar store black trance
+/alias fsbt /familiar_store_black_trance
+

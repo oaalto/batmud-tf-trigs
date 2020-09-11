@@ -89,6 +89,7 @@
 /def -p10 -F -aBCred -msimple -t"Something touches you and spoils your concentration ruining the spell."
 /def -p10 -F -aBCred -msimple -t"You poke yourself in the eye and your spell misfires."
 /def -p10 -F -aBCred -msimple -t"Something touches you and spoils your concentration ruining the spell."
+/def -p10 -F -aBCred -msimple -t"You fail to chant the spell correctly."
 
 ;; Fumble
 /def -p10 -F -aBCred -mregexp -t"You falter and fumble the spell."

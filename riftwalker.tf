@@ -248,7 +248,6 @@
 	/endif
 
 /def -p10 -F -aBCwhite -mregexp -t"(.+) entity starts concentrating on a new offensive skill."
-/def -p10 -F -aCblue -msimple -t"Your entity is prepared to do the skill."
-
-
+/def -p10 -F -aBCblue -msimple -t"Your entity is prepared to do the skill." = \
+	/echo -aBCblue Entity Skill!
 

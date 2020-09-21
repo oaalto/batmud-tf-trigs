@@ -1,5 +1,7 @@
-/def -p10 -F -aBCred -msimple -t"The connection between you and your blade fades away."
 /def -p10 -F -aBCgreen -msimple -t"Your Shadow Familiar shrieks as it advances a level!"
+
+/def -F -aBCred -msimple -t"The surge of magic backlashes at you, just when you're finishing the spell."
+/def -F -aBCred -msimple -t"You fail to chant the spell correctly."
 
 /def rip_familiar_consume = /send @rip_action get all from corpse;familiar consume corpse;drop zinc;drop mowgles
 

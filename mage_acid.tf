@@ -14,6 +14,14 @@
 
 /alias cab /cast_acid_blast %{*}
 
+/def cast_acid_storm = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif \
+	/send @cast 'acid storm' %{*}
+
+/alias cas /cast_acid_storm %{*}
+
 /def cast_lock_biter = \
 	/send @cast 'lock biter' %{*}
 

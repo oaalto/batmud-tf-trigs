@@ -46,6 +46,8 @@
 
 /alias ip /use_iron_palm %{*}
 
+/def -F -aBCred -simple -t"You do a complex attack maneuver but miss."
+
 ;; Kata
 /def use_kata =\
 	/monkskillinterrupt %;\

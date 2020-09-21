@@ -2,6 +2,7 @@
 
 /def -F -aBCred -msimple -t"The surge of magic backlashes at you, just when you're finishing the spell."
 /def -F -aBCred -msimple -t"You fail to chant the spell correctly."
+/def -F -aBCred -msimple -t"At the last moment you notice the spell is about to turn at you, and abort the"
 
 /def rip_familiar_consume = /send @rip_action get all from corpse;familiar consume corpse;drop zinc;drop mowgles
 

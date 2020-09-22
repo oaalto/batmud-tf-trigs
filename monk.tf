@@ -110,8 +110,8 @@
 	/do_disrupt_skill %{*}
 
 /set armourskill1=falling boulder strike
-/set armourskill2=%{armourskill1}
-/set armourskill3=%{armourskill1}
+/set armourskill2=falling boulder strike
+/set armourskill3=falling boulder strike
 ;;/set armourskill2=earthquake kick
 ;;/set armourskill3=avalanche slam
 

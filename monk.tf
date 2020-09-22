@@ -109,10 +109,15 @@
 	/set currentdisruptskill=%{disruptskill1} %;\
 	/do_disrupt_skill %{*}
 
+/alias uek /use_earthquake_kick %{*}
+/def use_earthquake_kick = \
+	/set currentarmorskill=%{armourskill2} %;\
+	/do_armor_skill %{*}
+
 /set armourskill1=falling boulder strike
-/set armourskill2=falling boulder strike
+;;/set armourskill2=falling boulder strike
 /set armourskill3=falling boulder strike
-;;/set armourskill2=earthquake kick
+/set armourskill2=earthquake kick
 ;;/set armourskill3=avalanche slam
 
 /set disruptskill1=wave crest strike

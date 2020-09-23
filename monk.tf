@@ -169,7 +169,7 @@ leaving (it|him|her) temporarily vulnerable!$'
 /def -p1 -F -aCgreen -mregexp -t'^As (she|he|it) lands, some of (his|her|its) protection shifts out of\
 place, leaving (him|her|it) temporarily vulnerable!$'
 
-/def -p1 -F -aCred -mregexp -t'but only score a glancing blow.$' = /set currentarmorskill=%{armourskill1} %;
+/def -p1 -F -aBCred -mregexp -t'but only score a glancing blow.$' = /set currentarmorskill=%{armourskill1} %;
 
 /def -p1 -F -aCblue -mregexp -t'but only bruise the muscle.$' = /set currentarmorskill=%{armourskill2} %;
 
@@ -181,7 +181,7 @@ place, leaving (him|her|it) temporarily vulnerable!$'
 
 /def -p1 -F -aBCgreen -mregexp -t'and you feel something shatter!$' = /set currentarmorskill=%{armourskill2} %;
 
-/def -p1 -F -aCred -mregexp -t'but don\'t get any solid hits.$' = /set currentarmorskill=%{armourskill1} %;
+/def -p1 -F -aBCred -mregexp -t'but don\'t get any solid hits.$' = /set currentarmorskill=%{armourskill1} %;
 
 /def -p1 -F -aCblue -mregexp -t'preventing you from hitting with the others.$' = /set currentarmorskill=%{armourskill3} %;
 
@@ -189,7 +189,7 @@ place, leaving (him|her|it) temporarily vulnerable!$'
 
 /def -p1 -F -aBCgreen -mregexp -t'shaking (his|her|its) whole body!$' = /set currentarmorskill=%{armourskill3} %;
 
-/def -p1 -F -aCred -mregexp -t'outstretched limbs, but miss.$' = /set currentarmorskill=%{armourskill1} %;
+/def -p1 -F -aBCred -mregexp -t'outstretched limbs, but miss.$' = /set currentarmorskill=%{armourskill1} %;
 
 /def -p1 -F -aCblue -mregexp -t'(manage|manages|managed) to land on (his|her|its) butt.$' = /set currentarmorskill=%{armourskill1} %;
 

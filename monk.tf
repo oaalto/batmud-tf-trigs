@@ -114,11 +114,16 @@
 	/set currentarmorskill=%{armourskill2} %;\
 	/do_armor_skill %{*}
 
+/alias uas /use_avalance_slam %{*}
+/def use_avalance_slam = \
+        /set currentarmorskill=%{armourskill3} %;\
+        /do_armor_skill %{*}
+
 /set armourskill1=falling boulder strike
 ;;/set armourskill2=falling boulder strike
-/set armourskill3=falling boulder strike
+;;/set armourskill3=falling boulder strike
 /set armourskill2=earthquake kick
-;;/set armourskill3=avalanche slam
+/set armourskill3=avalanche slam
 
 /set disruptskill1=wave crest strike
 ;;/set disruptskill2=wave crest strike

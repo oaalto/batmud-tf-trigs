@@ -163,7 +163,8 @@
 
 /def -p10000 -F -msimple -t'You start chanting.' = /monkskillinterrupt
 
-;;ARMOUR SKILLS
+;; ARMOUR SKILLS
+
 /def -p1 -F -aCgreen -mregexp -t'^The (blow|thrashing) knocks some of (its|her|his) defenses loose,\
 leaving (it|him|her) temporarily vulnerable!$'
 /def -p1 -F -aCgreen -mregexp -t'^As (she|he|it) lands, some of (his|her|its) protection shifts out of\
@@ -197,37 +198,37 @@ place, leaving (him|her|it) temporarily vulnerable!$'
 
 /def -p1 -F -aBCgreen -mregexp -t'and throw (him|it|her) down onto (his|her|its) back!$' = /set currentarmorskill=%{armourskill1} %;
 
-;;DISRUPT SKILLS
+;; DISRUPT SKILLS
 
 /def -p1 -F -aCgreen -mregexp -t'shakes (his|her|its) head back and forth, clearly disoriented.$'
 /def -p1 -F -aCgreen -mregexp -t'blinks distractedly, looking somewhat blind!$'
 /def -p1 -F -aCgreen -mregexp -t'hacks and wheezes, looking disoriented.$'
 /def -p1 -F -aCgreen -mregexp -t'takes a moment too long to regain (his|her|its) footing.$'
 
-/def -p1 -F -mregexp -t'but can\'t make flesh contact.$' = /set currentdisruptskill=%{disruptskill1} %;
+/def -p1 -F -aBCred -mregexp -t'but can\'t make flesh contact.$' = /set currentdisruptskill=%{disruptskill1} %;
 
-/def -p1 -F -mregexp -t'on the side of the head.$' = /set currentdisruptskill=%{disruptskill2} %;
+/def -p1 -F -aCblue -mregexp -t'on the side of the head.$' = /set currentdisruptskill=%{disruptskill2} %;
 
-/def -p1 -F -mregexp -t'a harsh slap across the jaw.$' = /set currentdisruptskill=%{disruptskill2} %;
+/def -p1 -F -aCyellow -mregexp -t'a harsh slap across the jaw.$' = /set currentdisruptskill=%{disruptskill2} %;
 
-/def -p1 -F -mregexp -t'but miss the veins you were aiming for.$' = /set currentdisruptskill=%{disruptskill2} %;
+/def -p1 -F -aCgreen -mregexp -t'but miss the veins you were aiming for.$' = /set currentdisruptskill=%{disruptskill2} %;
 
-/def -p1 -F -mregexp -t'hitting one of the arteries and disrupting (his|her|its) blood flow!$' = /set currentdisruptskill=%{disruptskill2} %;
+/def -p1 -F -aBCgreen -mregexp -t'hitting one of the arteries and disrupting (his|her|its) blood flow!$' = /set currentdisruptskill=%{disruptskill2} %;
 
-/def -p1 -F -mregexp -t'You jump up and kick (.+) in the ribcage, but don\'t get enough contact to backflip.' = /set currentdisruptskill=%{disruptskill3}
+/def -p1 -F -aCblue -mregexp -t'You jump up and kick (.+) in the ribcage, but don\'t get enough contact to backflip.' = /set currentdisruptskill=%{disruptskill3}
 
-/def -p1 -F -mregexp -t'but slip and fall down.$' = /set currentdisruptskill=%{disruptskill1} %;
+/def -p1 -F -aBCred -mregexp -t'but slip and fall down.$' = /set currentdisruptskill=%{disruptskill1} %;
 
-/def -p1 -F -mregexp -t'and have to settle for a dropkick to the stomach.$' = /set currentdisruptskill=%{disruptskill3} %;
+/def -p1 -F -aCblue -mregexp -t'and have to settle for a dropkick to the stomach.$' = /set currentdisruptskill=%{disruptskill3} %;
 
-/def -p1 -F -mregexp -t'but (he|she|it) deflects your hands.$' = /set currentdisruptskill=%{disruptskill1} %;
+/def -p1 -F -aBCred -mregexp -t'but (he|she|it) deflects your hands.$' = /set currentdisruptskill=%{disruptskill1} %;
 
-/def -p1 -F -mregexp -t'but barely manage to move (her|it|him) at all.$' = /set currentdisruptskill=%{disruptskill1} %;
+/def -p1 -F -aCblue -mregexp -t'but barely manage to move (her|it|him) at all.$' = /set currentdisruptskill=%{disruptskill1} %;
 
-/def -p1 -F -mregexp -t'forcing (him|her|it) to take a few steps back.$' = /set currentdisruptskill=%{disruptskill1} %;
+/def -p1 -F -aCyellow -mregexp -t'forcing (him|her|it) to take a few steps back.$' = /set currentdisruptskill=%{disruptskill1} %;
 
 
-;;AREA SKILLS
+;; AREA SKILLS
 
 /def -p1 -F -mregexp -t'backs off and you can\'t even get started.$' = /set currentareaskill=%{areaskill1} %;
 
@@ -260,7 +261,7 @@ place, leaving (him|her|it) temporarily vulnerable!$'
 /def -p1 -F -mregexp -t'^You drop down and sweep your leg low along the ground.$' = /set currentareaskill=%{areaskill1} %;
 
 
-;;AVOID SKILLS
+;; AVOID SKILLS
 
 
 /def -p1 -F -mregexp -t'but are pushed back.$' = /set currentavoidskill=%{avoidskill1} %;

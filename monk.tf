@@ -165,44 +165,44 @@
 
 ;;ARMOUR SKILLS
 /def -p1 -F -aCgreen -mregexp -t'^The (blow|thrashing) knocks some of (its|her|his) defenses loose,\
-leaving (it|him|her) temporarily vulnerable!$' 
+leaving (it|him|her) temporarily vulnerable!$'
 /def -p1 -F -aCgreen -mregexp -t'^As (she|he|it) lands, some of (his|her|its) protection shifts out of\
-place, leaving (him|her|it) temporarily vulnerable!$' 
+place, leaving (him|her|it) temporarily vulnerable!$'
 
-/def -p1 -F -mregexp -t'but only score a glancing blow.$' = /set currentarmorskill=%{armourskill1} %;
+/def -p1 -F -aCred -mregexp -t'but only score a glancing blow.$' = /set currentarmorskill=%{armourskill1} %;
 
-/def -p1 -F -mregexp -t'but only bruise the muscle.$' = /set currentarmorskill=%{armourskill2} %;
+/def -p1 -F -aCblue -mregexp -t'but only bruise the muscle.$' = /set currentarmorskill=%{armourskill2} %;
 
-/def -p1 -F -mregexp -t'scoring a solid hit!$' = /set currentarmorskill=%{armourskill2} %;
+/def -p1 -F -aBCblue -mregexp -t'scoring a solid hit!$' = /set currentarmorskill=%{armourskill2} %;
 
-/def -p1 -F -mregexp -t'and you feel something pop!$' = /set currentarmorskill=%{armourskill2} %;
+/def -p1 -F -aCyellow -mregexp -t'and you feel something pop!$' = /set currentarmorskill=%{armourskill2} %;
 
-/def -p1 -F -mregexp -t'and you feel something snap!$' = /set currentarmorskill=%{armourskill2} %;
+/def -p1 -F -aCgreen -mregexp -t'and you feel something snap!$' = /set currentarmorskill=%{armourskill2} %;
 
-/def -p1 -F -mregexp -t'and you feel something shatter!$' = /set currentarmorskill=%{armourskill2} %;
+/def -p1 -F -aBCgreen -mregexp -t'and you feel something shatter!$' = /set currentarmorskill=%{armourskill2} %;
 
-/def -p1 -F -mregexp -t'but don\'t get any solid hits.$' = /set currentarmorskill=%{armourskill1} %;
+/def -p1 -F -aCred -mregexp -t'but don\'t get any solid hits.$' = /set currentarmorskill=%{armourskill1} %;
 
-/def -p1 -F -mregexp -t'preventing you from hitting with the others.$' = /set currentarmorskill=%{armourskill3} %;
+/def -p1 -F -aCblue -mregexp -t'preventing you from hitting with the others.$' = /set currentarmorskill=%{armourskill3} %;
 
-/def -p1 -F -mregexp -t'getting two hits in!$' = /set currentarmorskill=%{armourskill3} %;
+/def -p1 -F -aCyellow -mregexp -t'getting two hits in!$' = /set currentarmorskill=%{armourskill3} %;
 
-/def -p1 -F -mregexp -t'shaking (his|her|its) whole body!$' = /set currentarmorskill=%{armourskill3} %;
+/def -p1 -F -aBCgreen -mregexp -t'shaking (his|her|its) whole body!$' = /set currentarmorskill=%{armourskill3} %;
 
-/def -p1 -F -mregexp -t'outstretched limbs, but miss.$' = /set currentarmorskill=%{armourskill1} %;
+/def -p1 -F -aCred -mregexp -t'outstretched limbs, but miss.$' = /set currentarmorskill=%{armourskill1} %;
 
-/def -p1 -F -mregexp -t'(manage|manages|managed) to land on (his|her|its) butt.$' = /set currentarmorskill=%{armourskill1} %;
+/def -p1 -F -aCblue -mregexp -t'(manage|manages|managed) to land on (his|her|its) butt.$' = /set currentarmorskill=%{armourskill1} %;
 
-/def -p1 -F -mregexp -t'but (he|she|it) twists to (landon|land on) (his|her|its) side.$' = /set currentarmorskill=%{armourskill1} %;
+/def -p1 -F -aCyellow -mregexp -t'but (he|she|it) twists to (landon|land on) (his|her|its) side.$' = /set currentarmorskill=%{armourskill1} %;
 
-/def -p1 -F -mregexp -t'and throw (him|it|her) down onto (his|her|its) back!$' = /set currentarmorskill=%{armourskill1} %;
+/def -p1 -F -aBCgreen -mregexp -t'and throw (him|it|her) down onto (his|her|its) back!$' = /set currentarmorskill=%{armourskill1} %;
 
 ;;DISRUPT SKILLS
 
-/def -p1 -F -aCgreen -mregexp -t'shakes (his|her|its) head back and forth, clearly disoriented.$' 
-/def -p1 -F -aCgreen -mregexp -t'blinks distractedly, looking somewhat blind!$' 
-/def -p1 -F -aCgreen -mregexp -t'hacks and wheezes, looking disoriented.$' 
-/def -p1 -F -aCgreen -mregexp -t'takes a moment too long to regain (his|her|its) footing.$' 
+/def -p1 -F -aCgreen -mregexp -t'shakes (his|her|its) head back and forth, clearly disoriented.$'
+/def -p1 -F -aCgreen -mregexp -t'blinks distractedly, looking somewhat blind!$'
+/def -p1 -F -aCgreen -mregexp -t'hacks and wheezes, looking disoriented.$'
+/def -p1 -F -aCgreen -mregexp -t'takes a moment too long to regain (his|her|its) footing.$'
 
 /def -p1 -F -mregexp -t'but can\'t make flesh contact.$' = /set currentdisruptskill=%{disruptskill1} %;
 

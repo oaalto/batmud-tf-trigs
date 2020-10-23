@@ -56,6 +56,33 @@
 
 /alias dm /use_blood_harvest %{*}
 
+;; Reave Shield
+/def use_reave_shield = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif %;\
+	/send use 'reave shield' %{*}
+
+/alias res /use_reave_shield %{*}
+
+;; Reave Weapon
+/def use_reave_weapon = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif %;\
+	/send @use 'reave weapon' %{*}
+
+/alias rea /use_reave_weapon %{*}
+
+;; Reave Armour
+/def use_reave_armour = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif %;\
+	/send @use 'reave armour' %{*}
+
+/alias rea /use_reave_armour %{*}
+
 ;; True Reaving
 /def use_true_reaving = \
 	/if (strlen({1}) > 0) \

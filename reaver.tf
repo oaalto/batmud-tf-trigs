@@ -142,8 +142,8 @@
 /def cast_word_of_spite = \
 	/reaver_threaten %{*} %;\
 	/if (strlen({1}) > 0) \
-        /send @target %{*} %;\
-    /endif %;\
+        	/send @target %{*} %;\
+	/endif %;\
 	/send cast 'word of spite' %{*}
 
 /alias cs /cast_word_of_spite %{*}
@@ -152,8 +152,8 @@
 /def cast_word_of_blasting = \
 	/reaver_threaten %{*} %;\
 	/if (strlen({1}) > 0) \
-        /send @target %{*} %;\
-    /endif %;\
+        	/send @target %{*} %;\
+	/endif %;\
 	/send cast 'word of blasting' %{*}
 
 /alias cb /cast_word_of_blasting %{*}
@@ -162,21 +162,31 @@
 /def cast_word_of_destruction = \
 	/reaver_threaten %{*} %;\
 	/if (strlen({1}) > 0) \
-        /send @target %{*} %;\
-    /endif %;\
+        	/send @target %{*} %;\
+	/endif %;\
 	/send cast 'word of destruction' %{*}
 
 /alias cwd /cast_word_of_destruction %{*}
 
 ;; Word of Slaughter
 /def cast_word_of_slaughter = \
-    /reaver_threaten %{*} %;\
+	/reaver_threaten %{*} %;\
 	/if (strlen({1}) > 0) \
-        /send @target %{*} %;\
-    /endif %;\
-    /send cast 'word of slaughter' %{*}
+        	/send @target %{*} %;\
+	/endif %;\
+	/send cast 'word of slaughter' %{*}
 
 /alias cws /cast_word_of_slaughter %{*}
+
+;; Word of Genocide
+/def cast_word_of_genocide = \
+	/reaver_threaten %;\
+	/if (strlen({1}) > 0) \
+		/send @target %{*} &;\
+	/endif %;\
+	/send @cast 'word of genocide' %{*}
+
+/alias cwg /cast_word_of_genocide %{*}
 
 ;; Word of Attrition
 /def cast_word_of_attrition = \

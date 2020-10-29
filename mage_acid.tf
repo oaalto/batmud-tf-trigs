@@ -6,6 +6,14 @@
 
 /alias cdi /cast_disruption %{*}
 
+/def cast_acid_arrow = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif %;\
+	/send @cast 'acid arrow' %{*}
+
+/alias caa /cast_acid_arrow %{*}
+
 /def cast_acid_blast = \
 	/if (strlen({1})) \
 	       /send @target %{*} %;\

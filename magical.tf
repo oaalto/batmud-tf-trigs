@@ -47,6 +47,11 @@
 
 /alias cmi /cast_mirror_image %{*}
 
+/def cast_identify = \
+	/send @cast identify at %{*}
+
+/alias cid /cast_identify %{*}
+
 ;; Analysis of Magic Lore
 /def -p10 -F -P2Cgreen -mregexp -t"(.+) (screams in pain.)"
 /def -p10 -F -P2Cblue -mregexp -t"(.+) (writhes in agony.)"

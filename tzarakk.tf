@@ -126,7 +126,7 @@
 	/endif %;\
 	/send @use 'charge' %{*}
 
-/alias uc /use_charge %{*}
+/alias cs /use_charge %{*}
 
 /def cast_summon_dire_boar = \
 	/send @cast summon dire boar

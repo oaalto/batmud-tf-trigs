@@ -2,12 +2,12 @@
 /set mount_summoned=0
 
 /def -p10000 -F -mregexp -t'^[\*]+ Round .* [\*]+$' = \
-	/if ({mount_summoned}) \
-		/send @x vedir %;\
-	/endif
+	/send @x %{tzarakk_mount}
 
-/def -p10000 -F -mregexp -t'^A faint fog-like substance flows from corpse of (.+) to Vedir\'s lifeless eyes replenishing it (.+)\.$' = \
-	/send @tzarakk chaosfeed corpse;x vedir
+/def -p10000 -F -mregexp -t'^A faint fog-like substance flows from corpse of (.+) to (.+)\'s lifeless eyes replenishing it (.+)\.$' = \
+	/if ({P1} =~ {tzarakk_mount}) \
+		/send @tzarakk chaosfeed corpse;x %{tzarakk_mount} %;\
+	/endif
 
 /def -p1000 -F-aBCred -msimple -t'The ice makes a sound below your mount, scaring it!' = \
 	/echo -aBCred *************** DISMOUNTED!! *************** %;\
@@ -21,17 +21,21 @@
         /echo -aBCred *************** DISMOUNTED!! *************** %;\
     /set dismounted=1
 
-/def -p1000 -F -msimple -t'Vedir appears in a violent burst of chaos.' = \
-    /send @mount vedir
+/def -p1000 -F -mregexp -t'(.+) appears in a violent burst of chaos.' = \
+	/if ({P1} =~ {tzarakk_mount}) \
+	    /send @mount %{tzarakk_mount} %;\
+	/endif
 
 /def -p10000 -F -aBCred -mregexp -t'(.+) is DEAD, R.I.P.' = \
     /if ({dismounted}) \
-        /send @mount vedir %;\
+        /send @mount %{tzarakk_mount} %;\
     /endif
 
-/def -p10000 -F -msimple -t'You get up on Vedir and begin to ride.' = \
-	/set dismounted=0 %;\
-	/set mount_summoned=1
+/def -p10000 -F -msimple -t'You get up on (.+) and begin to ride.' = \
+	/if ({P1} =~ {tzarakk_mount}) \
+		/set dismounted=0 %;\
+		/set mount_summoned=1 %;\
+	/endif
 
 /def set_feed_mode = \
 	/send @rip_action set get all from corpse;tzarakk chaosfeed corpse;tzarakk chaosfeed corpse;drop zinc;drop mowgles
@@ -54,20 +58,23 @@
 /alias sleep /do_sleep
 
 /def -p10000 -F -msimple -t'You awaken from your short rest, and feel slightly better.' = \
-    /send @mount vedir
+    /send @mount %{tzarakk_mount}
 
 /def -p10000 -F -msimple -t"You don't quite feel like camping at the moment." = \
-	/send @mount vedir
+	/send @mount %{tzarakk_mount}
 
 /def -p10000 -F -msimple -t"You wake up!" = \
-        /send @mount vedir
+    /send @mount %{tzarakk_mount}
 
 /def -p1000 -F -msimple -t"It'll be inconvenient to camp here with all this water." = \
-	/send @mount vedir
+	/send @mount %{tzarakk_mount}
 
-;; Status line
+;; Status lines need to be duplicated so that we don't gag mob shapes.
+/def -p1000 -F -ag -mregexp -t'^Orthos is (.+) \((.+)%\)' = \
+	/set status_line_2=Orthos (%{P2}%%)
+
 /def -p1000 -F -ag -mregexp -t'^Vedir is (.+) \((.+)%\)' = \
-	/set status_line_2=%{P0}
+	/set status_line_2=Vedir (%{P1}%%)
 
 /def cast_steed_of_tzarakk = \
 	/send @cast steed of tzarakk
@@ -75,7 +82,7 @@
 /alias cst /cast_steed_of_tzarakk
 
 /def -p10000 -F -msimple -t'A bizarre mist starts to form itself rapidly, and within moments a dark morbid' = \
-    /send @mount vedir %;\
+    /send @mount %{tzarakk_mount} %;\
     /set mount_summoned=1 %;\
     /set_feed_mode
 
@@ -102,7 +109,7 @@
 /def cast_preserve_corpse = \
 	/send @cast preserve corpse at corpse
 
-/alias cpc /cast_preserve_corpse 
+/alias cpc /cast_preserve_corpse
 
 /def use_trample = \
 	/if (strlen({1}) > 0) \
@@ -133,4 +140,4 @@
 
 /alias csdb /cast_summon_dire_boar
 
-	
+

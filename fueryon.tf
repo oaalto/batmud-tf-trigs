@@ -11,4 +11,4 @@
 /def -p1000 -F -P2BCmagenta -mregexp -t"(.+) hits Fueryon (\d+ times) (.+)."
 /def -p1000 -F -P2BCred -mregexp -t"(.+) hits Fueryon (\d+ times) (.+)."
 
-
+/set tzarakk_mount=Vedir

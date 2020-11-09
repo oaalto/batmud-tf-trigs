@@ -32,10 +32,10 @@
     /endif
 
 /def -p10000 -F -msimple -t'You get up on (.+) and begin to ride.' = \
-	/if ({P1} =~ {tzarakk_mount}) \
-		/set dismounted=0 %;\
-		/set mount_summoned=1 %;\
-	/endif
+	/set dismounted=0 %;\
+	/set mount_summoned=1
+
+/def -p1000 -F -aCred -msimple -t"Your mount snorts and does not respond."
 
 /def set_feed_mode = \
 	/send @rip_action set get all from corpse;tzarakk chaosfeed corpse;tzarakk chaosfeed corpse;drop zinc;drop mowgles
@@ -71,10 +71,10 @@
 
 ;; Status lines need to be duplicated so that we don't gag mob shapes.
 /def -p1000 -F -ag -mregexp -t'^Orthos is (.+) \((.+)%\)' = \
-	/set status_line_2=Orthos (%{P2}%%)
+	/set status_line_2=Orthos (%{P2}%%) %{spawn_timer}
 
 /def -p1000 -F -ag -mregexp -t'^Vedir is (.+) \((.+)%\)' = \
-	/set status_line_2=Vedir (%{P1}%%)
+	/set status_line_2=Vedir (%{P2}%%) %{spawn_timer}
 
 /def cast_steed_of_tzarakk = \
 	/send @cast steed of tzarakk

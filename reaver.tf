@@ -291,6 +291,7 @@
 
 /def -p10 -F -aBCred -mregexp -t"Your frenzied attempts to destroy (.+) are easily deflected."
 
+/def -p10 -F -aCblue -mregexp -t"You make a quick slash across (.+) body with your weapon."
 /def -p10 -F -aCblue -mregexp -t"You slash upwards across (.+) torso with great force."
 /def -p10 -F -aCblue -mregexp -t"...and then strike again with a downwards blow!"
 /def -p10 -F -aCblue -mregexp -t"You score a nasty cut on (.+) shoulder."

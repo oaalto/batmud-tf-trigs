@@ -182,7 +182,6 @@
 /def -F -i -P1  -t"'(infernalicus conjuratis arachnidos)'"  translator_178=/substitute %{*} (Spider servant)
 /def -F -i -P1 -t"'(Khizanth Arachnidus Diametricus)'"     translator_179=/substitute %{*} (Spider touch)
 /def -F -i -P1  -t"'(Khizanth Arachnidus Walkitus)'"        translator_180=/substitute %{*} (Spider walk)
-/def -F -i -P1  -t"'(infernalicus thanatos arachnidos)'"    translator_181=/substitute %{*} (Spider web)
 /def -F -i -P1 -t"'(Khizanth Arachnidus Iracundus)'"       translator_182=/substitute %{*} (Spider wrath)
 /def -F -i -P1 -t"'(morri nam pantoloosa)'"                translator_183=/substitute %{*} (Toxic dilution)
 /def -F -i -P1  -t"'(May this become the blood of the Spider queen)'" translator_184=/substitute %{*} (Venom blade)

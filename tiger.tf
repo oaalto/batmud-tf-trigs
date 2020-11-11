@@ -1,3 +1,5 @@
+/def -p10 -F -aCred -mregexp -t"(.+) manages to resist your claws!"
+
 ;; Iron Palm
 /def use_iron_palm = \
 	/send @target %{*};use 'iron palm' %{*}

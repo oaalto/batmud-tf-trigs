@@ -24,7 +24,7 @@
     /endif %;\
 	/send use 'scythe swipe' %{*}
 
-/alias us /use_scythe_swipe %{*}
+/alias uss /use_scythe_swipe %{*}
 
 ;; Rampant Cutting
 /def use_rampant_cutting = \

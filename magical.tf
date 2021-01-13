@@ -52,6 +52,21 @@
 
 /alias cid /cast_identify %{*}
 
+/def cast_teleport_with_error = \
+	/send @cast teleport with error
+
+/alias ctwe /cast_teleport_with_error
+
+/def cast_teleport_without_error = \
+	        /send @cast teleport without error
+
+/alias ctw /cast_teleport_without_error
+
+/def cast_relocate = \
+	/send @cast 'relocate' %{*}
+
+/alias cr /cast_relocate %{*}
+
 ;; Analysis of Magic Lore
 /def -p10 -F -P2Cgreen -mregexp -t"(.+) (screams in pain.)"
 /def -p10 -F -P2Cblue -mregexp -t"(.+) (writhes in agony.)"

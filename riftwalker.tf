@@ -190,7 +190,7 @@
 
 ;; Absorbing meld
 /def cast_absorbing_meld = \
-        /send @cast 'Absorbing meld' %;\
+        /send @cast 'Absorbing meld' 
 
 /alias cam /cast_absorbing_meld
 

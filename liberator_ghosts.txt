@@ -8,4 +8,5 @@ soldier = aid with ghost slash and ghost army assault
 farmer = can create a herb
 armoursmith = aid with ghost armour
 weaponsmith = aid with ghost sword
+witch = remove stat curses from you
 

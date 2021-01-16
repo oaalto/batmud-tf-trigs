@@ -1,0 +1,11 @@
+peasant = nothing
+ranger = build a campfire, use camping or craft a torch
+priest = heal a person
+barbarian = stunning effect of vengeful haunting
+cook = satiate a person
+guardian = aid with ghost companion
+soldier = aid with ghost slash and ghost army assault
+farmer = can create a herb
+armoursmith = aid with ghost armour
+weaponsmith = aid with ghost sword
+

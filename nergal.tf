@@ -171,3 +171,5 @@
 
 /def -aCgreen -mregexp -t"(.*) plunges towards (.*) and manages to sink its disease infecting nails into (.*) flesh!"
 
+/def -aCgreen -mregexp -t"You can feel essence flowing into you from (.*) as (.*) sinks its nails into its victim!"
+

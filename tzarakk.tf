@@ -1,5 +1,5 @@
 /set dismounted=0
-/set mount_summoned=0
+/setenv mount_summoned=0
 
 /def -p10000 -F -mregexp -t'^[\*]+ Round .* [\*]+$' = \
 	/send @x %{tzarakk_mount}
@@ -140,4 +140,13 @@
 
 /alias csdb /cast_summon_dire_boar
 
+;; Other Guild's Skills
 
+;; Meditation
+/def use_meditation = \
+	/if ({mount_summoned}) \
+		/send @dismount %;\
+	/endif %;\
+	/send @use meditation
+
+/alias med /use_meditation

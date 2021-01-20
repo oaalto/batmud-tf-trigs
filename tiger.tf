@@ -18,7 +18,7 @@
 
 ;; Meditation
 /def use_meditation = \
-	/send @use meditation %;\
+	/send @use meditation
 
 /alias med /use_meditation
 
@@ -30,8 +30,8 @@
 
 ;; Flame Fists
 /def cast_flame_fists = \
-        /send @cast flame fists %;\
- 
+        /send @cast flame fists
+
 /alias cff /cast_flame_fists
 
 ;; Invisibility

@@ -1,5 +1,5 @@
-/def -p10 -F -aCred -mregexp -t"(.+) manages to resist your claws!"
-/def -p10 -F -aCgreen -mregexp -t"As (.+) drops to his knees you leap in for the kill!"
+/def -p10 -F -aCred -mregexp -t"(.*) manages to resist your claws!"
+/def -p10 -F -aCgreen -mregexp -t"As (.*) drops to (.*) knees you leap in for the kill!"
 
 ;; Iron Palm
 /def use_iron_palm = \

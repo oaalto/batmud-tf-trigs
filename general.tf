@@ -44,6 +44,9 @@
 /def -p10 -F -aBCred -msimple -t"You try to concentrate but your head spins like a whirligig!" =\
 	/echo -aBCred STUNNED!
 
+;; Stun
+/def -p100 -F -aCgreen -mregexp -t"Your attack causes (.*) to lose focus slightly."
+
 ;; Spell Related Hilites
 
 ;; Spell Failures

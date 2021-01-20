@@ -13,9 +13,3 @@
 
 /set tzarakk_mount=Vedir
 
-/def -p10000 -F -msimple -t"You get up on Vedir and begin to ride." = \
-	/send @wield sickle in 1;wield xormor in 2
-
-/def -p10000 -F -msimple -t"You can not hold The Demon Sickle <red glow>!" = \
-	/send @wield sickle in 1
-

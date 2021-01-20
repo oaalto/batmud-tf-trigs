@@ -147,3 +147,7 @@
 	/send @dismount;use meditation
 
 /alias med /use_meditation
+
+/def -p10000 -F -msimple -t"Something disturbs you and you cannot concentrate any longer." = \
+	    /send @mount %{tzarakk_mount}
+

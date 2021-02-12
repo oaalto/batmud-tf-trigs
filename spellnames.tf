@@ -172,7 +172,7 @@
 /def -F -i -P1  -t"'(infernalicus thanatos arachnidos)'"    translator_169=/substitute %{*} (Spider demon banishment)
 /def -F -i -P1  -t"'(infernalicus nexus arachnid rex)'"     translator_170=/substitute %{*} (Spider demon channeling)
 /def -F -i -P1  -t"'(arachnid infernalicus arachnoidus demonicus)'" translator_171=/substitute %{*} (Spider demon conjuration)
-/def -F -i -P1  -t"'(infernalicus domus arachnid rex)'"     translator_172=/substitute %{*} (Spider demon control)
+/def -F -i -P1  -t"'(infernalicus domus arachnid rex)'"     translator_172=/substitute %{*} (Spider demon sacrifice)
 /def -F -i -P1  -t"'(Khirsah Zokant Arachnidus)'"           translator_173=/substitute %{*} (Spider demon inquiry)
 /def -F -i -P1  -t"'(infernalicus domus arachnid rex magnos)'" translator_174=/substitute %{*} (Spider demon mass sacrifice)
 #echo Spider demon sacrifice

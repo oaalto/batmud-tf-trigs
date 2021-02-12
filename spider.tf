@@ -1,7 +1,7 @@
 /def cast_hunger = \
 	/send @target %{*};cast hunger of the spider at %{*}
 
-/alias ch /cast_hunger %{*}
+/alias chs /cast_hunger %{*}
 
 /def cast_spider_conjuration = \
 	/send @cast spider demon conjuration at me with %{*}

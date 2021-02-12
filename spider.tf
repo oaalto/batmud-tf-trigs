@@ -83,4 +83,7 @@
 
 /alias us /use_stab %{*}
 
+/def -aCgreen -simple -t"Spider Queen smiles upon you and helps you control the demon."
+/def -aCyellow -regexp -t"(.+)'s demon feels easier to control than usual."
+/def -aCred -regexp -t"(.+)s spider demon draws power from you."
 

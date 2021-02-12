@@ -85,5 +85,5 @@
 
 /def -aCgreen -msimple -t"Spider Queen smiles upon you and helps you control the demon."
 /def -aCyellow -mregexp -t"(.+)'s demon feels easier to control than usual."
-/def -aCred -mregexp -t"(.+)s spider demon draws power from you."
+/def -aCbrightred -mregexp -t"(.+)s spider demon draws power from you."
 

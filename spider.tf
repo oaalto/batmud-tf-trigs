@@ -95,3 +95,6 @@
 /def -aCyellow -mregexp -t"(.+)'s demon feels easier to control than usual."
 /def -aCbrightred -mregexp -t"(.+)s spider demon draws power from you."
 
+/def -aCgreen -mregexp -t"A wound opens on your palm and you guide the black blood at (.+)!"
+/def -aCgreen -mregexp -t"A shower of black blood flies from (.+)'s palm at (.+)!"
+

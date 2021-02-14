@@ -1,6 +1,6 @@
 /def cast_spider_wrath = \
 	/if (strlen({1}) > 0) \
-		/send @target %{*}
+		/send @target %{*} %;\
 	/endif %;\
 	/send @cast 'spider wrath' %{*}
 

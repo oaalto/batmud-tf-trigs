@@ -82,7 +82,7 @@
 /alias cmsac /cast_spider_mass_sacrifice
 
 /def cast_prayer_to_spider_queen = \
-	/cast prayer to the spider queen
+	/send @cast prayer to the spider queen
 
 /alias cpsq /cast_prayer_to_spider_queen
 

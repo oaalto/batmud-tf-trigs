@@ -1,3 +1,11 @@
+/def cast_spider_wrath = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*}
+	/endif %;\
+	/send @cast 'spider wrath' %{*}
+
+/alias csw /cast_spider_wrath %{*}
+
 /def cast_hunger = \
 	/send @target %{*};cast hunger of the spider at %{*}
 

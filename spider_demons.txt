@@ -10,3 +10,20 @@ Metabolism:   none
 
 Skills and Spells: None
 
+Name: Demon 2
+Might:        Unknown
+Hit Points:   mediocre          HP regen:     superb
+Spell Points: good              SP regen:     good
+Endurance:    good              EP regen:     superb
+Hit Bonus:    none              Def Bonus:    superb                Dmg Bonus:    none
+Strength:     none              Dexterity:    good (+3)             Constitution: superb (+6)
+Intelligence: none              Wisdom:       none
+Metabolism:   great
+
+Skills and Spells:
+double_mine (fair   )
+wandmaking (mediocre  )
+feigned_remorse (fair   )
+sounds_of_silence (fair   )
+summon_carnal_spores (mediocre   )
+spider_web (fair      )

@@ -13,3 +13,6 @@
 
 /set tzarakk_mount=Orthos
 
+/def -p100 -F -msimple -t"You get up on Orthos and begin to ride." = \
+	/send @wield xormor;wield spear
+

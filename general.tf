@@ -37,11 +37,13 @@
 /def -p10 -F -aBCgreen -msimple -t"...BUT you break it off."
 /def -p10 -F -aBCgreen -msimple -t"...BUT you break it off with intense concentration."
 
-/def -p10 -F -aBCred -msimple -t"You get hit, and your eyes lose focus slightly." =\
+/def -p10 -F -aBCred -msimple -t"You get hit, and your eyes lose focus slightly." = \
 	/echo -aBCred STUNNED!
 /def -p10 -F -aCred -msimple -t"You are stunned and unable to do anything."
 
-/def -p10 -F -aBCred -msimple -t"You try to concentrate but your head spins like a whirligig!" =\
+/def -p10 -F -aBCred -msimple -t"You try to concentrate but your head spins like a whirligig!" = \
+	/echo -aBCred STUNNED!
+/def -p10 -F -aBCred -msimple -t"You lose connection to reality, becoming truly STUNNED." = \
 	/echo -aBCred STUNNED!
 
 ;; Stun

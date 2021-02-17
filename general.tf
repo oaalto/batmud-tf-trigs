@@ -120,3 +120,6 @@
 ;; Infravision
 /def -p1000 -F -aCred -msimple -t"Everything no longer seems so red."
 
+;; Skill Ups
+/def -p1000 -F -aCgreen -mregexp -t"You feel like you just got slightly better in (.+)."
+

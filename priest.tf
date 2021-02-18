@@ -46,7 +46,7 @@
 
 ;; Damn Armament
 /def cast_damn_armament = \
-        /send @cast 'damn armament' weapon1
+        /send @cast 'damn armament' weapon2
 
 /alias cda /cast_damn_armament
 

@@ -1,25 +1,25 @@
 /set dismounted=0
 /setenv mount_summoned=0
 
-/def -p10000 -F -mregexp -t'^[\*]+ Round .* [\*]+$' = \
+/def -p10000 -F -mregexp -t"^[\*]+ Round .* [\*]+$" = \
 	/send @x %{tzarakk_mount}
 
-/def -p10000 -F -mregexp -t'^A faint fog-like substance flows from corpse of (.+) to (.+)\'s lifeless eyes replenishing it (.+)\.$' = \
+/def -p10000 -F -mregexp -t"^A faint fog-like substance flows from corpse of (.+) to (.+)\'s lifeless eyes replenishing it (.+)\.$" = \
 	/if ({P1} =~ {tzarakk_mount}) \
 		/send @tzarakk chaosfeed corpse;x %{tzarakk_mount} %;\
 	/endif
 
-/def -p1000 -F-aBCred -msimple -t'The ice makes a sound below your mount, scaring it!' = \
+/def -p1000 -F -aBCred -msimple -t"The ice makes a sound below your mount, scaring it!" = \
 	/echo -aBCred *************** DISMOUNTED!! *************** %;\
-    /set dismounted=1
+	/set dismounted=1
 
 /def -p10 -F -aBCred -msimple -t"You are knocked off your mount!" = \
 	/echo -aBCred *************** DISMOUNTED!! *************** %;\
-    /set dismounted=1
+	/set dismounted=1
 
 /def -p10 -F -aBCred -msimple -t"Your mount throws you!" = \
         /echo -aBCred *************** DISMOUNTED!! *************** %;\
-    /set dismounted=1
+	/set dismounted=1
 
 /def -p1000 -F -mregexp -t'(.+) appears in a violent burst of chaos.' = \
 	/if ({P1} =~ {tzarakk_mount}) \

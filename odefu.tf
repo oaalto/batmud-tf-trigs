@@ -13,9 +13,3 @@
 
 /set tzarakk_mount=Orthos
 
-/def -p100 -F -msimple -t"You get up on Orthos and begin to ride." = \
-	/send @wield xormor in 1;wield spear in 2
-
-/def -p100 -F -msimple -t"You can not hold frosty three bladed halberd <red glow>!" = \
-	/send @wield xormor in 1
-

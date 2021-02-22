@@ -148,9 +148,14 @@
 
 /alias med /use_meditation
 
+/def tzarakk_use_dark_meditation = \
+	/send @dismount %;\
+	/use_dark_meditation %{*}
+
+/alias dmed /tzarakk_use_dark_meditation %{*}
+
 /def -p10000 -F -msimple -t"Something disturbs you and you cannot concentrate any longer." = \
     /send @mount %{tzarakk_mount}
-
 
 /def -p100 -F -mregexp -t"You get up on (.+) and begin to ride." = \
        /send @wield weapon1 in 1;wield weapon2 in 2

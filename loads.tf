@@ -21,12 +21,12 @@
 ;;/load batmud-tf-trigs/psionicist.tf
 
 ;; Evil Religious
+;;/load batmud-tf-trigs/priest.tf
 ;;/load batmud-tf-trigs/disciple.tf
 ;;/load batmud-tf-trigs/kharim.tf
 ;;/load batmud-tf-trigs/nergal.tf
 ;;/load batmud-tf-trigs/tzarakk.tf
 ;;/load batmud-tf-trigs/aelena.tf
-;;/load batmud-tf-trigs/priest.tf
 ;;/load batmud-tf-trigs/tiger.tf
 ;;/load batmud-tf-trigs/reaver.tf
 ;;/load batmud-tf-trigs/spider.tf

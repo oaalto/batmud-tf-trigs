@@ -98,3 +98,5 @@
 /def -aCgreen -mregexp -t"A wound opens on your palm and you guide the (.+) blood at (.+)!"
 /def -aCgreen -mregexp -t"A shower of (.+) blood flies from (.+)'s palm at (.+)!"
 
+/def -aCred -msimple -t"You are losing the battle for control over your body!"
+

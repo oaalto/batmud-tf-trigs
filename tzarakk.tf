@@ -36,6 +36,7 @@
 	/set mount_summoned=1
 
 /def -p1000 -F -aCred -msimple -t"Your mount snorts and does not respond."
+/def -p1000 -F -aCred -msimple -t"Your mount is too confused to comply."
 
 /def set_feed_mode = \
 	/send @rip_action set get all from corpse;tzarakk chaosfeed corpse;tzarakk chaosfeed corpse;drop zinc;drop mowgles

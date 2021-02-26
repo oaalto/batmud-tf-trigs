@@ -123,3 +123,6 @@
 ;; Skill Ups
 /def -p1000 -F -aCgreen -mregexp -t"You feel like you just got slightly better in (.+)."
 
+;; Racial Frenzy
+/def -p1000 -F -aCgreen -msimple -t"You enter a frenzy, speeding up your actions!"
+

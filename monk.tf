@@ -61,7 +61,7 @@
 		/use_meditation %;\
 	/endif
 
-/def -p10000 -F -msimple -t'You perform the peaceful Heian Nidan kata.' = \
+/def -p10000 -F -mregexp -t'You perform the peaceful (.+) kata.' = \
         /set kata_done=1 %;\
         /if ({doing_meditation})\
                 /use_meditation %;\
@@ -126,9 +126,9 @@
 /set armourskill3=avalanche slam
 
 /set disruptskill1=wave crest strike
-/set disruptskill2=wave crest strike
+;;/set disruptskill2=wave crest strike
 /set disruptskill3=wave crest strike
-;;/set disruptskill2=geyser force kick
+/set disruptskill2=geyser force kick
 ;;/set disruptskill3=tsunami push
 
 /set areaskill1=hydra fang strike
@@ -161,7 +161,7 @@
 ;; ARMOUR SKILLS
 
 /def -p1 -F -aCgreen -mregexp -t'^The (blow|thrashing) knocks some of (its|her|his) defenses loose,\
-leaving (it|him|her) temporarily vulnerable!$'
+	leaving (it|him|her) temporarily vulnerable!$'
 /def -p1 -F -aCgreen -mregexp -t'^As (she|he|it) lands, some of (his|her|its) protection shifts out of\
 place, leaving (him|her|it) temporarily vulnerable!$'
 

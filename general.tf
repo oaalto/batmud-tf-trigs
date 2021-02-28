@@ -50,6 +50,7 @@
 /def -p100 -F -aCgreen -mregexp -t"Your attack causes (.+) to lose focus slightly."
 /def -p100 -F -aCgreen -mregexp -t"You hurt (.+) who seems to become somewhat confused."
 /def -p100 -F -aCgreen -mregexp -t"You make (.+) stagger helplessly in pain and confusion."
+/def -p100 -F -aCgreen -mregexp -t"You STUN (.+), who loses connection to reality."
 
 ;; Spell Related Hilites
 

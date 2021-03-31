@@ -291,16 +291,16 @@
 
 /def -p10 -F -aBCred -mregexp -t"Your frenzied attempts to destroy (.+) are easily deflected."
 
-/def -p10 -F -aCblue -mregexp -t"You make a quick slash across (.+) body with your weapon."
-/def -p10 -F -aCblue -mregexp -t"You slash upwards across (.+) torso with great force."
+/def -p10 -F -aCblue -mregexp -t"You make a quick slash across (.+) body with your weapon." = /send @scan all
+/def -p10 -F -aCblue -mregexp -t"You slash upwards across (.+) torso with great force." = /send @scan all
 /def -p10 -F -aCblue -mregexp -t"...and then strike again with a downwards blow!"
-/def -p10 -F -aCblue -mregexp -t"You score a nasty cut on (.+) shoulder."
-/def -p10 -F -aCblue -mregexp -t"You cut (.+) arm open with a powerful strike."
-/def -p10 -F -aCblue -mregexp -t"You attack and swing again"
-/def -p10 -F -aCblue -mregexp -t"You attack and swing a THIRD time"
-/def -p10 -F -aCblue -mregexp -t"You follow with a third strike to the cheek, coating (.+) face with blood!"
-/def -p10 -F -aCblue -mregexp -t"You attack and immediately hit (.+) stomach, throwing a crimson spray!"
-/def -p10 -F -aCblue -mregexp -t"You FINALLY shove your weapon right through (.+) chest!"
+/def -p10 -F -aCblue -mregexp -t"You score a nasty cut on (.+) shoulder." = /send @scan all
+/def -p10 -F -aCblue -mregexp -t"You cut (.+) arm open with a powerful strike." = /send @scan all
+/def -p10 -F -aCblue -mregexp -t"You attack and swing again" = /send @scan all
+/def -p10 -F -aCblue -mregexp -t"You attack and swing a THIRD time" = /send @scan all
+/def -p10 -F -aCblue -mregexp -t"You follow with a third strike to the cheek, coating (.+) face with blood!" = /send @scan all
+/def -p10 -F -aCblue -mregexp -t"You attack and immediately hit (.+) stomach, throwing a crimson spray!" = /send @scan all
+/def -p10 -F -aCblue -mregexp -t"You FINALLY shove your weapon right through (.+) chest!" = /send @scan all
 /def -p10 -F -aBCred -mregexp -t"(.+) shifts position and you cannot hit the (.+) time."
 
 /def -p10 -F -aBCmagenta -mregexp -t"You feel the power slip from (.+)."

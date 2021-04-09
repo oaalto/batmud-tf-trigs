@@ -108,6 +108,7 @@
 ;; Poison
 /def -p1000 -F -P1BCred -mregexp -t"You shiver and suffer from (POISON)!!"
 /def -p1000 -F -aCred -msimple -t"You shiver and suffer from POISON!!"
+/def -p1000 -F -aCgreen -msimple -t"The sauna cured your poison!"
 
 ;; Ferry
 /def -p1000 -F -mregexp -t"You have been scheduled for a trip to (.+)." = \

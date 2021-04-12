@@ -45,6 +45,8 @@
 	/echo -aBCred STUNNED!
 /def -p10 -F -aBCred -msimple -t"You lose connection to reality, becoming truly STUNNED." = \
 	/echo -aBCred STUNNED!
+/def -p10 -F -aBCred -msimple -t"You become somewhat confused, losing your edge." = \
+  /echo -aBCred STUNNED!
 
 ;; Stun
 /def -p100 -F -aCgreen -mregexp -t"Your attack causes (.+) to lose focus slightly."

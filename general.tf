@@ -104,8 +104,12 @@
 /def -p10 -F -aCred -msimple -t"inflict damage upon yourself."
 
 ;; Essence collection
-/def -p10 -F -aCblue -mregexp -t"(.+) spills some of (.+) essence." =\
+/def -p10 -F -aCblue -mregexp -t"(.+) spills some of (.+) essence." = \
 	/send @get all essence;keep all essence;put all essence in frame
+
+;; Zinium ball collection
+/def -p10 -F -aCblue -msimple -t"You discover a glowing ball of concentrated zinium <<radiating>>" = \
+	/send @keep all orb;put all orb in frame
 
 ;; Poison
 /def -p1000 -F -P1BCred -mregexp -t"You shiver and suffer from (POISON)!!"

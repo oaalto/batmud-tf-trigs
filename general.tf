@@ -111,6 +111,10 @@
 /def -p10 -F -aCblue -msimple -t"You discover a glowing ball of concentrated zinium <<radiating>>" = \
 	/send @keep all orb;put all orb in frame
 
+;; Blueprint collection
+/def -p10 -F -aCblue -mregexp -T"You discover Rixx-Tec blueprint of (.+)" = \
+	/send @keep all blueprint;put all blueprint in frame
+
 ;; Poison
 /def -p1000 -F -P1BCred -mregexp -t"You shiver and suffer from (POISON)!!"
 /def -p1000 -F -aCred -msimple -t"You shiver and suffer from POISON!!"

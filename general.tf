@@ -112,7 +112,7 @@
 	/send @keep all orb;put all orb in frame
 
 ;; Blueprint collection
-/def -p10 -F -aCblue -mregexp -T"You discover Rixx-Tec blueprint of (.+)" = \
+/def -p10 -F -aCblue -mregexp -t"You discover Rixx-Tec blueprint of" = \
 	/send @keep all blueprint;put all blueprint in frame
 
 ;; Poison

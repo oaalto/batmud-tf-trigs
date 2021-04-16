@@ -129,6 +129,7 @@
 
 ;; Aggro
 /def -p1000 -F -aCred -mregexp -t"got mad at hostile actions."
+/def -p1000 -F -aCred -mregexp -t"is disturbed by spellcasting."
 
 ;; Infravision
 /def -p1000 -F -aCred -msimple -t"Everything no longer seems so red."

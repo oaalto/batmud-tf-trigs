@@ -74,7 +74,10 @@
         /set_entity_skill earth
 
 /def use_current_skill = \
-	/send @target %{*};gem cmd target %{*};gem cmd use '%{current_skill}' %{*}
+	/if (strlen({1} > 0) \
+		/send @target %{*};gem cmd target %{*} %;\
+  /endif \
+	/send gem cmd use '%{current_skill}' %{*}
 	
 /alias ccs /use_current_skill %{*}
 
@@ -88,7 +91,7 @@
 		/elseif ({current_skill} =~ {air_skill}) \
 			/send @gem entities air %;\
 		/elseif ({current_skill} =~ {water_skill}) \
-        	        /send @gem entities water %;\
+      /send @gem entities water %;\
 		/elseif ({current_skill} =~ {earth_skill}) \
 			/send @gem entities earth %;\
 		/endif %;\
@@ -138,37 +141,55 @@
 
 ;; Start Battle (Spark Birth)
 /def start_battle1 = \
-	/send @target %{*};gem cmd target %{*};cast 'spark birth' %{*};gem cmd use '%{current_skill}' %{*} 
+  /if (strlen({1} > 0) \          
+		/send @target %{*};gem cmd target %{*} %;\
+	/endif \	
+	/send @cast 'spark birth' %{*};gem cmd use '%{current_skill}' %{*} 
 
 /alias cs /start_battle1 %{*}
 
 ;; Start Battle (Rift Pulse)
 /def start_battle2 = \
-	/send @target %{*};gem cmd target %{*};cast 'rift pulse' %{*};gem cmd use '%{current_skill}' %{*}
+	/if (strlen({1}) > 0) \
+		/send @target %{*};gem cmd target %{*} %;\
+	/endif
+	/send cast 'rift pulse' %{*};gem cmd use '%{current_skill}' %{*}
 
 /alias css /start_battle2 %{*}
 
 ;; Start Battle (Dimensional leech)
 /def start_battle3 = \
-	/send @target %{*};gem cmd target %{*};cast 'dimensional leech' %{*};gem cmd use '%{current_skill}' %{*}
+	/if (strlen({1} > 0) \
+		 /send @target %{*};gem cmd target %{*} %;\
+	/endif \
+	/send @cast 'dimensional leech' %{*};gem cmd use '%{current_skill}' %{*}
 
 /alias csd /start_battle3 %{*}
 
 ;; Spark Birth
 /def cast_spark_birth = \
-	/send @target %{*};gem cmd target %{*};cast 'spark birth' %{*}
+	/if (strlen({1}) > 0) \
+		/send @target %{*};gem cmd target %{*} %;\
+	/endif \
+	/send @cast 'spark birth' %{*}
 
 /alias csb /cast_spark_birth %{*}
 
 ;; Rift Pulse
 /def cast_rift_pulse = \
-	/send @target %{*};gem cmd target %{*};cast 'rift pulse' %{*}
+	/if (strlen({1}) > 0) \
+		/send @target %{*};gem cmd target %{*} %;\
+	/endif \
+	/send @cast 'rift pulse' %{*}
 
 /alias crp /cast_rift_pulse %{*}
 
 ;; Dimensional leech
 /def cast_dimensional_leech = \
-	/send @target %{*};gem cmd target %{*};cast 'dimensional leech' %{*}
+	/if (strlen({1}) > 0) \
+		/send @target %{*};gem cmd target %{*} %;\
+	/endif \
+	/send cast 'dimensional leech' %{*}
 
 /alias cdl /cast_dimensional_leech %{*}
 

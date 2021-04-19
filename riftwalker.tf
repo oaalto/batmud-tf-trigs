@@ -141,7 +141,7 @@
 
 ;; Start Battle (Spark Birth)
 /def start_battle1 = \
-  /if (strlen({1} > 0) \          
+  /if (strlen({1}) > 0) \          
 		/send @target %{*};gem cmd target %{*} %;\
 	/endif \	
 	/send @cast 'spark birth' %{*};gem cmd use '%{current_skill}' %{*} 
@@ -159,7 +159,7 @@
 
 ;; Start Battle (Dimensional leech)
 /def start_battle3 = \
-	/if (strlen({1} > 0) \
+	/if (strlen({1}) > 0) \
 		 /send @target %{*};gem cmd target %{*} %;\
 	/endif \
 	/send @cast 'dimensional leech' %{*};gem cmd use '%{current_skill}' %{*}

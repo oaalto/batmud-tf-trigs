@@ -74,10 +74,10 @@
         /set_entity_skill earth
 
 /def use_current_skill = \
-	/if (strlen({1} > 0) \
+	/if (strlen({1}) > 0) \
 		/send @target %{*};gem cmd target %{*} %;\
-  /endif \
-	/send gem cmd use '%{current_skill}' %{*}
+	/endif %;\
+	/send @gem cmd use '%{current_skill}' %{*}
 	
 /alias ccs /use_current_skill %{*}
 
@@ -141,9 +141,9 @@
 
 ;; Start Battle (Spark Birth)
 /def start_battle1 = \
-  /if (strlen({1}) > 0) \          
+	/if (strlen({1}) > 0) \
 		/send @target %{*};gem cmd target %{*} %;\
-	/endif \	
+	/endif %;\
 	/send @cast 'spark birth' %{*};gem cmd use '%{current_skill}' %{*} 
 
 /alias cs /start_battle1 %{*}
@@ -152,7 +152,7 @@
 /def start_battle2 = \
 	/if (strlen({1}) > 0) \
 		/send @target %{*};gem cmd target %{*} %;\
-	/endif
+	/endif %;\
 	/send cast 'rift pulse' %{*};gem cmd use '%{current_skill}' %{*}
 
 /alias css /start_battle2 %{*}
@@ -161,7 +161,7 @@
 /def start_battle3 = \
 	/if (strlen({1}) > 0) \
 		 /send @target %{*};gem cmd target %{*} %;\
-	/endif \
+	/endif %;\
 	/send @cast 'dimensional leech' %{*};gem cmd use '%{current_skill}' %{*}
 
 /alias csd /start_battle3 %{*}
@@ -170,7 +170,7 @@
 /def cast_spark_birth = \
 	/if (strlen({1}) > 0) \
 		/send @target %{*};gem cmd target %{*} %;\
-	/endif \
+	/endif %;\
 	/send @cast 'spark birth' %{*}
 
 /alias csb /cast_spark_birth %{*}
@@ -179,7 +179,7 @@
 /def cast_rift_pulse = \
 	/if (strlen({1}) > 0) \
 		/send @target %{*};gem cmd target %{*} %;\
-	/endif \
+	/endif %;\
 	/send @cast 'rift pulse' %{*}
 
 /alias crp /cast_rift_pulse %{*}
@@ -188,7 +188,7 @@
 /def cast_dimensional_leech = \
 	/if (strlen({1}) > 0) \
 		/send @target %{*};gem cmd target %{*} %;\
-	/endif \
+	/endif %;\
 	/send cast 'dimensional leech' %{*}
 
 /alias cdl /cast_dimensional_leech %{*}

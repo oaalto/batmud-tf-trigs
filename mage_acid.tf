@@ -10,7 +10,7 @@
 	/if (strlen({1}) > 0) \
 		/send @target %{*} %;\
 	/endif %;\
-	/send @cast 'acid wind' %;\
+	/send @cast 'acid wind' %{*} %;\
 
 /alias caw /cast_acid_wind %{*}
 

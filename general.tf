@@ -113,7 +113,7 @@
 
 ;; Blueprint collection
 /def -p10 -F -aCblue -mregexp -t"You discover Rixx-Tec blueprint of" = \
-	/send @keep all blueprint;put all blueprint in frame
+	/send @keep all blueprint;store blueprint 
 
 ;; Poison
 /def -p1000 -F -P1BCred -mregexp -t"You shiver and suffer from (POISON)!!"

@@ -1,12 +1,12 @@
 /load alias.tf
+;;/load batmud-tf-trigs/odefu.tf
+;;/load batmud-tf-trigs/fueryon.tf
 /load batmud-tf-trigs/color_helpers.tf
 /load batmud-tf-trigs/status_line.tf
 /load batmud-tf-trigs/spellnames.tf
 /load batmud-tf-trigs/misc.tf
 /load batmud-tf-trigs/general.tf
 
-;;/load batmud-tf-trigs/odefu.tf
-;;/load batmud-tf-trigs/fueryon.tf
 ;;/load batmud-tf-trigs/cure_spells.tf
 ;;/load batmud-tf-trigs/ceremony.tf
 ;;/load batmud-tf-trigs/common_spells.tf

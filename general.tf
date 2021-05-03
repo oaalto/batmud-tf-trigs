@@ -105,11 +105,11 @@
 
 ;; Essence collection
 /def -p10 -F -aCblue -mregexp -t"(.+) spills some of (.+) essence." = \
-	/send @get all essence;keep all essence;put all essence in frame
+	/send @get all essence;keep all essence;put all essence in %{rig}
 
 ;; Zinium ball collection
 /def -p10 -F -aCblue -msimple -t"You discover a glowing ball of concentrated zinium <<radiating>>" = \
-	/send @keep all orb;put all orb in frame
+	/send @keep all orb;put all orb in %{rig}
 
 ;; Blueprint collection
 /def -p10 -F -aCblue -mregexp -t"You discover Rixx-Tec blueprint of" = \

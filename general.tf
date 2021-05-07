@@ -53,6 +53,9 @@
 /def -p100 -F -aCgreen -mregexp -t"You hurt (.+) who seems to become somewhat confused."
 /def -p100 -F -aCgreen -mregexp -t"You make (.+) stagger helplessly in pain and confusion."
 /def -p100 -F -aCgreen -mregexp -t"You STUN (.+), who loses connection to reality."
+/def -p100 -F -aCgreen -mregexp -t"You cause (.+) world to become blurred and unfocused."
+
+/def -p100 -F -aCred -mregexp -t"..WHO breaks it off."
 
 ;; Spell Related Hilites
 

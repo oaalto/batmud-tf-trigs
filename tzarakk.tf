@@ -155,6 +155,9 @@
 
 /alias dmed /tzarakk_use_dark_meditation %{*}
 
-/def -p10000 -F -msimple -t"Something disturbs you and you cannot concentrate any longer." = \
+/def -p100 -F -msimple -t"Something disturbs you and you cannot concentrate any longer." = \
     /send @mount %{tzarakk_mount}
+
+/def -p100 -F -msimple -t"You don't feel to be in harmony with yourself." = \
+	/send @mount %{tzarakk_mount}
 

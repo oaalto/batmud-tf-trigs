@@ -70,6 +70,9 @@
 /def -p1000 -F -msimple -t"It'll be inconvenient to camp here with all this water." = \
 	/send @mount %{tzarakk_mount}
 
+/def -p1000 -F -msimple -t"You fail to reach the state of inner harmony." = \
+	/send @mount %{tzarakk_mount}
+
 ;; Status lines need to be duplicated so that we don't gag mob shapes.
 /def -p1000 -F -ag -mregexp -t'^Orthos is (.+) \((.+)%\)' = \
 	/set status_line_2=Orthos (%{P2}%%) %{spawn_timer}

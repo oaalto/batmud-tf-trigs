@@ -12,5 +12,5 @@
 /def -p1000 -F -P2BCred -mregexp -t"(.+) hits Odefu (\d+ times) (.+)."
 
 /set tzarakk_mount=Orthos
-/set rig=frame
+/set rig=bandolier
 

@@ -20,6 +20,7 @@
 ;; Crits
 /def -p10 -F -P1Cwhite -mregexp -t"You score a (CRITICAL) hit!"
 /def -p10 -F -P1BCwhite -mregexp -t"You score a (\*CRITICAL\*) hit!"
+/def -p10 -F -P1BCwhite -mregexp -t"You score a (.*CRITICAL.*) hit!"
 
 ;; Camping
 /def -p10 -F -aBCgreen -msimple -t"You awaken from your short rest, and feel slightly better."

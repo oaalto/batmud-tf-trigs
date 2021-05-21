@@ -37,6 +37,9 @@
 
 /def -p1000 -F -aCred -msimple -t"Your mount snorts and does not respond."
 /def -p1000 -F -aCred -msimple -t"Your mount is too confused to comply."
+/def -p1000 -F -aCred -mregexp -t"You fail to hit your foe with (.*)"
+
+/def -p1000 -F -aCblue -mregexp -t"You manage to hit your foe with (.*) as you pass by."
 
 /def set_feed_mode = \
 	/send @rip_action set get all from corpse;tzarakk chaosfeed corpse;tzarakk chaosfeed corpse;drop zinc;drop mowgles

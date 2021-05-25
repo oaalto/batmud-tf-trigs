@@ -38,6 +38,7 @@
 /def -p1000 -F -aCred -msimple -t"Your mount snorts and does not respond."
 /def -p1000 -F -aCred -msimple -t"Your mount is too confused to comply."
 /def -p1000 -F -aCred -mregexp -t"You fail to hit your foe with (.*)"
+/def -p1000 -F -aCred -msimple -t"You charge towards your enemy, but alas -- a clean miss."
 
 /def -p1000 -F -aCblue -mregexp -t"You manage to hit your foe with (.*) as you pass by."
 

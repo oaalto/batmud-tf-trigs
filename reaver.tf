@@ -146,7 +146,7 @@
 	/endif %;\
 	/send cast 'word of spite' %{*}
 
-/alias cs /cast_word_of_spite %{*}
+/alias cws /cast_word_of_spite %{*}
 
 ;; Word of Blasting
 /def cast_word_of_blasting = \
@@ -176,7 +176,7 @@
 	/endif %;\
 	/send cast 'word of slaughter' %{*}
 
-/alias cws /cast_word_of_slaughter %{*}
+/alias cwsl /cast_word_of_slaughter %{*}
 
 ;; Word of Genocide
 /def cast_word_of_genocide = \

@@ -50,6 +50,7 @@
   /echo -aBCred STUNNED!
 
 ;; Stun
+/def -p100 -F -aCgreen -mregexp -t"You stun"
 /def -p100 -F -aCgreen -mregexp -t"Your attack causes (.+) to lose focus slightly."
 /def -p100 -F -aCgreen -mregexp -t"You hurt (.+) who seems to become somewhat confused."
 /def -p100 -F -aCgreen -mregexp -t"You make (.+) stagger helplessly in pain and confusion."
@@ -77,7 +78,7 @@
 /def -p10 -F -aBCred -msimple -t"You fail to chant the spell correctly."
 
 ;; Fumble
-/def -p10 -F -aBCred -mregexp -t"You falter and fumble the spell."
+/def -p10 -F -aBCyellow -mregexp -t"You falter and fumble the spell."
 
 ;; Cast
 /def -p10 -F -P1BCwhite -mregexp -t"You clap your hands and whisper '(.+)'"

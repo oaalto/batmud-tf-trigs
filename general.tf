@@ -50,7 +50,7 @@
   /echo -aBCred STUNNED!
 
 ;; Stun
-/def -p100 -F -aCgreen -mregexp -t"You stun"
+/def -p100 -F -aCgreen -mregexp -t"You (stun|STUN)"
 /def -p100 -F -aCgreen -mregexp -t"Your attack causes (.+) to lose focus slightly."
 /def -p100 -F -aCgreen -mregexp -t"You hurt (.+) who seems to become somewhat confused."
 /def -p100 -F -aCgreen -mregexp -t"You make (.+) stagger helplessly in pain and confusion."

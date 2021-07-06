@@ -39,4 +39,3 @@
 /def -p10 -F -aCred -mregexp -t"You fail to reach (.+)."
 /def -p10 -F -aCgreen -mregexp -t"You harm (.+) (a little|some|a good bit|a lot|really much)."
 
-/def -p10 -F -aCgreen -msimple -t"You feel like you just got slightly better in seething fervor."

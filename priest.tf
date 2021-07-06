@@ -37,8 +37,6 @@
 
 /alias med /use_dark_meditation
 
-/def -p10 -F -aCgreen -msimple -t"You feel like you just got slightly better in seething fervor."
-
 /def -p10000 -F -mregexp -t'DEAD, R.I.P.' = \
 	/send @fervor status
 

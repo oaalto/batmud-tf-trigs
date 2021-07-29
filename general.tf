@@ -148,3 +148,7 @@
 
 /def -p1000 -F -aCred -msimple -t"You are already fighting!"
 
+;; Dodge, Parry & Riposte
+/def -p100 -F -aCgreen -msimple -t"You dodge."
+/def -p100 -F -aCgreen -msimple -t"You parry."
+

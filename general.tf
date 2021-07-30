@@ -151,4 +151,5 @@
 ;; Dodge, Parry & Riposte
 /def -p100 -F -aCgreen -msimple -t"You dodge."
 /def -p100 -F -aCgreen -msimple -t"You parry."
+/def -p100 -F -aCgreen -msimple -t"...AND riposte."
 

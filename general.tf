@@ -37,6 +37,8 @@
 /def -p10 -F -aBCgreen -msimple -t"Your inner strength keeps your head clear!"
 /def -p10 -F -aBCgreen -msimple -t"...BUT you break it off."
 /def -p10 -F -aBCgreen -msimple -t"...BUT you break it off with intense concentration."
+/def -p10 -F -aBCgreen -msimple -t"It doesn't hurt at all!"
+/def -p10 -F -aBCgreen -msimple -t"Your thoughts still feel clear and calm."
 
 /def -p10 -F -aBCred -msimple -t"You get hit, and your eyes lose focus slightly." = \
 	/echo -aBCred STUNNED!

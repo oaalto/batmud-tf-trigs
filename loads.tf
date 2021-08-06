@@ -21,7 +21,7 @@
 ;;/load batmud-tf-trigs/psionicist.tf
 
 ;; Evil Religious
-;;/load batmud-tf-trigs/priest.tf
+;;/load batmud-tf-trigs/triad.tf
 ;;/load batmud-tf-trigs/disciple.tf
 ;;/load batmud-tf-trigs/kharim.tf
 ;;/load batmud-tf-trigs/nergal.tf

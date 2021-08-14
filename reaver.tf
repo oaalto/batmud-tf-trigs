@@ -306,3 +306,5 @@
 /def -p10 -F -aBCmagenta -mregexp -t"You feel the power slip from (.+)."
 /def -p10 -F -aBCmagenta -mregexp -t"You see (.+) revert to its normal shape."
 
+/def -p10 -F -aCgreen -mregexp -t"(.+) has been blighted!"
+

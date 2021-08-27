@@ -17,6 +17,9 @@
 ;; Ambush
 /def -p10 -F -aBCred -msimple -t"You cannot leave, you have been AMBUSHED."
 
+;; Bleeding
+/def -p10 -F -P1BCred -mregexp -t"You wish your wounds would stop (BLEEDING) so much!"
+
 ;; Crits
 /def -p10 -F -P1Cwhite -mregexp -t"You score a (CRITICAL) hit!"
 /def -p10 -F -P1BCwhite -mregexp -t"You score a (\*CRITICAL\*) hit!"

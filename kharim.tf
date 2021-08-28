@@ -53,6 +53,15 @@
 
 /alias ucc /use_chaotic_circulation
 
+/def cast_flame_arrow = \
+	/if (strlen({1}) > 0) \
+		/send @cast flame arrow at %{*} %;\
+  /else \
+		/send @cast flame arrow at device %;\
+	/endif
+
+/alias cfa /cast_flame_arrow %{*}
+
 ;; Rip action
 /def kharim_rip_action = /send @rip_action set get all from corpse;kharim drain corpse;drop zinc;drop mowgles
 

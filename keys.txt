@@ -5,4 +5,76 @@ Newbie Forest
 -------------
 - Newbie guards
 - Search pile in kitchen
+- Newbie king
+
+Amazons (Alchemist's Tower and Mist)
+------------------------------------
+- Cook (1k)
+- Ogre (7k)
+- Tazla, the amazon bodyguard (60k?)
+
+Newbie Playground
+-----------------
+- Marcus Highberry
+
+Bigeaul Castle
+--------------
+- Francois, the gardener (23k)
+
+Drawbridge
+----------
+- Mischevious imp (5k)
+- Jailer (11k)
+
+
+Lucentium
+=========
+
+Dah'bec
+-------
+- Castle jailer (7k)
+
+Catfolk Treehouse
+-----------------
+- SW Tree:
+- Black-furred panther (9k)
+- Black-pelted catfolk (8k)
+- Black-furred catfolk in prayer (6k)
+- Black-furred panther warrior (10k)
+
+Village of Shrea
+----------------
+- Yumra Swampstream (7k)
+
+
+Rothrikgen
+==========
+
+Tower of Horn Durath
+--------------------
+- Grey robed mage (5k)
+- Vernon (12k)
+- Geofer, master gerdener
+- Search pile 
+
+Hell's Dojo
+-----------
+- 2 east from the dojo entrance try to pull chunk and you'll get the key to the cage.
+- Sensei (30k)
+
+
+Desolathya
+==========
+
+Burning Village
+---------------
+- Shadowy slaver, souls (10k)
+
+
+Furnachia
+=========
+
+Castle Firefox
+--------------
+- Fireguard elite (at entrance) (10k)
 

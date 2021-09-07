@@ -135,7 +135,7 @@
 
 ;; Ferry
 /def -p1000 -F -mregexp -t"You have been scheduled for a trip to (.+)." = \
-	/send @put mithril in purse
+	/send @put mithril in purse;put batium in purse;put anipium in purse;put platinum in purse
 
 /def -p1000 -F -mregexp -t"You pay the ticketmaster (.+) gold, and he lets you board the ship." = \
 	/send @get 5 mithril from purse

@@ -1,6 +1,7 @@
 /def -p10 -F -aBCgreen -msimple -t"Chaotic force closes the bleeding wound in your body."
 /def -p10 -F -aBCyellow -msimple -t"Your blood circulation normalizes."
 /def -p10 -F -aBCyellow -msimple -t"Your thirst for blood is growing insatiable."
+/def -p10 -F -aCgreen -mregexp -t"Your chaos aura of (.+) reacts to the assault!"
 
 ;; Foul Play
 /def use_foul_play = \

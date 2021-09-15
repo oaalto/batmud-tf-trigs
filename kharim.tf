@@ -62,6 +62,16 @@
 
 /alias cfa /cast_flame_arrow %{*}
 
+/def cast_blade_of_fire = \
+	/send @cast blade of fire
+
+/alias cbf /cast_blade_of_fire
+
+/def cast_aura_of_chaos = \
+	/send @cast aura of chaos
+
+/alias cac /cast_aura_of_chaos
+
 ;; Rip action
 /def kharim_rip_action = /send @rip_action set get all from corpse;kharim drain corpse;drop zinc;drop mowgles
 

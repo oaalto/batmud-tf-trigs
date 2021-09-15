@@ -2,6 +2,7 @@
 /def -p10 -F -aBCyellow -msimple -t"Your blood circulation normalizes."
 /def -p10 -F -aBCyellow -msimple -t"Your thirst for blood is growing insatiable."
 /def -p10 -F -aCgreen -mregexp -t"Your chaos aura of (.+) reacts to the assault!"
+/def -p10 -F -aCyellow -msimple -t"The flames surrounding your chaos blade subside."
 
 ;; Foul Play
 /def use_foul_play = \

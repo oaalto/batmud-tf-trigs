@@ -100,7 +100,7 @@
 /def tokitan = /send 6 w;4 sw;20 w;8 w;3 nw;3 ne;2 n;2 nw;3 n;3 nw;3 w;nw;3 n;nw;enter
 /def fromkitan = /send out;se;3 s;se;3 e;3 se;3 s;2 se;2 s;3 sw;3 se;8 e;20 e;4 ne;6 e
 
-/def tosouls = /send 6 w;3 nw;7 w;2 n;nw;2 ne;4 n;nw;3 n;2 w;nw;enter;ask man about services
+/def tosouls = /send 6 w;3 nw;7 w;2 n;nw;2 ne;4 n;nw;3 n;2 w;nw;enter;ask man about services;kharim souls
 /def fromsouls = /send out;se;2 e;3 s;se;4 s;2 sw;se;2 s;7 e;3 se;6 e
 
 /def tocloud = /send 6 w;4 sw;20 w;11 w;4 nw;3 w;cloud

@@ -6,6 +6,7 @@
 /load batmud-tf-trigs/spellnames.tf
 /load batmud-tf-trigs/misc.tf
 /load batmud-tf-trigs/general.tf
+/load batmud-tf-trigs/money.tf
 
 ;;/load batmud-tf-trigs/cure_spells.tf
 ;;/load batmud-tf-trigs/ceremony.tf

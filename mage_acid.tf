@@ -49,7 +49,7 @@
 /def cast_acid_storm = \
 	/if (strlen({1}) > 0) \
 		/send @target %{*} %;\
-	/endif \
+	/endif %;\
 	/send @cast 'acid storm' %{*}
 
 /alias cas /cast_acid_storm %{*}

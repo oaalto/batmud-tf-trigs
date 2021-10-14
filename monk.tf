@@ -126,9 +126,9 @@
 /set armourskill3=avalanche slam
 
 /set disruptskill1=wave crest strike
-/set disruptskill2=wave crest strike
+;;/set disruptskill2=wave crest strike
 /set disruptskill3=wave crest strike
-;;/set disruptskill2=geyser force kick
+/set disruptskill2=geyser force kick
 ;;/set disruptskill3=tsunami push
 
 /set areaskill1=hydra fang strike

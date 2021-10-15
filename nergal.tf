@@ -165,6 +165,15 @@
 	
 /alias udh /use_dreary_hibernation
 
+;; Stab
+/def use_stab = \
+	/if (strlen({1]) > 0) \
+		/send @target %{*} %;\
+	/endif %;\
+  /send @use 'stab' %{*}
+
+/alias us /use_stab %{*}
+
 ;; Auras
 
 /def -aCgreen -mregexp -t"(.*) manages to scratch (.*) skin infecting the tissue under the skin with nasty disease"

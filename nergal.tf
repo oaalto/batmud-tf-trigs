@@ -167,7 +167,7 @@
 
 ;; Stab
 /def use_stab = \
-	/if (strlen({1]) > 0) \
+	/if (strlen({1}) > 0) \
 		/send @target %{*} %;\
 	/endif %;\
   /send @use 'stab' %{*}

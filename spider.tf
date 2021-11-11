@@ -103,3 +103,10 @@
 
 /def -aCred -msimple -t"You are losing the battle for control over your body!"
 
+/def -aCred -msimple -t"You make a great stabbing maneuver, but your enemy blocks your attack."
+/def -aCred -mregexp -t"You fail to stab (.+) with (.+)!"
+
+/def -aCgreen -mregexp -t"Stream of blood from (.+)'s wound flies to you, tasting refreshing!"
+/def -aCgreen -mregexp -t"You stab with (.+) causing blood to fly everywhere!"
+/def -aCgreen -msimple -t"You twist your blade inside Cook's belly!"
+

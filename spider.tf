@@ -87,6 +87,9 @@
 /alias cpsq /cast_prayer_to_spider_queen
 
 /def use_stab = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif %;\
 	/send @use 'stab' %{*}
 
 /alias us /use_stab %{*}

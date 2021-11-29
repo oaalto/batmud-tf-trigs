@@ -8,6 +8,7 @@
 /alias ul /use_lounging
 
 /def -p1000 -F -aBCyellow -msimple -t"You are in a mood for a bit of lounging again."
+/def -p1000 -F -aBCgreen -msimple -t"You are done with your lounging for now, you feel better!"
 
 ;; Sabre fence
 /def use_sabre_fence = \

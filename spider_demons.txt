@@ -10,7 +10,7 @@ Metabolism:   none
 
 Skills and Spells: None
 
-Name: Demon 2
+Name:         Demon 2
 Might:        Unknown
 Hit Points:   mediocre          HP regen:     superb
 Spell Points: good              SP regen:     good
@@ -27,3 +27,23 @@ feigned_remorse (fair   )
 sounds_of_silence (fair   )
 summon_carnal_spores (mediocre   )
 spider_web (fair      )
+
+Name:         Demon 3
+Might:        superb
+Hit Points:   good              HP regen:     great
+Spell Points: fair              SP regen:     superb
+Endurance:    legendary         EP regen:     superb
+Hit Bonus:    superb            Def Bonus:    superb            Dmg Bonus:    great
+Strength:     superb            Dexterity:    none              Constitution: superb
+Intelligence: superb            Wisdom:       good
+Resistances:
+Physical:     none              Mystical:     none
+Flame:        none              Frost:        none
+Venom:        none              Shock:        fair
+Suffocation:  none              Mental:       fair
+Corrosion:    none
+Metabolism:   none
+
+Skills and Spells:
+go (mediocre   )
+

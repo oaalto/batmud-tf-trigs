@@ -109,4 +109,5 @@
 /def -aCgreen -mregexp -t"Stream of blood from (.+)'s wound flies to you, tasting refreshing!"
 /def -aCgreen -mregexp -t"You stab with (.+) causing blood to fly everywhere!"
 /def -aCgreen -mregexp -t"You twist your blade inside (.+)'s belly!"
+/def -aCgreen -mregexp -t"(.+) cringes from pain as your venomed blade bites into (.+) flesh!"
 

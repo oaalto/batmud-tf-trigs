@@ -72,7 +72,7 @@
 	/endif %;\
 	/send @use 'reave weapon' %{*}
 
-/alias rea /use_reave_weapon %{*}
+/alias rew /use_reave_weapon %{*}
 
 ;; Reave Armour
 /def use_reave_armour = \
@@ -270,15 +270,6 @@
 
 /alias csd /cast_spirit_drain %{*}
 
-;; Infravision
-/def cast_infravision = \
-	/if (strlen({*}) > 0) \
-		/send @cast infravision at %{*} %;\
-	/else \
-		/send @cast infravision at me %;\
-	/endif
-
-/alias cinf /cast_infravision %{*}
 
 ;; Hilites
 /def -p10 -F -P1BCwhite -mregexp -t"You speak the ancient (.+) '(.+)'"

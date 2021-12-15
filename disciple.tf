@@ -2,8 +2,9 @@
 	/echo -aBCred *************** SPAWN GOING DOWN!! *************** %;\
 
 /def -p10 -F -aBCred -msimple -t"You feel exhausted, being here in the light."
-
 /def -p10 -F -aBCred -msimple -t"You try to attack your enemy but fall over your own feet."
+
+/def -p10 -F -aCgreen -msimple -t"You feel the chaos pulse inside you!"
 
 ;; SKILLS
 

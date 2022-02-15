@@ -102,14 +102,14 @@
 ;; Summon rift entity
 /def cast_summon_entity = \
 	/send @cast summon rift entity at %{*} %;\
-	/set_entity_skill %{*}
+	/set_entity_skill %{*} %;\
 	/set has_entity=1
 
 /alias csum /cast_summon_entity %{*}
 
 ;; Dismiss rift entity
 /def cast_dismiss_entity = \
-	/send @cast dismiss rift entity
+	/send @cast dismiss rift entity %;\
 	/set has_entity=0
 
 /alias cdis /cast_dismiss_entity

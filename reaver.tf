@@ -299,3 +299,5 @@
 
 /def -p10 -F -aCgreen -mregexp -t"(.+) has been blighted!"
 
+/def -p10 -F -aCgreen -mregexp -t"Targets of race (.+) are added to your list."
+

@@ -6,8 +6,9 @@
 
 ;; Foul Play
 /def use_foul_play = \
+	/send @kharim observe %;\
 	/if (strlen({1}) > 0) \
-		/send @kharim observe;target %{*} %;\
+		/send @target %{*} %;\
 	/endif %;\
 	/send @use 'foul play' %{*}
 

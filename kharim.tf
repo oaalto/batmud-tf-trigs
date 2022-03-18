@@ -3,6 +3,8 @@
 /def -p10 -F -aBCyellow -msimple -t"Your thirst for blood is growing insatiable."
 /def -p10 -F -aCgreen -mregexp -t"Your chaos aura of (.+) reacts to the assault!"
 /def -p10 -F -aCyellow -msimple -t"The flames surrounding your chaos blade subside."
+/def -p10 -F -aCred -mregexp -t"(.+) notices your foul intentions and evades your attempt."
+/def -p10 -F -aCred -mregexp -t"Your attempts to attack (.+) become futile."
 
 ;; Foul Play
 /def use_foul_play = \

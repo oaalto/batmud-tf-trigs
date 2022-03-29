@@ -87,7 +87,7 @@
 /def use_true_reaving = \
 	/if (strlen({1}) > 0) \
 		/reaver_threaten %{*} %;\
-        /send @target %{*} %;\
+    /send @target %{*} %;\
     /endif %;\
 	/send use 'true reaving' %{*}
 

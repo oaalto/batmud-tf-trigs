@@ -304,6 +304,7 @@
 
 /def -p10 -F -aCred -mregexp -t"You strike at (.+) but do no significant damage."
 /def -p10 -F -aCblue -mregexp -t"You rake your weapon across (.+)"
+/def -p10 -F -aCblue -mregexp -t"You slam your weapon into (.+)"
 /def -p10 -F -aCgreen -mregexp -t"Weapon type (.+) added to your list."
 /def -p10 -F -aCgreen -mregexp -t"The (.+) is destroyed in a mass of sparks!"
 

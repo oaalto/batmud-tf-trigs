@@ -153,6 +153,7 @@
 
 ;; Racial Frenzy
 /def -p1000 -F -aCgreen -msimple -t"You enter a frenzy, speeding up your actions!"
+/def -p1000 -F -aCred -msimple "You slip out of your frenzy."
 
 /def -p1000 -F -aCred -msimple -t"You are already fighting!"
 

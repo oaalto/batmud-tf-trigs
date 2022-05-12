@@ -4,13 +4,13 @@
 /def -F -aBCred -msimple -t"You fail to chant the spell correctly."
 /def -F -aBCred -msimple -t"At the last moment you notice the spell is about to turn at you, and abort the"
 
-/def rip_familiar_consume = /send @rip_action get all from corpse;familiar consume corpse;drop zinc;drop mowgles
+/def rip_familiar_consume = /send @rip_action set get all from corpse;familiar consume corpse;drop zinc;drop mowgles
 
 /def -F -msimple -t "The connection between you and your blade fades away." = /echo -aBCmagenta "Command Blade down!"
 
 /alias rip_consume /rip_familiar_consume
 
-/def rip_dissect_corpse = /send @rip_action get all from corpse;drop zinc;drop mowgles
+/def rip_dissect_corpse = /send @rip_action set get all from corpse;drop zinc;drop mowgles
 
 /alias rip_dissect /rip_dissect_corpse
 

@@ -36,6 +36,15 @@
 
 /alias cvs /cast_venom_strike %{*}
 
+;; Thorn Spray
+/def cast_thorn_spray = \
+	/if (strlen({*}) > 0) \
+		/send @target %{*} %;\
+  /endif %;\
+	/send @cast 'thorn spray' %{*}
+
+/alias cts /cast_thorn_spray %{*}
+
 ;; Herbal healing
 /def cast_herbal_healing = \
 	/if (strlen({*}) > 0) \

@@ -8,7 +8,7 @@
 
 /def rip_familiar_consume = /send @rip_action set get all from corpse;familiar consume corpse;drop zinc;drop mowgles
 
-/def -F -msimple -t "The connection between you and your blade fades away." = /echo -aBCmagenta "Command Blade down!"
+/def -F -aBCred -msimple -t"The connection between you and your blade fades away." = /echo -aBCmagenta "Command Blade down!"
 
 /alias rip_consume /rip_familiar_consume
 

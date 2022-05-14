@@ -4,6 +4,8 @@
 /def -F -aBCred -msimple -t"You fail to chant the spell correctly."
 /def -F -aBCred -msimple -t"At the last moment you notice the spell is about to turn at you, and abort the"
 
+/def -F -aCred -mregexp -t"Your (.+) is no longer powered by Chaos!"
+
 /def -F -aCgreen -mregexp -t"(.+)'s wounds spill blood onto the floor."
 
 /def rip_familiar_consume = /send @rip_action set get all from corpse;familiar consume corpse;drop zinc;drop mowgles

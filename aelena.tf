@@ -30,6 +30,15 @@
 
 /def rip_eye /rip_harvest_eye
 
+/def -F -msimple -t"and harvests a bloody bodypart 'spleen'." = \
+    /send @familiar store slow death
+
+/def -F -msimple -t"and harvests a bloody bodypart 'lung'." = \
+    /send @familiar store rusted blade
+
+/def -F -msimple -t"and harvests a bloody bodypart 'lung'." = \
+    /send @familiar store black trance
+
 ;; Sting of Aelena
 /def cast_sting_of_aelena = \
     /if (strlen({*}) > 0) \

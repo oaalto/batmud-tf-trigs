@@ -24,11 +24,11 @@
 
 /def rip_harvest_spleen = /send @rip_action set get all from corpse;familiar harvest spleen any;drop zinc;drop mowgles
 
-/def rip_spleen /rip_harvest_spleen
+/alias rip_spleen /rip_harvest_spleen
 
 /def rip_harvest_eye = /send @rip_action set get all from corpse;familiar harvest eye any;drop zinc;drop mowgles
 
-/def rip_eye /rip_harvest_eye
+/alias rip_eye /rip_harvest_eye
 
 /def -F -msimple -t"and harvests a bloody bodypart 'spleen'." = \
     /send @familiar store slow death

@@ -18,6 +18,18 @@
 
 /alias rip_dissect /rip_dissect_corpse
 
+/def rip_harvest_lung = /send @rip_action set get all from corpse;familiar harvest lung any;drop zinc;drop mowgles
+
+/alias rip_lung /rip_harvest_lung
+
+/def rip_harvest_spleen = /send @rip_action set get all from corpse;familiar harvest spleen any;drop zinc;drop mowgles
+
+/def rip_spleen /rip_harvest_spleen
+
+/def rip_harvest_eye = /send @rip_action set get all from corpse;familiar harvest eye any;drop zinc;drop mowgles
+
+/def rip_eye /rip_harvest_eye
+
 ;; Sting of Aelena
 /def cast_sting_of_aelena = \
     /if (strlen({*}) > 0) \

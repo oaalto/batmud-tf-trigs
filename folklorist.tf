@@ -65,3 +65,5 @@
 
 /alias cmp /cast_minor_protection
 
+/def -aCred -msimple -t"The minor protection fades away."
+

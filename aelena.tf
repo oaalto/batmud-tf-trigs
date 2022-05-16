@@ -36,7 +36,7 @@
 /def -F -msimple -t"and harvests a bloody bodypart 'lung'." = \
     /send @familiar store rusted blade
 
-/def -F -msimple -t"and harvests a bloody bodypart 'lung'." = \
+/def -F -msimple -t"and harvests a bloody bodypart 'eye'." = \
     /send @familiar store black trance
 
 ;; Sting of Aelena

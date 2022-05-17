@@ -8,6 +8,8 @@
 
 /def -F -aCgreen -mregexp -t"(.+)'s wounds spill blood onto the floor."
 
+/def -F -aCgreen -msimple -t"Your senses sharpen as you fight for you life."
+
 /def rip_familiar_consume = /send @rip_action set get all from corpse;familiar consume corpse;drop zinc;drop mowgles
 
 /def -F -aBCred -msimple -t"The connection between you and your blade fades away." = /echo -aBCmagenta "Command Blade down!"

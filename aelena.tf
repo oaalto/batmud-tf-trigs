@@ -45,7 +45,7 @@
 /def cast_sting_of_aelena = \
     /if (strlen({*}) > 0) \
         /send @target %{*} %;\
-    /endif
+    /endif %;\
     /send @cast 'sting of aelena' %{*}
 
 /alias csa /cast_sting_of_aelena %{*}
@@ -62,7 +62,7 @@
 
 /alias crb /cast_rusted_blade %{*}
 
-/def cast_black_trance = \    
+/def cast_black_trance = \
     /send @aelena poison black trance %;\
     /if (strlen({*}) > 0) \
         /cast_sting_of_aelena %{*} %;\

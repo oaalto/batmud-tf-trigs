@@ -49,7 +49,7 @@
 	/if (strlen({*}) > 0) \
 		/send @target %{*} %;\
   /endif %;\
-	/send @cast 'herbal poison blast' %{*}
+	/send @cast 'herbal poison blast' %{*} use herb
 
 /alias chb /cast_herbal_poison_blast %{*}
 

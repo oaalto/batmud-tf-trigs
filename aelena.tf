@@ -44,10 +44,9 @@
 ;; Sting of Aelena
 /def cast_sting_of_aelena = \
     /if (strlen({*}) > 0) \
-        /send @target %{*};cast 'sting of aelena' %{*} %;\
-    /else \
-        /send @cast sting of aelena at me %;\
+        /send @target %{*} %;\
     /endif
+    /send @cast 'sting of aelena' %{*}
 
 /alias csa /cast_sting_of_aelena %{*}
 
@@ -65,7 +64,11 @@
 
 /def cast_black_trance = \    
     /send @aelena poison black trance %;\
-    /cast_sting_of_aelena %{*}
+    /if (strlen({*}) > 0) \
+        /cast_sting_of_aelena %{*} %;\
+    /else \
+        /cast_sting_of_aelena me %;\
+    /endif
 
 /alias cbt /cast_black_trance %{*}
 

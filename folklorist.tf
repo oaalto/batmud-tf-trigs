@@ -45,6 +45,14 @@
 
 /alias cts /cast_thorn_spray %{*}
 
+/def cast_herbal_poison_blast = \
+	/if (strlen({*}) > 0) \
+		/send @target %{*} %;\
+  /endif %;\
+	/send @cast 'herbal poison blast' %{*}
+
+/alias chb /cast_herbal_poison_blast %{*}
+
 ;; Herbal healing
 /def cast_herbal_healing = \
 	/if (strlen({*}) > 0) \
@@ -66,4 +74,9 @@
 /alias cmp /cast_minor_protection
 
 /def -aCred -msimple -t"The minor protection fades away."
+
+/def cast_field_of_poison = \
+	/send @cast field of poison
+
+/alias cfp /cast_field_of_poison
 

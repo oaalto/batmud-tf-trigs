@@ -274,5 +274,5 @@
 	/echo -aBCblue Entity Skill!
 
 /def -p10 -F -mregexp -t"A dazzling spark races along the stream of green light between you and (.+)!" = \
-	/send @keep spark
+	/send @keep all spark
 

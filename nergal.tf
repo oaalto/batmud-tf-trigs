@@ -34,101 +34,87 @@
 	/if (strlen({minion_1_name}) == 0 | {1} =~ {minion_1_name}) \
 		$[save_minion_1_stats({1}, {2}, {3}, {4}, {5}, {6}, {7})] %;\
 	/elseif (strlen({minion_2_name}) == 0 | {1} =~ {minion_2_name}) \
-                $[save_minion_2_stats({1}, {2}, {3}, {4}, {5}, {6}, {7})] %;\
+		$[save_minion_2_stats({1}, {2}, {3}, {4}, {5}, {6}, {7})] %;\
 	/elseif (strlen({minion_3_name}) == 0 | {1} =~ {minion_3_name}) \
-                $[save_minion_3_stats({1}, {2}, {3}, {4}, {5}, {6}, {7})] %;\
+		$[save_minion_3_stats({1}, {2}, {3}, {4}, {5}, {6}, {7})] %;\
 	/endif
 
 /def save_minion_1_stats = \
 	/set minion_1_name=$[set_white({1})] %;\
-        /set minion_1_hp=%{2} %;\
+	/set minion_1_hp=%{2} %;\
 	/set minion_1_max_hp=$[set_white({3})] %;\
-        /set minion_1_sp=%{4} %;\
+  /set minion_1_sp=%{4} %;\
 	/set minion_1_max_sp=$[set_white({5})] %;\
 	/set minion_1_ep=%{6} %;\
 	/set minion_1_max_ep=$[set_white({7})]
 
 /def save_minion_2_stats = \
-        /set minion_2_name=$[set_white({1})] %;\
-        /set minion_2_hp=%{2} %;\
+  /set minion_2_name=$[set_white({1})] %;\
+  /set minion_2_hp=%{2} %;\
 	/set minion_2_max_hp=$[set_white({3})] %;\
-        /set minion_2_sp=%{4} %;\
-        /set minion_2_max_sp=$[set_white({5})] %;\
-        /set minion_2_ep=%{6} %;\
-        /set minion_2_max_ep=$[set_white({7})]
+  /set minion_2_sp=%{4} %;\
+  /set minion_2_max_sp=$[set_white({5})] %;\
+  /set minion_2_ep=%{6} %;\
+  /set minion_2_max_ep=$[set_white({7})]
 
 /def save_minion_3_stats = \
-        /set minion_3_name=$[set_white({1})] %;\
-        /set minion_3_hp=%{2} %;\
+  /set minion_3_name=$[set_white({1})] %;\
+  /set minion_3_hp=%{2} %;\
 	/set minion_3_max_hp=$[set_white({3})] %;\
-        /set minion_3_sp=%{4} %;\
-        /set minion_3_max_sp=$[set_white({5})] %;\
-        /set minion_3_ep=%{6} %;\
-        /set minion_3_max_ep=$[set_white({7})]
+  /set minion_3_sp=%{4} %;\
+  /set minion_3_max_sp=$[set_white({5})] %;\
+  /set minion_3_ep=%{6} %;\
+  /set minion_3_max_ep=$[set_white({7})]
 
 ;; Remove from status line when unsummoning
 /def -p1000 -F -mregexp -t'^Your connection to your parasite is severed completely. (.+) jerks violently couple of times and collapses.$' = \
-	/remove_minion_stats %{P1} %;\
-	/update_status_line_2
+	/set status_line_2=
 
 /def -p1000 -F -mregexp -t'You end the connection to your parasite, making the host jerk couple of times violently. After couple of seconds (.+) collapses and stops moving at all.' = \
-	/remove_minion_stats %{P1} %;\
-	/update_status_line_2
-
-/def remove_minion_stats = \
-	/if ({minion_3_name} == {*}) \
-		/save_minion_3_stats %;\
-	/elseif ({minion_2_name} == {*}) \
-		/save_minion_2_stats %{minion_3_name} %{minion_3_hp} %{minion_3_max_hp} %{minion_3_sp} %{minion_3_max_sp} %{minion_3_ep} %{minion_3_max_ep} %;\
-		/save_minion_3_stats %;\
-        /elseif ({minion_1_name} == {*}) \
-		/save_minion_1_stats %{minion_2_name} %{minion_2_hp} %{minion_2_max_hp} %{minion_2_sp} %{minion_2_max_sp} %{minion_2_ep} %{minion_2_max_ep} %;\
-		/save_minion_2_stats %{minion_3_name} %{minion_3_hp} %{minion_3_max_hp} %{minion_3_sp} %{minion_3_max_sp} %{minion_3_ep} %{minion_3_max_ep} %;\
-		/save_minion_3_stats %;\
-        /endif %;\
+	/set status_line_2=
 
 ;; SPELLS
 
 ;; Enthralling parasite
-/def cast_enthralling_parasite =\
+/def cast_enthralling_parasite = \
 	/send @cast 'enthralling parasite' %{*}
 
 /alias cep /cast_enthralling_parasite %{*}
 
 ;; Harvest vitae
-/def cast_harvest_vitae =\
+/def cast_harvest_vitae = \
 	/send @target %{*};cast 'harvest vitae' %{*}
 
 /alias chv /cast_harvest_vitae %{*}
 
 ;; Corrupt ground
-/def cast_corrupt_ground =\
+/def cast_corrupt_ground = \
 	/send @cast corrupt ground %;\
 
 /alias ccg /cast_corrupt_ground
 
 ;; Evaluate host
-/def cast_evaluate_host =\
-	/if (strlen({1}) > 0)\
+/def cast_evaluate_host = \
+	/if (strlen({1}) > 0) \
 		/send @cast evaluate host at %{*} %;\
 	/endif
 
 /alias ceh /cast_evaluate_host %{*}
 
 ;; Reap potentia
-/def cast_reap_potentia =\
+/def cast_reap_potentia = \
 	/send @target %{*};cast 'reap potentia' %{*}
 
 /alias crp /cast_reap_potentia %{*}
 
 ;; Parasitic Swarm
-/def cast_parasitic_swarm =\
+/def cast_parasitic_swarm = \
 	/send @target %{*};cast 'parasitic swarm' %{*}
 
 /alias cps /cast_parasitic_swarm %{*}
 
 ;; End enthrallment
-/def cast_end_enthrallment =\
+/def cast_end_enthrallment = \
 	/if (strlen({1}) > 0)\
 		/send @cast end enthrallment at %{*} %;\
 	/endif
@@ -136,7 +122,7 @@
 /alias cee /cast_end_enthrallment %{*}
 
 ;; Nourish Enthralled
-/def cast_nourish_enthralled =\
+/def cast_nourish_enthralled = \
 	/if (strlen({1}) > 0 & strlen({2}) > 0 & strlen({3}) > 0)\
 		/send @cast nourish enthralled at %{1} consume %{2} %{3} %;\
 	/endif
@@ -152,15 +138,22 @@
 ;; SKILLS
 
 ;; Embrace the Gifts
-/def use_embrace_the_gifts_aura =\
+/def use_embrace_the_gifts_aura = \
 	/if (strlen({1}) > 0)\
 		/send @use embrace the gifts at start aura %{*} %;\
 	/endif
 
 /alias aura /use_embrace_the_gifts_aura %{*}
 
+/def use_embrace_the_gifts_mutation = \
+	/if (strlen({1}) > 0) \
+		/send @use embrace the gifts at start mutation %{*} %;\
+	/endif
+
+/alias mutation /use_embrace_the_gifts_mutation %{*}
+
 ;; Dreary hibernation
-/def use_dreary_hibernation =\
+/def use_dreary_hibernation = \
 	/send @use dreary hibernation %;\
 	
 /alias udh /use_dreary_hibernation

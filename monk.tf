@@ -138,8 +138,10 @@
 ;;/set areaskill3=dragon tail sweep
 
 /set avoidskill1=falcon talon strike
-/set avoidskill2=elder cobra kick
-/set avoidskill3=lions teeth throw
+/set avoidskill2=falcon talon strike
+/set avoidskill3=falcon talon strike
+;;/set avoidskill2=elder cobra kick
+;;/set avoidskill3=lions teeth throw
 
 /def monkskillinterrupt=\
 	/set currentarmorskill=%{armourskill1} %;\

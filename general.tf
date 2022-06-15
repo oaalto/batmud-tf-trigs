@@ -5,7 +5,7 @@
 	/send @sc %;\
 	/set in_battle=1
 
-/def -p1000 -F -msimple -t"You are no longer in combat." = \
+/def -p1000 -F -msimple -t"You are not in combat right now." = \
 	/set in_battle=0
 
 /def -p10000 -F -aBCred -mregexp -t'(.+) is DEAD, R.I.P.' = /send @scan

@@ -222,14 +222,14 @@ place, leaving (him|her|it) temporarily vulnerable!$'
 /def -p1 -F -aCyellow -mregexp -t'^You get some hits to the belly, getting some penetration.$' = /set currentareaskill=%{areaskill2} %;
 /def -p1 -F -aCgreen -mregexp -t'getting your fingers between the ribs like you\'d hoped.$' = /set currentareaskill=%{areaskill2} %;
 /def -p1 -F -aCmagenta -mregexp -t'your knuckles between the ribs!$' = /set currentareaskill=%{areaskill2} %;
-/def -p1 -F -aBCmagenta -mregexp -t'^You send ([-A-z\'\"\(\)\.\, ]+) crashing into ([-A-z\'\"\(\)\.\, ]+)!$' = /set currentareaskill=%{areaskill2} %;
+/def -p1 -F -aBCmagenta -mregexp -t'^You send (.+) crashing into (.+)!$' = /set currentareaskill=%{areaskill2} %;
 
 ;; Winged Horse Kick
 /def -p1 -F -aBCred -mregexp -t'blocks it and knocks you to the ground.$' = /set currentareaskill=%{areaskill1} %;
 /def -p1 -F -aCcyan -mregexp -t'^Your kick is true, but not forceful enough to knock anyone around.$' = /set currentareaskill=%{areaskill3} %;
 /def -p1 -F -aCblue -mregexp -t'The impact is less than satisfying.$' = /set currentareaskill=%{areaskill3} %;
 /def -p1 -F -aCyellow -mregexp -t'^You kick it stumbling backwards!$' = /set currentareaskill=%{areaskill3} %;
-/def -p1 -F -aCgreen -mregexp -t'^You knock ([-A-z\'\"\(\)\.\, ]+) into ([-A-z\'\"\(\)\.\, ]+)!$' = /set currentareaskill=%{areaskill3} %;
+/def -p1 -F -aCgreen -mregexp -t'^You knock (.+) into (.+)!$' = /set currentareaskill=%{areaskill3} %;
 
 ;; Dragon Tail Sweep
 /def -p1 -F -aBCred -mregexp -t'braces and blocks it.$' = /set currentareaskill=%{areaskill1} %;
@@ -242,14 +242,14 @@ place, leaving (him|her|it) temporarily vulnerable!$'
 /def -p1 -F -aBCred -mregexp -t'but are pushed back.$' = /set currentavoidskill=%{avoidskill1} %;
 /def -p1 -F -aCcyan -mregexp -t'but can\'t get a decent claw in.$' = /set currentavoidskill=%{avoidskill2} %;
 /def -p1 -F -aCblue -mregexp -t'but can\'t push hard enough to get into a flip.$' = /set currentavoidskill=%{avoidskill2} %;
-/def -p1 -F -aCyellow -mregexp -t'clawing it in the back with curved fingers!$' = /set currentavoidskill=%{avoidskill2} %;
+/def -p1 -F -aCyellow -mregexp -t'clawing (.+) in the back with curved fingers!$' = /set currentavoidskill=%{avoidskill2} %;
 
 ;; Elder Cobra Kick
 /def -p1 -F -aBCred -mregexp -t'leaving you flat on your back!$' = /set currentavoidskill=%{avoidskill1} %;
-/def -p1 -F -aCcyan -mregexp -t'and you end up merely slamming your back against ([-A-z\'\"\(\)\.\, ]+).$' = /set currentavoidskill=%{avoidskill3} %;
+/def -p1 -F -aCcyan -mregexp -t'and you end up merely slamming your back against (.+).$' = /set currentavoidskill=%{avoidskill3} %;
 /def -p1 -F -aCblue -mregexp -t'over the shoulder with the heel of your foot.$' = /set currentavoidskill=%{avoidskill3} %;
 
 ;; Lions Teeth Throw
 /def -p1 -F -aBCred -mregexp -t'but fall short and land on your side.$' = /set currentavoidskill=%{avoidskill1} %;
-/def -p1 -F -aCcyan -mregexp -t'and end up merely kicking (him|her|it) in the face with one foot.$' = /set currentavoidskill=%{avoidskill1} %;
+/def -p1 -F -aCcyan -mregexp -t'and end up merely kicking (.+) in the face with one foot.$' = /set currentavoidskill=%{avoidskill1} %;
 

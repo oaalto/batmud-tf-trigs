@@ -24,6 +24,12 @@
 
 /alias med /use_meditation
 
+;; Pick Locks
+/dev use_pick_locks = \
+	/send @use pick locks at %{*}
+
+/alias upl /use_pick_locks %{*}
+
 ;; Tiger Claw
 /def cast_tiger_claw = \
 	/send @target %{*};cast 'tiger claw' %{*}

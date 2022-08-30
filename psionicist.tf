@@ -2,8 +2,8 @@
 /def cast_mindseize = \
 	/if (strlen({1}) > 0) \
         /send @target %{*} %;\
-    /endif %;\
-	/send cast 'Mindseize' %{*}
+  /endif %;\
+	/send cast 'mindseize' %{*}
 
 /alias cms /cast_mindseize %{*}
 

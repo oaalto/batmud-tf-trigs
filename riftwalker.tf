@@ -241,7 +241,7 @@
 /def -p10 -F -P2Cred -mregexp -t"[A|An] (.+) entity (pulsating) with power \[yours\]"
 /def -p10 -F -P2BCred -mregexp -t"[A|An] (.+) entity (blazing) with power \[yours\]"
 
-/def -p10 -F -aBCred -msimple -t"Your fire entity does some strange combat maneuver but doesn't hit anything."
+/def -p10 -F -aBCred -mregexp -t"Your (.+) entity does some strange combat maneuver but doesn't hit anything."
 /def -p10 -F -P1BCblue -mregexp -t"(Entity sense:) (.+)"
 
 /def -p10 -F -aBCblue -mregexp -t"Air entity embraces (.+) with its wispy tendrils."
@@ -271,7 +271,8 @@
 
 /def -p10 -F -aBCwhite -mregexp -t"(.+) entity starts concentrating on a new offensive skill."
 /def -p10 -F -aBCblue -msimple -t"Your entity is prepared to do the skill." = \
-	/echo -aBCblue Entity Skill!
+	/echo %;\
+	/echo -aBCblue !!!!!!!!!! Entity Skill !!!!!!!!!!
 
 /def -p10 -F -mregexp -t"A dazzling spark races along the stream of green light between you and (.+)!" = \
 	/send @keep all spark

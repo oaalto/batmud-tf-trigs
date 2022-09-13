@@ -1,7 +1,7 @@
 ;; Start Combat
 /def start_combat = \
   /use_bladed_fury %{*} %;\
-  /if (strlen({1]) > 0) \
+  /if (strlen({1}) > 0) \
     /send @kill %{*} %;\
   /endif %;\
 

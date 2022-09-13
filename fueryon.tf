@@ -12,5 +12,5 @@
 /def -p1000 -F -P2Cred -mregexp -t"(.+) hits Fueryon (\d+ times) (.+)."
 
 /set tzarakk_mount=Vedir
-/set rig=bandolier
+/set rig=frame
 

@@ -1,3 +1,5 @@
+/gag *Roc
+
 ;; Start Combat
 /def start_combat = \
   /if (strlen({1}) > 0) \

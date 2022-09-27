@@ -12,7 +12,7 @@
 ;; Bladed Fury
 /def use_bladed_fury = \
   /if (strlen({1}) > 0) \
-		/send @target %{*} %;\
+    /send @target %{*} %;\
   /endif %;\
   /send use 'bladed fury' %{*}
 

@@ -122,9 +122,9 @@
         /do_armor_skill %{*}
 
 /set armourskill1=falling boulder strike
-/set armourskill2=falling boulder strike
+;;/set armourskill2=falling boulder strike
 /set armourskill3=falling boulder strike
-;;/set armourskill2=earthquake kick
+/set armourskill2=earthquake kick
 ;;/set armourskill3=avalanche slam
 
 /set disruptskill1=wave crest strike

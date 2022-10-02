@@ -88,6 +88,8 @@
 /def -p10000 -F -aCblue -msimple -t'Your training is starting to pay off!'
 /def -p10000 -F -aCblue -mregexp -t'You feel like you have mastered the art of (.+). It might be time to find another advanced technique.'
 
+/def -p10000 -F -aCred -msimple -t"You feel like imaginary food is done digesting."
+
 /alias uds /do_disrupt_skill %{*}
 /def do_disrupt_skill=\
 	/send @target %{*};@use '%{currentdisruptskill}' %{*}
@@ -120,10 +122,10 @@
         /do_armor_skill %{*}
 
 /set armourskill1=falling boulder strike
-;;/set armourskill2=falling boulder strike
-;;/set armourskill3=falling boulder strike
-/set armourskill2=earthquake kick
-/set armourskill3=avalanche slam
+/set armourskill2=falling boulder strike
+/set armourskill3=falling boulder strike
+;;/set armourskill2=earthquake kick
+;;/set armourskill3=avalanche slam
 
 /set disruptskill1=wave crest strike
 ;;/set disruptskill2=wave crest strike

@@ -1,4 +1,4 @@
-/def -mregexp -t"It contains (.+) anipium, (.+) batium, (.+) mithril and (\d+) platinum coins." = \
+/def -mregexp -t"It contains (.+) anipium, (.+) batium, (.+) mithril and (.+) platinum coins." = \
     /let plat=$[{P4} * 10] %;\
     /let anip=$[{P1} * 50] %;\
     /let bat=$[{P2} * 100] %;\

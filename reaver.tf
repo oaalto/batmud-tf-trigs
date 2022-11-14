@@ -54,7 +54,7 @@
 	/endif %;\
 	/send use 'blood harvest' %{*}
 
-/alias dm /use_blood_harvest %{*}
+/alias ubh /use_blood_harvest %{*}
 
 ;; Reave Shield
 /def use_reave_shield = \

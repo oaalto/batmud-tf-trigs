@@ -42,23 +42,3 @@
 
 /alias cff /cast_flame_fists
 
-;; Invisibility
-/def cast_invisibility = \
-	/if (strlen({1}) > 0) \
-		/send cast invisibility at %{*} %;\
-	/else \
-		/send cast invisibility at me %;\
-	/endif
-
-/alias cinv /cast_invisibility %{*}
-
-;; Water Walking
-/def cast_water_walking = \
-        /if (strlen({1}) > 0) \
-                /send cast water walking at %{*} %;\
-        /else \
-                /send cast water walking at me %;\
-        /endif
-
-/alias cww /cast_water_walking %{*}
-

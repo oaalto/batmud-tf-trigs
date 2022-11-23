@@ -25,7 +25,7 @@
 /alias med /use_meditation
 
 ;; Pick Locks
-/dev use_pick_locks = \
+/def use_pick_locks = \
 	/send @use pick locks at %{*}
 
 /alias upl /use_pick_locks %{*}

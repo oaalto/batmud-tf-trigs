@@ -147,7 +147,7 @@
 	/send @put mithril in purse;put batium in purse;put anipium in purse;put platinum in purse
 
 /def -p1000 -F -mregexp -t"You pay the ticketmaster (.+) gold, and he lets you board the ship." = \
-	/send @get 5 mithril from purse
+	/send @get 250 platinum from purse
 
 ;; Aggro
 /def -p1000 -F -aCred -mregexp -t"got mad at hostile actions."

@@ -4,19 +4,19 @@
 /def -p10000 -F -aBCred -msimple -t"Your greater light spell flickers briefly and disappears."
 
 /def set_autoselect = \
-	/send @liberator autoselect weakest non armoursmith,guardian,weaponsmith,soldier
+	/send @liberator autoselect weakest non armoursmith,guardian,weaponsmith,soldier,locksmith,ranger
 
 ;; SPELLS
 
 ;; Ghost light
 /def cast_ghost_light = \
-	/send @target %{*};liberator select weakest non armoursmith,guardian,weaponsmith,soldier;cast 'ghost light' %{*}
+	/send @target %{*};liberator select weakest non armoursmith,guardian,weaponsmith,soldier,locksmith,ranger;cast 'ghost light' %{*}
 
 /alias cgl /cast_ghost_light %{*}
 
 ;; Ghost chill
 /def cast_ghost_chill = \
-	/send @target %{*};liberator select weakest non armoursmith,guardian,weaponsmith,soldier;cast 'ghost chill' %{*}
+	/send @target %{*};liberator select weakest non armoursmith,guardian,weaponsmith,soldier,locksmith,ranger;cast 'ghost chill' %{*}
 
 /alias cgc /cast_ghost_chill %{*}
 
@@ -28,13 +28,13 @@
 
 ;; Ghost link
 /def cast_ghost_link = \
-	/send @liberator select weakest non armoursmith,guardian,weaponsmith,soldier;cast ghost link at me %;\
+	/send @liberator select weakest non armoursmith,guardian,weaponsmith,soldier,locksmith,ranger;cast ghost link at me %;\
 
 /alias clink /cast_ghost_link
 
 ;; Restful sleep
 /def cast_restful_sleep = \
-	/send @liberator select weakest non armoursmith,guardian,weaponsmith,soldier;cast restful sleep %;\
+	/send @liberator select weakest non armoursmith,guardian,weaponsmith,soldier,locksmith,ranger;cast restful sleep %;\
 
 /alias crs /cast_restful_sleep
 
@@ -54,9 +54,21 @@
 
 ;; Radiant slash
 /def use_radiant_slash = \
-	/send @target %{*};liberator select weakest non armoursmith,guardian,weaponsmith,soldier;use 'radiant slash' %{*}
+	/send @target %{*};liberator select weakest non armoursmith,guardian,weaponsmith,soldier,locksmith,ranger;use 'radiant slash' %{*}
 
 /alias urs /use_radiant_slash %{*}
+
+;; Channeling ghosts
+
+/def use_ghost_channeling_at_fire = \
+	/send liberator select weakest ranger;use 'ghost channeling' fire
+
+/alias ugcf /use_ghost_channeling_at_fire
+
+/def use_ghost_channeling_at_camp = \
+	/send liberator select weakest ranger;use 'ghost channeling' camp
+
+/alias ugcc /use_ghost_channeling_at_camp
 
 
 

@@ -49,7 +49,7 @@
 /def -F -aBCred -msimple -t"You do a complex attack maneuver but miss."
 
 ;; Kata
-/def use_kata =\
+/def use_kata = \
 	/monkskillinterrupt %;\
 	/send @use kata %;\
 
@@ -57,20 +57,20 @@
 
 /def -p10000 -F -msimple -t'You perform the kata.' = \
 	/set kata_done=1 %;\
-	/if ({doing_meditation})\
+	/if ({doing_meditation}) \
 		/use_meditation %;\
 	/endif
 
 /def -p10000 -F -mregexp -t'You perform the peaceful (.+) kata.' = \
-        /set kata_done=1 %;\
-        /if ({doing_meditation})\
-                /use_meditation %;\
-        /endif
+  /set kata_done=1 %;\
+  /if ({doing_meditation}) \
+	  /use_meditation %;\
+  /endif
 
 ;; Meditation
-/def use_meditation =\
+/def use_meditation = \
 	/monkskillinterrupt %;\
-	/if ({kata_done})\
+	/if ({kata_done}) \
 		/send @use meditation %;\
 	/else \
 		/set doing_meditation=1 %;\
@@ -79,14 +79,21 @@
 
 /alias med /use_meditation %{*}
 
-/def -p10000 -F -msimple -t'You start concentrating on the skill.' start_skill =\
+;; Mind over body
+/def use_mind_over_body = \
+	/monkskillinterrupt %;\
+	/send @use mind over body at %{*}
+
+/alias umb /use_mind_over_body %{*}
+
+/def -p10000 -F -msimple -t"You start concentrating on the skill." = \
 	/set kata_done=0
 
-/def -p10000 -F -msimple -t'You sit down and start meditating.' start_meditation =\
+/def -p10000 -F -msimple -t"You sit down and start meditating." = \
 	/set doing_meditation=0
 
-/def -p10000 -F -aCblue -msimple -t'Your training is starting to pay off!'
-/def -p10000 -F -aCblue -mregexp -t'You feel like you have mastered the art of (.+). It might be time to find another advanced technique.'
+/def -p10000 -F -aCblue -msimple -t"Your training is starting to pay off!"
+/def -p10000 -F -aCblue -mregexp -t"You feel like you have mastered the art of (.+). It might be time to find another advanced technique."
 
 /def -p10000 -F -aCred -msimple -t"You feel like imaginary food is done digesting."
 
@@ -128,9 +135,9 @@
 ;;/set armourskill3=avalanche slam
 
 /set disruptskill1=wave crest strike
-;;/set disruptskill2=wave crest strike
+/set disruptskill2=wave crest strike
 /set disruptskill3=wave crest strike
-/set disruptskill2=geyser force kick
+;;/set disruptskill2=geyser force kick
 ;;/set disruptskill3=tsunami push
 
 /set areaskill1=hydra fang strike

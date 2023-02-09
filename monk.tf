@@ -46,7 +46,7 @@
 
 /alias ip /use_iron_palm %{*}
 
-/def -F -aBCred -simple -t"You do a complex attack maneuver but miss."
+/def -F -aBCred -msimple -t"You do a complex attack maneuver but miss."
 
 ;; Kata
 /def use_kata =\
@@ -160,7 +160,6 @@
 /def -p10000 -F -msimple -t'You break your skill attempt.' = /monkskillinterrupt
 /def -p10000 -F -msimple -t'You stop concentrating on the skill and begin searching for a proper place to rest.' = /monkskillinterrupt
 /def -p10000 -F -msimple -t'You start chanting.' = /monkskillinterrupt
-
 
 ;; ARMOUR SKILLS
 

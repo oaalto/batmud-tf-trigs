@@ -2,7 +2,7 @@
 
 ;; Status line
 
-/def -p1000 -F -ag -mregexp -t'^--=  (.+)  HP:(.+)\((.+)\) \[(.*)\] \[(.*)\] \[(.*)\]  =--$' = \
+/def -p1000 -F -ag -mregexp -t"^--=  (.+)  HP:(.+)\((.+)\) \[(.*)\] \[(.*)\] \[(.*)\]  =--$" = \
 	/set status_line_2=%{P1}: %{P2}($[set_white({P3})]) [%{P4}] %{P5} %{P6} %;\
 	/notify_player %{P2}
 
@@ -14,24 +14,24 @@
 	/endif
 
 
-/def -p1000 -F -msimple -t'Your entity begins to warp, seeming to become unstable. It folds in on itself and vanishes!' = \
+/def -p1000 -F -msimple -t"Your entity begins to warp, seeming to become unstable. It folds in on itself and vanishes!" = \
 	/set status_line_2=
 
-/def -p1000 -F -msimple -t'Your soul cries out in anguish as your faithful companion is slain!' = \
+/def -p1000 -F -msimple -t"Your soul cries out in anguish as your faithful companion is slain!" = \
 	/set status_line_2=
 
-/def -p1000 -F -aCgreen -msimple -t'A crumpled piece of paper flies through the air and you grab it!' = \
+/def -p1000 -F -aCgreen -msimple -t"A crumpled piece of paper flies through the air and you grab it!" = \
 	/send keep paper
 
 ;; This requires battle listen all 1
-/def -p1000 -F -aCgreen -mregexp -t'(Fire|Air|Water|Earth) entity hits (.*) (once|twice|thrice) (.*).'
+/def -p1000 -F -aCgreen -mregexp -t"(Fire|Air|Water|Earth) entity hits (.*) (once|twice|thrice) (.*)."
 
 /def -p1000 -F -aCred -mregexp -t"(Fire|Air|Water|Earth) entity is stunned."
 
-/def -F -P1Cred -mregexp -t'(Fire entity)'
-/def -F -P1Ccyan -mregexp -t'(Air entity)'
-/def -F -P1Cblue -mregexp -t'(Water entity)'
-/def -F -P1Cyellow -mregexp -t'(Earth entity)'
+/def -F -P1Cred -mregexp -t"(Fire entity)"
+/def -F -P1Ccyan -mregexp -t"(Air entity)"
+/def -F -P1Cblue -mregexp -t"(Water entity)"
+/def -F -P1Cyellow -mregexp -t"(Earth entity)"
 
 ;; Entity Skills
 /set fire_skill=blazing sunder
@@ -65,13 +65,13 @@
 	/set_entity_skill fire
 
 /def -p1000 -F -mregexp -t"(.*) air entity (.*) with power \[yours\]" = \
-        /set_entity_skill air
+  /set_entity_skill air
 
 /def -p1000 -F -mregexp -t"(.*) water entity (.*) with power \[yours\]" = \
-        /set_entity_skill water
+  /set_entity_skill water
 
 /def -p1000 -F -mregexp -t"(.*) earth entity (.*) with power \[yours\]" = \
-        /set_entity_skill earth
+  /set_entity_skill earth
 
 /def use_current_skill = \
 	/if (strlen({1}) > 0) \
@@ -265,8 +265,8 @@
 /def -p10 -aBCblue -msimple -t"A wave of blue light bursts forth from your entity and hits you in the chest."
 /def -p10 -F -aBCblue -mregexp -t"Water entity starts to glow, and its skin starts to foam like waves crashing against a rocky shore."
 /def -p10 -F -aBCred -msimple -t"Your water entity stops glowing and its skin becomes still." = \
-        /if ({current_skill} =~ {water_skill}) \
-                /echo -aBCred SUBJUGATING BACKWASH IS DOWN! %;\
+  /if ({current_skill} =~ {water_skill}) \
+    /echo -aBCred SUBJUGATING BACKWASH IS DOWN! %;\
 	/endif
 
 /def -p10 -F -aBCwhite -mregexp -t"(.+) entity starts concentrating on a new offensive skill."

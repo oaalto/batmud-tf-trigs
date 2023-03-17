@@ -17,6 +17,9 @@
 ;; Centaur
 /def -p10 -F -aBCyellow -msimple -t"You gain insight to warhorse philosophy!"
 
+;; Thrikhren
+/def -p10 -F -aBCyellow -msimple -t"You learn more about the praying mantis tactics!"
+
 ;; Basic dig grave rip action
 /def normal_rip = /send @rip_action set get all from corpse;dig grave;drop zinc;drop mowgles
 

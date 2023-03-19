@@ -20,6 +20,8 @@
 
 /alias usf /use_sabre_fence %{*}
 
+/def -p1000 -F -aCred -msimple -t"Your attack is skillfully avoided by your enemy, an elegant move!"
+
 ;; Gloveknock stuff below
 /set sabre_weapon=sabre
 

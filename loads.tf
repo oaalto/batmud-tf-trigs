@@ -18,6 +18,7 @@
 ;;/load batmud-tf-trigs/mage_magical.tf
 ;;/load batmud-tf-trigs/mage_lightning.tf
 ;;/load batmud-tf-trigs/mage_acid.tf
+;;/load batmud-tf-trigs/mage_fire.tf
 ;;/load batmud-tf-trigs/channellers.tf
 ;;/load batmud-tf-trigs/psionicist.tf
 

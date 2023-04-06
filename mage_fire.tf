@@ -12,5 +12,13 @@
 	/endif %;\
 	/send @cast 'firebolt' %{*}
 
-/alias cfb /cast_firebolt %{*}
+/alias cf /cast_firebolt %{*}
+
+/def cast_fire_blast = \
+	/if (strlen({1})) \
+		/send @target %{*} %;\
+	/endif %;\
+	/send @cast 'fire blast' %{*}
+
+/alias cfb /cast_fire_blast %{*}
 

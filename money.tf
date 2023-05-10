@@ -9,3 +9,12 @@
     /echo Mithril %{P3} = %{mith} %;\
     /echo Total = $[{plat} + {anip} + {bat} + {mith}]
 
+/def -msimple -t"There is not that much platinum in the purse." = \
+    /send @get 50 anipium from purse
+
+/def -msimple -t"There is not that much anipium in the purse." = \
+    /send @get 25 batium from purse
+
+/def -msimple -t"There is not that much batium in the purse." = \
+    /send @get 5 mithril from purse
+

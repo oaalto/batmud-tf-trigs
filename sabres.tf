@@ -37,7 +37,7 @@
 	/send @wield %{sabre_weapon}
 
 /def -p1000 -F -mregexp -t"With a swift and precise punch you strike (.*) on his face," = \
-        /send @wield %{sabre_weapon}
+  /send @wield %{sabre_weapon}
 
 /def -p1000 -F -aCred -msimple -t"You frantically try to grab a weapon, but cannot get a grip in time." = \
 	/send @wield %{sabre_weapon}
@@ -51,3 +51,4 @@
 
 /alias wsw /wield_sabre_weapon
 
+/def -aCblue -mregexp -t"You feel more proficient in"

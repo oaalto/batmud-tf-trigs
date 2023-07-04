@@ -3,8 +3,10 @@
 ;; Status line
 
 /def -p1000 -F -ag -mregexp -t"^--=  (.+)  HP:(.+)\((.+)\) \[(.*)\] \[(.*)\] \[(.*)\]  =--$" = \
-	/set status_line_2=%{P1}: %{P2}($[set_white({P3})]) [%{P4}] %{P5} %{P6} %;\
 	/notify_player %{P2}
+
+/def -p1000 -F -ag -mregexp -t"^--=  (.+)  =--$" = \
+	/set status_line_2=%{P1} %;\
 
 /def notify_player = \
 	/if ({1} < 100) /echo -aBCred *********** !!! ENTITY UNDER 100 HP !!! *********** %;\
@@ -13,7 +15,6 @@
 	/elseif ({1} < 250) /echo -aBCyellow Entity under 250hp!! %;\
 	/endif
 
-
 /def -p1000 -F -msimple -t"Your entity begins to warp, seeming to become unstable. It folds in on itself and vanishes!" = \
 	/set status_line_2=
 
@@ -21,7 +22,7 @@
 	/set status_line_2=
 
 /def -p1000 -F -aCgreen -msimple -t"A crumpled piece of paper flies through the air and you grab it!" = \
-	/send keep paper
+	/send @keep paper
 
 ;; This requires battle listen all 1
 /def -p1000 -F -aCgreen -mregexp -t"(Fire|Air|Water|Earth) entity hits (.*) (once|twice|thrice) (.*)."

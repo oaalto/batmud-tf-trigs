@@ -68,9 +68,15 @@
 
 ;; Remove from status line when unsummoning
 /def -p1000 -F -mregexp -t'^Your connection to your parasite is severed completely. (.+) jerks violently couple of times and collapses.$' = \
+	/set minion_3_name= %;\
+	/set minion_2_name= %;\
+	/set minion_1_name= %;\
 	/set status_line_2=
 
 /def -p1000 -F -mregexp -t'You end the connection to your parasite, making the host jerk couple of times violently. After couple of seconds (.+) collapses and stops moving at all.' = \
+	/set minion_3_name= %;\
+  /set minion_2_name= %;\
+  /set minion_1_name= %;\
 	/set status_line_2=
 
 ;; SPELLS

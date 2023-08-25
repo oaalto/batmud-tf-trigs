@@ -19,7 +19,10 @@
 
 ;; Thrikhren
 /def -p10 -F -aBCyellow -msimple -t"You learn more about the praying mantis tactics!"
-/def -p10 -F -aBCred -msimple -t "The water BURNS your skin."
+/def -p10 -F -aBCred -msimple -t"The water BURNS your skin."
+
+;; Ent
+/def -p10 -F -aBCred -msimple -t"You feel exhausted, being here in the dark."
 
 ;; Basic dig grave rip action
 /def normal_rip = /send @rip_action set get all from corpse;dig grave;drop zinc;drop mowgles

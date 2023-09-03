@@ -14,5 +14,5 @@
 /def -p1000 -F -aCblue -msimple -t"A blue-glowing soul companion [Odefu]"
 
 /set tzarakk_mount=Orthos
-/set rig=bandolier
+/set rig=frame
 

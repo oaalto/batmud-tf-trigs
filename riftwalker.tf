@@ -30,7 +30,7 @@
 /def -p1000 -F -aCred -mregexp -t"(Fire|Air|Water|Earth) entity is stunned."
 
 /def -F -P1Cred -mregexp -t"(Fire entity)"
-/def -F -P1Ccyan -mregexp -t"(Air entity)"
+/def -F -P1Cbrightcyan -mregexp -t"(Air entity)"
 /def -F -P1Cblue -mregexp -t"(Water entity)"
 /def -F -P1Cyellow -mregexp -t"(Earth entity)"
 

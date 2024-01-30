@@ -1,7 +1,7 @@
 /def cast_hemorrhage = \
 	/if (strlen({1}) > 0) \
 		/send target %{*} %;\
-	/endif \
+	/endif %;\
 	/send cast 'hemorrhage' %{*} %;\
 
 /alias ch /cast_hemorrhage %{*}

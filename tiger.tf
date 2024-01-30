@@ -42,3 +42,9 @@
 
 /alias cff /cast_flame_fists
 
+;; Sneak
+/def use_sneak = \
+	/send use sneak
+
+/alias usn /use_sneak
+

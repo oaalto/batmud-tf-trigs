@@ -51,7 +51,11 @@
 /alias ctd /cast_toxic_dilution %{*}
 
 /def cast_venom_blade = \
-	/send @cast 'venom blade' %{*}
+	/if (strlen({1}) > 0) \
+		/send @cast 'venom blade' %{*}
+	/else \
+		/echo No target! %;\
+	/endif
 
 /alias cvb /cast_venom_blade %{*}
 
@@ -110,4 +114,5 @@
 /def -aCgreen -mregexp -t"You stab with (.+) causing blood to fly everywhere!"
 /def -aCgreen -mregexp -t"You twist your blade inside (.+)'s belly!"
 /def -aCgreen -mregexp -t"(.+) cringes from pain as your venomed blade bites into (.+) flesh!"
+/def -aCgreen -mregexp -t"(.+) suffers as poison from your blade flows into (.+) system!"
 

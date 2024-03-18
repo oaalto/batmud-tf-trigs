@@ -123,9 +123,13 @@
 
 ;; Establish entity control
 /def cast_entity_control = \
-	/send @cast establish entity control
+	/if (strlen({1}) > 0) \
+		/send @cast establish entity control at %{*} %;\
+	/else \
+		/send @cast establish entity control %;\
+	/endif
 
-/alias ctrl /cast_entity_control
+/alias ctrl /cast_entity_control %{*}
 
 ;; Regenerate rift entity
 /def cast_entity_regen = \

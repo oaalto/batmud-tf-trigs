@@ -123,9 +123,15 @@
 
 ;; Establish entity control
 /def cast_entity_control = \
-	/send @cast establish entity control at 10 %;\
+	/send @cast establish entity control %;\
 
 /alias ctrl /cast_entity_control
+
+;; Establish entity control (long)
+/def cast_entity_control_long = \
+        /send @cast establish entity control at 10 %;\
+
+/alias ctrll /cast_entity_control_long
 
 ;; Regenerate rift entity
 /def cast_entity_regen = \

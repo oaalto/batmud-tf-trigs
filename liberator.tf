@@ -50,7 +50,7 @@
 /def use_slash = \
 	/if (strlen({1}) > 0) \
 		/send @target %{*} %;\
-	/endif \
+	/endif %;\
 	/send @use 'slash' %{*}
 
 /alias us /use_slash %{*}
@@ -59,7 +59,7 @@
 /def use_ghost_slash = \
 	/if (strlen({1}) > 0) \
 		/send @target %{*} %;\
-	/endif \
+	/endif %;\
 	/send @liberator select weakest soldier;use 'ghost slash' %{*}
 
 /alias ugs /use_ghost_slash %{*}

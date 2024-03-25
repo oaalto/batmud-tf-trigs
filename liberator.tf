@@ -46,9 +46,21 @@
 
 ;; SKILLS
 
+;; Slash
+/def use_slash = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif \
+	/send @use 'slash' %{*}
+
+/alias us /use_slash %{*}
+
 ;; Ghost slash
 /def use_ghost_slash = \
-	/send @target %{*};liberator select weakest soldier;use 'ghost slash' %{*}
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif \
+	/send @liberator select weakest soldier;use 'ghost slash' %{*}
 
 /alias ugs /use_ghost_slash %{*}
 

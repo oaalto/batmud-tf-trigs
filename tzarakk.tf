@@ -97,7 +97,7 @@
 /def cast_banish_mount = \
     /send @cast banish mount
 
-/alias cdis /cast_banish_mount
+/alias cban /cast_banish_mount
 
 /def -p1000 -F -rsimple -t"You pray for Tzarakk to receive his mount." = \
 	/set mount_summoned=0 %;\

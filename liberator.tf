@@ -60,7 +60,7 @@
 	/if (strlen({1}) > 0) \
 		/send @target %{*} %;\
 	/endif %;\
-	/send @liberator select weakest soldier non armoursmith,guardian,weaponsmith,locksmith,ranger;use 'ghost slash' %{*}
+	/send @liberator select clear;liberator select weakest soldier;use 'ghost slash' %{*}
 
 /alias ugs /use_ghost_slash %{*}
 

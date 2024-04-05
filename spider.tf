@@ -90,6 +90,15 @@
 
 /alias cpsq /cast_prayer_to_spider_queen
 
+/def cast_remove_poison = \
+	/if (strlen({1}) > 0) \
+		/send @cast remove poison at %{*} %;\
+	/else \
+		/send @cast remove poison at me %;\
+	/endif
+
+/alias crp /cast_remove_poison %{*}
+
 /def use_stab = \
 	/if (strlen({1}) > 0) \
 		/send @target %{*} %;\

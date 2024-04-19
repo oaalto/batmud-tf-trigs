@@ -2,6 +2,7 @@
 /def -p10 -F -aCgreen -mregexp -t"As (.*) drops to (.*) knees you leap in for the kill!"
 /def -p10 -F -aCgreen -mregexp -t"You manage to stun (.*)."
 /def -p10 -F -aCred -msimple -t"Your fists are no longer surrounded by Curath's black flames."
+/def -p10 -F -aCred -msimple -t"You do a complex attack maneuver but miss."
 
 ;; Iron Palm
 /def use_iron_palm = \

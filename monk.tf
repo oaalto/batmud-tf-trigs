@@ -92,6 +92,8 @@
 /def -p10000 -F -msimple -t"You sit down and start meditating." = \
 	/set doing_meditation=0
 
+/def -p10000 -F -aCred -msimple -t"You fail to reach the state of inner harmony."
+
 /def -p10000 -F -aCblue -msimple -t"Your training is starting to pay off!"
 /def -p10000 -F -aCblue -mregexp -t"You feel like you have mastered the art of (.+). It might be time to find another advanced technique."
 

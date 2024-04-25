@@ -90,6 +90,7 @@
 /def -p10 -F -aBCred -msimple -t"You poke yourself in the eye and your spell misfires."
 /def -p10 -F -aBCred -msimple -t"Something touches you and spoils your concentration ruining the spell."
 /def -p10 -F -aBCred -msimple -t"You fail to chant the spell correctly."
+/def -p10 -F -aBCred -msimple -t"You do not have enough spell points to cast the spell."
 
 ;; Fumble
 /def -p10 -F -aBCyellow -mregexp -t"You falter and fumble the spell."

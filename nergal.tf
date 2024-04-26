@@ -21,7 +21,7 @@
 
 /def update_status_line_2 = \
 	/if (strlen({minion_3_name}) > 0) \
-		/set status_line_2=%{minion_1_name}: Hp: %{minion_1_hp}(%{minion_1_max_hp}) Sp: %{minion_1_sp}(%{minion_1_max_sp}) Ep: %{minion_1_ep}(%{minion_1_max_ep}) %{minion_2_name}: Hp: %{minion_2_hp}(%{minion_2_max_hp}) Sp: %{minion_2_sp}(%{minion_2_max_sp}) Ep: %{minion_2_ep}(%{minion_2_max_ep} %{minion_3_name}: Hp: %{minion_3_hp}(%{minion_3_max_hp}) Sp: %{minion_3_sp}(%{minion_3_max_sp}) Ep: %{minion_3_ep}(%{minion_3_max_ep}) %;\
+		/set status_line_2=%{minion_1_name}: Hp: %{minion_1_hp}(%{minion_1_max_hp}) Sp: %{minion_1_sp}(%{minion_1_max_sp}) Ep: %{minion_1_ep}(%{minion_1_max_ep}) %{minion_2_name}: Hp: %{minion_2_hp}(%{minion_2_max_hp}) Sp: %{minion_2_sp}(%{minion_2_max_sp}) Ep: %{minion_2_ep}(%{minion_2_max_ep}) %{minion_3_name}: Hp: %{minion_3_hp}(%{minion_3_max_hp}) Sp: %{minion_3_sp}(%{minion_3_max_sp}) Ep: %{minion_3_ep}(%{minion_3_max_ep}) %;\
 	/elseif (strlen({minion_2_name}) > 0) \
 		/set status_line_2=%{minion_1_name}: Hp: %{minion_1_hp}(%{minion_1_max_hp}) Sp: %{minion_1_sp}(%{minion_1_max_sp}) Ep: %{minion_1_ep}(%{minion_1_max_ep}) %{minion_2_name}: Hp: %{minion_2_hp}(%{minion_2_max_hp}) Sp: %{minion_2_sp}(%{minion_2_max_sp}) Ep: %{minion_2_ep}(%{minion_2_max_ep}) %;\
 	/elseif (strlen({minion_1_name}) > 0) \

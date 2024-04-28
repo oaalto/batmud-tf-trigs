@@ -101,9 +101,7 @@
 
 ;; Evaluate host
 /def cast_evaluate_host = \
-	/if (strlen({1}) > 0) \
-		/send @cast evaluate host at %{*} %;\
-	/endif
+	/send @target %{*};cast 'evaluate host' %{*} 
 
 /alias ceh /cast_evaluate_host %{*}
 

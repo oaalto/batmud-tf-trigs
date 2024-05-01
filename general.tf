@@ -17,8 +17,8 @@
 /def -p10 -F -aBCcyan -mregexp -t"is noticeably hurt"
 /def -p10 -F -aCyellow -mregexp -t"is not in a good shape"
 /def -p10 -F -aBCyellow -mregexp -t"is in bad shape"
-/def -p10 -F -aCred -mregexp -t"is in very bad shape"
-/def -p10 -F -aBCred -mregexp -t"is near death"
+/def -p10 -F -aBCred -mregexp -t"is in very bad shape"
+/def -p10 -F -aCred -mregexp -t"is near death"
 
 ;; Ambush
 /def -p10 -F -aBCred -msimple -t"You cannot leave, you have been AMBUSHED."

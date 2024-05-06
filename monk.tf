@@ -211,7 +211,7 @@ place, leaving (him|her|it) temporarily vulnerable!$'
 /def -p1 -F -aCblue -mregexp -t'a harsh slap across the jaw.$' = /set currentdisruptskill=%{disruptskill2} %;
 /def -p1 -F -aCyellow -mregexp -t'but miss the veins you were aiming for.$' = /set currentdisruptskill=%{disruptskill2} %;
 /def -p1 -F -aCgreen -mregexp -t'hitting one of the arteries and disrupting (his|her|its) blood flow!$' = /set currentdisruptskill=%{disruptskill2} %;
-/def -p1 -F -aCBgreen -mregexp -t"You *swat* (.+) on the neck, hitting both arteries and temporarily halting (his|her|its) blood to the brain!"
+/def -p1 -F -aCBgreen -mregexp -t"You \*swat\* (.+) on the neck, hitting both arteries and temporarily halting (his|her|its) blood to the brain!"
 
 ;; Geyser Force Kick
 /def -p1 -F -aBCred -mregexp -t'but slip and fall down.$' = /set currentdisruptskill=%{disruptskill1} %;

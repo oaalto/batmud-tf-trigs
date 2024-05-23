@@ -40,3 +40,5 @@
 ;;/load batmud-tf-trigs/liberator.tf
 ;;/load batmud-tf-trigs/animist.tf
 
+;;/load batmud-tf-trigs/sects.tf
+

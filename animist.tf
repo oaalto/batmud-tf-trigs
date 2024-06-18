@@ -7,21 +7,21 @@
 /set dismissing_mount=0
 
 ;; Status line
-/def -p1000 -F -mregexp -ag -t'^Your soul companion: (.+) \((.+)%\)' = \
+/def -p1000 -F -mregexp -ag -t"^Your soul companion: (.+) \((.+)%\)" = \
     /let soul=$[decode_attr({P2}, colorer({P2}, 100))] %;\
 	/let percent=$[set_white('%')] %;\
 	/set status_line_2=Soul: %{soul}%{percent}
 
-/def -p10000 -F -msimple -t'You start chanting.' start_spell = \
+/def -p10000 -F -msimple -t"You start chanting." start_spell = \
 	/set cere_done=0
 
-/def -p10000 -F -msimple -t'You are done with the chant.' start_separating = \
+/def -p10000 -F -msimple -t"You are done with the chant." start_separating = \
 	/set separating_soul=0 %;\
 	/set joining_soul=0 %;\
 	/set conjuring_mount=0 %;\
 	/set dismissing_mount=0
 
-/def -p10000 -F -msimple -t'You perform the ceremony.' cere_success = \
+/def -p10000 -F -msimple -t"You perform the ceremony." cere_success = \
 	/set cere_done=1 %;\
 	/if ({separating_soul}) \
 		/cast_separate_soul %;\
@@ -77,6 +77,7 @@
 
 /alias cdis /cast_dismiss_mount
 
-/def -p10000 -F -mregexp -t'(.+) spirit slowly appears, answering your call.' = \
+/def -p10000 -F -mregexp -t"(.+) spirit slowly appears, answering your call." = \
 	/send @lead my spirit
 
+/def -F -aCblue -msimple -t"You feel slightly better at fighting with your soul companion."

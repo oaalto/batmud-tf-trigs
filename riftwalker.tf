@@ -236,6 +236,12 @@
 
 /alias ciw /cast_iron_will %{*}
 
+;; Stop
+/def stop_use = \
+	/send @zz;gem cmd use stop
+
+/alias zz /stop_use
+
 /def -p10 -F -aCbrightcyan -mregexp -t"[A|An] (.+) air entity (.+) with power \[yours"
 /def -p10 -F -aCred -mregexp -t"[A|An] (.+) fire entity (.+) with power \[yours"
 /def -p10 -F -aCblue -mregexp -t"[A|An] (.+) water entity (.+) with power \[yours"

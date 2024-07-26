@@ -13,3 +13,12 @@
 
 /alias cr /cast_relocate %{*}
 
+/def cast_heavy_weight = \
+	/if (strlen({1}) > 0) \
+		/send @cast heavy weight at %{*} %;\
+	/else \
+		/send @cast heavy weight at me %;\
+	/endif
+
+/alias chw /cast_heavy_weight %{*}
+

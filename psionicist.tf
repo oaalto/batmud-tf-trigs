@@ -103,5 +103,10 @@
 /def -p10 -F -aBCgreen -msimple -t"You gain useful knowledge of how the mind works."
 
 
+;; You still need an unimaginable amount of more knowledge of how the mind works before you can improve your knowledge of mental defence.
+;; You still need extremely much more knowledge of how the mind works before you can improve your knowledge of mental defence.
+;; You still need much more knowledge of how the mind works before you can improve your knowledge of mental defence.
+;; You still need more knowledge of how the mind works before you can improve your knowledge of mental defence.
+
 
 

@@ -11,8 +11,13 @@
 /def -p10 -F -aCred -msimple -t"Your body can't handle any more of vitae!"
 /def -p10 -F -aCred -msimple -t"Your body can't handle any more of potentia!"
 
-/def -p10000 -F -mregexp -t'DEAD, R.I.P.' mob_dead_nergal =\
+/def -p10000 -F -mregexp -t"DEAD, R.I.P." mob_dead_nergal = \
         /send @nergal sc
+
+/def -p1000 -F -mregexp -t"Potentia: 1000/1000" = \
+	/echo ***** POTENTIA IS FULL! *****
+/def -p1000 -F -mregexp -t"Vitae: 1000/1000" = \
+	/echo ***** VITAE IS FULL! *****
 
 ;; Status line
 /def -p1000 -F -ag -mregexp -t'^::\.\.:\. (.+) \[Hp: ([\-0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*, Sp: ([\-0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*, Ep: ([\-0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*\]$' = \

@@ -15,9 +15,9 @@
         /send @nergal sc
 
 /def -p1000 -F -mregexp -t"Potentia: 1000/1000" = \
-	/echo ***** POTENTIA IS FULL! *****
+	/echo -aCred ***** POTENTIA IS FULL! *****
 /def -p1000 -F -mregexp -t"Vitae: 1000/1000" = \
-	/echo ***** VITAE IS FULL! *****
+	/echo -aCred ***** VITAE IS FULL! *****
 
 ;; Status line
 /def -p1000 -F -ag -mregexp -t'^::\.\.:\. (.+) \[Hp: ([\-0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*, Sp: ([\-0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*, Ep: ([\-0-9]+) \(([0-9]+)\)[ \-+\(\)0-9]*\]$' = \

@@ -97,7 +97,7 @@
 		/send @cast remove poison at me %;\
 	/endif
 
-/alias crp /cast_remove_poison %{*}
+/alias crmp /cast_remove_poison %{*}
 
 /def use_stab = \
 	/if (strlen({1}) > 0) \

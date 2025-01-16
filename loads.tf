@@ -26,6 +26,7 @@
 ;; Evil Religious
 ;;/load batmud-tf-trigs/triad.tf
 ;;/load batmud-tf-trigs/curate.tf
+;;/load batmud-tf-trigs/seminary.tf
 ;;/load batmud-tf-trigs/disciple.tf
 ;;/load batmud-tf-trigs/kharim.tf
 ;;/load batmud-tf-trigs/nergal.tf

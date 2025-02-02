@@ -18,4 +18,9 @@
 
 /alias ubf /use_bladed_fury %{*}
 
+;; Torch Creation
+/def use_torch_creation = \
+	/send use torch creation
+
+/alias utc /use_torch_creation
 

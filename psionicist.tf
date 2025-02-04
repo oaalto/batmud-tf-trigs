@@ -1,8 +1,8 @@
 ;; Mindseize
 /def cast_mindseize = \
 	/if (strlen({1}) > 0) \
-        /send @target %{*} %;\
-  /endif %;\
+		/send @target %{*} %;\
+	/endif %;\
 	/send cast 'mindseize' %{*}
 
 /alias cms /cast_mindseize %{*}
@@ -12,14 +12,14 @@
 	/if (strlen({1}) > 0) \
 		/send @target %{*} %;\
 	/endif %;\
-	/send @cast 'Mind blast' %{*}
+	/send @cast 'mind blast' %{*}
 
 /alias cmb /cast_mind_blast %{*}
 
 ;; Psibolt
 /def cast_psibolt = \
 	/if (strlen({1}) > 0) \
-        /send @target %{*} %;\
+  	      /send @target %{*} %;\
 	/endif %;\
 	/send cast 'psibolt' %{*}
 
@@ -28,8 +28,8 @@
 ;; Psi blast
 /def cast_psi_blast = \
 	/if (strlen({1}) > 0) \
-        /send @target %{*} %;\
-    /endif %;\
+        	/send @target %{*} %;\
+    	/endif %;\
 	/send cast 'psi blast' %{*}
 
 /alias cpb /cast_psi_blast %{*}
@@ -37,8 +37,8 @@
 ;; Mind disruption
 /def cast_mind_disruption = \
 	/if (strlen({1}) > 0) \
-        /send @target %{*} %;\
-    /endif %;\
+    	    /send @target %{*} %;\
+	/endif %;\
 	/send cast 'mind disruption' %{*}
 
 /alias cmd /cast_mind_disruption %{*}
@@ -46,8 +46,8 @@
 ;; Psychich crush
 /def cast_psychic_crush = \
 	/if (strlen({1}) > 0) \
-        /send @target %{*} %;\
-    /endif %;\
+        	/send @target %{*} %;\
+	/endif %;\
 	/send cast 'psychic crush' %{*}
 
 /alias cpc /cast_psychic_crush %{*}
@@ -55,8 +55,8 @@
 ;; Psychich storm
 /def cast_psychic_storm = \
 	/if (strlen({1}) > 0) \
-        /send @target %{*} %;\
-    /endif %;\
+        	/send @target %{*} %;\
+	/endif %;\
 	/send cast 'psychic storm' %{*}
 
 /alias cps /cast_psychic_storm %{*}
@@ -107,6 +107,4 @@
 ;; You still need extremely much more knowledge of how the mind works before you can improve your knowledge of mental defence.
 ;; You still need much more knowledge of how the mind works before you can improve your knowledge of mental defence.
 ;; You still need more knowledge of how the mind works before you can improve your knowledge of mental defence.
-
-
 

@@ -102,6 +102,7 @@
 /def -p10 -F -aCgreen -msimple -t"You gain some knowledge of how the mind works."
 /def -p10 -F -aBCgreen -msimple -t"You gain useful knowledge of how the mind works."
 
+/def -p10 -F -aBCgreen -mregexp -t"(.*) is stunned from the intrusion into (.*) mind."
 
 ;; You still need an unimaginable amount of more knowledge of how the mind works before you can improve your knowledge of mental defence.
 ;; You still need extremely much more knowledge of how the mind works before you can improve your knowledge of mental defence.

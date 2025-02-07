@@ -92,7 +92,7 @@
 		/elseif ({current_skill} =~ {air_skill}) \
 			/send @gem entities air %;\
 		/elseif ({current_skill} =~ {water_skill}) \
-      /send @gem entities water %;\
+			/send @gem entities water %;\
 		/elseif ({current_skill} =~ {earth_skill}) \
 			/send @gem entities earth %;\
 		/endif %;\
@@ -242,6 +242,12 @@
 
 /alias zz /stop_use
 
+;; Wield
+/def gem_wield = \
+	/send gem cmd wield %{*}
+
+/alias gwield /gem_wield %{*}
+
 /def -p10 -F -aCbrightcyan -mregexp -t"[A|An] (.+) air entity (.+) with power \[yours"
 /def -p10 -F -aCred -mregexp -t"[A|An] (.+) fire entity (.+) with power \[yours"
 /def -p10 -F -aCblue -mregexp -t"[A|An] (.+) water entity (.+) with power \[yours"
@@ -282,8 +288,8 @@
 /def -p10 -aBCblue -msimple -t"A wave of blue light bursts forth from your entity and hits you in the chest."
 /def -p10 -F -aBCblue -mregexp -t"Water entity starts to glow, and its skin starts to foam like waves crashing against a rocky shore."
 /def -p10 -F -aBCred -msimple -t"Your water entity stops glowing and its skin becomes still." = \
-  /if ({current_skill} =~ {water_skill}) \
-    /echo -aBCred SUBJUGATING BACKWASH IS DOWN! %;\
+	/if ({current_skill} =~ {water_skill}) \
+		/echo -aBCred SUBJUGATING BACKWASH IS DOWN! %;\
 	/endif
 
 /def -p10 -F -aBCwhite -mregexp -t"(.+) entity starts concentrating on a new offensive skill."

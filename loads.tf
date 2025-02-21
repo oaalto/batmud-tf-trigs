@@ -7,7 +7,7 @@
 /load batmud-tf-trigs/misc.tf
 /load batmud-tf-trigs/general.tf
 /load batmud-tf-trigs/money.tf
-/load batmuf-tf-trigs/navigator.tf
+/load batmud-tf-trigs/navigator.tf
 
 ;;/load batmud-tf-trigs/cure_spells.tf
 ;;/load batmud-tf-trigs/ceremony.tf

@@ -2,11 +2,11 @@
 
 ;; Status line
 
-/def -p1000 -F -ag -mregexp -t"^--=  (.+)  HP:(.+)\((.+)\) \[(.*)\] \[(.*)\] \[(.*)\]  =--$" = \
+/def -p1000 -F -ag -mregexp -t"^--=  (.+)  HP:(.+)\(" = \
 	/notify_player %{P2}
 
 /def -p1000 -F -ag -mregexp -t"^--=  (.+)  =--$" = \
-	/set status_line_2=%{P1} %;\
+	/set status_line_2=%{P1}
 
 /def notify_player = \
 	/if ({1} < 100) /echo -aBCred *********** !!! ENTITY UNDER 100 HP !!! *********** %;\

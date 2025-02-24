@@ -1,6 +1,6 @@
 /set in_battle=0
 
-/def -p10000 -F -mregexp -t'^[\*]+ Round .* [\*]+$' battle_round = \
+/def -p10000 -F -mregexp -t"^[\*]+ Round .* [\*]+$" battle_round = \
 	/send @scan all %;\
 	/send @sc %;\
 	/set in_battle=1

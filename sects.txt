@@ -23,7 +23,7 @@ Location: Farmers Market, Lorenchia
 Sensei: Weni Jen
 Guild: Tiger only
 Joining: Weni Jen says 'To prepare my medicine, I'd need to have a mortar, a pestle and some mistletoe. I believe you could get most of those from a hardware store, but mistletoe is something you would need to get from one of the druids.'
-
+  - Druid guild also sells mistletoe
 
 
 Meditation quest locations:

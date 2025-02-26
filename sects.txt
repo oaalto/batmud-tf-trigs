@@ -7,6 +7,7 @@ Scarlet Lotus
 Location: Rilynt'tar sewers, inside public works, get suit then turn valve
 Sensei: Shozai
 Guilds: Monk & Tiger
+Joining: Money
 
 Meditation quest locations:
 - Inside Monk guild
@@ -26,4 +27,12 @@ Meditation quest locations:
 - world's biggest waterfall is in Lucentium, located somewhere in the middle of jungle in Lucentia. Need to be inside the waterfall.
 - There is also another jungle on the continent of Furnachia and there's a volcano near a place called Jungle Cave. Take a pick and rope with you.
 - There's a monastery near the Hamlet of Windham which has been built by the magical race of tinmen
+
+Onyx Haze
+---------
+
+Location: Farmers Market, Lorenchia
+Sensei: Weni Jen
+Guild: Tiger only
+Joining: Weni Jen says 'To prepare my medicine, I'd need to have a mortar, a pestle and some mistletoe. I believe you could get most of those from a hardware store, but mistletoe is something you would need to get from one of the druids.'
 

@@ -195,4 +195,6 @@
 /def -F -i -P1 -t"'(ner'gah in'f el neet)'" =/substitute %{*} (Harvest vitae)
 
 
+### REAVER SPELLS ###
+/def -F -i -P1 -t"'(I'll swallow your soul!)'" =/substitute %{*} (Spirit Drain)
 

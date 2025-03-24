@@ -59,7 +59,7 @@
 /def -p10 -F -aBCred -msimple -t"You lose connection to reality, becoming truly STUNNED." = \
 	/echo -aBCred STUNNED!
 /def -p10 -F -aBCred -msimple -t"You become somewhat confused, losing your edge." = \
-  /echo -aBCred STUNNED!
+	/echo -aBCred STUNNED!
 /def -p10 -F -aBCred -msimple -t"Your mind reels and the world becomes blurred." = \
 	/echo -aBCred STUNNED!
 
@@ -71,6 +71,7 @@
 /def -p100 -F -aCgreen -mregexp -t"You STUN (.+), who loses connection to reality."
 /def -p100 -F -aCgreen -mregexp -t"You cause (.+) world to become blurred and unfocused."
 /def -p100 -F -aCgreen -mregexp -t"(.+) is suddenly almost unable to stay in balance."
+/def -p100 -F -aCgreen -mregexp -t"(.+) is STUNNED."
 
 /def -p100 -F -aCred -mregexp -t"..WHO breaks it off."
 

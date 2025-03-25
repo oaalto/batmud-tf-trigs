@@ -18,7 +18,7 @@
 	/if (strlen({1}) > 0) \
 		/send @target %{*} %;\
 	/endif %;\
-	/send @use "joint lock" %{*}
+	/send @use 'joint lock' %{*}
 
 /alias ujl /use_joint_lock %{*}
 
@@ -28,7 +28,7 @@
 	/if (strlen({1}) > 0) \
 		/send @target %{*} %;\
 	/endif %;\
-	/send @use "pattern weave" %{*}
+	/send @use 'pattern weave' %{*}
 
 /alias upw /use_pattern_weave %{*}
 
@@ -100,20 +100,20 @@
 /def -p10000 -F -aCred -msimple -t"You feel like imaginary food is done digesting."
 
 /alias uds /do_disrupt_skill %{*}
-/def do_disrupt_skill=\
-	/send @target %{*};@use "%{currentdisruptskill}" %{*}
+/def do_disrupt_skill= \
+	/send @target %{*};@use '%{currentdisruptskill}' %{*}
 
 /alias uaa /do_area_skill %{*}
-/def do_area_skill=\
-	/send @target %{*};@use "%{currentareaskill}" %{*}
+/def do_area_skill= \
+	/send @target %{*};@use '%{currentareaskill}' %{*}
 
 /alias uar /do_armor_skill %{*}
-/def do_armor_skill=\
-	/send @target %{*};@use "%{currentarmorskill}" %{*}
+/def do_armor_skill= \
+	/send @target %{*};@use '%{currentarmorskill}' %{*}
 
 /alias uav /do_avoid_skill %{*}
-/def do_avoid_skill=\
-	/send @target %{*};@use "%{currentavoidskill}" %{*}
+/def do_avoid_skill= \
+	/send @target %{*};@use '%{currentavoidskill}' %{*}
 
 /alias uws /use_wave_crest_strike %{*}
 /def use_wave_crest_strike = \

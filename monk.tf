@@ -120,6 +120,11 @@
 	/set currentdisruptskill=%{disruptskill1} %;\
 	/do_disrupt_skill %{*}
 
+/alias ugk /use_geyser_force_kick %{*}
+/def use_geyser_force_kick = \
+	/set currentdisruptskill=%{disruptskill2} %;\
+	/do_disrupt_skill %{*}
+
 /alias uek /use_earthquake_kick %{*}
 /def use_earthquake_kick = \
 	/set currentarmorskill=%{armourskill2} %;\

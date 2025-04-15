@@ -219,6 +219,7 @@
 /def -p1 -F -aBCred -mregexp -t"but slip and fall down.$" = /set currentdisruptskill=%{disruptskill1}
 /def -p1 -F -aCcyan -mregexp -t"You jump up and kick (.+) in the ribcage, but don't get enough contact to backflip." = /set currentdisruptskill=%{disruptskill3}
 /def -p1 -F -aCblue -mregexp -t"and have to settle for a dropkick to the stomach.$" = /set currentdisruptskill=%{disruptskill3}
+/def -p1 -F -aCyellow -mregexp -t"You land a single kick in the middle of (.+)'s chest, backflip, and land on your feet." = /set currentdisruptskill=%{disruptskill3}
 
 ;; Tsunami Push
 /def -p1 -F -aBCred -mregexp -t"but (he|she|it) deflects your hands.$" = /set currentdisruptskill=%{disruptskill1}

@@ -300,3 +300,5 @@
 /def -p10 -F -mregexp -t"A dazzling spark races along the stream of green light between you and (.+)!" = \
 	/send @keep add all spark,collection
 
+/def -p10 -F -aCgreen -msimple -t"You manage to regain control of your entity before the connection is completely broken!"
+

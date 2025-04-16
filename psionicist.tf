@@ -99,13 +99,24 @@
 /def -p10 -F -aCblue -msimple -t"You seize the mind of the monster as it dies." = \
 	/send @psi sense
 
+/def -p10 -F -aCred -msimple -t"You gained no new knowledge from such a pitiful monster."
 /def -p10 -F -aCgreen -msimple -t"You gain some knowledge of how the mind works."
-/def -p10 -F -aBCgreen -msimple -t"You gain useful knowledge of how the mind works."
+/def -p10 -F -aCgreen -msimple -t"You gain useful knowledge of how the mind works."
+/def -p10 -F -aCgreen -msimple -t"You gain considerable knowledge of how the mind works."
+/def -p10 -F -aCgreen -msimple -t"You gain detailed knowledge of how the mind works."
+/def -p10 -F -aCgreen -msimple -t"WOW! Your mind almost has trouble processing this much new knowledge!"
+/def -p10 -F -aCgreen -mregexp -t"YOU GAIN AN INCONCEIVABLE AMOUNT OF KNOWLEDGE!"
 
 /def -p10 -F -aBCgreen -mregexp -t"(.*) is stunned from the intrusion into (.*) mind."
 
-;; You still need an unimaginable amount of more knowledge of how the mind works before you can improve your knowledge of mental defence.
-;; You still need extremely much more knowledge of how the mind works before you can improve your knowledge of mental defence.
-;; You still need much more knowledge of how the mind works before you can improve your knowledge of mental defence.
-;; You still need more knowledge of how the mind works before you can improve your knowledge of mental defence.
+/def -p10 -F -aCblue -mregexp -t"You still need (.+) knowledge of how the mind works before you can improve your knowledge of mental defence."
+/def -p10 -F -aCblue -msimple -t"You only need very little more knowledge of how the mind works before you can improve your knowledge of mental defence."
+/def -p10 -F -aCgreen -msimple -t"You sense that you have acquired enough knowledge of how the mind works in order to improve your knowledge of mental defence."
+
+/def -p10 -F -P1Cred -mregexp -t"You still need (an unimaginable amount) of more knowledge of how the mind works before you can improve your knowledge of mental defence."
+/def -p10 -F -P1BCred -mregexp -t"You still need (extremely much more) knowledge of how the mind works before you can improve your knowledge of mental defence."
+/def -p10 -F -P1Cmagenta -mregexp -t"You still need (much more) knowledge of how the mind works before you can improve your knowledge of mental defence."
+/def -p10 -F -P1BCmagenta -mregexp -t"You still need (more) knowledge of how the mind works before you can improve your knowledge of mental defence."
+/def -p10 -F -P1Cyellow -mregexp -t"You still need (a little more) knowledge of how the mind works before you can improve your knowledge of mental defence."
+/def -p10 -F -P1BCyellow -mregexp -t"You only need (very little more) knowledge of how the mind works before you can improve your knowledge of mental defence."
 

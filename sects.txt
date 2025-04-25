@@ -25,7 +25,7 @@ Guild: Tiger only
 Joining: 
   - First show the handsign
   - Weni Jen says 'To prepare my medicine, I'd need to have a mortar, a pestle and some mistletoe. I believe you could get most of those from a hardware store, but mistletoe is something you would need to get from one of the druids.'
-    * Druid guild also sells mistletoe
+    * Druid guild also sells mistletoe, but you're not allowed to purchase any. Probably need plant lore or something.
 
 
 Meditation quest locations:

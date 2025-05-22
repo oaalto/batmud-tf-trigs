@@ -1,5 +1,8 @@
 /set dismounted=0
-/setenv mount_summoned=0
+/set mount_summoned=0
+
+/def -p10000 -F -mregexp -t"'(Vedir|Orthos)', (.+) [Rider: You]" = \
+	/set mount_summoned=1
 
 /def -p10000 -F -mregexp -t"^[\*]+ Round .* [\*]+$" = \
 	/send @x %{tzarakk_mount}

@@ -21,6 +21,9 @@
 
 ;; Meditation
 /def use_meditation = \
+	/if ({mount_summoned}) \
+		/send @dismount %;\
+	/endif %;\
 	/send @use meditation
 
 /alias med /use_meditation

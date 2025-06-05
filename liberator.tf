@@ -100,6 +100,3 @@
 
 /alias ugcc /use_ghost_channeling_at_camp
 
-
-
-

@@ -22,9 +22,23 @@
 
 ;; Ghost armour
 /def cast_ghost_armour = \
-	/send @liberator select weakest armoursmith;cast ghost armour %;\
+	/send @liberator select weakest armoursmith;cast ghost armour
 
 /alias cga /cast_ghost_armour
+
+;; Ghost sword
+/def cast_ghost_sword = \
+	/send @liberator select weakest weaponsmith;cast ghost weapon at %{*}
+
+/alias cgs /cast_ghost_sword %{*}
+
+;; Ghost companion
+/def cast_ghost_companion = \
+	/send @liberator select weakest guardian;cast ghost companion
+
+/alias cgcom /cast_ghost_companion
+
+/def -F -aCred -mregexp -t"Ghost of (.+) whispers 'I must leave now. Good luck.'"
 
 ;; Ghost link
 /def cast_ghost_link = \

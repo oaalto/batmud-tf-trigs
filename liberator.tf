@@ -26,6 +26,8 @@
 
 /alias cga /cast_ghost_armour
 
+/def -F -aCred -msimple -t"Your ghost armour dissipates."
+
 ;; Ghost sword
 /def cast_ghost_sword = \
 	/send @liberator select weakest weaponsmith;cast ghost weapon at %{*}

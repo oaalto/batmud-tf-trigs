@@ -25,3 +25,14 @@
 
 /alias csp /cast_shield_of_protection %{*}
 
+/def cast_armour_of_aether = \
+	/if (strlen({1}) > 0) \
+                /send @cast armour of aether at %{*} %;\
+        /elseif ({has_entity}) \
+                /send @cast armour of aether at entity %;\
+        /else \
+                /send @cast armour of aether at me %;\
+        /endif
+
+/alias caoa /cast_armour_of_aether %{*}
+

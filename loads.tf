@@ -22,6 +22,7 @@
 ;;/load batmud-tf-trigs/mage_fire.tf
 ;;/load batmud-tf-trigs/channellers.tf
 ;;/load batmud-tf-trigs/psionicist.tf
+;;/load batmud-tf-trigs/inner_circle.tf
 
 ;; Evil Religious
 ;;/load batmud-tf-trigs/triad.tf

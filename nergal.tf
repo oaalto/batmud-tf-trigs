@@ -146,6 +146,12 @@
 
 /alias cce /cast_call_forth_enthralled %{*}
 
+
+;; Legacy of Enthralled
+;; Usage: cast 'legacy of enthralled' <target> grant <amount> <stat>
+;;        Where amount is one of following: minor, moderate, great or massive.
+;;        And stat is one of following: wisdom, intelligence, charisma, strength, dexterity or constitution.
+
 ;; SKILLS
 
 ;; Embrace the Gifts

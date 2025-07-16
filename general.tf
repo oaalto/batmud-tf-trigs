@@ -121,6 +121,9 @@
 ;; Mana
 /def -p10 -F -aBCmagenta -msimple -t"You sizzle with magical energy."
 
+;; Boons
+/def -F -aCgreen -msimple -t"Tactically shielded, you thwart a potentially devastating critical strike."
+
 ;; Banes
 /def -p10 -F -aCred -msimple -t"The desire to choose between good and evil overwhelms you, causing you to"
 /def -p10 -F -aCred -msimple -t"inflict damage upon yourself."
@@ -172,3 +175,7 @@
 /def -p100 -F -aCgreen -msimple -t"You parry."
 /def -p100 -F -aCgreen -msimple -t"...AND riposte."
 /def -p100 -F -aCgreen -mregexp -t"(.+) misses."
+
+;; Breaking
+/def -F -aCred -mregexp -t"Your (.+) breaks into zillions of pieces."
+

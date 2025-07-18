@@ -124,6 +124,9 @@
 ;; Boons
 /def -F -aCgreen -msimple -t"Tactically shielded, you thwart a potentially devastating critical strike."
 /def -F -aCgreen -msimple -t"Guarding flaws, you endure, deflecting a looming critical strike."
+/def -F -aCgreen -msimple -t"Protecting flaws, you endure, evading a lethal critical strike."
+/def -F -aCgreen -msimple -t"Covering weak spots, you defy a critical strike's impact."
+/def -F -aCgreen -msimple -t"Adapting swiftly, you nullify the impact of a critical strike."
 
 ;; Banes
 /def -p10 -F -aCred -msimple -t"The desire to choose between good and evil overwhelms you, causing you to"

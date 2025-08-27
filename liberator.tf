@@ -2,6 +2,7 @@
 
 /def -p10000 -F -aBCred -msimple -t'You swing and miss your mark!'
 /def -p10000 -F -aBCred -msimple -t"Your greater light spell flickers briefly and disappears."
+/def -p10000 -F -aBCred -msimple -t"Your holy glow fades."
 
 /def set_autoselect = \
 	/send @liberator autoselect weakest non armoursmith,guardian,weaponsmith,soldier,locksmith,ranger
@@ -25,8 +26,6 @@
 	/send @liberator select weakest armoursmith;cast ghost armour
 
 /alias cga /cast_ghost_armour
-
-/def -F -aCred -msimple -t"Your ghost armour dissipates."
 
 ;; Ghost sword
 /def cast_ghost_sword = \

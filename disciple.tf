@@ -6,6 +6,10 @@
 
 /def -p10 -F -aCgreen -msimple -t"You feel the chaos pulse inside you!"
 
+/def -p10 -F -aCgreen -mregexp -t"Your (.+) tentacle strikes (.+)."
+
+/def -p10 -F -aCgreen -msimple -t"You force yourself deeper into the chaos frenzy!"
+
 ;; SKILLS
 
 ;; Chaotic Spawn
@@ -13,6 +17,9 @@
 	/send @use 'chaotic spawn' %{*}
 
 /alias ucs /use_chaotic_spawn %{*}
+
+/def -p10 -F -msimple -t"The pain increases as your body starts to push out organs and limbs that should not be there." = \
+	/send @wearall
 
 ;; Clawed Strike
 /def use_clawed_strike = \

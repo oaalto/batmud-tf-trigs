@@ -24,6 +24,15 @@
 ;; Ent
 /def -p10 -F -aBCred -msimple -t"You feel exhausted, being here in the dark."
 
+;; Lich
+/def -p10 -F -msimple -t"You are not in combat right now." = \
+	/send @lich drain
+
+/def -p10 -F -msimple -t"The consumed life force fills your being with ecstacy!" = \
+	/send @dig grave
+
+/def lich_rip = /send @rip_action set get all from corpse;drop zinc;drop mowgles
+
 ;; Basic dig grave rip action
 /def normal_rip = /send @rip_action set get all from corpse;dig grave;drop zinc;drop mowgles
 

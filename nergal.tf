@@ -14,10 +14,15 @@
 /def -p10000 -F -mregexp -t"DEAD, R.I.P." mob_dead_nergal = \
         /send @nergal sc
 
-;;/def -p1000 -F -mregexp -t"Potentia: 1000/1000" = \
+/def -p1000 -F -mregexp -t"Potentia: 1000/1000" = \
+	/echo -aCgreen ***** POTENTIA IS FULL! *****
+
 /def -p1000 -F -msimple -t"Your body can't handle any more of potentia!" = \
 	/echo -aCred ***** POTENTIA IS FULL! *****
-;;/def -p1000 -F -mregexp -t"Vitae: 1000/1000" = \
+
+/def -p1000 -F -mregexp -t"Vitae: 1000/1000" = \
+	/echo -aCgreen ***** VITAE IS FULL! *****
+
 /def -p1000 -F -msimple -t"Your body can't handle any more of vitae!" = \
 	/echo -aCred ***** VITAE IS FULL! *****
 

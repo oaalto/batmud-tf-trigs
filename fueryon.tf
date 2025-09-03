@@ -13,5 +13,5 @@
 
 /set tzarakk_mount=Vedir
 /set rig=bandolier
-/set is_lich=1
+/set is_lich=0
 

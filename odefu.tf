@@ -15,4 +15,5 @@
 
 /set tzarakk_mount=Orthos
 /set rig=bandolier
+/set is_lich=0
 

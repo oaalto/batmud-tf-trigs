@@ -26,7 +26,9 @@
 
 ;; Lich
 /def -p10 -F -msimple -t"You are not in combat right now." = \
-	/send @lich drain
+	/if ({is_lich}) \
+		/send @lich drain %;\
+	/endif
 
 /def -p10 -F -msimple -t"The consumed life force fills your being with ecstacy!" = \
 	/send @dig grave

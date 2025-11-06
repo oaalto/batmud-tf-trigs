@@ -42,7 +42,7 @@
 ;; Iron Palm
 /def use_iron_palm =\
 	/monkskillinterrupt %;\
-	/send @target %{*};use "iron palm" %{*}
+	/send @target %{*};use 'iron palm' %{*}
 
 /alias ip /use_iron_palm %{*}
 

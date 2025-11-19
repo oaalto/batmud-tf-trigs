@@ -96,6 +96,7 @@
 
 /def -p10000 -F -aCblue -msimple -t"Your training is starting to pay off!"
 /def -p10000 -F -aCblue -mregexp -t"You feel like you have mastered the art of (.+). It might be time to find another advanced technique."
+/def -p10000 -F -aCblue -msimple -t"Because you mastered the skill before, it comes back to you much faster this time."
 
 /def -p10000 -F -aCred -msimple -t"You feel like imaginary food is done digesting."
 
@@ -143,9 +144,9 @@
 
 /set disruptskill1=wave crest strike
 ;;/set disruptskill2=wave crest strike
-;;/set disruptskill3=wave crest strike
+/set disruptskill3=wave crest strike
 /set disruptskill2=geyser force kick
-/set disruptskill3=tsunami push
+;;/set disruptskill3=tsunami push
 
 /set areaskill1=hydra fang strike
 ;;/set areaskill2=hydra fang strike

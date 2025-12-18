@@ -62,6 +62,8 @@
 	/echo -aBCred STUNNED!
 /def -p10 -F -aBCred -msimple -t"Your mind reels and the world becomes blurred." = \
 	/echo -aBCred STUNNED!
+/def -p10 -F -aBCred -msimple -t"You get hit badly, and have problems staying in balance." = \
+	/echo -aBCred STUNNED!
 
 ;; Stun
 /def -p100 -F -aCgreen -mregexp -t"You (stun|STUN)"

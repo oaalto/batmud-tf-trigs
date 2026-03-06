@@ -7,7 +7,13 @@
 /alias ch /cast_hemorrhage %{*}
 
 ;; Aneurysm
-/def cast_aneurysm = \                                                                                                              /if (strlen({1}) > 0) \                                                                                                             /send @target %{*} %;\                                                                                              /endif %;\                                                                                                                  /send cast 'aneurysm' %{*}                                                                                                                                                                                                                      /alias ca /cast_aneurysm %{*}
+/def cast_aneurysm = \
+	/if (strlen({1}) > 0) \
+		/send @target %{*} %;\
+	/endif %;\
+	/send cast 'aneurysm' %{*}
+
+/alias ca /cast_aneurysm %{*}
 
 /def cast_mobile_cannon = \
 	/send cast 'mobile cannon' %{*}
@@ -24,5 +30,5 @@
 		/send @use dark meditation at sacrifice endurance %;\
 	/endif
 
-/alias med /use_dark_meditation
+/alias dmed /use_dark_meditation
 

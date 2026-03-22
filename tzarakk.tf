@@ -1,7 +1,7 @@
 /set dismounted=0
 /set mount_summoned=0
 
-/def -p10000 -F -mregexp -t"'(Vedir|Orthos)', (.+) [Rider: You]" = \
+/def -p10000 -F -mregexp -t"^'(Vedir|Orthos)', (.+) \[Rider: You\]$" = \
 	/set mount_summoned=1
 
 /def -p10000 -F -mregexp -t"^[\*]+ Round .* [\*]+$" = \
@@ -34,7 +34,7 @@
         /send @mount %{tzarakk_mount} %;\
     /endif
 
-/def -p10000 -F -msimple -t'You get up on (.+) and begin to ride.' = \
+/def -p10000 -F -mregexp -t'^You get up on (.+) and begin to ride\.$' = \
 	/set dismounted=0 %;\
 	/set mount_summoned=1
 

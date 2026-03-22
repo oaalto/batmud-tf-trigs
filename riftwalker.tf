@@ -2,10 +2,10 @@
 
 ;; Status line
 
-/def -p1000 -F -ag -mregexp -t"^--=  (.+)  HP:(.+)\(" = \
+/def -p1000 -F -ag -mregexp -t"^--=  (.+?)  HP:([0-9]+)\(.*$" = \
 	/notify_player %{P2}
 
-/def -p1000 -F -ag -mregexp -t"^--=  (.+)  =--$" = \
+/def -p1000 -F -ag -mregexp -t"^--=  (.+?)  =--$" = \
 	/set status_line_2=%{P1}
 
 /def notify_player = \
@@ -25,9 +25,9 @@
 	/send @keep paper
 
 ;; This requires battle listen all 1
-/def -p1000 -F -aCgreen -mregexp -t"(Fire|Air|Water|Earth) entity hits (.*) (once|twice|thrice) (.*)."
+/def -p1000 -F -aCgreen -mregexp -t"^(Fire|Air|Water|Earth) entity hits (.+) (once|twice|thrice) (.+)\.$"
 
-/def -p1000 -F -aCred -mregexp -t"(Fire|Air|Water|Earth) entity is stunned."
+/def -p1000 -F -aCred -mregexp -t"^(Fire|Air|Water|Earth) entity is stunned\.$"
 
 /def -F -P1Cred -mregexp -t"(Fire entity)"
 /def -F -P1Cbrightcyan -mregexp -t"(Air entity)"
@@ -62,16 +62,16 @@
 /alias uearth /set_entity_skill earth
 /alias uwater /set_entity_skill water
 
-/def -p1000 -F -mregexp -t"(.*) fire entity (.*) with power \[yours\]" = \
+/def -p1000 -F -mregexp -t"^.+ fire entity .+ with power \[yours\]$" = \
 	/set_entity_skill fire
 
-/def -p1000 -F -mregexp -t"(.*) air entity (.*) with power \[yours\]" = \
+/def -p1000 -F -mregexp -t"^.+ air entity .+ with power \[yours\]$" = \
   /set_entity_skill air
 
-/def -p1000 -F -mregexp -t"(.*) water entity (.*) with power \[yours\]" = \
+/def -p1000 -F -mregexp -t"^.+ water entity .+ with power \[yours\]$" = \
   /set_entity_skill water
 
-/def -p1000 -F -mregexp -t"(.*) earth entity (.*) with power \[yours\]" = \
+/def -p1000 -F -mregexp -t"^.+ earth entity .+ with power \[yours\]$" = \
   /set_entity_skill earth
 
 /def use_current_skill = \
@@ -164,7 +164,7 @@
 	/if (strlen({1}) > 0) \
 		/send @target %{*};gem cmd target %{*} %;\
 	/endif %;\
-	/send cast 'rift pulse' %{*};gem cmd use '%{current_skill}' %{*}
+	/send @cast 'rift pulse' %{*};gem cmd use '%{current_skill}' %{*}
 
 /alias css /start_battle2 %{*}
 
@@ -200,7 +200,7 @@
 	/if (strlen({1}) > 0) \
 		/send @target %{*};gem cmd target %{*} %;\
 	/endif %;\
-	/send cast 'dimensional leech' %{*}
+	/send @cast 'dimensional leech' %{*}
 
 /alias cdl /cast_dimensional_leech %{*}
 
@@ -244,25 +244,25 @@
 
 ;; Wield
 /def gem_wield = \
-	/send gem cmd wield %{*}
+	/send @gem cmd wield %{*}
 
 /alias gwield /gem_wield %{*}
 
-/def -p10 -F -aCbrightcyan -mregexp -t"[A|An] (.+) air entity (.+) with power \[yours"
-/def -p10 -F -aCred -mregexp -t"[A|An] (.+) fire entity (.+) with power \[yours"
-/def -p10 -F -aCblue -mregexp -t"[A|An] (.+) water entity (.+) with power \[yours"
-/def -p10 -F -aCyellow -mregexp -t"[A|An] (.+) earth entity (.+) with power \[yours"
+/def -p10 -F -aCbrightcyan -mregexp -t"^(?:A|An) (.+) air entity (.+) with power \[yours\]$"
+/def -p10 -F -aCred -mregexp -t"^(?:A|An) (.+) fire entity (.+) with power \[yours\]$"
+/def -p10 -F -aCblue -mregexp -t"^(?:A|An) (.+) water entity (.+) with power \[yours\]$"
+/def -p10 -F -aCyellow -mregexp -t"^(?:A|An) (.+) earth entity (.+) with power \[yours\]$"
 
-/def -p10 -F -P2Cblue -mregexp -t"[A|An] (.+) entity (glowing) with power \[yours"
-/def -p10 -F -P2BCblue -mregexp -t"[A|An] (.+) entity (shimmering) with power \[yours"
-/def -p10 -F -P2Ccyan -mregexp -t"[A|An] (.+) entity (gleaming) with power \[yours"
-/def -p10 -F -P2BCcyan -mregexp -t"[A|An] (.+) entity (sizzling) with power \[yours"
-/def -p10 -F -P2Cyellow -mregexp -t"[A|An] (.+) entity (sparkling) with power \[yours"
-/def -p10 -F -P2BCyellow -mregexp -t"[A|An] (.+) entity (glittering) with power \[yours"
-/def -p10 -F -P2Cmagenta -mregexp -t"[A|An] (.+) entity (radiating) with power \[yours"
-/def -p10 -F -P2BCmagenta -mregexp -t"[A|An] (.+) entity (throbbing) with power \[yours"
-/def -p10 -F -P2Cred -mregexp -t"[A|An] (.+) entity (pulsating) with power \[yours"
-/def -p10 -F -P2BCred -mregexp -t"[A|An] (.+) entity (blazing) with power \[yours"
+/def -p10 -F -P2Cblue -mregexp -t"^(?:A|An) (.+) entity (glowing) with power \[yours\]$"
+/def -p10 -F -P2BCblue -mregexp -t"^(?:A|An) (.+) entity (shimmering) with power \[yours\]$"
+/def -p10 -F -P2Ccyan -mregexp -t"^(?:A|An) (.+) entity (gleaming) with power \[yours\]$"
+/def -p10 -F -P2BCcyan -mregexp -t"^(?:A|An) (.+) entity (sizzling) with power \[yours\]$"
+/def -p10 -F -P2Cyellow -mregexp -t"^(?:A|An) (.+) entity (sparkling) with power \[yours\]$"
+/def -p10 -F -P2BCyellow -mregexp -t"^(?:A|An) (.+) entity (glittering) with power \[yours\]$"
+/def -p10 -F -P2Cmagenta -mregexp -t"^(?:A|An) (.+) entity (radiating) with power \[yours\]$"
+/def -p10 -F -P2BCmagenta -mregexp -t"^(?:A|An) (.+) entity (throbbing) with power \[yours\]$"
+/def -p10 -F -P2Cred -mregexp -t"^(?:A|An) (.+) entity (pulsating) with power \[yours\]$"
+/def -p10 -F -P2BCred -mregexp -t"^(?:A|An) (.+) entity (blazing) with power \[yours\]$"
 
 /def -p10 -F -aBCred -mregexp -t"Your (.+) entity does some strange combat maneuver but doesn't hit anything."
 /def -p10 -F -P1BCblue -mregexp -t"(Entity sense:) (.+)"
@@ -301,4 +301,17 @@
 	/send @keep add all spark,collection
 
 /def -p10 -F -aCgreen -msimple -t"You manage to regain control of your entity before the connection is completely broken!"
+
+;; Diagnostics and recovery
+/def riftwalker_diag = \
+	/echo -aBCyellow Riftwalker: borg=%{borg} hook=%{hook} max_trig=%{max_trig} max_hook=%{max_hook} max_recur=%{max_recur} has_entity=%{has_entity} skill=%{current_skill}
+
+/alias rwdiag /riftwalker_diag
+
+/def riftwalker_recover = \
+	/set borg=on %;\
+	/set hook=on %;\
+	/echo -aBCgreen Riftwalker recovery: borg=on hook=on
+
+/alias rwfix /riftwalker_recover
 

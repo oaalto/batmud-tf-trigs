@@ -108,7 +108,7 @@
 /def -p10 -F -P1BCwhite -mregexp -t"You slowly cut your arm with your finger-nail and darkly whisper '(.+)'"
 
 ;; Hit
-/def -p10 -F -aBCred -mregexp -t"[A|An] (.+) hits you."
+/def -p10 -F -aBCred -mregexp -t"^(?:A|An) (.+) hits you\.$"
 
 ;; Crits
 /def -p10 -F -aCgreen -msimple -t"You feel like you managed to channel additional POWER to your spell."

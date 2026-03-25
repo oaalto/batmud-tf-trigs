@@ -29,7 +29,7 @@
 
 ;; Ghost sword
 /def cast_ghost_sword = \
-	/send @liberator select weakest weaponsmith;cast ghost weapon at %{*}
+	/send @liberator select weakest weaponsmith;cast ghost sword at %{*}
 
 /alias cgs /cast_ghost_sword %{*}
 

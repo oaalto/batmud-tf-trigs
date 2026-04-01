@@ -13,6 +13,10 @@
 ;;/load batmud-tf-trigs/ceremony.tf
 ;;/load batmud-tf-trigs/common_spells.tf
 
+;; Civilized
+;;/load batmud-tf-trigs/sabres.tf
+;;/load batmud-tf-trigs/folklorist.tf
+
 ;; Magical
 ;;/load batmud-tf-trigs/magical.tf
 ;;/load batmud-tf-trigs/riftwalker.tf

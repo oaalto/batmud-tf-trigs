@@ -42,7 +42,7 @@
 	/if (strlen({1}) > 0) \
 		/send @target %{*} %;\
 	/endif %;\
-	/send @cast 'acid rain' %;\
+	/send @cast 'acid rain' %{*}
 
 /alias carain /cast_acid_rain %{*}
 

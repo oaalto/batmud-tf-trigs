@@ -29,7 +29,7 @@
 /def cast_spider_banishment = \
 	/send @cast spider demon banishment at me
 
-/alias cdis /cast_spider_banishment
+/alias cban /cast_spider_banishment
 
 /def cast_spider_inquiry = \
 	/send @cast spider demon inquiry at me

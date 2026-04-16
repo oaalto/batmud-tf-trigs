@@ -56,28 +56,28 @@
 	/set minion_1_name=$[set_white({1})] %;\
 	/set minion_1_hp=%{2} %;\
 	/set minion_1_max_hp=$[set_white({3})] %;\
-  /set minion_1_sp=%{4} %;\
+	/set minion_1_sp=%{4} %;\
 	/set minion_1_max_sp=$[set_white({5})] %;\
 	/set minion_1_ep=%{6} %;\
 	/set minion_1_max_ep=$[set_white({7})]
 
 /def save_minion_2_stats = \
-  /set minion_2_name=$[set_white({1})] %;\
-  /set minion_2_hp=%{2} %;\
+	/set minion_2_name=$[set_white({1})] %;\
+	/set minion_2_hp=%{2} %;\
 	/set minion_2_max_hp=$[set_white({3})] %;\
-  /set minion_2_sp=%{4} %;\
-  /set minion_2_max_sp=$[set_white({5})] %;\
-  /set minion_2_ep=%{6} %;\
-  /set minion_2_max_ep=$[set_white({7})]
+	/set minion_2_sp=%{4} %;\
+	/set minion_2_max_sp=$[set_white({5})] %;\
+	/set minion_2_ep=%{6} %;\
+	/set minion_2_max_ep=$[set_white({7})]
 
 /def save_minion_3_stats = \
-  /set minion_3_name=$[set_white({1})] %;\
-  /set minion_3_hp=%{2} %;\
+	/set minion_3_name=$[set_white({1})] %;\
+	/set minion_3_hp=%{2} %;\
 	/set minion_3_max_hp=$[set_white({3})] %;\
-  /set minion_3_sp=%{4} %;\
-  /set minion_3_max_sp=$[set_white({5})] %;\
-  /set minion_3_ep=%{6} %;\
-  /set minion_3_max_ep=$[set_white({7})]
+	/set minion_3_sp=%{4} %;\
+	/set minion_3_max_sp=$[set_white({5})] %;\
+	/set minion_3_ep=%{6} %;\
+	/set minion_3_max_ep=$[set_white({7})]
 
 ;; Remove from status line when unsummoning
 /def -p1000 -F -mregexp -t'^Your connection to your parasite is severed completely. (.+) jerks violently couple of times and collapses.$' = \
@@ -88,8 +88,8 @@
 
 /def -p1000 -F -mregexp -t'You end the connection to your parasite, making the host jerk couple of times violently. After couple of seconds (.+) collapses and stops moving at all.' = \
 	/set minion_3_name= %;\
-  /set minion_2_name= %;\
-  /set minion_1_name= %;\
+	/set minion_2_name= %;\
+	/set minion_1_name= %;\
 	/set status_line_2=
 
 ;; SPELLS

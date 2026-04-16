@@ -43,12 +43,11 @@
 	/endif
 
 /def save_minion_stats = \
-	/let minion_name=$[set_white({1})] %;\
-	/if (strlen({minion_1_name}) == 0 | {minion_name} == {minion_1_name}) \
+	/if (strlen({minion_1_name}) == 0 | {1} =~ {minion_1_name}) \
 		$[save_minion_1_stats({1}, {2}, {3}, {4}, {5}, {6}, {7})] %;\
-	/elseif (strlen({minion_2_name}) == 0 | {minion_name} == {minion_2_name}) \
+	/elseif (strlen({minion_2_name}) == 0 | {1} =~ {minion_2_name}) \
 		$[save_minion_2_stats({1}, {2}, {3}, {4}, {5}, {6}, {7})] %;\
-	/elseif (strlen({minion_3_name}) == 0 | {minion_name} == {minion_3_name}) \
+	/elseif (strlen({minion_3_name}) == 0 | {1} =~ {minion_3_name}) \
 		$[save_minion_3_stats({1}, {2}, {3}, {4}, {5}, {6}, {7})] %;\
 	/endif
 

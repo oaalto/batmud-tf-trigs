@@ -1,0 +1,520 @@
+Absorbing meld
+Absorption aura
+Achromatic eyes
+Acid arrow
+Acid blast
+Acid rain
+Acid ray
+Acid shield
+Acid storm
+Acid wind
+Aegis
+Air shield
+All-seeing eye
+Aneurysm
+Animal aspect
+Animal soul link
+Animate golem
+Anti magic field
+Appease ghost
+Armour of aether
+Arms lore
+Attune racial protection
+Aura detection
+Aura of chaos
+Aura of hate
+Aura of irreverence
+Aura of wind
+Awake enthralled
+Banish
+Banish angels
+Banish demons
+Banish mount
+Bastardly balm
+Beacon of enlightenment
+Beckon rift entity
+Bind rift entity
+Bite of the black widow
+Black hole
+Blade of fire
+Blast lightning
+Blast vacuum
+Bless armament
+Bless ship
+Bless vial
+Blessed warmth
+Blessing of faerwon
+Blessing of intoxication
+Blessing of kofgaad
+Blessing of tarmalen
+Blight of the shunned
+Blood seeker
+Blurred image
+Bolt of knowledge
+Bookworm
+Bulwark of death
+Call armour
+Call forth enthralled
+Call pigeon
+Call scythe
+Campfire tune
+Cantrip
+Cash flow
+Catchy singalong
+Cause critical wounds
+Cause light wounds
+Cause serious wounds
+Celestial haven
+Celestial spark
+Chain lightning
+Channelball
+Channelbolt
+Channelburn
+Channelray
+Channelspray
+Chaos bolt
+Charge staff
+Chill touch
+Clairvoyance
+Clandestine thoughts
+Cleanse heathen
+Cleanse weapon
+Cold ray
+Command blade
+Con fioco
+Cone of cold
+Conjure animal soul
+Conjure element
+Conjure lesser element
+Consume weapon
+Control marsh
+Corrosion shield
+Corrupt ground
+Create air armour
+Create dimensional gem
+Create food
+Create frost weapon
+Create herb
+Create money
+Create mud
+Create rift
+Create rift vortex
+Credit check
+Crippling frenzy
+Cryptozoological protection
+Cure critical wounds
+Cure light wounds
+Cure player
+Cure serious wounds
+Curse nature
+Curse of slaads
+Curse of tarmalen
+Curse ship
+Damn armament
+Dancing blades
+Darkfire
+Darkness
+Deaths door
+Defile animal
+Degenerate person
+Demonic gate
+Despair
+Destroy water
+Detect alignment
+Detect death
+Detect misery
+Detect poison
+Detect race
+Detect vial
+Dim
+Dimension door
+Dimensional leech
+Dimensional vacuum
+Dismiss rift entity
+Dispel evil
+Dispel good
+Dispel magical protection
+Dispel undead
+Displacement
+Disrupt magic
+Disruption
+Divine enhancement
+Drain ally
+Drain enemy
+Drain item
+Drain pool
+Drain room
+Drunken stupor
+Drying wind
+Earth blood
+Earth power
+Earth skin
+Earthquake
+Electric field
+Electrocution
+Elemental soul ward
+End enthrallment
+Energy aura
+Energy channeling
+Energy drain
+Energy vortex
+Enhance vision
+Enhanced awareness
+Enhanced vitality
+Enthralling parasite
+Escape velocity
+Establish entity control
+Ether boundary
+Evaluate host
+Evoke toad
+Eyes of nature
+Feather weight
+Field of fear
+Field of light
+Field of poison
+Fire blast
+Fire of the saints
+Firebolt
+Flame arrow
+Flame fists
+Flame shield
+Flames of righteousness
+Flaming ice
+Flex shield
+Flip
+Floating
+Floating disc
+Floating letters
+Forbidden wards
+Force absorption
+Force dome
+Force shield
+Forget
+Forked lightning
+Foul drought
+Frost insulation
+Frost shield
+Fury of nature
+Gangrenous coils
+Gem fire
+Ghost armour
+Ghost chill
+Ghost companion
+Ghost guidance
+Ghost light
+Ghost link
+Ghost sword
+Ghost vision
+Glance of predator
+Glorification of sin
+Glory of destruction
+Glow
+Gluttony
+Go
+Golden arrow
+Golem heal
+Good berry
+Goto ship
+Greater create herb
+Greater darkness
+Greater light
+Greater magic mount
+Grounding point
+Guardian
+Guardian angel
+Gust of wind
+Hailstorm
+Hallucination
+Hangover cure
+Harm body
+Harvest vitae
+Haste
+Heal all
+Heal mount
+Heal self
+Healbound harmony
+Heat reduction
+Heavenly protection
+Heavy weight
+Hemorrhage
+Herbal healing
+Herbal poison blast
+Herbal poison spray
+Herbal remove poison
+Here and after
+Hoar frost
+Holding pattern
+Holy armada
+Holy bolt
+Holy glow
+Holy hand
+Holy lance
+Holy way
+Holy wind
+Icebolt
+Identify
+Identify relic
+Immolate scythe
+Infravision
+Inquiry to ahm
+Instant fermentation
+Invisibility
+Iron will
+Item dispersion shield
+Jesters trivia
+Join soul
+Killing cloud
+Kinematic projection
+Kinemortological protection
+Kings feast
+Last rites
+Lava blast
+Lava storm
+Laying on hands
+Legacy of enthralled
+Lessen poison
+Levin bolt
+Levitation
+Life leech
+Life link
+Lift of load
+Light
+Lightning bolt
+Lightning shield
+Lightning storm
+Living poison
+Lock biter
+Magic dispersion
+Magic eruption
+Magic missile
+Magic mount
+Magic wave
+Magica pandemonica
+Magnetic levitation
+Major heal
+Major party heal
+Make scar
+Mana barrier
+Mana beacon
+Mana drain
+Mana shield
+Mark of death
+Mass summon
+Mellon collie
+Melodical embracement
+Melody of the misadventurer
+Mental glance
+Mental watch
+Mesmeric threshold
+Meteor blast
+Meteor swarm
+Mind blast
+Mind development
+Mind disruption
+Mind siphon
+Mind store
+Mindseize
+Minor heal
+Minor party heal
+Minor protection
+Mirror image
+Mobile cannon
+Money is power
+Monster lore
+Moon sense
+Mould ring
+Musicians alm
+Natural renewal
+Natural transformation
+Necrotic bane
+Neutralize field
+New body
+Nightfall
+Noble animal spirit
+Noble mount
+Nocturnal charm
+Noituloves deathlore
+Noituloves dischord
+Nourish enthralled
+Noxious fumes
+Paralyze
+Paranoia
+Parasitic swarm
+Patch item
+Pathfinder
+Personal force field
+Pestilence
+Phantasmal reflection
+Phaze shift
+Planar gate
+Poison
+Poison blast
+Poison scan
+Poison spray
+Power blast
+Prepare flask
+Preserve corpse
+Prismatic burst
+Protect armour
+Protect item
+Protect mount
+Protect weapon
+Protection from evil
+Protection from good
+Psi blast
+Psibolt
+Psionic phalanx
+Psionic shield
+Psychic crush
+Psychic purge
+Psychic sanctuary
+Psychic shackles
+Psychic shout
+Psychic storm
+Putrid blood
+Quicksilver
+Racial protection
+Rain
+Raise dead
+Rapture of the deep
+Reanimation
+Reap potentia
+Reaping of bile
+Recall animal soul
+Regenerate rift entity
+Regeneration
+Reincarnation
+Relocate
+Remote banking
+Remove curse
+Remove poison
+Remove scar
+Replenish ally
+Replenish energy
+Replenish party
+Repulsor aura
+Resist curse
+Resist disintegrate
+Resist dispel
+Resist entropy
+Resist temptation
+Restful sleep
+Restore
+Resurrect
+Resurrect soul
+Retool armament
+Rift pulse
+Rift scramble
+Rune of warding
+Runic heal
+Saintly touch
+Sands of time
+Satiate person
+Searing fervor
+See invisible
+See magic
+See the light
+Sense weakness
+Separate soul
+Sex change
+Shadow leap
+Shadow trick
+Shapechange
+Shattered feast
+Shelter
+Shield of detoxification
+Shield of faith
+Shield of protection
+Shield of transcendence
+Shift blade
+Ship armour
+Shocking grasp
+Singing shepherd
+Sleeping parasite
+Slingshot vortex
+Sneezing powder
+Soothing sounds
+Soul chorus
+Soul guardian
+Soul hold
+Soul shield
+Sounds of silence
+Spark birth
+Spell empathy
+Spellteaching
+Spider walk
+Spirit drain
+Spontaneous combustion
+Star light
+Steed of tzarakk
+Sting of aelena
+Strangulation
+Strength in unity
+Suffocation
+Summon
+Summon beasts
+Summon carnal spores
+Summon dire boar
+Summon greater spores
+Summon homonculus
+Summon lesser spores
+Summon mount
+Summon rift entity
+Summon slaads
+Summon squire
+Summon storm
+Suppress magic
+Suppressing misery
+Sweet lullaby
+Teeming waters
+Telekinetic whirlwind
+Teleport with error
+Teleport without error
+Terror
+The shadow
+There not there
+Thorn spray
+Tiger claw
+Tiger mask
+Tiger shadows
+Touch of glacial winds
+Toxic dilution
+Transfer mana
+Transform golem
+Transform rift entity
+Transmute self
+Travel
+True heal
+True party heal
+Uncontrollable hideous laughter
+Uncontrollable mosh
+Unholy matrimony
+Unleash bogs
+Unpain
+Unstable mutation
+Unstun
+Vacuum ball
+Vacuum globe
+Vacuumbolt
+Vampiric charm
+Venom strike
+Venturers way
+Vigilant melody
+Vine mantle
+War ensemble
+Water walking
+Wilderness location
+Wither flesh
+Wizard eye
+Word of apocalypse
+Word of attrition
+Word of blasting
+Word of destruction
+Word of genocide
+Word of oblivion
+Word of recall
+Word of slaughter
+Word of spite
+Wrath beyond grave
+Wrath of las
+Zoological protection

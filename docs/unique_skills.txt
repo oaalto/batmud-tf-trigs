@@ -1,0 +1,498 @@
+Absorb magic
+Acupuncture
+Aether flow
+Alcohol tolerance
+Alertness
+Alloying
+Alpha dog mentality
+Amalgamate
+Analysis of magic lore
+Animist strike
+Anointing
+Appraise
+Arrow spray
+Ascension
+Assault
+Assembly
+Attack
+Autopsy
+Axes
+Baptize
+Barbaric ways
+Bargain
+Bash
+Battery
+Battle cadence
+Battlecry
+Beheading of departed
+Bestial frenzy
+Blacksmithing
+Blade of the battlemedic
+Blade of the herald
+Blade of the honourbound
+Blade of the warden
+Bladed fury
+Blend salves
+Bless
+Blinding shot
+Blindsided assault
+Blood harvest
+Bloodletting
+Bloody horns
+Bludgeons
+Bolt burst
+Braced shot
+Brawling
+Break ambush
+Breath of doom
+Burial ceremony
+Burrowing
+Butchering
+Bypass armour
+Call animals
+Calm animal
+Camouflage
+Camping
+Candlestick making
+Cannibalize
+Cardiac stimulation
+Carpentry
+Cast acid
+Cast alchemy
+Cast asphyxiation
+Cast channelling
+Cast chaos
+Cast cold
+Cast control
+Cast death
+Cast destruction
+Cast dispel
+Cast electricity
+Cast fire
+Cast generic
+Cast harm
+Cast heal
+Cast help
+Cast holy
+Cast information
+Cast magical
+Cast poison
+Cast protection
+Cast psionic
+Cast rift
+Cast runes
+Cast special
+Cast teleportation
+Cast transformation
+Ceremony
+Chaotic circulation
+Chaotic defilement
+Chaotic spawn
+Charge
+Chest creation
+Chest lock creation
+Chest trap creation
+Choreography of mutilation
+Clawed strike
+Cleave
+Cold tolerance
+Combat damage analysis
+Combat riding
+Combat sense
+Compare
+Conceal skilluse
+Conceal spellcasting
+Conduit of the hive
+Consider
+Contact reflexes
+Controlled motion
+Controlled panic
+Corpse connoisseur
+Corrosive cut
+Corrupt guidance
+Craft orb
+Craft runestone
+Create armour
+Create hunting trophy
+Create staff
+Create vortex
+Create weapon
+Crippling shot
+Crushing blow
+Cull from the herd
+Damage criticality
+Dark baptism
+Dark meditation
+Dark nerves
+Daunting presence
+Decanting
+Decapitate
+Deceitful act of mercy
+Decimate
+Defence sense
+Defiance
+Deflect blows
+Desecrate ground
+Destructive rage
+Detect trap
+Dim mak
+Dirty fighting
+Disabling shot
+Discipline
+Dismount
+Dissection
+Distillation
+Dodge
+Double mine
+Dreary hibernation
+Dripping fangs
+Elite guard
+Embalming
+Embrace the gifts
+Enchanted wings
+Endurance
+Enhance criticals
+Enhanced peer
+Enrage
+Entity control
+Essence eye
+Evaluate mount
+Evil intent
+Evil unveiled
+Exchange money
+Exorcize
+Expose weakness
+Extract ether
+Eye of loraen
+Feigned remorse
+Feral attack
+Find campsite
+Find weakness
+Fire building
+Fire walking
+First aid
+Fishing
+Flanking attack
+Flow of magic
+Focus
+Force of chaos
+Forceful blow
+Forest location
+Foul play
+Frenzy
+Fresh pants
+Gem cutting
+Ghost affinity
+Ghost army assault
+Ghost channeling
+Ghost slash
+Giant step
+Glassblowing
+Gloveknock
+Grapple
+Greater wound
+Guided strike
+Gutblade
+Harvest soul
+Hear noises
+Heel
+Herding
+Hiding
+Hiking
+Holy blaze
+Holy seance
+Holy smite
+Holy strike
+Holy warfare
+Hop back
+Hunting
+Immunology
+Impale
+Incite animal soul
+Infernal arc
+Insider trading
+Insight of venoms
+Instrument creation
+Iron body
+Iron palm
+Joint lock
+Kata
+Ki
+Kiai-cry
+Kick
+Kiss of death
+Knockdown shot
+Knowledge of alchemy
+Knowledge of asphyxiation
+Knowledge of dispelling
+Knowledge of herb conservation
+Knowledge of identification
+Knowledge of magic lore
+Knowledge of mental defence
+Knowledge of metamorphosis
+Knowledge of thanatology
+Knowledge of toxicology
+Labeling
+Large crossbow shot
+Law
+Leadership
+Leather craft
+Lesser taunt
+Light steps
+Loan sharking
+Locate water
+Location memory
+Location of weak points
+Long blades
+Longbow shot
+Looting and burning
+Lounging
+Lumberjacking
+Lure
+Make ammunition
+Make arrow of torture
+Make bandage
+Make heatstick
+Make herbal remedy
+Make mount feed
+Make mount gear
+Make reagent
+Mana control
+Mangle
+Manner of lordliness
+Martial arts
+Masonry
+Mastery of arctic powers
+Mastery of assistance
+Mastery of bladed fury
+Mastery of bows
+Mastery of camping
+Mastery of channelling
+Mastery of control
+Mastery of crossbows
+Mastery of destruction
+Mastery of draining
+Mastery of fire building
+Mastery of holy vials
+Mastery of locating
+Mastery of medicine
+Mastery of mounted combat
+Mastery of pain
+Mastery of rift entities
+Mastery of rifts
+Mastery of runic sigla
+Mastery of savage beatings
+Mastery of shielding
+Mastery of short blades
+Mastery of slings
+Mastery of weapon handling
+Meditation
+Metal fist
+Method of runemagery
+Might of the saints
+Mighty charge
+Military discipline
+Mind over body
+Minecrafting
+Mineral cutting
+Mining
+Mint coins
+Miscellaneous launching
+Mix drug
+Mix elixir
+Mix juice
+Mix potion
+Mix salve
+Modify ammunition
+Morphology
+Mount lock
+Mountaineering
+Mounted archery
+Multiple fury
+Mummify cadaver
+Naval tactics
+Negate offhand penalty
+Offhand shot
+Offhanded fury
+Overbear
+Overland flight
+Pain threshold
+Parry
+Pathfinding
+Pattern weave
+Pick locks
+Pierce
+Pin down
+Plant lore
+Plastic surgery
+Polearms
+Pound
+Power of faith
+Power slash
+Prayer
+Prayer to destruction
+Precise slash
+Primal adept
+Protection by sacrifice
+Protection coordinator
+Pulverize
+Pummel
+Punch
+Purifying strike
+Push
+Quick chant
+Radiant slash
+Raise mount
+Rampage
+Rampant cutting
+Rapid maneuvering
+Rapid rotation
+Rapid shot
+Rapid winching
+Reave armour
+Reave shield
+Reave weapon
+Reaver strike
+Reaving
+Rebellion
+Rebuke
+Recanting
+Refining
+Refit mount gear
+Release ghost
+Relentless
+Relic handling
+Repair armour
+Repair item
+Repair weapon
+Rescue
+Ride through flame
+Ride through frost
+Ride through pain
+Ride underground
+Riding
+Rift channelling
+Rift energy flow
+Rift world resistance
+Righteousness
+Riot
+Riposte
+Runescribing
+Runic research
+Sabre derobement
+Sabre feint
+Sabre fence
+Sabre invito
+Sabre lunge
+Sabre parry
+Sabre remise
+Sabre riposte
+Sabre tension parry
+Sabre trompement
+Scaly tail
+Scorpions decision
+Scourge of dark steel
+Scouting
+Scrounge ammunition
+Sculpture
+Scythe swipe
+Sever soul
+Sewing
+Sharpen
+Shield bash
+Shield wall
+Ship scouting
+Shipbuilding
+Shopkeeping
+Short blades
+Shortbow shot
+Situational warfare
+Skinning
+Skulking
+Skullsplitter
+Slash
+Sleight
+Sling shot
+Slingshot shot
+Small crossbow shot
+Sneak
+Songcasting
+Songmastery
+Songscribing
+Soul channel
+Soulbound fate
+Soulspeak
+Soulsplitter
+Spell parry
+Spiritual conduct
+Stab
+Staff sling shot
+Stalwart stance
+Stampede
+Stance of the righteous
+Stapling shot
+Stargazing
+Stay
+Study creature
+Stun
+Stunned maneuvers
+Stunning shot
+Support vortex
+Surveying
+Swamp cultivation
+Swashbuckling
+Swift defence
+Swift scalpel
+Swim
+Switch weapon
+Take prisoner
+Tame mount
+Telescope operation
+Tempt
+Theology of darkness
+Theory of corrosion
+Theory of electrical engineering
+Theory of mental power
+Theory of pyromania
+Throw control
+Throw weight
+Thrust
+Tiger spirit
+Tinkering
+Tinning
+Torch creation
+Totem challenge
+Toxic immunity
+Track
+Trample
+Tree herding
+True reaving
+Tumbling attack
+Tumbling dodge
+Turn undead
+Turnblade
+Unarmed parry
+Upgrade armour
+Upgrade item
+Upgrade weapon
+Vampiric blow
+Vandalism
+Vengeful haunting
+Ventriloquism
+Vessel of death
+Veterinarian
+Vial throwing
+Vital points
+Vortex analysis
+Wandmaking
+Warhorse philosophy
+Way of the scythe
+Way of the tarmalen
+Whips
+Wilderness survival
+Wipe tracks
+Woodland stealth
+Wound
+Wrath of hells wind
+Wriggle free
+Zapping

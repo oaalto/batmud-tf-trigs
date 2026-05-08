@@ -82,7 +82,7 @@
 ;; Mind over body
 /def use_mind_over_body = \
 	/monkskillinterrupt %;\
-	/send @use mind over body at %{*}
+	/send @use 'mind over body' %{*}
 
 /alias umb /use_mind_over_body %{*}
 

@@ -1,0 +1,15 @@
+# shadow
+Type: raceguild
+
+## Skills
+
+- Cast cold
+- Cast generic
+
+## Spells
+
+- Chill touch
+- Energy drain
+- Flame arrow
+- Neutralize field
+- Preserve corpse

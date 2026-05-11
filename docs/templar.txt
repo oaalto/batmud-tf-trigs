@@ -1,0 +1,66 @@
+# templar
+Type: guild
+
+## Skills
+
+- Alertness
+- Attack
+- Baptize
+- Bash
+- Bless
+- Bludgeons
+- Burial ceremony
+- Cast generic
+- Cast heal
+- Cast information
+- Cast protection
+- Cast special
+- Combat damage analysis
+- Combat sense
+- Consider
+- Controlled panic
+- Discipline
+- Dodge
+- Endurance
+- Enhance criticals
+- Find weakness
+- First aid
+- Hiking
+- Holy blaze
+- Holy smite
+- Holy strike
+- Holy warfare
+- Kick
+- Leadership
+- Mastery of shielding
+- Military discipline
+- Parry
+- Pound
+- Prayer
+- Protection by sacrifice
+- Pulverize
+- Rescue
+- Righteousness
+- Riposte
+- Shield bash
+- Shield wall
+- Stance of the righteous
+- Stun
+- Stunned maneuvers
+- Swift defence
+- Swim
+- Switch weapon
+- Tempt
+- Throw weight
+
+## Spells
+
+- Bless armament
+- Blessing of faerwon
+- Detect alignment
+- Divine enhancement
+- Holy armada
+- Laying on hands
+- Light
+- Remove poison
+- Shield of faith

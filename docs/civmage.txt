@@ -1,0 +1,98 @@
+# civmage
+Type: guild
+
+## Skills
+
+- Analysis of magic lore
+- Attack
+- Cast acid
+- Cast asphyxiation
+- Cast cold
+- Cast control
+- Cast electricity
+- Cast fire
+- Cast generic
+- Cast heal
+- Cast help
+- Cast information
+- Cast magical
+- Cast poison
+- Cast protection
+- Cast special
+- Cast teleportation
+- Cast transformation
+- Conceal spellcasting
+- Consider
+- Damage criticality
+- Essence eye
+- Knowledge of asphyxiation
+- Knowledge of magic lore
+- Knowledge of toxicology
+- Mana control
+- Mastery of arctic powers
+- Quick chant
+- Short blades
+- Theory of corrosion
+- Theory of electrical engineering
+- Theory of pyromania
+- Zapping
+
+## Spells
+
+- Acid arrow
+- Acid rain
+- Acid ray
+- Acid wind
+- Blast lightning
+- Chain lightning
+- Chaos bolt
+- Chill touch
+- Clairvoyance
+- Cone of cold
+- Create food
+- Darkfire
+- Darkness
+- Disruption
+- Enhance vision
+- Fire blast
+- Firebolt
+- Flame arrow
+- Flaming ice
+- Flip
+- Floating disc
+- Floating letters
+- Forked lightning
+- Heal self
+- Heavy weight
+- Icebolt
+- Identify
+- Infravision
+- Invisibility
+- Levin bolt
+- Lift of load
+- Light
+- Lightning bolt
+- Magic missile
+- Magic wave
+- Meteor blast
+- Meteor swarm
+- Mirror image
+- Poison blast
+- Poison spray
+- Power blast
+- Quicksilver
+- Satiate person
+- See invisible
+- See magic
+- Shocking grasp
+- Strangulation
+- Suffocation
+- Summon greater spores
+- Summon lesser spores
+- Thorn spray
+- Vacuum ball
+- Vacuumbolt
+- Venom strike
+- Water walking
+- Wizard eye
+- Word of recall

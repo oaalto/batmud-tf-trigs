@@ -1,0 +1,58 @@
+# inner_circle
+Type: guild
+
+## Skills
+
+- Analysis of magic lore
+- Cast protection
+- Cast special
+- Cast transformation
+- Ceremony
+- Conceal spellcasting
+- Damage criticality
+- Leadership
+- Mastery of control
+- Mastery of shielding
+- Quick chant
+- Wandmaking
+- Zapping
+
+## Spells
+
+- Anti magic field
+- Armour of aether
+- Blurred image
+- Conjure element
+- Conjure lesser element
+- Create air armour
+- Degenerate person
+- Dispel magical protection
+- Displacement
+- Disrupt magic
+- Enhance vision
+- Feather weight
+- Floating disc
+- Force absorption
+- Greater darkness
+- Greater light
+- Holding pattern
+- Identify
+- Infravision
+- Iron will
+- Mana barrier
+- Neutralize field
+- Quicksilver
+- Relocate
+- Remove curse
+- Resist disintegrate
+- Resist dispel
+- Resist entropy
+- Restore
+- Shelter
+- Shield of protection
+- Ship armour
+- Summon
+- Suppress magic
+- Teleport with error
+- Teleport without error
+- Uncontrollable hideous laughter

@@ -1,0 +1,45 @@
+# squire
+Type: guild
+
+## Skills
+
+- Alertness
+- Attack
+- Brawling
+- Camping
+- Combat riding
+- Compare
+- Consider
+- Dodge
+- Evaluate mount
+- Fire building
+- First aid
+- Herding
+- Hiking
+- Hunting
+- Impale
+- Kick
+- Long blades
+- Make mount feed
+- Negate offhand penalty
+- Parry
+- Plant lore
+- Polearms
+- Push
+- Rescue
+- Riding
+- Riposte
+- Shield bash
+- Short blades
+- Slash
+- Stun
+- Swim
+- Switch weapon
+- Tame mount
+- Throw weight
+- Tinning
+- Torch creation
+
+## Spells
+
+- No spells found

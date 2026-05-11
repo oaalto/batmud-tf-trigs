@@ -1,0 +1,70 @@
+# crimson
+Type: guild
+
+## Skills
+
+- Alertness
+- Attack
+- Axes
+- Bash
+- Battlecry
+- Bludgeons
+- Brawling
+- Cleave
+- Combat damage analysis
+- Combat sense
+- Compare
+- Consider
+- Controlled panic
+- Decapitate
+- Discipline
+- Dodge
+- Enhance criticals
+- Expose weakness
+- First aid
+- Fresh pants
+- Grapple
+- Hiking
+- Impale
+- Kick
+- Leadership
+- Lesser taunt
+- Long blades
+- Mangle
+- Mastery of weapon handling
+- Military discipline
+- Naval tactics
+- Negate offhand penalty
+- Parry
+- Pierce
+- Pin down
+- Polearms
+- Pound
+- Protection by sacrifice
+- Protection coordinator
+- Pulverize
+- Push
+- Rapid maneuvering
+- Reaving
+- Rescue
+- Riposte
+- Shield bash
+- Shield wall
+- Short blades
+- Slash
+- Stab
+- Stalwart stance
+- Stun
+- Stunned maneuvers
+- Swift defence
+- Swim
+- Switch weapon
+- Throw weight
+- Tinning
+- Torch creation
+- Tumbling attack
+- Ventriloquism
+
+## Spells
+
+- No spells found

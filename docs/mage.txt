@@ -1,0 +1,59 @@
+# mage
+Type: guild
+
+## Skills
+
+- Analysis of magic lore
+- Attack
+- Cast acid
+- Cast asphyxiation
+- Cast cold
+- Cast control
+- Cast electricity
+- Cast fire
+- Cast generic
+- Cast heal
+- Cast information
+- Cast magical
+- Cast poison
+- Cast protection
+- Cast teleportation
+- Ceremony
+- Consider
+- Create staff
+- Essence eye
+- Mana control
+- Mastery of shielding
+- Quick chant
+- Short blades
+
+## Spells
+
+- Aura detection
+- Chill touch
+- Create food
+- Darkness
+- Disruption
+- Flame arrow
+- Floating
+- Floating letters
+- Force absorption
+- Heal self
+- Identify
+- Invisibility
+- Light
+- Magic missile
+- Mana barrier
+- Mirror image
+- Moon sense
+- Prismatic burst
+- Relocate
+- See invisible
+- See magic
+- Shocking grasp
+- Teleport with error
+- Teleport without error
+- Thorn spray
+- Vacuumbolt
+- Water walking
+- Word of recall

@@ -1,0 +1,52 @@
+# curate
+Type: guild
+
+## Skills
+
+- Anointing
+- Cardiac stimulation
+- Cast control
+- Cast harm
+- Cast heal
+- Cast help
+- Cast information
+- Cast protection
+- Cast special
+- Cast teleportation
+- Cast transformation
+- Conceal spellcasting
+- Dark baptism
+- Dark meditation
+- Desecrate ground
+- Evil intent
+- Leadership
+- Location memory
+- Plant lore
+- Quick chant
+- Short blades
+- Tempt
+- Theology of darkness
+
+## Spells
+
+- Aneurysm
+- Aura of hate
+- Banish
+- Banish angels
+- Bastardly balm
+- Bless ship
+- Cure serious wounds
+- Curse nature
+- Curse ship
+- Glorification of sin
+- Gluttony
+- Go
+- Greater darkness
+- Hemorrhage
+- Make scar
+- Mobile cannon
+- Paranoia
+- Preserve corpse
+- Raise dead
+- Unholy matrimony
+- Water walking

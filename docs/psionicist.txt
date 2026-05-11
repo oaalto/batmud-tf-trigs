@@ -1,0 +1,72 @@
+# psionicist
+Type: guild
+
+## Skills
+
+- Attack
+- Cast control
+- Cast generic
+- Cast heal
+- Cast help
+- Cast information
+- Cast protection
+- Cast psionic
+- Conceal spellcasting
+- Consider
+- Damage criticality
+- Essence eye
+- Knowledge of mental defence
+- Leadership
+- Mana control
+- Meditation
+- Quick chant
+- Short blades
+- Theory of mental power
+
+## Spells
+
+- Aura detection
+- Beacon of enlightenment
+- Darkness
+- Enhanced awareness
+- Feather weight
+- Field of fear
+- Floating disc
+- Floating letters
+- Force dome
+- Force shield
+- Forget
+- Heal self
+- Invisibility
+- Iron will
+- Kinematic projection
+- Levitation
+- Light
+- Mental glance
+- Mental watch
+- Mesmeric threshold
+- Mind blast
+- Mind development
+- Mind disruption
+- Mind store
+- Mindseize
+- Mirror image
+- Paralyze
+- Phaze shift
+- Psi blast
+- Psibolt
+- Psionic phalanx
+- Psionic shield
+- Psychic crush
+- Psychic purge
+- Psychic sanctuary
+- Psychic shackles
+- Psychic shout
+- Psychic storm
+- Spell empathy
+- Spellteaching
+- Telekinetic whirlwind
+- Terror
+- There not there
+- Transmute self
+- Unstable mutation

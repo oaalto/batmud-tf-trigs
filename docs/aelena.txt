@@ -1,0 +1,62 @@
+# aelena
+Type: secretguild
+
+## Skills
+
+- Alertness
+- Attack
+- Cardiac stimulation
+- Cast control
+- Cast generic
+- Cast information
+- Cast poison
+- Cast transformation
+- Ceremony
+- Choreography of mutilation
+- Clawed strike
+- Combat sense
+- Conceal skilluse
+- Conceal spellcasting
+- Consider
+- Controlled motion
+- Defence sense
+- Discipline
+- Dissection
+- Dodge
+- Enhance criticals
+- Essence eye
+- Find weakness
+- Focus
+- Force of chaos
+- Greater wound
+- Insight of venoms
+- Kick
+- Knowledge of toxicology
+- Leadership
+- Mana control
+- Quick chant
+- Scorpions decision
+- Sharpen
+- Short blades
+- Sleight
+- Switch weapon
+- Throw weight
+- Thrust
+- Wound
+
+## Spells
+
+- Bite of the black widow
+- Cleanse weapon
+- Command blade
+- Detect race
+- Greater darkness
+- Infravision
+- Invisibility
+- Nightfall
+- Poison
+- Quicksilver
+- Remove poison
+- Sense weakness
+- Sting of aelena
+- The shadow

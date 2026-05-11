@@ -1,0 +1,14 @@
+# bloodbrothers
+Type: raceguild
+
+## Skills
+
+- No skills found
+
+## Spells
+
+- Cure light wounds
+- Energy drain
+- Life leech
+- Life link
+- Mind blast

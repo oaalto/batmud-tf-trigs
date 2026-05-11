@@ -1,0 +1,72 @@
+# alchemists
+Type: guild
+
+## Skills
+
+- Alloying
+- Amalgamate
+- Attack
+- Blacksmithing
+- Blend salves
+- Cannibalize
+- Cast alchemy
+- Cast generic
+- Cast information
+- Cast special
+- Ceremony
+- Consider
+- Decanting
+- Dissection
+- Distillation
+- Essence eye
+- Extract ether
+- Eye of loraen
+- Gutblade
+- Knowledge of alchemy
+- Long blades
+- Make arrow of torture
+- Make heatstick
+- Make reagent
+- Mana control
+- Mining
+- Mint coins
+- Mix drug
+- Mix elixir
+- Mix juice
+- Mix potion
+- Mix salve
+- Modify ammunition
+- Plant lore
+- Quick chant
+- Recanting
+- Refining
+- Short blades
+- Swift scalpel
+- Throw control
+
+## Spells
+
+- Aegis
+- Aura detection
+- Blessing of intoxication
+- Create dimensional gem
+- Create herb
+- Create money
+- Detect race
+- Dim
+- Drunken stupor
+- Feather weight
+- Floating disc
+- Glow
+- Hangover cure
+- Identify
+- Instant fermentation
+- Lift of load
+- Mould ring
+- Patch item
+- Prepare flask
+- Preserve corpse
+- Shift blade
+- Sneezing powder
+- Summon homonculus
+- Water walking

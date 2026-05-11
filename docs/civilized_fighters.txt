@@ -1,0 +1,54 @@
+# civilized_fighters
+Type: guild
+
+## Skills
+
+- Alcohol tolerance
+- Alertness
+- Appraise
+- Attack
+- Bash
+- Battlecry
+- Brawling
+- Camping
+- Combat damage analysis
+- Combat sense
+- Compare
+- Consider
+- Decapitate
+- Dirty fighting
+- Discipline
+- Dodge
+- Enhance criticals
+- First aid
+- Impale
+- Kick
+- Leadership
+- Long blades
+- Mangle
+- Negate offhand penalty
+- Overbear
+- Parry
+- Pierce
+- Polearms
+- Pummel
+- Push
+- Rescue
+- Riposte
+- Shield bash
+- Short blades
+- Slash
+- Stab
+- Stun
+- Stunned maneuvers
+- Swim
+- Switch weapon
+- Throw weight
+- Tinning
+- Torch creation
+- Tumbling attack
+- Wriggle free
+
+## Spells
+
+- No spells found

@@ -1,0 +1,12 @@
+# duck_pond
+Type: raceguild
+
+## Skills
+
+- Alertness
+- Fishing
+- Hiding
+
+## Spells
+
+- Call pigeon

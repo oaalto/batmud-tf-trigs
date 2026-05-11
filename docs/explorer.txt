@@ -1,0 +1,26 @@
+# explorer
+Type: guild
+
+## Skills
+
+- Alcohol tolerance
+- Alertness
+- Appraise
+- Camping
+- Consider
+- Detect trap
+- Enhanced peer
+- Fire building
+- Fishing
+- Hiking
+- Mountaineering
+- Plant lore
+- Skulking
+- Sneak
+- Surveying
+- Swim
+- Torch creation
+
+## Spells
+
+- No spells found

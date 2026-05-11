@@ -1,0 +1,13 @@
+# artic_law
+Type: raceguild
+
+## Skills
+
+- Alcohol tolerance
+- Attack
+- Fishing
+
+## Spells
+
+- Chill touch
+- Cure light wounds

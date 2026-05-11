@@ -1,0 +1,20 @@
+# mage_asphyxiation
+Type: guild
+
+## Skills
+
+- Cast asphyxiation
+- Knowledge of asphyxiation
+
+## Spells
+
+- Air shield
+- Aura of wind
+- Blast vacuum
+- Chaos bolt
+- Ether boundary
+- Strangulation
+- Suffocation
+- Vacuum ball
+- Vacuum globe
+- Vacuumbolt

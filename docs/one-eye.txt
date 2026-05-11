@@ -1,0 +1,15 @@
+# one-eye
+Type: raceguild
+
+## Skills
+
+- Attack
+- Bludgeons
+- Camping
+- Fishing
+- Hunting
+- Negate offhand penalty
+
+## Spells
+
+- No spells found

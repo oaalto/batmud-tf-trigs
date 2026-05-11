@@ -1,0 +1,16 @@
+# corpse
+Type: raceguild
+
+## Skills
+
+- Attack
+- Kick
+- Long blades
+- Parry
+- Short blades
+- Throw weight
+
+## Spells
+
+- Preserve corpse
+- See magic

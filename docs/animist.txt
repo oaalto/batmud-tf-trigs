@@ -1,0 +1,51 @@
+# animist
+Type: guild
+
+## Skills
+
+- Alertness
+- Animist strike
+- Assault
+- Battery
+- Cast control
+- Cast generic
+- Cast heal
+- Cast protection
+- Cast special
+- Cast teleportation
+- Cast transformation
+- Combat riding
+- Combat sense
+- Dodge
+- Endurance
+- Hiking
+- Incite animal soul
+- Knowledge of metamorphosis
+- Leadership
+- Mastery of control
+- Mastery of medicine
+- Mastery of mounted combat
+- Mastery of shielding
+- Parry
+- Riding
+- Sever soul
+- Soul channel
+- Soulspeak
+- Soulsplitter
+- Stunned maneuvers
+- Totem challenge
+- Tumbling attack
+
+## Spells
+
+- Animal aspect
+- Animal soul link
+- Conjure animal soul
+- Cure light wounds
+- Cure serious wounds
+- Elemental soul ward
+- Join soul
+- Recall animal soul
+- Resurrect soul
+- Separate soul
+- Soul chorus

@@ -1,0 +1,47 @@
+# sabres
+Type: guild
+
+## Skills
+
+- Alcohol tolerance
+- Attack
+- Battle cadence
+- Combat damage analysis
+- Combat sense
+- Compare
+- Consider
+- Discipline
+- Dodge
+- Enhance criticals
+- Find weakness
+- First aid
+- Gloveknock
+- Leadership
+- Lounging
+- Mastery of short blades
+- Negate offhand penalty
+- Parry
+- Push
+- Rescue
+- Sabre derobement
+- Sabre feint
+- Sabre fence
+- Sabre invito
+- Sabre lunge
+- Sabre parry
+- Sabre remise
+- Sabre riposte
+- Sabre tension parry
+- Sabre trompement
+- Sewing
+- Short blades
+- Stun
+- Stunned maneuvers
+- Swim
+- Switch weapon
+- Throw weight
+
+## Spells
+
+- Call pigeon
+- Cantrip

@@ -1,0 +1,50 @@
+# riftwalker
+Type: guild
+
+## Skills
+
+- Analysis of magic lore
+- Attack
+- Cast generic
+- Cast heal
+- Cast protection
+- Cast rift
+- Ceremony
+- Consider
+- Entity control
+- Essence eye
+- Mana control
+- Mastery of rift entities
+- Mastery of shielding
+- Quick chant
+- Rift energy flow
+- Rift world resistance
+
+## Spells
+
+- Absorbing meld
+- Beckon rift entity
+- Bind rift entity
+- Consume weapon
+- Create rift
+- Create rift vortex
+- Darkness
+- Dimensional leech
+- Dismiss rift entity
+- Establish entity control
+- Floating
+- Floating disc
+- Force absorption
+- Heal self
+- Infravision
+- Invisibility
+- Iron will
+- Light
+- Mirror image
+- Regenerate rift entity
+- Rift pulse
+- Rift scramble
+- Spark birth
+- Summon rift entity
+- Teleport with error
+- Transform rift entity

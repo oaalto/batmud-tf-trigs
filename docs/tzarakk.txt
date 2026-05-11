@@ -1,0 +1,66 @@
+# tzarakk
+Type: guild
+
+## Skills
+
+- Alertness
+- Attack
+- Bestial frenzy
+- Camping
+- Cast chaos
+- Cast control
+- Cast generic
+- Ceremony
+- Chaotic defilement
+- Chaotic spawn
+- Charge
+- Choreography of mutilation
+- Clawed strike
+- Combat damage analysis
+- Combat riding
+- Combat sense
+- Consider
+- Create hunting trophy
+- Defence sense
+- Discipline
+- Dismount
+- Dodge
+- Enhance criticals
+- Essence eye
+- Find weakness
+- Harvest soul
+- Hiking
+- Hunting
+- Impale
+- Kick
+- Kiss of death
+- Leadership
+- Mangle
+- Mastery of mounted combat
+- Negate offhand penalty
+- Parry
+- Polearms
+- Raise mount
+- Rampage
+- Riding
+- Riposte
+- Shield bash
+- Stun
+- Stunned maneuvers
+- Switch weapon
+- Throw weight
+- Trample
+- Tumbling attack
+
+## Spells
+
+- Banish mount
+- Defile animal
+- Eyes of nature
+- Fury of nature
+- Glance of predator
+- Infravision
+- Preserve corpse
+- Steed of tzarakk
+- Summon beasts
+- Summon dire boar

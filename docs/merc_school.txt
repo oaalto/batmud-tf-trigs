@@ -1,0 +1,15 @@
+# merc_school
+Type: raceguild
+
+## Skills
+
+- Attack
+- Bash
+- Bludgeons
+- Camping
+- Hunting
+- Throw weight
+
+## Spells
+
+- No spells found

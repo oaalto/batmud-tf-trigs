@@ -1,0 +1,76 @@
+# channellers
+Type: guild
+
+## Skills
+
+- Analysis of magic lore
+- Attack
+- Bludgeons
+- Cast alchemy
+- Cast channelling
+- Cast electricity
+- Cast fire
+- Cast generic
+- Cast information
+- Cast magical
+- Cast teleportation
+- Cast transformation
+- Consider
+- Craft orb
+- Damage criticality
+- Essence eye
+- Eye of loraen
+- Flow of magic
+- Leadership
+- Mana control
+- Mastery of channelling
+- Mastery of draining
+- Mix salve
+- Plant lore
+- Quick chant
+- Short blades
+- Wandmaking
+- Zapping
+
+## Spells
+
+- Absorption aura
+- Animate golem
+- Channelball
+- Channelbolt
+- Channelburn
+- Channelray
+- Channelspray
+- Cleanse weapon
+- Create herb
+- Darkness
+- Drain ally
+- Drain enemy
+- Drain item
+- Drain room
+- Energy aura
+- Energy vortex
+- Feather weight
+- Firebolt
+- Flame arrow
+- Floating
+- Golem heal
+- Greater create herb
+- Greater darkness
+- Greater light
+- Grounding point
+- Identify
+- Item dispersion shield
+- Light
+- Lightning bolt
+- Magic missile
+- Personal force field
+- Replenish ally
+- Replenish party
+- See magic
+- Shocking grasp
+- Spontaneous combustion
+- Summon
+- Summon lesser spores
+- Transform golem
+- Word of recall

@@ -1,0 +1,16 @@
+# bridge_trolls
+Type: raceguild
+
+## Skills
+
+- Alertness
+- Attack
+- Fishing
+- Frenzy
+- Grapple
+- Plant lore
+- Throw weight
+
+## Spells
+
+- No spells found

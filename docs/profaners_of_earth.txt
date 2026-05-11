@@ -1,0 +1,15 @@
+# profaners_of_earth
+Type: raceguild
+
+## Skills
+
+- Alcohol tolerance
+- Appraise
+- Axes
+- Blacksmithing
+- Compare
+- Frenzy
+
+## Spells
+
+- Darkness

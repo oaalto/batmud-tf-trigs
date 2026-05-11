@@ -1,0 +1,74 @@
+# reaver
+Type: guild
+
+## Skills
+
+- Appraise
+- Attack
+- Axes
+- Bash
+- Blood harvest
+- Breath of doom
+- Cast destruction
+- Cast generic
+- Cleave
+- Combat damage analysis
+- Combat sense
+- Consider
+- Corrosive cut
+- Discipline
+- Dodge
+- Endurance
+- Enhance criticals
+- Find weakness
+- Impale
+- Infernal arc
+- Mana control
+- Mangle
+- Mastery of destruction
+- Parry
+- Polearms
+- Prayer to destruction
+- Rampant cutting
+- Reave armour
+- Reave shield
+- Reave weapon
+- Reaver strike
+- Reaving
+- Rebellion
+- Riot
+- Riposte
+- Scythe swipe
+- Stun
+- Stunned maneuvers
+- Switch weapon
+- Throw weight
+- True reaving
+- Tumbling attack
+- Way of the scythe
+- Wrath of hells wind
+
+## Spells
+
+- Black hole
+- Blood seeker
+- Call armour
+- Call scythe
+- Cleanse weapon
+- Darkness
+- Destroy water
+- Detect race
+- Glory of destruction
+- Immolate scythe
+- Infravision
+- Reaping of bile
+- Shattered feast
+- Spirit drain
+- Word of apocalypse
+- Word of attrition
+- Word of blasting
+- Word of destruction
+- Word of genocide
+- Word of oblivion
+- Word of slaughter
+- Word of spite

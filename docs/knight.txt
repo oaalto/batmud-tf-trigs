@@ -1,0 +1,61 @@
+# knight
+Type: guild
+
+## Skills
+
+- Attack
+- Axes
+- Blade of the battlemedic
+- Blade of the herald
+- Blade of the honourbound
+- Blade of the warden
+- Bludgeons
+- Cast generic
+- Cast help
+- Cast information
+- Combat damage analysis
+- Combat riding
+- Combat sense
+- Compare
+- Controlled panic
+- Crushing blow
+- Defiance
+- Discipline
+- Dodge
+- Elite guard
+- Enhance criticals
+- Find weakness
+- Forceful blow
+- Knowledge of identification
+- Leadership
+- Long blades
+- Mastery of mounted combat
+- Mighty charge
+- Military discipline
+- Parry
+- Power slash
+- Precise slash
+- Relentless
+- Rescue
+- Riding
+- Riposte
+- Shield bash
+- Skullsplitter
+- Spell parry
+- Stunned maneuvers
+- Take prisoner
+- Tumbling attack
+- Turnblade
+- Wriggle free
+
+## Spells
+
+- Arms lore
+- Heal mount
+- Monster lore
+- Noble animal spirit
+- Noble mount
+- Protect mount
+- Retool armament
+- Summon mount
+- Summon squire

@@ -1,0 +1,20 @@
+# mage_electricity
+Type: guild
+
+## Skills
+
+- Cast electricity
+- Theory of electrical engineering
+
+## Spells
+
+- Blast lightning
+- Chain lightning
+- Electrocution
+- Energy channeling
+- Forked lightning
+- Lightning bolt
+- Lightning shield
+- Lightning storm
+- Magnetic levitation
+- Shocking grasp

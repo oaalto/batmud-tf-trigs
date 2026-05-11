@@ -1,0 +1,14 @@
+# hardknox
+Type: raceguild
+
+## Skills
+
+- Attack
+- Bargain
+- Ceremony
+- Fire building
+- First aid
+
+## Spells
+
+- Moon sense

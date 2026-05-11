@@ -1,0 +1,98 @@
+# merchant
+Type: guild
+
+## Skills
+
+- Alloying
+- Amalgamate
+- Appraise
+- Assembly
+- Attack
+- Axes
+- Bargain
+- Blacksmithing
+- Bludgeons
+- Butchering
+- Cannibalize
+- Carpentry
+- Cast control
+- Cast generic
+- Cast help
+- Cast information
+- Cast special
+- Cast teleportation
+- Cast transformation
+- Chest creation
+- Chest lock creation
+- Chest trap creation
+- Compare
+- Create armour
+- Create weapon
+- Double mine
+- Essence eye
+- Exchange money
+- Eye of loraen
+- Fire building
+- First aid
+- Fresh pants
+- Gem cutting
+- Glassblowing
+- Insider trading
+- Knowledge of identification
+- Knowledge of metamorphosis
+- Labeling
+- Law
+- Leather craft
+- Loan sharking
+- Lumberjacking
+- Make ammunition
+- Make bandage
+- Make mount gear
+- Make reagent
+- Masonry
+- Minecrafting
+- Mineral cutting
+- Mining
+- Plant lore
+- Plastic surgery
+- Quick chant
+- Refining
+- Refit mount gear
+- Repair armour
+- Repair item
+- Repair weapon
+- Sculpture
+- Sewing
+- Shipbuilding
+- Shopkeeping
+- Skinning
+- Tinning
+- Torch creation
+- Upgrade armour
+- Upgrade item
+- Upgrade weapon
+
+## Spells
+
+- Aura detection
+- Call pigeon
+- Cash flow
+- Cleanse weapon
+- Create food
+- Create money
+- Credit check
+- Darkness
+- Detect alignment
+- Feather weight
+- Floating disc
+- Identify
+- Lift of load
+- Light
+- Money is power
+- Preserve corpse
+- Protect armour
+- Protect item
+- Protect weapon
+- Remote banking
+- Remove scar
+- Satiate person

@@ -1,0 +1,14 @@
+# the_wisps
+Type: raceguild
+
+## Skills
+
+- Cast generic
+- Cast teleportation
+- Enchanted wings
+
+## Spells
+
+- Quicksilver
+- Teleport with error
+- Wizard eye

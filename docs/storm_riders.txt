@@ -1,0 +1,15 @@
+# storm_riders
+Type: raceguild
+
+## Skills
+
+- Attack
+- Fishing
+- Hunting
+- Polearms
+- Swim
+- Warhorse philosophy
+
+## Spells
+
+- No spells found

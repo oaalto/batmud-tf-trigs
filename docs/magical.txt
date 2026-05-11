@@ -1,0 +1,29 @@
+# magical
+Type: background
+
+## Skills
+
+- Cast generic
+- Cast generic *
+- Essence eye
+- Essence eye *
+- Mana control
+- Mana control *
+- Stargazing
+- Zapping *
+
+## Spells
+
+- Acid arrow
+- Darkness
+- Feather weight
+- Floating disc
+- Floating letters
+- Heal self *
+- Light
+- Lightning bolt
+- Magic missile
+- Mirror image
+- Moon sense
+- Shocking grasp *
+- Water walking

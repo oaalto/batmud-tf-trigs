@@ -1,0 +1,74 @@
+# ranger
+Type: guild
+
+## Skills
+
+- Alertness
+- Attack
+- Axes
+- Bladed fury
+- Butchering
+- Camouflage
+- Camping
+- Combat damage analysis
+- Combat sense
+- Compare
+- Consider
+- Controlled panic
+- Detect trap
+- Discipline
+- Dodge
+- Enhance criticals
+- Enhanced peer
+- Eye of loraen
+- Find campsite
+- Find weakness
+- Fire building
+- First aid
+- Fishing
+- Forest location
+- Hiking
+- Hunting
+- Kick
+- Leadership
+- Leather craft
+- Locate water
+- Location memory
+- Long blades
+- Make bandage
+- Make herbal remedy
+- Mastery of bladed fury
+- Mastery of camping
+- Mastery of fire building
+- Multiple fury
+- Negate offhand penalty
+- Offhanded fury
+- Parry
+- Pathfinding
+- Plant lore
+- Push
+- Rescue
+- Riposte
+- Scouting
+- Shield bash
+- Ship scouting
+- Short blades
+- Skinning
+- Stargazing
+- Stun
+- Stunned maneuvers
+- Swim
+- Switch weapon
+- Telescope operation
+- Throw weight
+- Tinning
+- Torch creation
+- Track
+- Tumbling attack
+- Wilderness survival
+- Wipe tracks
+- Woodland stealth
+
+## Spells
+
+- No spells found

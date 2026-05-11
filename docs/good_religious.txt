@@ -1,0 +1,28 @@
+# good_religious
+Type: background
+
+## Skills
+
+- Attack
+- Attack *
+- Baptize *
+- Bless
+- Bludgeons
+- Bludgeons *
+- Cast generic
+- Cast generic *
+- Cast heal *
+- Ceremony
+- Essence eye
+- Essence eye *
+- Mana control
+- Mana control *
+
+## Spells
+
+- Celestial spark *
+- Create food
+- Cure critical wounds
+- Cure light wounds
+- Cure light wounds *
+- Cure serious wounds

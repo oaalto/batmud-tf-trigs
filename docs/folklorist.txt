@@ -1,0 +1,78 @@
+# folklorist
+Type: guild
+
+## Skills
+
+- Analysis of magic lore
+- Attack
+- Autopsy
+- Cast control
+- Cast generic
+- Cast heal
+- Cast information
+- Cast magical
+- Cast poison
+- Cast protection
+- Cast special
+- Cast transformation
+- Consider
+- Damage criticality
+- Essence eye
+- Eye of loraen
+- First aid
+- Hiking
+- Knowledge of herb conservation
+- Knowledge of identification
+- Knowledge of magic lore
+- Knowledge of toxicology
+- Leadership
+- Mana control
+- Mastery of medicine
+- Mastery of shielding
+- Plant lore
+- Quick chant
+- Short blades
+- Study creature
+- Swim
+- Zapping
+
+## Spells
+
+- Attune racial protection
+- Aura detection
+- Bolt of knowledge
+- Bookworm
+- Create herb
+- Cryptozoological protection
+- Darkness
+- Detect alignment
+- Detect race
+- Dispel magical protection
+- Field of poison
+- Greater create herb
+- Greater darkness
+- Greater light
+- Greater magic mount
+- Herbal healing
+- Herbal poison blast
+- Herbal poison spray
+- Herbal remove poison
+- Identify
+- Invisibility
+- Kinemortological protection
+- Levin bolt
+- Light
+- Living poison
+- Magic missile
+- Magic mount
+- Minor protection
+- Monster lore
+- Moon sense
+- Poison blast
+- Preserve corpse
+- Racial protection
+- Resist dispel
+- Summon lesser spores
+- Thorn spray
+- Venom strike
+- Zoological protection

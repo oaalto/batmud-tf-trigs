@@ -1,0 +1,13 @@
+# seasingers
+Type: raceguild
+
+## Skills
+
+- Fishing
+- Locate water
+- Polearms
+
+## Spells
+
+- Light
+- Rain

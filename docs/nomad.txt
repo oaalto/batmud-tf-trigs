@@ -1,0 +1,27 @@
+# nomad
+Type: background
+
+## Skills
+
+- Attack
+- Attack *
+- Axes
+- Bludgeons
+- Bludgeons *
+- Camping
+- Consider
+- Fire building
+- Fresh pants
+- Hunting
+- Long blades *
+- Push
+- Riding
+- Short blades *
+- Stargazing
+- Swim
+- Throw weight
+- Torch creation
+
+## Spells
+
+- No spells found

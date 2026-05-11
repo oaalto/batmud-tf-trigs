@@ -1,0 +1,12 @@
+# zombie_children
+Type: raceguild
+
+## Skills
+
+- Cast teleportation
+- Essence eye
+
+## Spells
+
+- Dimension door
+- Teleport with error

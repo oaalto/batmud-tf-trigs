@@ -1,0 +1,62 @@
+# tiger
+Type: secretguild
+
+## Skills
+
+- Alertness
+- Attack
+- Cast control
+- Cast fire
+- Cast generic
+- Cast harm
+- Cast heal
+- Cast information
+- Cast protection
+- Cast special
+- Cast teleportation
+- Cast transformation
+- Combat sense
+- Consider
+- Contact reflexes
+- Dark nerves
+- Defence sense
+- Detect trap
+- Dim mak
+- Discipline
+- Dodge
+- Enhance criticals
+- Find weakness
+- Hiking
+- Iron palm
+- Kick
+- Martial arts
+- Mastery of pain
+- Meditation
+- Pick locks
+- Sneak
+- Stun
+- Stunned maneuvers
+- Swim
+- Throw weight
+- Tiger spirit
+- Track
+- Tumbling attack
+- Unarmed parry
+- Vital points
+
+## Spells
+
+- All-seeing eye
+- Cure light wounds
+- Darkness
+- Flame fists
+- Haste
+- Infravision
+- Invisibility
+- Quicksilver
+- Shadow leap
+- Shadow trick
+- Tiger claw
+- Tiger mask
+- Tiger shadows
+- Water walking

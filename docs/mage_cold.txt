@@ -1,0 +1,21 @@
+# mage_cold
+Type: guild
+
+## Skills
+
+- Cast cold
+- Mastery of arctic powers
+
+## Spells
+
+- Chill touch
+- Cold ray
+- Cone of cold
+- Create frost weapon
+- Darkfire
+- Flaming ice
+- Frost insulation
+- Frost shield
+- Hailstorm
+- Icebolt
+- Touch of glacial winds

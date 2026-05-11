@@ -1,0 +1,74 @@
+# tarmalen
+Type: guild
+
+## Skills
+
+- Attack
+- Baptize
+- Bless
+- Bludgeons
+- Burial ceremony
+- Cast generic
+- Cast heal
+- Cast help
+- Cast information
+- Cast special
+- Cast teleportation
+- Ceremony
+- Consider
+- Essence eye
+- First aid
+- Leadership
+- Mana control
+- Mastery of assistance
+- Mastery of medicine
+- Quick chant
+- Tempt
+- Way of the tarmalen
+
+## Spells
+
+- Aura detection
+- Bless ship
+- Blessing of tarmalen
+- Create food
+- Cure critical wounds
+- Cure light wounds
+- Cure player
+- Cure serious wounds
+- Curse of tarmalen
+- Deaths door
+- Detect alignment
+- Detect misery
+- Enhanced vitality
+- Guardian angel
+- Heal all
+- Healbound harmony
+- Holy way
+- Lessen poison
+- Life link
+- Light
+- Major heal
+- Major party heal
+- Minor heal
+- Minor party heal
+- Moon sense
+- Natural renewal
+- New body
+- Raise dead
+- Remove poison
+- Remove scar
+- Restore
+- Resurrect
+- Satiate person
+- See the light
+- Sex change
+- Shield of transcendence
+- Soul hold
+- Summon
+- True heal
+- True party heal
+- Unpain
+- Unstun
+- Water walking
+- Word of recall

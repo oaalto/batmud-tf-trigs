@@ -1,0 +1,59 @@
+# nergal
+Type: guild
+
+## Skills
+
+- Attack
+- Cast chaos
+- Cast control
+- Cast generic
+- Cast heal
+- Cast protection
+- Ceremony
+- Chaotic spawn
+- Choreography of mutilation
+- Clawed strike
+- Combat sense
+- Conduit of the hive
+- Consider
+- Discipline
+- Dodge
+- Dreary hibernation
+- Embrace the gifts
+- Essence eye
+- Immunology
+- Kiss of death
+- Leadership
+- Morphology
+- Parry
+- Pierce
+- Quick chant
+- Short blades
+- Stab
+- Stunned maneuvers
+- Tempt
+
+## Spells
+
+- Awake enthralled
+- Banish
+- Call forth enthralled
+- Corrupt ground
+- Crippling frenzy
+- Cure light wounds
+- Darkness
+- Detect alignment
+- End enthrallment
+- Enthralling parasite
+- Evaluate host
+- Foul drought
+- Harvest vitae
+- Infravision
+- Legacy of enthralled
+- Make scar
+- Mind siphon
+- Nourish enthralled
+- Parasitic swarm
+- Putrid blood
+- Reap potentia
+- Suppressing misery

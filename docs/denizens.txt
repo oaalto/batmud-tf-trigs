@@ -1,0 +1,14 @@
+# denizens
+Type: raceguild
+
+## Skills
+
+- Alertness
+- Cast generic
+- Short blades
+
+## Spells
+
+- Darkness
+- Spider walk
+- Thorn spray

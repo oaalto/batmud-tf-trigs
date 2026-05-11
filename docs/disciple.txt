@@ -1,0 +1,35 @@
+# disciple
+Type: guild
+
+## Skills
+
+- Alertness
+- Attack
+- Bludgeons
+- Chaotic spawn
+- Choreography of mutilation
+- Clawed strike
+- Consider
+- Controlled panic
+- Dodge
+- Enhance criticals
+- Hiking
+- Kick
+- Kiss of death
+- Long blades
+- Negate offhand penalty
+- Polearms
+- Push
+- Shield bash
+- Short blades
+- Stun
+- Swim
+- Throw weight
+- Tinning
+- Torch creation
+- Tumbling attack
+
+## Spells
+
+- Darkness
+- Greater darkness

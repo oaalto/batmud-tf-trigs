@@ -1,0 +1,16 @@
+# rock_crafter
+Type: raceguild
+
+## Skills
+
+- Alcohol tolerance
+- Appraise
+- Axes
+- Blacksmithing
+- Compare
+- Mining
+- Mountaineering
+
+## Spells
+
+- No spells found

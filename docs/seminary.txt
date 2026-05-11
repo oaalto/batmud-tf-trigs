@@ -1,0 +1,69 @@
+# seminary
+Type: guild
+
+## Skills
+
+- Bloodletting
+- Cast control
+- Cast death
+- Cast harm
+- Cast heal
+- Cast help
+- Cast information
+- Cast protection
+- Cast special
+- Cast teleportation
+- Cast transformation
+- Conceal spellcasting
+- Dark baptism
+- Dark meditation
+- Desecrate ground
+- Embalming
+- Evil intent
+- Eye of loraen
+- Hiding
+- Knowledge of thanatology
+- Leadership
+- Mastery of pain
+- Mummify cadaver
+- Plant lore
+- Spiritual conduct
+- Swamp cultivation
+- Theology of darkness
+
+## Spells
+
+- Aneurysm
+- Aura of irreverence
+- Banish angels
+- Bastardly balm
+- Bless ship
+- Blight of the shunned
+- Bulwark of death
+- Control marsh
+- Curse of slaads
+- Curse ship
+- Despair
+- Detect death
+- Dispel good
+- Evoke toad
+- Forbidden wards
+- Gangrenous coils
+- Glorification of sin
+- Gluttony
+- Go
+- Harm body
+- Here and after
+- Magica pandemonica
+- Mark of death
+- Necrotic bane
+- New body
+- Preserve corpse
+- Protection from good
+- Reanimation
+- Resist curse
+- Resurrect
+- Sands of time
+- Summon slaads
+- Unleash bogs
+- Wrath beyond grave

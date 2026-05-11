@@ -1,0 +1,51 @@
+# bard
+Type: guild
+
+## Skills
+
+- Alcohol tolerance
+- Attack
+- Dodge
+- Enhance criticals
+- Hiking
+- Instrument creation
+- Leadership
+- Long blades
+- Mana control
+- Negate offhand penalty
+- Plant lore
+- Quick chant
+- Short blades
+- Songcasting
+- Songmastery
+- Songscribing
+- Swim
+- Tumbling attack
+- Ventriloquism
+
+## Spells
+
+- Achromatic eyes
+- Campfire tune
+- Catchy singalong
+- Clandestine thoughts
+- Con fioco
+- Dancing blades
+- Jesters trivia
+- Kings feast
+- Melodical embracement
+- Melody of the misadventurer
+- Musicians alm
+- Noituloves deathlore
+- Noituloves dischord
+- Pathfinder
+- Rapture of the deep
+- Singing shepherd
+- Soothing sounds
+- Sounds of silence
+- Strength in unity
+- Sweet lullaby
+- Uncontrollable mosh
+- Venturers way
+- Vigilant melody
+- War ensemble

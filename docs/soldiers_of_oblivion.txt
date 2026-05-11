@@ -1,0 +1,16 @@
+# soldiers_of_oblivion
+Type: raceguild
+
+## Skills
+
+- Conceal spellcasting
+- Enhanced peer
+- Essence eye
+- Mana control
+
+## Spells
+
+- Darkness
+- Enhance vision
+- Greater darkness
+- Mana drain

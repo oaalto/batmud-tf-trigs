@@ -1,0 +1,54 @@
+# runemages
+Type: guild
+
+## Skills
+
+- Aether flow
+- Amalgamate
+- Analysis of magic lore
+- Attack
+- Cast acid
+- Cast asphyxiation
+- Cast cold
+- Cast control
+- Cast electricity
+- Cast fire
+- Cast generic
+- Cast heal
+- Cast information
+- Cast magical
+- Cast poison
+- Cast protection
+- Cast special
+- Cast teleportation
+- Cast transformation
+- Conceal spellcasting
+- Consider
+- Craft runestone
+- Damage criticality
+- Essence eye
+- Eye of loraen
+- Gem cutting
+- Knowledge of asphyxiation
+- Knowledge of magic lore
+- Knowledge of toxicology
+- Leadership
+- Mana control
+- Masonry
+- Mastery of arctic powers
+- Mastery of control
+- Method of runemagery
+- Mining
+- Plant lore
+- Quick chant
+- Refining
+- Runescribing
+- Runic research
+- Theory of corrosion
+- Theory of electrical engineering
+- Theory of pyromania
+- Zapping
+
+## Spells
+
+- No spells found

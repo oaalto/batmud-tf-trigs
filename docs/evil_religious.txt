@@ -1,0 +1,30 @@
+# evil_religious
+Type: background
+
+## Skills
+
+- Attack
+- Attack *
+- Baptize *
+- Bless
+- Cast generic
+- Cast generic *
+- Cast harm *
+- Ceremony
+- Essence eye
+- Essence eye *
+- Mana control *
+- Overbear
+- Overbear *
+- Short blades
+
+## Spells
+
+- Cause critical wounds
+- Cause light wounds
+- Cause light wounds *
+- Cause serious wounds
+- Create food
+- Cure light wounds
+- Infravision
+- Water walking

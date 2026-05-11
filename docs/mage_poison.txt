@@ -1,0 +1,22 @@
+# mage_poison
+Type: guild
+
+## Skills
+
+- Cast poison
+- Knowledge of toxicology
+
+## Spells
+
+- Killing cloud
+- Noxious fumes
+- Poison blast
+- Poison scan
+- Poison spray
+- Power blast
+- Shield of detoxification
+- Summon carnal spores
+- Summon greater spores
+- Thorn spray
+- Toxic dilution
+- Venom strike

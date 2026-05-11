@@ -1,0 +1,14 @@
+# princes_of_darkness
+Type: raceguild
+
+## Skills
+
+- Conceal spellcasting
+- Sneak
+
+## Spells
+
+- Darkness
+- Energy drain
+- Invisibility
+- Vampiric charm

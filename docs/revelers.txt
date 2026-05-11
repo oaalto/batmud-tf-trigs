@@ -1,0 +1,14 @@
+# revelers
+Type: raceguild
+
+## Skills
+
+- Alcohol tolerance
+- Brawling
+- Hiking
+
+## Spells
+
+- Create food
+- Hallucination
+- Uncontrollable hideous laughter

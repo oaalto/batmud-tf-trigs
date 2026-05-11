@@ -1,0 +1,52 @@
+# beastmaster
+Type: guild
+
+## Skills
+
+- Alertness
+- Alpha dog mentality
+- Attack
+- Bludgeons
+- Butchering
+- Call animals
+- Calm animal
+- Combat riding
+- Combat sense
+- Dodge
+- Dripping fangs
+- Evaluate mount
+- Feral attack
+- Fishing
+- Guided strike
+- Heel
+- Hiking
+- Hunting
+- Kick
+- Make herbal remedy
+- Make mount feed
+- Mastery of savage beatings
+- Mount lock
+- Overland flight
+- Parry
+- Plant lore
+- Pound
+- Rebuke
+- Refit mount gear
+- Ride through flame
+- Ride through frost
+- Ride through pain
+- Ride underground
+- Riding
+- Short blades
+- Stab
+- Stampede
+- Stay
+- Stunned maneuvers
+- Tame mount
+- Throw weight
+- Trample
+- Whips
+
+## Spells
+
+- No spells found

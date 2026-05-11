@@ -1,0 +1,43 @@
+# triad
+Type: guild
+
+## Skills
+
+- Anointing
+- Attack
+- Baptize
+- Cast control
+- Cast generic
+- Cast harm
+- Cast heal
+- Cast information
+- Cast protection
+- Cast special
+- Ceremony
+- Consider
+- Essence eye
+- Leadership
+- Mana control
+- Quick chant
+- Short blades
+- Theology of darkness
+
+## Spells
+
+- Aura of hate
+- Cause critical wounds
+- Cause light wounds
+- Cause serious wounds
+- Cure light wounds
+- Cure serious wounds
+- Curse nature
+- Damn armament
+- Darkness
+- Detect alignment
+- Last rites
+- Light
+- Make scar
+- Mellon collie
+- Paranoia
+- Raise dead
+- Water walking

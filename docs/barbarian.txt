@@ -1,0 +1,68 @@
+# barbarian
+Type: guild
+
+## Skills
+
+- Alcohol tolerance
+- Alertness
+- Attack
+- Axes
+- Barbaric ways
+- Bash
+- Battlecry
+- Bludgeons
+- Brawling
+- Camping
+- Cleave
+- Cold tolerance
+- Combat damage analysis
+- Combat sense
+- Compare
+- Consider
+- Controlled panic
+- Detect trap
+- Discipline
+- Dodge
+- Endurance
+- Enhance criticals
+- Enrage
+- Find weakness
+- Fire building
+- Fire walking
+- First aid
+- Fishing
+- Frenzy
+- Grapple
+- Hiking
+- Hunting
+- Kick
+- Leadership
+- Looting and burning
+- Lure
+- Make herbal remedy
+- Negate offhand penalty
+- Pain threshold
+- Parry
+- Plant lore
+- Pound
+- Pulverize
+- Push
+- Reaving
+- Rescue
+- Riposte
+- Shield bash
+- Stun
+- Stunned maneuvers
+- Swim
+- Switch weapon
+- Throw weight
+- Tinning
+- Torch creation
+- Toxic immunity
+- Track
+- Tumbling attack
+- Vandalism
+
+## Spells
+
+- No spells found

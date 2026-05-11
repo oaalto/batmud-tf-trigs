@@ -1,0 +1,20 @@
+# mage_acid
+Type: guild
+
+## Skills
+
+- Cast acid
+- Theory of corrosion
+
+## Spells
+
+- Acid arrow
+- Acid blast
+- Acid rain
+- Acid ray
+- Acid shield
+- Acid storm
+- Acid wind
+- Corrosion shield
+- Disruption
+- Lock biter

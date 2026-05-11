@@ -1,0 +1,54 @@
+# monk
+Type: guild
+
+## Skills
+
+- Acupuncture
+- Alertness
+- Attack
+- Baptize
+- Bash
+- Bless
+- Combat damage analysis
+- Combat sense
+- Consider
+- Contact reflexes
+- Controlled motion
+- Defence sense
+- Discipline
+- Dodge
+- Enhance criticals
+- Find weakness
+- First aid
+- Fresh pants
+- Hiking
+- Iron body
+- Iron palm
+- Joint lock
+- Kata
+- Ki
+- Kiai-cry
+- Kick
+- Leadership
+- Leather craft
+- Light steps
+- Martial arts
+- Meditation
+- Mind over body
+- Pattern weave
+- Primal adept
+- Punch
+- Sculpture
+- Sewing
+- Skulking
+- Stun
+- Stunned maneuvers
+- Swim
+- Throw weight
+- Tumbling attack
+- Unarmed parry
+- Vital points
+
+## Spells
+
+- No spells found

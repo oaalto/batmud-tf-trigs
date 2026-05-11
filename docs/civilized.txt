@@ -1,0 +1,35 @@
+# civilized
+Type: background
+
+## Skills
+
+- Alcohol tolerance *
+- Attack
+- Attack *
+- Bargain
+- Blacksmithing
+- Cast generic
+- Compare
+- Consider
+- Dodge
+- Essence eye *
+- Fresh pants
+- Long blades
+- Long blades *
+- Riding
+- Short blades
+- Short blades *
+- Swim
+
+## Spells
+
+- Create food
+- Create money
+- Darkness
+- Detect alignment
+- Light
+- Magic missile
+- Magic missile *
+- Preserve corpse
+- Quicksilver
+- See invisible

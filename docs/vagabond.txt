@@ -1,0 +1,16 @@
+# vagabond
+Type: raceguild
+
+## Skills
+
+- Alertness
+- Attack
+- Dodge
+- Hunting
+- Naval tactics
+- Sneak
+
+## Spells
+
+- Clairvoyance
+- See magic

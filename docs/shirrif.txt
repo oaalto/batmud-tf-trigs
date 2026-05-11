@@ -1,0 +1,17 @@
+# shirrif
+Type: raceguild
+
+## Skills
+
+- Appraise
+- Attack
+- Burrowing
+- Hiding
+- Sewing
+- Short blades
+- Sneak
+- Track
+
+## Spells
+
+- Create food

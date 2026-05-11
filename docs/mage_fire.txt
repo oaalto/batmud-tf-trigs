@@ -1,0 +1,20 @@
+# mage_fire
+Type: guild
+
+## Skills
+
+- Cast fire
+- Theory of pyromania
+
+## Spells
+
+- Fire blast
+- Firebolt
+- Flame arrow
+- Flame shield
+- Heat reduction
+- Lava blast
+- Lava storm
+- Meteor blast
+- Meteor swarm
+- Searing fervor

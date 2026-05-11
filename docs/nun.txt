@@ -1,0 +1,84 @@
+# nun
+Type: guild
+
+## Skills
+
+- Attack
+- Baptize
+- Bless
+- Bludgeons
+- Burial ceremony
+- Candlestick making
+- Cast dispel
+- Cast generic
+- Cast heal
+- Cast holy
+- Cast information
+- Cast protection
+- Cast special
+- Cast teleportation
+- Ceremony
+- Consider
+- Discipline
+- Essence eye
+- Exorcize
+- First aid
+- Knowledge of dispelling
+- Leadership
+- Location memory
+- Mana control
+- Mastery of holy vials
+- Mastery of shielding
+- Might of the saints
+- Plant lore
+- Power of faith
+- Quick chant
+- Relic handling
+- Sewing
+- Turn undead
+- Vial throwing
+
+## Spells
+
+- Aura detection
+- Banish demons
+- Bless vial
+- Blessing of kofgaad
+- Celestial haven
+- Cleanse heathen
+- Create food
+- Cure critical wounds
+- Cure light wounds
+- Cure player
+- Cure serious wounds
+- Detect alignment
+- Detect vial
+- Dispel evil
+- Dispel undead
+- Fire of the saints
+- Flames of righteousness
+- Go
+- Guardian
+- Guardian angel
+- Heavenly protection
+- Heavy weight
+- Holy bolt
+- Holy hand
+- Holy lance
+- Holy wind
+- Identify relic
+- Light
+- Mana shield
+- Protection from evil
+- Remove curse
+- Remove poison
+- Remove scar
+- Resist temptation
+- Restore
+- Saintly touch
+- Satiate person
+- Soul shield
+- Summon
+- Water walking
+- Word of recall
+- Wrath of las

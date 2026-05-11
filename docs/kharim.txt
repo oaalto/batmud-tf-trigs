@@ -1,0 +1,77 @@
+# kharim
+Type: guild
+
+## Skills
+
+- Alertness
+- Attack
+- Beheading of departed
+- Blindsided assault
+- Brawling
+- Cast control
+- Cast generic
+- Cast information
+- Cast special
+- Cast transformation
+- Ceremony
+- Chaotic circulation
+- Chaotic spawn
+- Choreography of mutilation
+- Clawed strike
+- Combat damage analysis
+- Combat sense
+- Compare
+- Consider
+- Controlled panic
+- Corrupt guidance
+- Deceitful act of mercy
+- Deflect blows
+- Destructive rage
+- Discipline
+- Dodge
+- Endurance
+- Enhance criticals
+- Enhanced peer
+- Feigned remorse
+- Find weakness
+- Foul play
+- Hiking
+- Hunting
+- Kiss of death
+- Leadership
+- Long blades
+- Manner of lordliness
+- Metal fist
+- Military discipline
+- Negate offhand penalty
+- Parry
+- Riposte
+- Scourge of dark steel
+- Shield bash
+- Shield wall
+- Short blades
+- Situational warfare
+- Soulbound fate
+- Stun
+- Stunned maneuvers
+- Swashbuckling
+- Swim
+- Switch weapon
+- Throw weight
+- Tumbling attack
+- Vampiric blow
+- Vessel of death
+
+## Spells
+
+- Aura of chaos
+- Blade of fire
+- Darkness
+- Flame arrow
+- Greater darkness
+- Infravision
+- Nightfall
+- Nocturnal charm
+- Phantasmal reflection
+- Sleeping parasite
+- Soul guardian

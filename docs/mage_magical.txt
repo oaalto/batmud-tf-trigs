@@ -1,0 +1,20 @@
+# mage_magical
+Type: guild
+
+## Skills
+
+- Cast magical
+- Knowledge of magic lore
+
+## Spells
+
+- Golden arrow
+- Levin bolt
+- Magic dispersion
+- Magic eruption
+- Magic missile
+- Magic wave
+- Mana beacon
+- Repulsor aura
+- Summon greater spores
+- Summon lesser spores

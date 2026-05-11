@@ -1,0 +1,78 @@
+# liberator
+Type: guild
+
+## Skills
+
+- Alertness
+- Attack
+- Baptize
+- Bash
+- Bless
+- Burial ceremony
+- Cast control
+- Cast generic
+- Cast heal
+- Cast help
+- Cast information
+- Cast protection
+- Cast transformation
+- Combat damage analysis
+- Combat sense
+- Consider
+- Daunting presence
+- Decapitate
+- Discipline
+- Dodge
+- Endurance
+- Enhance criticals
+- Evil unveiled
+- Find weakness
+- First aid
+- Ghost affinity
+- Ghost army assault
+- Ghost channeling
+- Ghost slash
+- Hiking
+- Holy seance
+- Kick
+- Leadership
+- Long blades
+- Mastery of control
+- Negate offhand penalty
+- Parry
+- Purifying strike
+- Radiant slash
+- Release ghost
+- Rescue
+- Riposte
+- Shield bash
+- Slash
+- Stun
+- Stunned maneuvers
+- Swim
+- Switch weapon
+- Tempt
+- Throw weight
+- Tumbling attack
+- Vengeful haunting
+
+## Spells
+
+- Appease ghost
+- Cleanse weapon
+- Cure light wounds
+- Deaths door
+- Detect alignment
+- Ghost armour
+- Ghost chill
+- Ghost companion
+- Ghost guidance
+- Ghost light
+- Ghost link
+- Ghost sword
+- Ghost vision
+- Greater light
+- Holy glow
+- Light
+- Restful sleep
+- See invisible

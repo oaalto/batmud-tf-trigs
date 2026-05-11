@@ -1,0 +1,42 @@
+# cavalier
+Type: guild
+
+## Skills
+
+- Alertness
+- Assault
+- Attack
+- Battery
+- Bludgeons
+- Charge
+- Combat riding
+- Combat sense
+- Controlled panic
+- Decapitate
+- Decimate
+- Discipline
+- Dodge
+- Enhance criticals
+- Flanking attack
+- Impale
+- Leadership
+- Long blades
+- Mangle
+- Mastery of mounted combat
+- Mounted archery
+- Parry
+- Polearms
+- Pound
+- Riding
+- Riposte
+- Shield bash
+- Slash
+- Stun
+- Stunned maneuvers
+- Throw weight
+- Trample
+- Tumbling attack
+
+## Spells
+
+- No spells found

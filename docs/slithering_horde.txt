@@ -1,0 +1,17 @@
+# slithering_horde
+Type: raceguild
+
+## Skills
+
+- Attack
+- Camouflage
+- Controlled panic
+- Corpse connoisseur
+- Locate water
+- Scaly tail
+- Swim
+- Wilderness survival
+
+## Spells
+
+- No spells found

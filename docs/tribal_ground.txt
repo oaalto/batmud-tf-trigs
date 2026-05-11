@@ -1,0 +1,16 @@
+# tribal_ground
+Type: raceguild
+
+## Skills
+
+- Attack
+- Bash
+- Bludgeons
+- Giant step
+- Scouting
+- Throw weight
+- Torch creation
+
+## Spells
+
+- No spells found

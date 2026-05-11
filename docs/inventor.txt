@@ -1,0 +1,15 @@
+# inventor
+Type: raceguild
+
+## Skills
+
+- Appraise
+- Cast generic
+- Tinkering
+
+## Spells
+
+- Create money
+- Floating letters
+- Identify
+- See magic

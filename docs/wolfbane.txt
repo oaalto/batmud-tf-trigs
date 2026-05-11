@@ -1,0 +1,17 @@
+# wolfbane
+Type: raceguild
+
+## Skills
+
+- Alertness
+- Attack
+- Axes
+- Battlecry
+- Camping
+- Hunting
+- Scouting
+- Swim
+
+## Spells
+
+- No spells found

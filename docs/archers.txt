@@ -1,0 +1,63 @@
+# archers
+Type: guild
+
+## Skills
+
+- Alertness
+- Arrow spray
+- Attack
+- Bash
+- Blinding shot
+- Bolt burst
+- Braced shot
+- Brawling
+- Break ambush
+- Bypass armour
+- Combat damage analysis
+- Combat sense
+- Compare
+- Consider
+- Controlled panic
+- Crippling shot
+- Cull from the herd
+- Defence sense
+- Disabling shot
+- Discipline
+- Dodge
+- Hiking
+- Hop back
+- Kick
+- Knockdown shot
+- Large crossbow shot
+- Leadership
+- Location of weak points
+- Longbow shot
+- Make ammunition
+- Mastery of bows
+- Mastery of crossbows
+- Mastery of slings
+- Miscellaneous launching
+- Modify ammunition
+- Offhand shot
+- Parry
+- Push
+- Rapid rotation
+- Rapid shot
+- Rapid winching
+- Scrounge ammunition
+- Short blades
+- Shortbow shot
+- Sling shot
+- Slingshot shot
+- Small crossbow shot
+- Staff sling shot
+- Stapling shot
+- Stunned maneuvers
+- Stunning shot
+- Switch weapon
+- Tumbling dodge
+- Wriggle free
+
+## Spells
+
+- No spells found

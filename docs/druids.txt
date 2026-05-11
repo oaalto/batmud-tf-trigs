@@ -1,0 +1,86 @@
+# druids
+Type: guild
+
+## Skills
+
+- Attack
+- Baptize
+- Bless
+- Bludgeons
+- Camping
+- Cast control
+- Cast generic
+- Cast help
+- Cast information
+- Cast runes
+- Cast special
+- Cast teleportation
+- Cast transformation
+- Ceremony
+- Consider
+- Essence eye
+- Eye of loraen
+- Fire building
+- First aid
+- Fresh pants
+- Hear noises
+- Hiking
+- Knowledge of metamorphosis
+- Leadership
+- Location memory
+- Make bandage
+- Make herbal remedy
+- Mana control
+- Mastery of runic sigla
+- Plant lore
+- Quick chant
+- Stargazing
+- Swim
+- Tinning
+- Torch creation
+- Track
+- Veterinarian
+
+## Spells
+
+- Aura detection
+- Blessed warmth
+- Call pigeon
+- Charge staff
+- Create food
+- Create mud
+- Detect alignment
+- Detect poison
+- Drain pool
+- Drying wind
+- Earth blood
+- Earth power
+- Earth skin
+- Earthquake
+- Flex shield
+- Gem fire
+- Good berry
+- Gust of wind
+- Hoar frost
+- Infravision
+- Inquiry to ahm
+- Moon sense
+- Natural transformation
+- Rain
+- Regeneration
+- Reincarnation
+- Replenish energy
+- Restore
+- Runic heal
+- Satiate person
+- See invisible
+- Shapechange
+- Star light
+- Summon storm
+- Teeming waters
+- Transfer mana
+- Vine mantle
+- Water walking
+- Wilderness location
+- Wither flesh
+- Word of recall

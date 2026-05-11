@@ -1,0 +1,37 @@
+# navigator
+Type: guild
+
+## Skills
+
+- Absorb magic
+- Cast generic
+- Cast teleportation
+- Create vortex
+- Location memory
+- Mastery of locating
+- Mastery of rifts
+- Rift channelling
+- Stargazing
+- Support vortex
+- Vortex analysis
+
+## Spells
+
+- Banish
+- Dimension door
+- Dimensional vacuum
+- Escape velocity
+- Go
+- Goto ship
+- Heavy weight
+- Mass summon
+- Mobile cannon
+- Planar gate
+- Relocate
+- Rune of warding
+- Slingshot vortex
+- Summon
+- Teleport with error
+- Teleport without error
+- Wizard eye
+- Word of recall

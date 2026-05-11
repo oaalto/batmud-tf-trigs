@@ -1,0 +1,18 @@
+# shamrock
+Type: raceguild
+
+## Skills
+
+- Ventriloquism
+
+## Spells
+
+- Anti magic field
+- Create money
+- Electric field
+- Field of fear
+- Field of light
+- Invisibility
+- Shelter
+- Teleport with error
+- Uncontrollable hideous laughter
